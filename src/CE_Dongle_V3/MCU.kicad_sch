@@ -6739,16 +6739,6 @@
 		(uuid "00199ede-244a-4fbf-810f-c8d7b92b64f4")
 	)
 	(label "LED_R"
-		(at 177.8 96.52 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "04720885-54cc-4446-b6b8-8814f6df5a34")
-	)
-	(label "LED_R"
 		(at 99.06 111.76 0)
 		(effects
 			(font
@@ -6757,16 +6747,6 @@
 			(justify left bottom)
 		)
 		(uuid "08a2194c-2ddf-4552-8d51-ceaab1b1ba6a")
-	)
-	(label "LED_G"
-		(at 177.8 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "12cb0d75-dae7-4596-9146-8bb8d2c9869d")
 	)
 	(label "MB_TX"
 		(at 177.8 109.22 180)

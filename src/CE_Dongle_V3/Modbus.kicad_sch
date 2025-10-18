@@ -237,256 +237,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diodes:SM712"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "12V / -7V"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "7Sigma:D_SOT-23"
-				(at -3.81 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C502564.pdf"
-				(at -3.81 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Asymmetrical TVS Diode for RS-485"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer 1" "MDD"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number 1" "SM712"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Number 1" "C502564"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C502564"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS thyrector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SM712_0_0"
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SM712_0_1"
-				(polyline
-					(pts
-						(xy -6.35 1.27) (xy -1.27 -1.27) (xy -1.27 1.27) (xy -6.35 -1.27) (xy -6.35 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 0) (xy 6.35 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -3.302 1.27) (xy -3.81 1.27) (xy -3.81 -1.27) (xy -4.318 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.318 1.27) (xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.302 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 1.27) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 6.35 -1.27) (xy 6.35 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SM712_1_1"
-				(pin passive line
-					(at -8.89 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "common"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 8.89 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "ICs:SP3485EN-L/TR"
 			(pin_names
 				(offset 1.016)
@@ -1671,22 +1421,10 @@
 		(uuid "4bb69930-664b-4926-8139-e04c40518f6c")
 	)
 	(junction
-		(at 114.3 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ccfe60c-aca8-4b39-afe5-3f5dcaa9c061")
-	)
-	(junction
 		(at 50.8 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e9935ba-93ec-4a4e-9f0c-59ce2a95bdcc")
-	)
-	(junction
-		(at 114.3 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9981fcab-832f-46bf-a002-5cfc6b083612")
 	)
 	(junction
 		(at 104.14 60.96)
@@ -1778,26 +1516,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 60.96) (xy 132.08 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45d24bbd-bc2b-4c90-af5c-bae0e830505b")
-	)
-	(wire
-		(pts
-			(xy 114.3 78.74) (xy 132.08 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46354c40-0f21-49d7-9436-e1cd66ce76cb")
-	)
-	(wire
-		(pts
 			(xy 88.9 66.04) (xy 88.9 60.96)
 		)
 		(stroke
@@ -1868,7 +1586,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 78.74) (xy 104.14 78.74)
+			(xy 104.14 78.74) (xy 132.08 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1878,7 +1596,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 60.96) (xy 114.3 60.96)
+			(xy 104.14 60.96) (xy 132.08 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2224,7 +1942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V3"
 			(at 104.14 47.244 0)
 			(effects
 				(font
@@ -2795,7 +2513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3VE"
 			(at 77.47 39.624 0)
 			(effects
 				(font
@@ -2837,71 +2555,6 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/7a13ba88-4760-412d-8799-46b137fb8990"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 118.11 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9f4ba41f-b976-4217-bf71-455853c95216")
-		(property "Reference" "#PWR07"
-			(at 118.11 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 118.11 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 118.11 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "948c804a-fba7-4b66-b768-92c93b317942")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/7a13ba88-4760-412d-8799-46b137fb8990"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -3055,7 +2708,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V3"
 			(at 68.58 54.864 0)
 			(effects
 				(font
@@ -3394,121 +3047,6 @@
 			(project ""
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/7a13ba88-4760-412d-8799-46b137fb8990"
 					(reference "D2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diodes:SM712")
-		(at 114.3 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d25d22e6-6bc2-4c84-b713-a21bd5f9cdbf")
-		(property "Reference" "D1"
-			(at 109.855 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "12V / -7V"
-			(at 111.76 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:D_SOT-23"
-			(at 114.3 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C502564.pdf"
-			(at 114.3 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Asymmetrical TVS Diode for RS-485"
-			(at 114.3 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1" "MDD"
-			(at 114.3 69.85 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number 1" "SM712"
-			(at 114.3 69.85 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 114.3 69.85 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number 1" "C502564"
-			(at 114.3 69.85 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C502564"
-			(at 114.3 69.85 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5cddf18b-eb51-43cf-9e2b-ed4877745e6b")
-		)
-		(pin "3"
-			(uuid "b3107f5e-5820-4428-ae24-018e8a47ccd1")
-		)
-		(pin "2"
-			(uuid "6f42f27b-e816-42a5-9a69-ee2fbb9a5519")
-		)
-		(instances
-			(project ""
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/7a13ba88-4760-412d-8799-46b137fb8990"
-					(reference "D1")
 					(unit 1)
 				)
 			)
