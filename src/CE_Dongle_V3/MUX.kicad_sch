@@ -5,6 +5,229 @@
 	(uuid "cd602b97-8163-47d8-8b78-7a3e99d911c4")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Capacitor:CC0402JRNPO9BN101"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 2.032 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "100pF"
+				(at 0.254 -2.032 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "7Sigma:C_0402_1005Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C106200.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100pF 50V NP0 5% 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Dielectric" "NP0"
+				(at -1.27 -1.524 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Voltage" "50V"
+				(at -1.27 -2.54 0)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.635 0.635)
+					)
+				)
+			)
+			(property "Tolerance" "5%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint_Name" "0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number 1" "CC0402JRNPO9BN101"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Number 1" "C106200"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C106200"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CC0402JRNPO9BN101_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CC0402JRNPO9BN101_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Capacitor:CL05B104KO5NNNC"
 			(pin_numbers
 				(hide yes)
@@ -1264,203 +1487,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Resistor:0402WGF100JTCE"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10R"
-				(at -1.524 0 90)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Footprint" "7Sigma:R_0402_1005Metric"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "10R 63mW 1% 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Power" "63mW"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint_Name" "0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer 1" "Uni-Royal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number 1" "0402WGF100JTCE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Number 1" "C25077"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C25077"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0402WGF100JTCE_0_1"
-				(rectangle
-					(start -0.762 2.032)
-					(end 0.762 -2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0402WGF100JTCE_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.778)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.778)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -1865,6 +1891,18 @@
 		(uuid "8b3737a9-7c4f-46df-8c66-963e30fd2fc0")
 	)
 	(junction
+		(at 38.1 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "02cadee0-1c61-4c10-a3a3-8529662d51ac")
+	)
+	(junction
+		(at 48.26 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18cf4e73-c2c8-4533-8795-1dd7cc321253")
+	)
+	(junction
 		(at 193.04 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1883,10 +1921,46 @@
 		(uuid "3e0b6dab-c79b-4559-9253-9fd6155828df")
 	)
 	(junction
+		(at 58.42 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "538f8f4a-8e78-45b7-b547-eba8018953c3")
+	)
+	(junction
 		(at 193.04 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69d741b0-fa11-40b9-89c9-00da64b51f4a")
+	)
+	(junction
+		(at 27.94 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "742f618d-1eb1-4b2f-96ce-801c18fda1a5")
+	)
+	(junction
+		(at 57.15 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "831048b4-5040-418b-a274-a50aad0a2c82")
+	)
+	(junction
+		(at 27.94 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99700407-4f9e-4259-a6c8-d6e528e59d72")
+	)
+	(junction
+		(at 38.1 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6e9b309-158b-442c-a8cf-efe60abe92a8")
+	)
+	(junction
+		(at 48.26 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c484b73d-787f-44a6-9127-06a0634062bd")
 	)
 	(junction
 		(at 193.04 55.88)
@@ -1921,16 +1995,6 @@
 	(no_connect
 		(at 71.12 175.26)
 		(uuid "ec0950f2-8a10-47b8-aeeb-f387e3088431")
-	)
-	(wire
-		(pts
-			(xy 40.64 53.34) (xy 71.12 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "01dc5c1b-d362-404c-9df1-ce6928d47f3d")
 	)
 	(wire
 		(pts
@@ -1974,6 +2038,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 48.26) (xy 38.1 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047874bf-2879-439f-b292-7fd5e4d5b63e")
+	)
+	(wire
+		(pts
 			(xy 93.98 139.7) (xy 93.98 137.16)
 		)
 		(stroke
@@ -1994,7 +2068,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 38.1) (xy 33.02 38.1)
+			(xy 24.13 38.1) (xy 48.26 38.1)
 		)
 		(stroke
 			(width 0)
@@ -2044,6 +2118,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 38.1) (xy 71.12 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eb54caf-7227-4086-9bc2-0e6f82403bd7")
+	)
+	(wire
+		(pts
 			(xy 91.44 48.26) (xy 114.3 48.26)
 		)
 		(stroke
@@ -2061,6 +2145,16 @@
 			(type default)
 		)
 		(uuid "1ad154d6-2643-4231-a067-b6c7122dec39")
+	)
+	(wire
+		(pts
+			(xy 48.26 50.8) (xy 71.12 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f267954-6c33-4683-9382-d91d8520a923")
 	)
 	(wire
 		(pts
@@ -2114,13 +2208,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 35.56) (xy 71.12 35.56)
+			(xy 57.15 30.48) (xy 57.15 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "27e1ce8c-91de-49ad-9074-b3c25be06aac")
+		(uuid "281894b1-a386-4e19-9638-2a1592c4e5f1")
 	)
 	(wire
 		(pts
@@ -2151,6 +2245,16 @@
 			(type default)
 		)
 		(uuid "2c0a6c31-9f70-423f-8218-57f26c7a2ae3")
+	)
+	(wire
+		(pts
+			(xy 48.26 50.8) (xy 48.26 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c4e6a73-90ac-4cd6-96b2-9b709497e8c3")
 	)
 	(wire
 		(pts
@@ -2204,7 +2308,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 53.34) (xy 33.02 53.34)
+			(xy 24.13 53.34) (xy 58.42 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2264,16 +2368,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 45.72) (xy 71.12 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48ec3d22-672e-42d0-a3ad-53c42e6d5d71")
-	)
-	(wire
-		(pts
 			(xy 58.42 76.2) (xy 71.12 76.2)
 		)
 		(stroke
@@ -2284,7 +2378,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 35.56) (xy 33.02 35.56)
+			(xy 24.13 35.56) (xy 57.15 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2304,7 +2398,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 45.72) (xy 33.02 45.72)
+			(xy 24.13 45.72) (xy 27.94 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2341,16 +2435,6 @@
 			(type default)
 		)
 		(uuid "52095248-cd92-423c-be87-2a5a99f4e2b4")
-	)
-	(wire
-		(pts
-			(xy 40.64 40.64) (xy 71.12 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5334a1e3-0da3-490d-9d1f-6a940efc7529")
 	)
 	(wire
 		(pts
@@ -2394,6 +2478,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 53.34) (xy 71.12 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b8d18c8-95c6-4cb2-b0a8-2bb882033469")
+	)
+	(wire
+		(pts
 			(xy 91.44 43.18) (xy 114.3 43.18)
 		)
 		(stroke
@@ -2414,17 +2508,17 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 50.8) (xy 71.12 50.8)
+			(xy 57.15 35.56) (xy 71.12 35.56)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "61c2d3bc-cd11-4457-a4aa-beee568f5278")
+		(uuid "6285fb93-0b4a-40c1-9ec6-d50a251d0f22")
 	)
 	(wire
 		(pts
-			(xy 29.21 50.8) (xy 33.02 50.8)
+			(xy 24.13 50.8) (xy 48.26 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2434,7 +2528,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 43.18) (xy 33.02 43.18)
+			(xy 24.13 43.18) (xy 27.94 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2504,16 +2598,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 43.18) (xy 71.12 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a5ebff2-f68a-4b22-8a6f-0f465c635f4e")
-	)
-	(wire
-		(pts
 			(xy 58.42 91.44) (xy 71.12 91.44)
 		)
 		(stroke
@@ -2534,6 +2618,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 53.34) (xy 58.42 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e46055f-284b-4e79-9a3a-a5a21692e86f")
+	)
+	(wire
+		(pts
 			(xy 190.5 93.98) (xy 193.04 93.98)
 		)
 		(stroke
@@ -2541,6 +2635,16 @@
 			(type default)
 		)
 		(uuid "8018f817-0e50-483f-8e0c-2e9fb62fb1e5")
+	)
+	(wire
+		(pts
+			(xy 27.94 45.72) (xy 27.94 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83c29002-d5a8-4f73-b485-f9a7193a9b99")
 	)
 	(wire
 		(pts
@@ -2574,6 +2678,16 @@
 	)
 	(wire
 		(pts
+			(xy 27.94 43.18) (xy 71.12 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b65e998-4b60-4458-b43e-c66ae9151a4e")
+	)
+	(wire
+		(pts
 			(xy 193.04 35.56) (xy 193.04 38.1)
 		)
 		(stroke
@@ -2601,6 +2715,16 @@
 			(type default)
 		)
 		(uuid "8f80cea6-a8af-41a0-b8fc-446134e10856")
+	)
+	(wire
+		(pts
+			(xy 27.94 45.72) (xy 71.12 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93cf0f7a-5d8a-4afd-9b02-ee14eb41f30d")
 	)
 	(wire
 		(pts
@@ -2684,6 +2808,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 40.64) (xy 71.12 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a79bdc39-474e-46b9-90ef-e7244f7d14ee")
+	)
+	(wire
+		(pts
 			(xy 58.42 121.92) (xy 71.12 121.92)
 		)
 		(stroke
@@ -2764,16 +2898,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 38.1) (xy 71.12 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdddf522-7d1f-4980-a911-cc7f5abb6fe6")
-	)
-	(wire
-		(pts
 			(xy 190.5 86.36) (xy 193.04 86.36)
 		)
 		(stroke
@@ -2791,16 +2915,6 @@
 			(type default)
 		)
 		(uuid "c561b9a6-e05b-4ec5-a801-232cde77aad9")
-	)
-	(wire
-		(pts
-			(xy 40.64 48.26) (xy 71.12 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c85e4d44-b34c-47f5-a94e-349b7bd073fd")
 	)
 	(wire
 		(pts
@@ -2894,6 +3008,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 48.26) (xy 71.12 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbd4ddb4-ef08-4cc9-b6ea-fed7729a8fe3")
+	)
+	(wire
+		(pts
 			(xy 190.5 55.88) (xy 193.04 55.88)
 		)
 		(stroke
@@ -2944,7 +3068,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 48.26) (xy 33.02 48.26)
+			(xy 24.13 48.26) (xy 38.1 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2954,7 +3078,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 40.64) (xy 33.02 40.64)
+			(xy 24.13 40.64) (xy 38.1 40.64)
 		)
 		(stroke
 			(width 0)
@@ -2971,6 +3095,16 @@
 			(type default)
 		)
 		(uuid "e634296d-d2c0-4420-b0c2-41b66d709cd3")
+	)
+	(wire
+		(pts
+			(xy 27.94 30.48) (xy 27.94 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ced66a-e5c8-4c24-92f1-bb233a0d4601")
 	)
 	(wire
 		(pts
@@ -3054,6 +3188,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 30.48) (xy 38.1 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5fca3a5-6c03-4b52-a4e8-8ad22a15d855")
+	)
+	(wire
+		(pts
 			(xy 190.5 76.2) (xy 210.82 76.2)
 		)
 		(stroke
@@ -3071,6 +3215,16 @@
 			(type default)
 		)
 		(uuid "f890051d-9536-4692-8753-657aa2586865")
+	)
+	(wire
+		(pts
+			(xy 48.26 30.48) (xy 48.26 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa0dfdf5-9827-49de-b875-b956aae05f46")
 	)
 	(wire
 		(pts
@@ -3854,7 +4008,7 @@
 	)
 	(hierarchical_label "IN_3"
 		(shape bidirectional)
-		(at 29.21 40.64 180)
+		(at 24.13 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3887,7 +4041,7 @@
 	)
 	(hierarchical_label "IN_6"
 		(shape bidirectional)
-		(at 29.21 48.26 180)
+		(at 24.13 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3909,7 +4063,7 @@
 	)
 	(hierarchical_label "IN_4"
 		(shape bidirectional)
-		(at 29.21 43.18 180)
+		(at 24.13 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3920,7 +4074,7 @@
 	)
 	(hierarchical_label "IN_7"
 		(shape bidirectional)
-		(at 29.21 50.8 180)
+		(at 24.13 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3931,7 +4085,7 @@
 	)
 	(hierarchical_label "IN_8"
 		(shape bidirectional)
-		(at 29.21 53.34 180)
+		(at 24.13 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3942,7 +4096,7 @@
 	)
 	(hierarchical_label "IN_2"
 		(shape bidirectional)
-		(at 29.21 38.1 180)
+		(at 24.13 38.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3953,7 +4107,7 @@
 	)
 	(hierarchical_label "IN_1"
 		(shape bidirectional)
-		(at 29.21 35.56 180)
+		(at 24.13 35.56 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3975,7 +4129,7 @@
 	)
 	(hierarchical_label "IN_5"
 		(shape bidirectional)
-		(at 29.21 45.72 180)
+		(at 24.13 45.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4505,33 +4659,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:0402WGF100JTCE")
-		(at 36.83 35.56 90)
+		(lib_id "power:GNDD")
+		(at 58.42 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "22ea4ba5-14f6-4046-900f-04382a81bf24")
-		(property "Reference" "R6"
-			(at 33.274 34.544 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10R"
-			(at 40.64 34.544 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 36.83 37.338 90)
+		(uuid "27add4b7-a535-46e1-8be6-c9a88c3da875")
+		(property "Reference" "#PWR07"
+			(at 58.42 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4539,8 +4676,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-			(at 36.83 35.56 0)
+		(property "Value" "GND"
+			(at 58.42 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4548,8 +4693,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10R 63mW 1% 0402"
-			(at 36.83 35.56 0)
+		(property "Datasheet" ""
+			(at 58.42 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4557,88 +4702,22 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "63mW"
-			(at 36.83 35.56 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 58.42 63.5 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Tolerance" "1%"
-			(at 36.83 35.56 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint_Name" "0402"
-			(at 36.83 35.56 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1" "Uni-Royal"
-			(at 36.83 35.56 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number 1" "0402WGF100JTCE"
-			(at 36.83 35.56 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 36.83 35.56 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number 1" "C25077"
-			(at 36.83 35.56 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25077"
-			(at 36.83 35.56 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d1fabdb8-2b5c-430f-9139-246297e7aa54")
 		)
 		(pin "1"
-			(uuid "affab339-facf-43ea-a885-0af1d83e7172")
+			(uuid "85e37d55-fffe-49d6-aaa8-5ecb474b250e")
 		)
 		(instances
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
-					(reference "R6")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4775,286 +4854,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:0402WGF100JTCE")
-		(at 36.83 48.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48a02d7b-9945-4219-a90b-ae64a8e9c894")
-		(property "Reference" "R34"
-			(at 33.274 47.244 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10R"
-			(at 40.64 47.244 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 36.83 50.038 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-			(at 36.83 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10R 63mW 1% 0402"
-			(at 36.83 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "63mW"
-			(at 36.83 48.26 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 36.83 48.26 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint_Name" "0402"
-			(at 36.83 48.26 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1" "Uni-Royal"
-			(at 36.83 48.26 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number 1" "0402WGF100JTCE"
-			(at 36.83 48.26 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 36.83 48.26 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number 1" "C25077"
-			(at 36.83 48.26 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25077"
-			(at 36.83 48.26 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ae910124-505b-4f13-8a4a-90ed54e90a48")
-		)
-		(pin "1"
-			(uuid "aff40a39-5eb6-4739-b8ca-edf62dab63ca")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
-					(reference "R34")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistor:0402WGF100JTCE")
-		(at 36.83 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "48e32ad8-4dbb-447c-a669-ac75b8963940")
-		(property "Reference" "R32"
-			(at 33.274 42.164 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10R"
-			(at 40.64 42.164 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 36.83 44.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-			(at 36.83 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10R 63mW 1% 0402"
-			(at 36.83 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "63mW"
-			(at 36.83 43.18 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 36.83 43.18 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint_Name" "0402"
-			(at 36.83 43.18 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1" "Uni-Royal"
-			(at 36.83 43.18 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number 1" "0402WGF100JTCE"
-			(at 36.83 43.18 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 36.83 43.18 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number 1" "C25077"
-			(at 36.83 43.18 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25077"
-			(at 36.83 43.18 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "683a7d03-6004-49fc-855a-b392b3b70416")
-		)
-		(pin "1"
-			(uuid "14f8e5bd-b62a-4910-86e9-bdc6fe9c2810")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
-					(reference "R32")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 93.98 33.02 0)
 		(unit 1)
@@ -5114,6 +4913,158 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor:CC0402JRNPO9BN101")
+		(at 27.94 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49f6949a-49a4-4356-839b-e78d5d2c1e88")
+		(property "Reference" "C18"
+			(at 28.194 57.658 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF"
+			(at 28.194 61.722 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "7Sigma:C_0402_1005Metric"
+			(at 28.9052 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C106200.pdf"
+			(at 27.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100pF 50V NP0 5% 0402"
+			(at 27.94 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 26.67 61.214 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 26.67 62.23 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 27.94 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint_Name" "0402"
+			(at 27.94 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "YAGEO"
+			(at 27.94 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number 1" "CC0402JRNPO9BN101"
+			(at 27.94 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 27.94 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "C106200"
+			(at 27.94 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106200"
+			(at 27.94 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ca5416db-badf-422e-b007-1939ff13a42f")
+		)
+		(pin "1"
+			(uuid "2a3b7500-79d3-4da6-8520-fbddb4594467")
+		)
+		(instances
+			(project ""
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -5245,6 +5196,158 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor:CC0402JRNPO9BN101")
+		(at 38.1 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cb0fae1-12cf-4087-93ba-9fa888648de8")
+		(property "Reference" "C33"
+			(at 38.354 57.658 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF"
+			(at 38.354 61.722 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "7Sigma:C_0402_1005Metric"
+			(at 39.0652 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C106200.pdf"
+			(at 38.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100pF 50V NP0 5% 0402"
+			(at 38.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 36.83 61.214 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 36.83 62.23 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 38.1 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint_Name" "0402"
+			(at 38.1 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "YAGEO"
+			(at 38.1 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number 1" "CC0402JRNPO9BN101"
+			(at 38.1 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 38.1 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "C106200"
+			(at 38.1 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106200"
+			(at 38.1 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9cb4e55e-c4cf-4d49-bef5-809168b9e31a")
+		)
+		(pin "1"
+			(uuid "af2dc9c8-30a2-48b0-8773-8a394c0e4fd4")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -5704,33 +5807,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:0402WGF100JTCE")
-		(at 36.83 45.72 90)
+		(lib_id "power:GNDD")
+		(at 38.1 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "57dd9900-3e73-4ac0-9f93-4b665a864b5c")
-		(property "Reference" "R33"
-			(at 33.274 44.704 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10R"
-			(at 40.64 44.704 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 36.83 47.498 90)
+		(uuid "58b6215f-791c-4931-90ef-09db25f44717")
+		(property "Reference" "#PWR045"
+			(at 38.1 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5738,8 +5824,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-			(at 36.83 45.72 0)
+		(property "Value" "GND"
+			(at 38.1 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,8 +5841,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10R 63mW 1% 0402"
-			(at 36.83 45.72 0)
+		(property "Datasheet" ""
+			(at 38.1 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5756,88 +5850,22 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "63mW"
-			(at 36.83 45.72 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 38.1 63.5 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Tolerance" "1%"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint_Name" "0402"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1" "Uni-Royal"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number 1" "0402WGF100JTCE"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number 1" "C25077"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25077"
-			(at 36.83 45.72 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7d4e8051-6e13-416f-b4a7-a8c8ccbc66a3")
 		)
 		(pin "1"
-			(uuid "6da289aa-c6f7-4332-837c-4313da72b0af")
+			(uuid "fc0a1e1c-81c6-4d59-b98e-9773974fd359")
 		)
 		(instances
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
-					(reference "R33")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -6264,6 +6292,158 @@
 		)
 	)
 	(symbol
+		(lib_id "Capacitor:CC0402JRNPO9BN101")
+		(at 48.26 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "71b54692-4071-4d20-91c3-8e188f5315fb")
+		(property "Reference" "C34"
+			(at 48.514 57.658 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF"
+			(at 48.514 61.722 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "7Sigma:C_0402_1005Metric"
+			(at 49.2252 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C106200.pdf"
+			(at 48.26 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100pF 50V NP0 5% 0402"
+			(at 48.26 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 46.99 61.214 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 46.99 62.23 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 48.26 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint_Name" "0402"
+			(at 48.26 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "YAGEO"
+			(at 48.26 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number 1" "CC0402JRNPO9BN101"
+			(at 48.26 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 48.26 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "C106200"
+			(at 48.26 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106200"
+			(at 48.26 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9cfab566-d9b0-4661-9526-a32282bc70a5")
+		)
+		(pin "1"
+			(uuid "39b3054a-725b-44df-b8b3-d623d2cddb64")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 114.3 137.16 0)
 		(unit 1)
@@ -6323,6 +6503,136 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
 					(reference "#PWR075")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 48.26 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "740b7fb7-d416-4772-937a-09a7cea61d67")
+		(property "Reference" "#PWR0102"
+			(at 48.26 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 48.26 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95c413f9-9a74-45b9-9e77-e4aeaea78260")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 27.94 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "762f7c96-e8da-4057-9573-9445a4399484")
+		(property "Reference" "#PWR0104"
+			(at 27.94 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 27.94 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "621f8f18-3398-4ea9-81f9-de448f4a7954")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -6614,146 +6924,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:0402WGF100JTCE")
-		(at 36.83 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8977eb07-dc2f-40bb-b9e6-f02f8d6f110e")
-		(property "Reference" "R31"
-			(at 33.274 39.624 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10R"
-			(at 40.64 39.624 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 36.83 42.418 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10R 63mW 1% 0402"
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "63mW"
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint_Name" "0402"
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1" "Uni-Royal"
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number 1" "0402WGF100JTCE"
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number 1" "C25077"
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25077"
-			(at 36.83 40.64 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7f5f5009-a6e6-4ed9-a344-37c075dfb56f")
-		)
-		(pin "1"
-			(uuid "f9214fe1-1c21-4baa-9dd7-a2ed96cbf744")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
-					(reference "R31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Resistor:0402WGF1002TCE")
 		(at 114.3 171.45 0)
 		(unit 1)
@@ -6888,6 +7058,310 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
 					(reference "R40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor:CC0402JRNPO9BN101")
+		(at 27.94 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9102d8b3-1ab5-4263-8665-5b9a75be0f99")
+		(property "Reference" "C36"
+			(at 28.194 24.638 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF"
+			(at 28.194 28.702 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "7Sigma:C_0402_1005Metric"
+			(at 28.9052 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C106200.pdf"
+			(at 27.94 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100pF 50V NP0 5% 0402"
+			(at 27.94 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 26.67 28.194 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 26.67 29.21 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 27.94 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint_Name" "0402"
+			(at 27.94 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "YAGEO"
+			(at 27.94 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number 1" "CC0402JRNPO9BN101"
+			(at 27.94 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 27.94 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "C106200"
+			(at 27.94 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106200"
+			(at 27.94 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a707fda1-3344-4c58-be6b-97e23ea6b0cc")
+		)
+		(pin "1"
+			(uuid "d722fddc-0b5c-42f3-81f6-eb13e1f3021e")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor:CC0402JRNPO9BN101")
+		(at 38.1 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94801a6f-c66c-40fd-ba7a-200f87d6be4a")
+		(property "Reference" "C37"
+			(at 38.354 24.638 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF"
+			(at 38.354 28.702 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "7Sigma:C_0402_1005Metric"
+			(at 39.0652 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C106200.pdf"
+			(at 38.1 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100pF 50V NP0 5% 0402"
+			(at 38.1 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 36.83 28.194 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 36.83 29.21 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 38.1 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint_Name" "0402"
+			(at 38.1 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "YAGEO"
+			(at 38.1 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number 1" "CC0402JRNPO9BN101"
+			(at 38.1 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 38.1 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "C106200"
+			(at 38.1 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106200"
+			(at 38.1 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f093ec61-0684-438e-a027-8b86bf8d5169")
+		)
+		(pin "1"
+			(uuid "28a43a9a-eac1-420d-8ac9-63aab882714a")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -7340,33 +7814,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:0402WGF100JTCE")
-		(at 36.83 50.8 90)
+		(lib_id "power:GNDD")
+		(at 27.94 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a53aa72e-b764-4082-887b-fb2cda08ff55")
-		(property "Reference" "R35"
-			(at 33.274 49.784 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10R"
-			(at 40.64 49.784 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 36.83 52.578 90)
+		(uuid "a8898a69-edd8-4d40-a06b-4ea9ac578a74")
+		(property "Reference" "#PWR0100"
+			(at 27.94 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7374,8 +7831,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-			(at 36.83 50.8 0)
+		(property "Value" "GND"
+			(at 27.94 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7383,8 +7848,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10R 63mW 1% 0402"
-			(at 36.83 50.8 0)
+		(property "Datasheet" ""
+			(at 27.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7392,88 +7857,22 @@
 				(hide yes)
 			)
 		)
-		(property "Power" "63mW"
-			(at 36.83 50.8 0)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 27.94 63.5 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Tolerance" "1%"
-			(at 36.83 50.8 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint_Name" "0402"
-			(at 36.83 50.8 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1" "Uni-Royal"
-			(at 36.83 50.8 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number 1" "0402WGF100JTCE"
-			(at 36.83 50.8 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 36.83 50.8 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number 1" "C25077"
-			(at 36.83 50.8 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25077"
-			(at 36.83 50.8 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b1e4e1f0-f02e-4844-b534-1d743182d6d0")
 		)
 		(pin "1"
-			(uuid "c649ffa8-4c3a-4442-b554-ac4d6823e2b2")
+			(uuid "8f4ff9b0-c369-4bf4-857f-f792f28b2213")
 		)
 		(instances
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
-					(reference "R35")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -7700,6 +8099,310 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor:CC0402JRNPO9BN101")
+		(at 48.26 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b2a881d8-af80-44e9-8d9e-c2004e3693e8")
+		(property "Reference" "C38"
+			(at 48.514 24.638 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF"
+			(at 48.514 28.702 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "7Sigma:C_0402_1005Metric"
+			(at 49.2252 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C106200.pdf"
+			(at 48.26 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100pF 50V NP0 5% 0402"
+			(at 48.26 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 46.99 28.194 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 46.99 29.21 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 48.26 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint_Name" "0402"
+			(at 48.26 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "YAGEO"
+			(at 48.26 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number 1" "CC0402JRNPO9BN101"
+			(at 48.26 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 48.26 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "C106200"
+			(at 48.26 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106200"
+			(at 48.26 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "15715d83-6720-47ae-ba63-c9c7c5869eae")
+		)
+		(pin "1"
+			(uuid "1b39d87f-6c29-4c33-a0d9-2ddbb8148b48")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor:CC0402JRNPO9BN101")
+		(at 57.15 26.67 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b7026e17-a775-4543-815d-b9f00fddb8d1")
+		(property "Reference" "C39"
+			(at 57.404 24.638 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF"
+			(at 57.404 28.702 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "7Sigma:C_0402_1005Metric"
+			(at 58.1152 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C106200.pdf"
+			(at 57.15 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100pF 50V NP0 5% 0402"
+			(at 57.15 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 55.88 28.194 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 55.88 29.21 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 57.15 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint_Name" "0402"
+			(at 57.15 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "YAGEO"
+			(at 57.15 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number 1" "CC0402JRNPO9BN101"
+			(at 57.15 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 57.15 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "C106200"
+			(at 57.15 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106200"
+			(at 57.15 26.67 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98eda0e5-3127-46bc-b2f8-989209c92042")
+		)
+		(pin "1"
+			(uuid "9ec04c0b-95cd-4447-bfee-47c5fd5bb0cb")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -8035,6 +8738,136 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
 					(reference "R39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 48.26 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c916b53a-d1cb-4c27-8c28-120e8cc56a9e")
+		(property "Reference" "#PWR043"
+			(at 48.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 48.26 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 48.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03bafa98-56c3-4868-ab08-89fd585222a6")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 38.1 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c97b552e-bdd0-4d6b-9f7b-3e3a368a88ce")
+		(property "Reference" "#PWR0103"
+			(at 38.1 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 38.1 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 38.1 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "35922ec2-1088-43f7-a345-8b2b5a191ebb")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -8863,286 +9696,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:0402WGF100JTCE")
-		(at 36.83 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f1a69efc-9e70-46a2-bc0b-c9f1cc7e8c9c")
-		(property "Reference" "R36"
-			(at 33.274 52.324 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10R"
-			(at 40.64 52.324 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 36.83 55.118 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-			(at 36.83 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10R 63mW 1% 0402"
-			(at 36.83 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "63mW"
-			(at 36.83 53.34 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 36.83 53.34 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint_Name" "0402"
-			(at 36.83 53.34 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1" "Uni-Royal"
-			(at 36.83 53.34 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number 1" "0402WGF100JTCE"
-			(at 36.83 53.34 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 36.83 53.34 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number 1" "C25077"
-			(at 36.83 53.34 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25077"
-			(at 36.83 53.34 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "48541771-8e5e-45d6-9f16-c03545c8e1af")
-		)
-		(pin "1"
-			(uuid "1a7f6291-7e51-411a-b710-fdf4b90920dc")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
-					(reference "R36")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistor:0402WGF100JTCE")
-		(at 36.83 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f36bc4dd-97be-4424-995c-83f4f81375fa")
-		(property "Reference" "R7"
-			(at 33.274 37.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10R"
-			(at 40.64 37.084 90)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 36.83 39.878 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-			(at 36.83 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10R 63mW 1% 0402"
-			(at 36.83 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Power" "63mW"
-			(at 36.83 38.1 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 36.83 38.1 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint_Name" "0402"
-			(at 36.83 38.1 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer 1" "Uni-Royal"
-			(at 36.83 38.1 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number 1" "0402WGF100JTCE"
-			(at 36.83 38.1 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 36.83 38.1 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Supplier Part Number 1" "C25077"
-			(at 36.83 38.1 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C25077"
-			(at 36.83 38.1 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3f360198-e3e4-41f0-8bf4-b46298b104d7")
-		)
-		(pin "1"
-			(uuid "24c0524f-82b2-42ad-a952-614986fd8125")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ICs:TMUX1208QRSVRQ1")
 		(at 81.28 45.72 0)
 		(mirror y)
@@ -9292,6 +9845,223 @@
 			(project ""
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
 					(reference "U7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDD")
+		(at 57.15 22.86 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f921e604-6af8-4cc4-8169-26b722bb1265")
+		(property "Reference" "#PWR0101"
+			(at 57.15 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 19.685 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(at 57.15 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e13e0eb5-738d-4e6d-9a44-de2d8c53b1c8")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor:CC0402JRNPO9BN101")
+		(at 58.42 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9a42122-64f5-40d1-a67b-6d8be19d227e")
+		(property "Reference" "C35"
+			(at 58.674 57.658 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100pF"
+			(at 58.674 61.722 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "7Sigma:C_0402_1005Metric"
+			(at 59.3852 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C106200.pdf"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100pF 50V NP0 5% 0402"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Dielectric" "NP0"
+			(at 57.15 61.214 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 57.15 62.23 0)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint_Name" "0402"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer 1" "YAGEO"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number 1" "CC0402JRNPO9BN101"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "C106200"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C106200"
+			(at 58.42 59.69 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9174f3e5-a1bc-4160-bef1-1853c2a51aab")
+		)
+		(pin "1"
+			(uuid "4e07b03e-a8ab-45e6-a4b7-4dd6cce635de")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
+					(reference "C35")
 					(unit 1)
 				)
 			)

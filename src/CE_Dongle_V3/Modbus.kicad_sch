@@ -2513,7 +2513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3VE"
+		(property "Value" "3V3"
 			(at 77.47 39.624 0)
 			(effects
 				(font

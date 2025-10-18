@@ -1649,6 +1649,149 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connectors:WJ15EDGK-3.81-2P"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "J"
+				(at -6.35 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "WJ15EDGK-3.81-2P"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Footprint" "7Sigma:TerminalBlock_Plug_Invisible"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C8466.pdf"
+				(at 3.81 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pluggable terminal block plug; 3.81mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Pin Number" "2"
+				(at -7.366 -3.556 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "on_board" "True"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "KANGNEX"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number 1" "WJ15EDGK-3.81-2P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Number 1" "C8466"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C8466"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "TERMINAL_BLOCK_PLUG"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WJ15EDGK-3.81-2P_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 8.382 -4.826)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connectors:WJ15EDGRC-3.81-2P"
 			(pin_names
 				(offset 1.016)
@@ -2946,7 +3089,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "22R 63mW 1% 258"
+			(property "Description" "22R 63mW 1% 0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2973,7 +3116,7 @@
 					(hide yes)
 				)
 			)
-			(property "Footprint_Name" "258"
+			(property "Footprint_Name" "0402"
 				(at 0 0 0)
 				(effects
 					(font
@@ -5550,6 +5693,12 @@
 			(uuid "234e5580-b50c-455c-9f70-a79b6f114117")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "#PWR053")
@@ -5615,6 +5764,12 @@
 			(uuid "7d4cceb1-4d48-453b-921b-2a4844ab5878")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "#PWR050")
@@ -5759,6 +5914,12 @@
 			(uuid "558df3fa-854b-41cd-85a2-c66d4e7307b1")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "Q4")
@@ -5911,6 +6072,12 @@
 			(uuid "604e94e2-486d-4ea5-8002-dfc5e3d7d001")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "C22")
@@ -6051,6 +6218,12 @@
 			(uuid "bcc96e2d-66c6-47fc-92cf-39e9c80881fd")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "R27")
@@ -6191,6 +6364,12 @@
 			(uuid "932f8145-870c-46ce-bc32-36861b287408")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "R28")
@@ -6343,6 +6522,12 @@
 			(uuid "5783db4e-d8fd-4869-a9c9-20ee4e67c5e2")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "C21")
@@ -6408,6 +6593,12 @@
 			(uuid "58f96fe7-823a-41ce-9013-768b2c7dcd2e")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "#PWR048")
@@ -6548,6 +6739,12 @@
 			(uuid "cfd9469a-51c5-4c1a-921d-702c6c79f927")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "R29")
@@ -6613,6 +6810,12 @@
 			(uuid "e47703bd-f1dd-4424-b131-bfa4973cb87a")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "#PWR049")
@@ -6678,6 +6881,12 @@
 			(uuid "7dbf292e-ac31-47f3-bce4-5c90e9ecd839")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "#PWR080")
@@ -6830,6 +7039,12 @@
 			(uuid "8882fab0-f3a2-43f3-82cb-eb5b09088ee3")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "C20")
@@ -6895,6 +7110,12 @@
 			(uuid "b5849264-6724-4b84-b059-ea7a42120d2e")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "#PWR099")
@@ -7022,6 +7243,12 @@
 			(uuid "a2da8686-c18e-4b5f-91e6-50bbc8a7e40d")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "U4")
@@ -7174,6 +7401,12 @@
 			(uuid "4e187599-1b51-48f6-8d41-4edbb23e8693")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "C2")
@@ -7239,6 +7472,12 @@
 			(uuid "4be851e7-5dab-491c-b4b1-790a63da324f")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "#PWR079")
@@ -7353,6 +7592,12 @@
 			(uuid "3cae635c-f9bd-452b-a7c4-bf9b51451370")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "J5")
@@ -7497,6 +7742,12 @@
 			(uuid "e2a8f639-4782-4031-864b-e9d08129fc1c")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "Q3")
@@ -7637,6 +7888,12 @@
 			(uuid "6ee6816d-d851-43af-92bc-9b9cd5a765dc")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "R10")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "R25")
@@ -7789,6 +8046,12 @@
 			(uuid "42d29114-73f6-4a0e-bb9b-a61f2ab0e834")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "C8")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "C5")
@@ -7854,6 +8117,12 @@
 			(uuid "e469a91a-c3b8-4850-885c-7585ac5ee948")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "TP2")
@@ -8007,6 +8276,12 @@
 			(uuid "5226d438-e9be-4f9a-8a40-201f4772ddfe")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "Q2")
@@ -8072,6 +8347,12 @@
 			(uuid "7ab730a4-ea63-4cc3-8399-93762bc30288")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "#PWR054")
@@ -8225,6 +8506,12 @@
 			(uuid "c96bd907-6ba6-4bb7-b730-70cb70564c1d")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "Q1")
@@ -8377,6 +8664,12 @@
 			(uuid "0db46027-f3f7-4873-946f-748ecbcd6e74")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "C23")
@@ -8442,6 +8735,12 @@
 			(uuid "512c4925-6e2a-491a-ad68-213e705f713d")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "#PWR046")
@@ -8603,6 +8902,12 @@
 			(uuid "d521e011-f1dc-45de-b74d-61a8dcca77ab")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "C19")
@@ -8668,6 +8973,12 @@
 			(uuid "2673c251-9fe9-4852-8442-8276257abcd5")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "#PWR051")
@@ -8733,6 +9044,12 @@
 			(uuid "558bba55-56a0-41c6-aa9c-9b869e2dd4a2")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "#PWR055")
@@ -8877,6 +9194,12 @@
 			(uuid "06ad798f-3b20-4990-abeb-9acf5aad5314")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "Q5")
@@ -8942,6 +9265,12 @@
 			(uuid "a462ecc0-9558-467a-b98f-ea7061198a54")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "#PWR052")
@@ -9063,6 +9392,12 @@
 			(uuid "ce6ae178-cd8d-43ac-adc9-a1105b74e4d6")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "U2")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "U11")
@@ -9203,6 +9538,12 @@
 			(uuid "dcda30ed-8b45-40a4-8fa5-5aadfc9f5f47")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "R11")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "R2")
@@ -9342,6 +9683,12 @@
 			(uuid "151944e5-9c0a-4052-b20f-3b343e84b3c6")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "L4")
@@ -9407,6 +9754,12 @@
 			(uuid "bb081d61-069d-4047-be9c-68392d3019de")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "#PWR077")
@@ -9472,6 +9825,12 @@
 			(uuid "c3bf1b13-ee13-4c2b-8934-ac9dc709d4a2")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "#PWR082")
@@ -9612,6 +9971,12 @@
 			(uuid "2b6c05f3-eaaa-4331-b061-d0313a0b3f45")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "R8")
@@ -9677,6 +10042,12 @@
 			(uuid "19d1b369-ccdb-48a7-ad6d-7b24b4354848")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "#PWR056")
@@ -9729,7 +10100,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22R 63mW 1% 258"
+		(property "Description" "22R 63mW 1% 0402"
 			(at 72.39 88.9 0)
 			(effects
 				(font
@@ -9756,7 +10127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint_Name" "258"
+		(property "Footprint_Name" "0402"
 			(at 72.39 88.9 0)
 			(effects
 				(font
@@ -9817,9 +10188,147 @@
 			(uuid "d5b3e6c6-3b18-4f32-94ee-da4e5959ad85")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connectors:WJ15EDGK-3.81-2P")
+		(at 78.74 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c3f04603-8577-4cf7-9c4b-c922e96f508a")
+		(property "Reference" "J6"
+			(at 72.39 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "WJ15EDGK-3.81-2P"
+			(at 78.994 35.052 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Footprint" "7Sigma:TerminalBlock_Plug_Invisible"
+			(at 82.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C8466.pdf"
+			(at 82.55 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pluggable terminal block plug; 3.81mm"
+			(at 78.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Pin Number" "2"
+			(at 71.374 40.386 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Manufacturer 1" "KANGNEX"
+			(at 78.74 36.83 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number 1" "WJ15EDGK-3.81-2P"
+			(at 78.74 36.83 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 78.74 36.83 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "C8466"
+			(at 78.74 36.83 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C8466"
+			(at 78.74 36.83 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "on_board" "True"
+			(at 78.74 36.83 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -9882,6 +10391,12 @@
 			(uuid "20c7b85c-676d-4404-b8fa-bbbf0aba5f77")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "#PWR057")
@@ -9947,6 +10462,12 @@
 			(uuid "e056d5d2-e2e8-4bab-af85-e6f5c3ef5067")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "TP2")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "TP1")
@@ -10087,6 +10608,12 @@
 			(uuid "e72f45a9-130e-4d73-a1e8-802ff9a0289d")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "R26")
@@ -10227,6 +10754,12 @@
 			(uuid "8fbb6088-868e-4eaf-b83f-bbc6e680f69f")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "R9")
@@ -10367,6 +10900,12 @@
 			(uuid "18d9b5d4-d27c-4a58-87f0-62bdc783db8b")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "R41")
@@ -10432,6 +10971,12 @@
 			(uuid "3d940434-b8a2-45b2-adf2-b466ca4a0aaa")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "#PWR081")
@@ -10590,6 +11135,12 @@
 			(uuid "e4a2393f-bf56-4fdd-98a5-c50c25ae9b1a")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "J1")
@@ -10742,6 +11293,12 @@
 			(uuid "048f0779-557b-44d9-8344-3711a76bf2ee")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 			(project ""
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "C3")
@@ -10794,7 +11351,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "22R 63mW 1% 258"
+		(property "Description" "22R 63mW 1% 0402"
 			(at 72.39 86.36 0)
 			(effects
 				(font
@@ -10821,7 +11378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint_Name" "258"
+		(property "Footprint_Name" "0402"
 			(at 72.39 86.36 0)
 			(effects
 				(font
@@ -10882,6 +11439,12 @@
 			(uuid "fba4732f-8880-44fc-b141-820accebb0f6")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "R10")
@@ -10947,6 +11510,12 @@
 			(uuid "aef1f344-77fa-45bc-a46b-cd5511fb1ccd")
 		)
 		(instances
+			(project "PWR"
+				(path "/38e78bfd-00de-42bc-bf03-f737a8e9178e"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/095bb1e6-9ca6-4450-b818-035c16f717dd"
 					(reference "#PWR047")
@@ -10955,4 +11524,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

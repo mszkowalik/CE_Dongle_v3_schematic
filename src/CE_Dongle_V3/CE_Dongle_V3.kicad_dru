@@ -1,11 +1,9 @@
 (version 1)
-
-(rule "Courtyard-to-Edge 1mm (F)"
-  (layer "F.Courtyard")
-  (constraint physical_clearance (min 1mm))
-  (condition "B.Layer == 'Edge.Cuts' && !A.memberOfFootprint('J*')"))
-
-(rule "Courtyard-to-Edge 1mm (B)"
-  (layer "B.Courtyard")
-  (constraint physical_clearance (min 1mm))
-  (condition "B.Layer == 'Edge.Cuts' && !A.memberOfFootprint('J*')"))
+(rule "SMA_CONN_PLACEMENT"
+    (condition "A.insideArea('SMA_CONN_PLACEMENT')")
+    (constraint edge_clearance (min 0mm))
+)
+(rule "SMA_CONN_PLACEMENT_edge_ok"
+  (condition "A.insideArea('SMA_CONN_PLACEMENT')")
+  (constraint edge_clearance (min 0mm))
+)

@@ -1,8 +1,8 @@
-26545198200541948
+26578027941999185
 7Sigma
-1551RFLGY
-
-
+7Sigma_Logo
+7Sigma Logo
+logo graphic
 0
 0
 0
@@ -182,19 +182,19 @@ fuse
 2
 2
 7Sigma
-Fuse_2010_5025Metric
-Fuse SMD 2010 (5025 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
-fuse
-0
-2
-2
-7Sigma
 Fuse_2920_7451Metric
 Fuse SMD 2920 (7451 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size from: http://www.megastar.com/products/fusetronic/polyswitch/PDF/smd2920.pdf), generated with kicad-footprint-generator
 fuse
 0
 2
 2
+7Sigma
+HAMMOND_1551RFLGY
+
+
+0
+0
+0
 7Sigma
 HVSSOP-10-1EP_3x3mm_P0.5mm_EP1.57x1.88mm_ThermalVias
 HVSSOP, 10 Pin (https://www.ti.com/lit/ds/symlink/bq24090.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -343,6 +343,13 @@ MIC-SMD_5P-L3.0-W4.0-P0.85-BL
 8
 5
 7Sigma
+MountingHole_2.5mm_Pad_4mm
+Mounting Hole 2.5mm, no annular, 4mm pad
+mounting hole 2.5mm no annular
+0
+1
+1
+7Sigma
 NID65_MWU
 
 NID65-12 
@@ -385,26 +392,12 @@ phoenix_contact connector MCV_01x04_GF_3.5mm
 4
 4
 7Sigma
-PhoenixContact_MCV_1,5_5-GF-3.5_1x05_P3.50mm_Vertical_ThreadedFlange
-Generic Phoenix Contact connector footprint for: MCV_1,5/5-GF-3.5; number of pins: 05; pin pitch: 3.50mm; Vertical; threaded flange || order number: 1843253 8A 160V
-phoenix_contact connector MCV_01x05_GF_3.5mm
-0
-5
-5
-7Sigma
 PhoenixContact_MCV_1,5_8-GF-3.5_1x08_P3.50mm_Vertical_ThreadedFlange
 Generic Phoenix Contact connector footprint for: MCV_1,5/8-GF-3.5; number of pins: 08; pin pitch: 3.50mm; Vertical; threaded flange || order number: 1843282 8A 160V
 phoenix_contact connector MCV_01x08_GF_3.5mm
 0
 8
 8
-7Sigma
-PhoenixContact_MCV_1,5_10-GF-3.5_1x10_P3.50mm_Vertical_ThreadedFlange
-Generic Phoenix Contact connector footprint for: MCV_1,5/10-GF-3.5; number of pins: 10; pin pitch: 3.50mm; Vertical; threaded flange || order number: 1843305 8A 160V
-phoenix_contact connector MCV_01x10_GF_3.5mm
-0
-10
-10
 7Sigma
 PhoenixContact_MCV_1,5_12-GF-3.5_1x12_P3.50mm_Vertical_ThreadedFlange
 Generic Phoenix Contact connector footprint for: MCV_1,5/12-GF-3.5; number of pins: 12; pin pitch: 3.50mm; Vertical; threaded flange || order number: 1843321 8A 160V
@@ -700,21 +693,28 @@ SOT TO_SOT_SMD JEDEC-MO-293-UAAD Texas-DRL-6
 6
 6
 7Sigma
-SW-SMD_4P-L3.0-W2.6-P1.80-LS3.4-TL
+SW-SMD_4P-L3.0-W2.6-P1.80-LS3.4-H0.65
 
 
 0
 4
 4
 7Sigma
-SW-SMD_4P-L4.2-W3.2-P2.15-LS4.5
+SW-SMD_4P-L4.2-W3.2-P2.15-LS4.5-H2.5
 
 
 0
 4
 4
 7Sigma
-SW-SMD_L6.0-W3.5-LS8.4
+SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-H4.3
+
+
+0
+4
+4
+7Sigma
+SW-SMD_L6.0-W3.5-LS8.4-H2.5
 
 
 0
@@ -728,19 +728,12 @@ SW-SMD_TS24CA
 4
 4
 7Sigma
-SW_PUSH_6mm
-Generic 6mm SW tactile push button
-tact sw push 6mm
+SW-TH_4P-L6.0-W6.0-P4.50-LS6.5-H9.0
+
+
 0
 4
-2
-7Sigma
-SW_SPST_6.0mm_6.0mm
-Surface Mount Tactile Switch for High-Density Mounting
-Tactile Switch
-0
 4
-2
 7Sigma
 TDSON-8_6.15x5.15mm
 Infineon, PG-TDSON-8, 6.15x5.15x1mm, https://www.infineon.com/dgdl/Infineon-BSC520N15NS3_-DS-v02_02-en.pdf?fileId=db3a30432239cccd0122eee57d9b21a4
@@ -770,6 +763,13 @@ THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.
 2
 2
 7Sigma
+TerminalBlock_Plug_Invisible
+
+
+0
+0
+0
+7Sigma
 TestPoint_Pad_1.5x1.5mm
 SMD rectangular pad as test Point, square 1.5mm side length
 test point SMD pad rectangle square
@@ -783,6 +783,13 @@ test point SMD pad
 0
 1
 1
+7Sigma
+Texas_SWRA117D_2.4GHz_Left
+http://www.ti.com/lit/an/swra117d/swra117d.pdf
+PCB antenna
+0
+2
+2
 7Sigma
 UQFN-16_1.8x2.6mm_P0.4mm
 UQFN, 16 Pin (https://www.ti.com/lit/ml/qfnd836/qfnd836.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
@@ -75552,7 +75559,7 @@ CSP 80 0.4 80-ball WLCSP
 80
 Package_CSP
 LFCSP-6-1EP_2x2mm_P0.65mm_EP1x1.6mm
-LFCSP, 6 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp_6_3.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+LFCSP, 6 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/lfcspcp/cp-6/cp_6_3.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 LFCSP NoLead
 0
 11
@@ -77706,6 +77713,13 @@ Maxim TDFN NoLead
 0
 11
 7
+Package_DFN_QFN
+Maxim_TDFN-10-1EP_3x3mm_P0.5mm_EP1.58x2.35mm
+Maxim  TDFN, 10 Pin (https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/tqfn/21-0137.pdf and https://www.analog.com/media/en/package-pcb-resources/land-pattern/tdfn-ep/90-0003.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+Maxim TDFN NoLead T1033-2 MO229/WEED-3
+0
+15
+11
 Package_DFN_QFN
 Maxim_TDFN-12-1EP_3x3mm_P0.5mm_EP1.7x2.5mm
 Maxim TDFN, 12 Pin (https://www.analog.com/media/en/package-pcb-resources/land-pattern/tdfn/90-0397.pdf)
@@ -81508,6 +81522,20 @@ VQFN NoLead
 75
 49
 Package_DFN_QFN
+VQFN-48-1EP_7x7mm_P0.5mm_EP4.2x4.2mm
+VQFN, 48 Pin (Based on JEDEC MO-220 variation VKKD-2 (using Figure 1), custom Exposed Pad from NXP, https://www.jedec.org/document_search?search_api_views_fulltext=MO-220, https://www.nxp.com/docs/en/package-information/SOT619-28.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead NXP_SOT619-28
+0
+53
+49
+Package_DFN_QFN
+VQFN-48-1EP_7x7mm_P0.5mm_EP4.2x4.2mm_ThermalVias
+VQFN, 48 Pin (Based on JEDEC MO-220 variation VKKD-2 (using Figure 1), custom Exposed Pad from NXP, https://www.jedec.org/document_search?search_api_views_fulltext=MO-220, https://www.nxp.com/docs/en/package-information/SOT619-28.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+VQFN NoLead NXP_SOT619-28
+0
+70
+49
+Package_DFN_QFN
 VQFN-48-1EP_7x7mm_P0.5mm_EP5.15x5.15mm
 VQFN, 48 Pin (http://www.ti.com/lit/ds/symlink/cc1312r.pdf#page=48), generated with kicad-footprint-generator ipc_noLead_generator.py
 VQFN NoLead
@@ -84729,14 +84757,14 @@ LQFP QFP
 65
 Package_QFP
 LQFP-64-1EP_10x10mm_P0.5mm_EP6.5x6.5mm
-LQFP, 64 Pin (https://www.nxp.com/files-static/shared/doc/package_info/98ARH98426A.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP, 64 Pin (https://www.nxp.com/docs/en/package-information/98ARH98426A.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 LQFP QFP
 0
 90
 65
 Package_QFP
 LQFP-64-1EP_10x10mm_P0.5mm_EP6.5x6.5mm_ThermalVias
-LQFP, 64 Pin (https://www.nxp.com/files-static/shared/doc/package_info/98ARH98426A.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP, 64 Pin (https://www.nxp.com/docs/en/package-information/98ARH98426A.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
 LQFP QFP
 0
 116
@@ -86710,7 +86738,7 @@ SOIC SO
 28
 Package_SO
 SOIC-28W_7.5x18.7mm_P1.27mm
-SOIC, 28 Pin (https://www.akm.com/akm/en/file/datasheet/AK5394AVS.pdf#page=23), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC, 28 Pin (https://www.es.co.th/Schemetic/PDF/AK5394A.PDF#page=23), generated with kicad-footprint-generator ipc_gullwing_generator.py
 SOIC SO
 0
 28
@@ -105182,6 +105210,13 @@ CRYSTAL-SMD_4P-L3.2-W2.5-BL
 4
 4
 easyeda2kicad
+D0402-BI
+
+
+0
+2
+2
+easyeda2kicad
 DSBGA-9_L1.6-W1.6-R3-C3-P0.50-TL
 
 
@@ -105195,6 +105230,13 @@ DSBGA-20_L2.1-W1.7-R4-C5-P0.40-BL
 0
 20
 20
+easyeda2kicad
+F2920
+
+
+0
+2
+2
 easyeda2kicad
 HDR-TH_2P-P2.54-H-M-W10.4
 
@@ -105371,6 +105413,13 @@ RJ45-SMD_MJ88-B011-HLSV6-P
 14
 10
 easyeda2kicad
+RJ45-TH_R-RJ45S08P-B000
+
+
+0
+12
+10
+easyeda2kicad
 SMA-SMD_BWSMA-KE-P001
 
 
@@ -105525,6 +105574,13 @@ SOT-563_L1.6-W1.2-P0.50-LS1.6-BR
 6
 6
 easyeda2kicad
+SW-SMD_2P-TS24CA
+
+
+0
+6
+4
+easyeda2kicad
 SW-SMD_4P-L3.0-W2.6-P1.80-LS3.4-TL
 
 
@@ -105539,11 +105595,25 @@ SW-SMD_4P-L4.2-W3.2-P2.15-LS4.5
 4
 4
 easyeda2kicad
+SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0
+
+
+0
+4
+4
+easyeda2kicad
 SW-SMD_TS24CA
 
 
 0
 6
+4
+easyeda2kicad
+SW-TH_4P-L6.0-W6.0-P4.50-LS6.5
+
+
+0
+4
 4
 easyeda2kicad
 TSOP-6_L3.0-W1.5-P0.95-LS2.8-BL

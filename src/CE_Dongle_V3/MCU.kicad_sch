@@ -6,9 +6,6 @@
 	(paper "A4")
 	(lib_symbols
 		(symbol "Buttons:KH-6X6X4.3H-STM"
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -17,7 +14,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+				(at 0.635 5.715 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -26,16 +23,15 @@
 				)
 			)
 			(property "Value" "KH-6X6X4.3H-STM"
-				(at 0 -1.524 0)
+				(at 0 -3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Footprint" "7Sigma:SW_SPST_6.0mm_6.0mm"
-				(at 0 5.08 0)
+			(property "Footprint" "7Sigma:SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-H4.3"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -44,7 +40,7 @@
 				)
 			)
 			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2212051012_Shenzhen-Kinghelm-Elec-KH-6X6X4-3H-STM_C2837530.pdf"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -52,7 +48,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, generic, two pins"
+			(property "Description" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -115,9 +111,42 @@
 					(hide yes)
 				)
 			)
+			(property "ki_fp_filters" "SW*MEC*5G*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "KH-6X6X4.3H-STM_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 3.81) (xy 2.286 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(circle
-					(center -2.032 0)
+					(center -1.778 2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -129,7 +158,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 1.27) (xy 0 3.048)
+						(xy 0 3.81) (xy 0 5.588)
 					)
 					(stroke
 						(width 0)
@@ -140,7 +169,7 @@
 					)
 				)
 				(circle
-					(center 2.032 0)
+					(center 1.778 2.54)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -152,7 +181,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
+						(xy 2.54 0) (xy 2.54 2.54) (xy 2.286 2.54)
 					)
 					(stroke
 						(width 0)
@@ -163,7 +192,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -181,7 +210,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -191,6 +220,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3896,400 +3961,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Resistor:0402WGF0000TCE"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "0R"
-				(at -1.524 0 90)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Footprint" "7Sigma:R_0402_1005Metric"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C17168.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "0R 63mW 1% 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Power" "63mW"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint_Name" "0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer 1" "Uni-Royal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number 1" "0402WGF0000TCE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Number 1" "C17168"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C17168"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0402WGF0000TCE_0_1"
-				(rectangle
-					(start -0.762 2.032)
-					(end 0.762 -2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0402WGF0000TCE_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.778)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.778)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Resistor:0402WGF1000TCE"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "100R"
-				(at -1.524 0 90)
-				(do_not_autoplace)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Footprint" "7Sigma:R_0402_1005Metric"
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C25076.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "100R 63mW 1% 0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Power" "63mW"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Footprint_Name" "0402"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer 1" "Uni-Royal"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer Part Number 1" "0402WGF1000TCE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier 1" "LCSC"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "Supplier Part Number 1" "C25076"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C25076"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1 1)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0402WGF1000TCE_0_1"
-				(rectangle
-					(start -0.762 2.032)
-					(end 0.762 -2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0402WGF1000TCE_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.778)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.778)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Resistor:0402WGF1002TCE"
 			(pin_numbers
 				(hide yes)
@@ -4645,6 +4316,203 @@
 				)
 			)
 			(symbol "0402WGF1200TCE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.778)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.778)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Resistor:0402WGF220JTCE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "22R"
+				(at -1.524 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" "7Sigma:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "22R 63mW 1% 0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "63mW"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint_Name" "0402"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer 1" "Uni-Royal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number 1" "0402WGF220JTCE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "LCSC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Number 1" "C25092"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C25092"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "0402WGF220JTCE_0_1"
+				(rectangle
+					(start -0.762 2.032)
+					(end 0.762 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402WGF220JTCE_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.778)
@@ -5607,6 +5475,12 @@
 		(uuid "c8d6cbf4-3f0c-479b-bc6c-72b5ec3b1d3d")
 	)
 	(junction
+		(at 50.8 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "164463cc-b2a9-41f1-af56-168e2ef6a8bb")
+	)
+	(junction
 		(at 81.28 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5637,6 +5511,12 @@
 		(uuid "55c362bd-c9c7-4c75-aaed-2858769e3355")
 	)
 	(junction
+		(at 29.21 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c0277ac-c15c-4e21-8986-b85d0d32b397")
+	)
+	(junction
 		(at 154.94 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5659,6 +5539,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8521002e-eae0-4ef8-b8ac-204144d889c4")
+	)
+	(junction
+		(at 68.58 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86cb05dc-fee6-48a1-b711-dbe638c32eb4")
 	)
 	(junction
 		(at 226.06 143.51)
@@ -5880,6 +5766,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 152.4) (xy 29.21 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a200887-f72d-4533-8e83-5f2f2de0ee67")
+	)
+	(wire
+		(pts
 			(xy 167.64 142.24) (xy 167.64 139.7)
 		)
 		(stroke
@@ -5990,6 +5886,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 142.24) (xy 50.8 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b729396-c981-46c8-89c8-98402e9c044b")
+	)
+	(wire
+		(pts
 			(xy 175.26 144.78) (xy 175.26 139.7)
 		)
 		(stroke
@@ -6007,6 +5913,16 @@
 			(type default)
 		)
 		(uuid "5083d71d-6133-4cbe-a4e0-7772d22d2d2b")
+	)
+	(wire
+		(pts
+			(xy 48.26 152.4) (xy 50.8 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "553436b6-1069-4c8d-99ab-d1932a480f6b")
 	)
 	(wire
 		(pts
@@ -6340,6 +6256,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 152.4) (xy 68.58 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a28bf091-ef29-47f2-a123-c80ec922c182")
+	)
+	(wire
+		(pts
 			(xy 101.6 83.82) (xy 114.3 83.82)
 		)
 		(stroke
@@ -6460,6 +6386,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 142.24) (xy 68.58 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be813a02-6ae7-4377-ba82-0434fbead073")
+	)
+	(wire
+		(pts
 			(xy 152.4 96.52) (xy 177.8 96.52)
 		)
 		(stroke
@@ -6547,6 +6483,16 @@
 			(type default)
 		)
 		(uuid "d41d1847-a992-434e-8e93-f880eb6506ac")
+	)
+	(wire
+		(pts
+			(xy 26.67 142.24) (xy 29.21 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d421a676-111d-462a-80e6-eb1e38ecd889")
 	)
 	(wire
 		(pts
@@ -7781,7 +7727,7 @@
 		(dnp no)
 		(uuid "0d39a31f-d03a-4ec2-9913-607c3ee0e994")
 		(property "Reference" "SW_BOOT1"
-			(at 66.04 146.05 0)
+			(at 70.104 152.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7798,7 +7744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "7Sigma:SW_SPST_6.0mm_6.0mm"
+		(property "Footprint" "7Sigma:SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-H4.3"
 			(at 63.5 147.32 0)
 			(effects
 				(font
@@ -7875,6 +7821,12 @@
 		)
 		(pin "1"
 			(uuid "6029c62a-c5f0-44db-b601-0cb925952a5c")
+		)
+		(pin "4"
+			(uuid "bfb49820-27d8-462a-85de-d2bbadf70638")
+		)
+		(pin "3"
+			(uuid "68097eab-d18a-4445-889b-c5962bd7c41d")
 		)
 		(instances
 			(project "CE_Dongle_V3"
@@ -8620,7 +8572,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:0402WGF1000TCE")
+		(lib_id "Resistor:0402WGF220JTCE")
 		(at 222.25 156.21 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8636,7 +8588,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "22R"
 			(at 226.568 154.94 90)
 			(do_not_autoplace yes)
 			(effects
@@ -8654,7 +8606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C25076.pdf"
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
 			(at 222.25 156.21 0)
 			(effects
 				(font
@@ -8663,7 +8615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100R 63mW 1% 0402"
+		(property "Description" "22R 63mW 1% 0402"
 			(at 222.25 156.21 0)
 			(effects
 				(font
@@ -8708,7 +8660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number 1" "0402WGF1000TCE"
+		(property "Manufacturer Part Number 1" "0402WGF220JTCE"
 			(at 222.25 156.21 0)
 			(effects
 				(font
@@ -8726,7 +8678,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number 1" "C25076"
+		(property "Supplier Part Number 1" "C25092"
 			(at 222.25 156.21 0)
 			(effects
 				(font
@@ -8735,7 +8687,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25076"
+		(property "LCSC Part" "C25092"
 			(at 222.25 156.21 0)
 			(effects
 				(font
@@ -9762,7 +9714,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:0402WGF1000TCE")
+		(lib_id "Resistor:0402WGF220JTCE")
 		(at 222.25 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9778,7 +9730,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "22R"
 			(at 226.568 147.32 90)
 			(do_not_autoplace yes)
 			(effects
@@ -9796,7 +9748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C25076.pdf"
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
 			(at 222.25 148.59 0)
 			(effects
 				(font
@@ -9805,7 +9757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100R 63mW 1% 0402"
+		(property "Description" "22R 63mW 1% 0402"
 			(at 222.25 148.59 0)
 			(effects
 				(font
@@ -9850,7 +9802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number 1" "0402WGF1000TCE"
+		(property "Manufacturer Part Number 1" "0402WGF220JTCE"
 			(at 222.25 148.59 0)
 			(effects
 				(font
@@ -9868,7 +9820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number 1" "C25076"
+		(property "Supplier Part Number 1" "C25092"
 			(at 222.25 148.59 0)
 			(effects
 				(font
@@ -9877,7 +9829,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25076"
+		(property "LCSC Part" "C25092"
 			(at 222.25 148.59 0)
 			(effects
 				(font
@@ -10184,7 +10136,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:0402WGF1000TCE")
+		(lib_id "Resistor:0402WGF220JTCE")
 		(at 222.25 146.05 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10200,7 +10152,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "22R"
 			(at 226.568 144.78 90)
 			(do_not_autoplace yes)
 			(effects
@@ -10218,7 +10170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C25076.pdf"
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
 			(at 222.25 146.05 0)
 			(effects
 				(font
@@ -10227,7 +10179,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100R 63mW 1% 0402"
+		(property "Description" "22R 63mW 1% 0402"
 			(at 222.25 146.05 0)
 			(effects
 				(font
@@ -10272,7 +10224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number 1" "0402WGF1000TCE"
+		(property "Manufacturer Part Number 1" "0402WGF220JTCE"
 			(at 222.25 146.05 0)
 			(effects
 				(font
@@ -10290,7 +10242,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number 1" "C25076"
+		(property "Supplier Part Number 1" "C25092"
 			(at 222.25 146.05 0)
 			(effects
 				(font
@@ -10299,7 +10251,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25076"
+		(property "LCSC Part" "C25092"
 			(at 222.25 146.05 0)
 			(effects
 				(font
@@ -11278,7 +11230,7 @@
 		(dnp no)
 		(uuid "6d2c8813-1068-4321-87b1-dae3437ecbc6")
 		(property "Reference" "SW_RST1"
-			(at 48.26 146.05 0)
+			(at 52.578 151.638 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11295,7 +11247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "7Sigma:SW_SPST_6.0mm_6.0mm"
+		(property "Footprint" "7Sigma:SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-H4.3"
 			(at 45.72 147.32 0)
 			(effects
 				(font
@@ -11372,6 +11324,12 @@
 		)
 		(pin "1"
 			(uuid "ef614169-ce24-478b-9d12-9630bc3c4f3a")
+		)
+		(pin "4"
+			(uuid "51848ad3-452c-4504-ae50-ecf7ea58e530")
+		)
+		(pin "3"
+			(uuid "b4b8e4a0-0478-4797-b49f-1cbd7f80b065")
 		)
 		(instances
 			(project ""
@@ -12080,7 +12038,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:0402WGF1000TCE")
+		(lib_id "Resistor:0402WGF220JTCE")
 		(at 222.25 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12096,7 +12054,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "22R"
 			(at 226.568 149.86 90)
 			(do_not_autoplace yes)
 			(effects
@@ -12114,7 +12072,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C25076.pdf"
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
 			(at 222.25 151.13 0)
 			(effects
 				(font
@@ -12123,7 +12081,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100R 63mW 1% 0402"
+		(property "Description" "22R 63mW 1% 0402"
 			(at 222.25 151.13 0)
 			(effects
 				(font
@@ -12168,7 +12126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number 1" "0402WGF1000TCE"
+		(property "Manufacturer Part Number 1" "0402WGF220JTCE"
 			(at 222.25 151.13 0)
 			(effects
 				(font
@@ -12186,7 +12144,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number 1" "C25076"
+		(property "Supplier Part Number 1" "C25092"
 			(at 222.25 151.13 0)
 			(effects
 				(font
@@ -12195,7 +12153,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25076"
+		(property "LCSC Part" "C25092"
 			(at 222.25 151.13 0)
 			(effects
 				(font
@@ -13520,7 +13478,7 @@
 		(dnp no)
 		(uuid "b4e1c731-1d88-4efa-945a-c33d58fe72d3")
 		(property "Reference" "SW_USR1"
-			(at 26.67 146.05 0)
+			(at 30.734 152.146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13537,7 +13495,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "7Sigma:SW_SPST_6.0mm_6.0mm"
+		(property "Footprint" "7Sigma:SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-H4.3"
 			(at 24.13 147.32 0)
 			(effects
 				(font
@@ -13614,6 +13572,12 @@
 		)
 		(pin "1"
 			(uuid "cb766760-6e3e-4118-92ba-3340b2ef274c")
+		)
+		(pin "4"
+			(uuid "ee067873-9c66-483e-a7d2-7b932ab9ed7e")
+		)
+		(pin "3"
+			(uuid "e9c26a7f-ea63-4f8a-adf3-6893992613a8")
 		)
 		(instances
 			(project "CE_Dongle_V3"
@@ -15063,7 +15027,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:0402WGF0000TCE")
+		(lib_id "Resistor:0402WGF1200TCE")
 		(at 100.33 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15079,7 +15043,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "120R"
 			(at 100.33 100.584 90)
 			(do_not_autoplace yes)
 			(effects
@@ -15097,7 +15061,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C17168.pdf"
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
 			(at 100.33 99.06 0)
 			(effects
 				(font
@@ -15106,7 +15070,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0R 63mW 1% 0402"
+		(property "Description" "120R 63mW 1% 0402"
 			(at 100.33 99.06 0)
 			(effects
 				(font
@@ -15151,7 +15115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number 1" "0402WGF0000TCE"
+		(property "Manufacturer Part Number 1" "0402WGF1200TCE"
 			(at 100.33 99.06 0)
 			(effects
 				(font
@@ -15169,7 +15133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number 1" "C17168"
+		(property "Supplier Part Number 1" "C25079"
 			(at 100.33 99.06 0)
 			(effects
 				(font
@@ -15178,7 +15142,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C17168"
+		(property "LCSC Part" "C25079"
 			(at 100.33 99.06 0)
 			(effects
 				(font
@@ -15724,7 +15688,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:0402WGF1000TCE")
+		(lib_id "Resistor:0402WGF220JTCE")
 		(at 222.25 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15740,7 +15704,7 @@
 				)
 			)
 		)
-		(property "Value" "100R"
+		(property "Value" "22R"
 			(at 226.568 152.4 90)
 			(do_not_autoplace yes)
 			(effects
@@ -15758,7 +15722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C25076.pdf"
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
 			(at 222.25 153.67 0)
 			(effects
 				(font
@@ -15767,7 +15731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "100R 63mW 1% 0402"
+		(property "Description" "22R 63mW 1% 0402"
 			(at 222.25 153.67 0)
 			(effects
 				(font
@@ -15812,7 +15776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number 1" "0402WGF1000TCE"
+		(property "Manufacturer Part Number 1" "0402WGF220JTCE"
 			(at 222.25 153.67 0)
 			(effects
 				(font
@@ -15830,7 +15794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number 1" "C25076"
+		(property "Supplier Part Number 1" "C25092"
 			(at 222.25 153.67 0)
 			(effects
 				(font
@@ -15839,7 +15803,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C25076"
+		(property "LCSC Part" "C25092"
 			(at 222.25 153.67 0)
 			(effects
 				(font
