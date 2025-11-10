@@ -774,6 +774,24 @@
 					(hide yes)
 				)
 			)
+			(property "Manufacturer" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer Part Number" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "logo graphic symbol"
 				(at 0 0 0)
 				(effects
@@ -1320,6 +1338,14 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(no_connect
+		(at 30.48 66.04)
+		(uuid "8a2b3ea6-4b9f-4526-b36c-fbcdf4fab772")
+	)
+	(no_connect
+		(at 30.48 68.58)
+		(uuid "90bcde20-eda4-4241-b575-d1b1c5055052")
 	)
 	(wire
 		(pts
@@ -2345,6 +2371,24 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 158.75 173.99 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 158.75 173.99 0)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(hide yes)
 			)

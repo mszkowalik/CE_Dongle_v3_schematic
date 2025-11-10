@@ -1,4 +1,4 @@
-26578027941999185
+26585097137030445
 7Sigma
 7Sigma_Logo
 7Sigma Logo
@@ -553,6 +553,13 @@ resistor
 2
 2
 7Sigma
+R_1206_3216Metric
+Resistor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator
+resistor
+0
+2
+2
+7Sigma
 Relay_SPDT_Omron_G2RL-1
 Omron Relay, SPDT, https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf
 Omron Relay SPDT
@@ -608,6 +615,13 @@ SOIC SO
 0
 8
 8
+7Sigma
+SOIC-14_3.9x8.7mm_P1.27mm
+SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+14
+14
 7Sigma
 SOIC-14_3.9x8.7mm_P1.27mm_EP6.4x2.65
 SOIC, 14 Pin (JEDEC MS-012AB, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_14.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -708,6 +722,13 @@ SW-SMD_4P-L4.2-W3.2-P2.15-LS4.5-H2.5
 4
 7Sigma
 SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-H4.3
+
+
+0
+4
+4
+7Sigma
+SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-H7.0
 
 
 0
@@ -853,6 +874,13 @@ VSON-14_L4.0-W3.0-P0.50-BL-EP_TI_DSJ
 0
 20
 15
+7Sigma
+WQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias
+WQFN, 16 Pin (https://www.ti.com/lit/ds/symlink/tlv9064.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py
+WQFN NoLead
+0
+26
+17
 7Sigma
 WSON-10-1EP_2.2x2.0mm_P0.40-EP0.9x1.5mm
 

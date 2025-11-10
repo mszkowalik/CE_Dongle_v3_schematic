@@ -3266,16 +3266,6 @@
 		)
 		(uuid "fd53a43d-2ffc-4c62-bc63-aa6f0ac3db7f")
 	)
-	(label "MUX_IN_5"
-		(at 58.42 162.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0045648a-816b-4494-aff3-5603b697b7d1")
-	)
 	(label "MUX_0_1"
 		(at 147.32 40.64 0)
 		(effects
@@ -3296,15 +3286,15 @@
 		)
 		(uuid "04fd5dd9-3ae0-458c-a2a6-3235f60de67a")
 	)
-	(label "MUX_IN_4"
-		(at 58.42 121.92 0)
+	(label "IN_8"
+		(at 58.42 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "0c19887d-4903-4ae6-8a02-3a72d95b424c")
+		(uuid "0b82c266-b5a2-4d38-8013-21928b189486")
 	)
 	(label "MUX_2_EN"
 		(at 105.41 129.54 180)
@@ -3316,7 +3306,17 @@
 		)
 		(uuid "0c908a79-ea07-4698-a699-93ee0bdce337")
 	)
-	(label "MUX_IN_8"
+	(label "IN_3"
+		(at 58.42 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e10e7a7-6baf-4bdc-8c89-5c310091017a")
+	)
+	(label "IN_8"
 		(at 58.42 53.34 0)
 		(effects
 			(font
@@ -3336,16 +3336,6 @@
 		)
 		(uuid "0e899428-8018-422b-b7fd-b1bd1f11cdb7")
 	)
-	(label "MUX_IN_7"
-		(at 58.42 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ee69f1f-d91a-4cb3-8b5f-0837675b1b51")
-	)
 	(label "MUX_3_2"
 		(at 114.3 165.1 180)
 		(effects
@@ -3356,7 +3346,7 @@
 		)
 		(uuid "0fa4f553-3465-488e-89b4-c90eb244b4b6")
 	)
-	(label "MUX_IN_5"
+	(label "IN_5"
 		(at 58.42 45.72 0)
 		(effects
 			(font
@@ -3366,7 +3356,7 @@
 		)
 		(uuid "115d4476-d98b-4a77-a09d-4fad922f3841")
 	)
-	(label "MUX_IN_3"
+	(label "IN_3"
 		(at 58.42 40.64 0)
 		(effects
 			(font
@@ -3376,15 +3366,35 @@
 		)
 		(uuid "1175d8a8-d103-41b3-bb64-00a78dc3243e")
 	)
-	(label "MUX_IN_6"
-		(at 58.42 165.1 0)
+	(label "IN_8"
+		(at 58.42 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "1f28e162-d908-429a-b8a8-9909943e699b")
+		(uuid "175e1eca-c82a-40d5-bab2-245feb40c436")
+	)
+	(label "IN_7"
+		(at 58.42 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "189c470b-0030-4578-b4ea-accf7e15d226")
+	)
+	(label "IN_1"
+		(at 58.42 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2064dbf6-7c02-4cd0-adb1-7607bc26a851")
 	)
 	(label "MUX_0_1"
 		(at 114.3 45.72 180)
@@ -3406,6 +3416,26 @@
 		)
 		(uuid "26458b72-661d-47fc-acb6-2f897d1d2300")
 	)
+	(label "IN_6"
+		(at 58.42 127 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2860f31c-605b-4a50-a2a2-9e7e835c6a1c")
+	)
+	(label "IN_4"
+		(at 58.42 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "295ca7e5-9354-43cd-8207-205a27c67f20")
+	)
 	(label "OUT_A"
 		(at 114.3 76.2 180)
 		(effects
@@ -3416,35 +3446,15 @@
 		)
 		(uuid "2a9496b5-24b5-461f-b7fa-2003cf2228b5")
 	)
-	(label "MUX_IN_6"
-		(at 58.42 86.36 0)
+	(label "IN_8"
+		(at 58.42 170.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "2c9f6bd1-dacb-447f-bf2d-1ad5b9f4fdee")
-	)
-	(label "MUX_IN_6"
-		(at 58.42 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3860e7e0-18dc-4261-81e0-e454087f93a3")
-	)
-	(label "MUX_IN_2"
-		(at 58.42 154.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "408f9ca9-eb18-4ce8-963f-d877a1de95fc")
+		(uuid "4083d5ac-8c52-49ec-ae7e-af4d9c4cb740")
 	)
 	(label "MUX_3_2"
 		(at 147.32 76.2 0)
@@ -3466,6 +3476,16 @@
 		)
 		(uuid "474774c9-bdee-48a9-bcb2-dc767de5164a")
 	)
+	(label "IN_2"
+		(at 58.42 116.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d5ca181-63d4-46f0-bd24-13fbe4fa7f12")
+	)
 	(label "MUX_3_0"
 		(at 147.32 81.28 0)
 		(effects
@@ -3486,25 +3506,15 @@
 		)
 		(uuid "51da4009-8d54-4ad6-9415-923e468a0f0e")
 	)
-	(label "MUX_IN_3"
-		(at 58.42 157.48 0)
+	(label "IN_5"
+		(at 58.42 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "54d309d9-093a-4767-9d77-ff6c6947e9c6")
-	)
-	(label "MUX_IN_7"
-		(at 58.42 167.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "565ad42f-e4e3-4109-9ac1-8739b52a86a7")
+		(uuid "5245f429-8075-466e-9e22-4011940172c7")
 	)
 	(label "OUT_B"
 		(at 114.3 154.94 180)
@@ -3516,7 +3526,37 @@
 		)
 		(uuid "5ae3e8bc-6d2f-46db-b839-691079d090f3")
 	)
-	(label "MUX_IN_6"
+	(label "IN_6"
+		(at 58.42 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5b43acdd-05d1-4333-995e-7e7bf1a50b78")
+	)
+	(label "IN_7"
+		(at 58.42 167.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5c82568b-ee1d-40ea-bb7e-28b3182a6a95")
+	)
+	(label "IN_5"
+		(at 58.42 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60ac4a6f-2a33-4e0f-8cbe-5ee742ec497e")
+	)
+	(label "IN_6"
 		(at 58.42 48.26 0)
 		(effects
 			(font
@@ -3545,16 +3585,6 @@
 			(justify left bottom)
 		)
 		(uuid "6f50fb8b-f552-43bf-b14d-0d29af7e2dc4")
-	)
-	(label "MUX_IN_3"
-		(at 58.42 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "72484867-81a4-4a36-9ccf-2e542220c98f")
 	)
 	(label "I2C_SDA"
 		(at 210.82 78.74 180)
@@ -3586,6 +3616,16 @@
 		)
 		(uuid "829581dd-231d-4da1-b583-0222df3f26d0")
 	)
+	(label "IN_6"
+		(at 58.42 165.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "836a9074-f7d9-4eb6-a6ba-24bb2af7037c")
+	)
 	(label "MUX_0_2"
 		(at 114.3 48.26 180)
 		(effects
@@ -3595,16 +3635,6 @@
 			(justify right bottom)
 		)
 		(uuid "84445b87-869d-439f-bf5b-43b5e51c1364")
-	)
-	(label "MUX_IN_1"
-		(at 58.42 152.4 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "844bb8bf-ffaa-4b26-b6cd-9ce1f611bdee")
 	)
 	(label "MUX_1_1"
 		(at 147.32 53.34 0)
@@ -3616,17 +3646,17 @@
 		)
 		(uuid "884aa286-28d8-4cf6-a489-8f58cd94a416")
 	)
-	(label "MUX_IN_2"
-		(at 58.42 116.84 0)
+	(label "IN_2"
+		(at 58.42 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "88e91851-b9c4-45c9-bf0e-472a6f178e95")
+		(uuid "885a774b-c4b7-4c81-9e9c-9b2fdbebd037")
 	)
-	(label "MUX_IN_7"
+	(label "IN_7"
 		(at 58.42 50.8 0)
 		(effects
 			(font
@@ -3646,7 +3676,17 @@
 		)
 		(uuid "8d35c09c-e0fa-4b2e-8c76-b54819dd9880")
 	)
-	(label "MUX_IN_4"
+	(label "IN_3"
+		(at 58.42 157.48 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "993c5510-c87c-4996-9db4-3cd04ff3d7aa")
+	)
+	(label "IN_4"
 		(at 58.42 160.02 0)
 		(effects
 			(font
@@ -3654,37 +3694,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "900dffc6-be54-4b7b-bcac-10f9b96caa7d")
-	)
-	(label "MUX_IN_4"
-		(at 58.42 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "91c5b6c8-abaa-499a-9d1f-cbbe87aa9781")
-	)
-	(label "MUX_IN_5"
-		(at 58.42 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "97887b6a-dfbe-4659-a84a-af0b9099ba4e")
-	)
-	(label "MUX_IN_1"
-		(at 58.42 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "99311968-f946-4950-bddd-2e24a7272518")
+		(uuid "99fd56fd-fb70-4b96-8692-d5982e3aeee8")
 	)
 	(label "MUX_2_1"
 		(at 147.32 88.9 0)
@@ -3696,6 +3706,16 @@
 		)
 		(uuid "9b8a4123-274f-4b0d-b5c5-da9db2f6606a")
 	)
+	(label "IN_5"
+		(at 58.42 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fa9e2a2-dd7d-4ac9-ba50-aab25a3d2de9")
+	)
 	(label "MUX_0_0"
 		(at 114.3 43.18 180)
 		(effects
@@ -3705,16 +3725,6 @@
 			(justify right bottom)
 		)
 		(uuid "a14e46c2-26e5-470b-9bf6-e17c1c715657")
-	)
-	(label "MUX_IN_8"
-		(at 58.42 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2823fea-f83d-49e0-af68-5779653c0fa3")
 	)
 	(label "MUX_3_0"
 		(at 114.3 160.02 180)
@@ -3726,6 +3736,16 @@
 		)
 		(uuid "a5b8ba15-974c-4706-9fc4-fbfdcc97cd52")
 	)
+	(label "IN_2"
+		(at 58.42 154.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5da02a3-fb3f-4e65-9361-86aa27bc3345")
+	)
 	(label "MUX_2_0"
 		(at 114.3 121.92 180)
 		(effects
@@ -3736,7 +3756,17 @@
 		)
 		(uuid "a6086ee0-54a5-473b-a3fb-e3174ec655c2")
 	)
-	(label "MUX_IN_4"
+	(label "IN_1"
+		(at 58.42 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b01039f2-5605-40af-882d-f5e8baa5a3fe")
+	)
+	(label "IN_4"
 		(at 58.42 43.18 0)
 		(effects
 			(font
@@ -3776,6 +3806,26 @@
 		)
 		(uuid "b9b7f68b-f58d-4fd8-a064-e4168c5f8bbf")
 	)
+	(label "IN_7"
+		(at 58.42 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bbc641f7-cfb0-42ae-a737-0644474cc158")
+	)
+	(label "IN_3"
+		(at 58.42 119.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd27348d-3f93-48f7-a681-a2a1cd89c2c7")
+	)
 	(label "MUX_0_0"
 		(at 147.32 43.18 0)
 		(effects
@@ -3785,16 +3835,6 @@
 			(justify left bottom)
 		)
 		(uuid "be7834f0-d632-41a4-b038-ffeccb0326ee")
-	)
-	(label "MUX_IN_3"
-		(at 58.42 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c2f89b6d-0605-44fa-b8db-b38cdcda1538")
 	)
 	(label "OUT_B"
 		(at 114.3 116.84 180)
@@ -3806,7 +3846,7 @@
 		)
 		(uuid "c8d0bc5d-e920-4a60-b12e-404c473b96cf")
 	)
-	(label "MUX_IN_2"
+	(label "IN_2"
 		(at 58.42 38.1 0)
 		(effects
 			(font
@@ -3826,16 +3866,6 @@
 		)
 		(uuid "caac1cbc-68c0-48ab-ae74-7ddc7d9a23e0")
 	)
-	(label "MUX_IN_7"
-		(at 58.42 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cd75346c-6a0f-423c-96ad-cf64c9a43a8b")
-	)
 	(label "OUT_A"
 		(at 114.3 38.1 180)
 		(effects
@@ -3845,16 +3875,6 @@
 			(justify right bottom)
 		)
 		(uuid "d142ad95-d137-4c9a-bb95-034085417f02")
-	)
-	(label "MUX_IN_8"
-		(at 58.42 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d1d11342-7ba7-4383-98b0-c882825fa250")
 	)
 	(label "MUX_2_0"
 		(at 147.32 86.36 0)
@@ -3906,17 +3926,17 @@
 		)
 		(uuid "dfb8ce73-db8b-4aaa-8d12-465261176f22")
 	)
-	(label "MUX_IN_8"
-		(at 58.42 91.44 0)
+	(label "IN_4"
+		(at 58.42 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "dfeb7c1a-9daa-44c7-9351-e715f83d4b75")
+		(uuid "e20e7feb-e5b2-4a7b-9842-3597681ecef6")
 	)
-	(label "MUX_IN_1"
+	(label "IN_1"
 		(at 58.42 35.56 0)
 		(effects
 			(font
@@ -3925,16 +3945,6 @@
 			(justify left bottom)
 		)
 		(uuid "e89382fd-f197-41b8-bcce-88b155a74383")
-	)
-	(label "MUX_IN_5"
-		(at 58.42 124.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ed579f5c-844d-461d-8130-8ddb6b1baebb")
 	)
 	(label "MUX_3_1"
 		(at 114.3 162.56 180)
@@ -3966,15 +3976,15 @@
 		)
 		(uuid "f30a3d87-10b7-48e4-941c-05328d8e1891")
 	)
-	(label "MUX_IN_2"
-		(at 58.42 76.2 0)
+	(label "IN_1"
+		(at 58.42 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "fbaaca81-ff44-42e6-9dc4-02e23425501b")
+		(uuid "f8a1fbeb-3e53-46a6-b384-53a05b129863")
 	)
 	(label "I2C_nINT"
 		(at 210.82 45.72 180)
@@ -3995,16 +4005,6 @@
 			(justify right bottom)
 		)
 		(uuid "fc076135-bea2-4749-afa9-51544d1086b5")
-	)
-	(label "MUX_IN_1"
-		(at 58.42 114.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fcb702dc-a907-4418-a67e-f3779476c241")
 	)
 	(hierarchical_label "IN_3"
 		(shape bidirectional)

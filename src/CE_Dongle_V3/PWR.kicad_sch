@@ -3277,7 +3277,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+			(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C25905.html"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3680,6 +3680,15 @@
 					(hide yes)
 				)
 			)
+			(property "comp_type" "PMOS"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
 				(at 0 0 0)
 				(effects
@@ -3963,6 +3972,15 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "comp_type" "NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1 1)
 					)
 					(hide yes)
 				)
@@ -5797,7 +5815,7 @@
 			)
 		)
 		(property "Value" "BC817-40-7-F"
-			(at 119.38 102.87 90)
+			(at 119.38 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5896,6 +5914,15 @@
 			)
 		)
 		(property "LCSC Part" "C435867"
+			(at 114.3 93.98 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "comp_type" "NPN"
 			(at 114.3 93.98 0)
 			(effects
 				(font
@@ -7625,7 +7652,7 @@
 			)
 		)
 		(property "Value" "BC817-40-7-F"
-			(at 132.08 59.69 90)
+			(at 132.08 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7724,6 +7751,15 @@
 			)
 		)
 		(property "LCSC Part" "C435867"
+			(at 127 50.8 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "comp_type" "NPN"
 			(at 127 50.8 0)
 			(effects
 				(font
@@ -8150,7 +8186,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 133.858 68.072 90)
+			(at 133.858 68.072 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8262,6 +8298,15 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comp_type" "PMOS"
+			(at 129.54 73.66 0)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -8380,7 +8425,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 133.858 32.512 90)
+			(at 133.858 32.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8492,6 +8537,15 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "comp_type" "PMOS"
+			(at 129.54 38.1 0)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(hide yes)
 			)
@@ -9077,7 +9131,7 @@
 			)
 		)
 		(property "Value" "BC817-40-7-F"
-			(at 132.08 97.79 90)
+			(at 132.08 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9176,6 +9230,15 @@
 			)
 		)
 		(property "LCSC Part" "C435867"
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "comp_type" "NPN"
 			(at 127 88.9 0)
 			(effects
 				(font
@@ -9874,7 +9937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C25905.html"
 			(at 53.34 76.2 0)
 			(effects
 				(font
@@ -10208,7 +10271,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "c3f04603-8577-4cf7-9c4b-c922e96f508a")
 		(property "Reference" "J6"
@@ -10657,7 +10720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+		(property "Datasheet" "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount-UniOhm_5-1KR-5101-1_C25905.html"
 			(at 59.69 78.74 0)
 			(effects
 				(font
