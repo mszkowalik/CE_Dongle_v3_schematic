@@ -1,3 +1,4 @@
 .DS_Store
-src/CE_Dongle_V3/CE_Dongle_V3-backups/*
-src/CE_Dongle_V3/production/backups/*
+src/CE_Dongle_V3-backups/*
+src/production/backups/*
+src/fp-info-cache
