@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -64,19 +66,7 @@
           ""
         ],
         [
-          "copper_edge_clearance|132900000|106162500|a03b6784-95c9-41ec-b3d2-afbb08e69136|609bbebc-3a9f-45f2-bef2-3ac7970cba6f",
-          ""
-        ],
-        [
           "copper_edge_clearance|135450000|106162500|a03b6784-95c9-41ec-b3d2-afbb08e69136|f3c1dbb1-69ce-4eeb-93fa-09f6b1596c85",
-          ""
-        ],
-        [
-          "copper_edge_clearance|138000000|106162500|a03b6784-95c9-41ec-b3d2-afbb08e69136|08071ddc-7768-4587-a868-78f27563efa5",
-          ""
-        ],
-        [
-          "copper_edge_clearance|138000000|106162500|a03b6784-95c9-41ec-b3d2-afbb08e69136|6d9ed881-c432-42ff-8612-c28672db89da",
           ""
         ],
         [
@@ -106,6 +96,7 @@
         "extra_footprint": "warning",
         "footprint": "error",
         "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "warning",
         "hole_clearance": "error",
@@ -123,6 +114,7 @@
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "warning",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
         "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
@@ -142,9 +134,12 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -265,11 +260,13 @@
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
+      "bom_rev": "",
       "dist": "",
       "distpn": "",
       "internal_id": "",
       "mfg": "",
-      "mpn": ""
+      "mpn": "",
+      "sch_revision": ""
     },
     "layer_pairs": [
       {
@@ -297,6 +294,15 @@
     "viewports": []
   },
   "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
   "cvpcb": {
     "equivalence_files": []
   },
@@ -487,11 +493,14 @@
       "duplicate_sheet_names": "error",
       "endpoint_off_grid": "warning",
       "extra_units": "error",
+      "field_name_whitespace": "warning",
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
       "global_label_dangling": "warning",
+      "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
       "lib_symbol_issues": "warning",
@@ -514,6 +523,7 @@
       "similar_power": "warning",
       "simulation_model_issue": "ignore",
       "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
       "unannotated": "error",
       "unconnected_wire_endpoint": "warning",
       "undefined_netclass": "error",
@@ -548,6 +558,7 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
+        "tuning_profile": "",
         "via_diameter": 0.45,
         "via_drill": 0.2,
         "wire_width": 6
@@ -562,6 +573,7 @@
         "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
+        "tuning_profile": "",
         "via_diameter": 0.45,
         "via_drill": 0.2
       },
@@ -575,6 +587,7 @@
         "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
+        "tuning_profile": "",
         "via_diameter": 0.45,
         "via_drill": 0.2
       },
@@ -586,6 +599,7 @@
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.7,
+        "tuning_profile": "",
         "via_diameter": 0.45,
         "via_drill": 0.2
       },
@@ -597,15 +611,19 @@
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.15,
+        "tuning_profile": "",
         "via_diameter": 0.45,
         "via_drill": 0.2
       }
     ],
     "meta": {
-      "version": 4
+      "version": 5
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/LTE/RF_ANT": [
+        "SC_50"
+      ],
       "/MCU/USB_D+": [
         "DC_90"
       ],
@@ -629,6 +647,12 @@
       ],
       "Net-(U1-ANT)": [
         "SC_50"
+      ],
+      "Net-(U12-CELL_MAIN_ANTENNA)": [
+        "SC_50"
+      ],
+      "Net-(U13B-ANT_MAIN)": [
+        "SC_50"
       ]
     },
     "netclass_patterns": []
@@ -641,7 +665,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "CE_Dongle_V3.step",
       "svg": "",
       "vrml": ""
     },
@@ -649,6 +673,10 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -885,15 +913,70 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer Part Number",
+          "name": "Manufacturer Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Impedance",
+          "name": "Impedance",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "comp_type",
+          "name": "comp_type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Reverse Stand-Off Voltage",
+          "name": "Reverse Stand-Off Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage - Breakdown",
+          "name": "Voltage - Breakdown",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Maximum Reverse Voltage",
+          "name": "Maximum Reverse Voltage",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Reverse Leakage Current",
+          "name": "Reverse Leakage Current",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Continuous Current",
+          "name": "Continuous Current",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "Value"
     },
+    "bus_aliases": {},
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
@@ -901,6 +984,7 @@
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
       "field_names": [],
+      "hop_over_size_choice": 0,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
@@ -924,6 +1008,7 @@
     "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
+    "reuse_designators": true,
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -932,16 +1017,33 @@
     "spice_save_all_dissipations": false,
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
-    "subpart_id_separator": 0
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "CE_Dongle_V3.kicad_sch",
+        "name": "CE_Dongle_V3",
+        "uuid": "626f6405-d1f3-452a-8480-540e5958a403"
+      }
+    ],
+    "used_designators": "L6,K1-2,Q6,Q10,C21-22,C24,C47,C62,C80-89,#PWR11,#PWR37,#PWR41,#PWR57,#PWR79-81,#PWR85,#PWR117-118,#PWR167-194,D1,D4-6,D8-10,U16-19,R44,R49-68",
+    "variants": [
+      {
+        "name": "Default_LE310X1"
+      }
+    ]
   },
   "sheets": [
     [
       "626f6405-d1f3-452a-8480-540e5958a403",
-      "Root"
+      "CE_Dongle_V3"
     ],
     [
       "7a13ba88-4760-412d-8799-46b137fb8990",
-      "Modbus"
+      "Modbus_1"
+    ],
+    [
+      "a75278ad-0629-4f68-97d9-4ae361986074",
+      "LTE"
     ],
     [
       "095bb1e6-9ca6-4450-b818-035c16f717dd",
@@ -954,7 +1056,29 @@
     [
       "cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf",
       "MUX"
+    ],
+    [
+      "0c8454a2-47e6-4ff5-b053-ad46f46bbf5c",
+      "LE310X1"
+    ],
+    [
+      "4323cc3c-609b-45ce-be2a-68d5d88e8f0e",
+      "EG915U"
+    ],
+    [
+      "79d53bba-e139-4da9-b77e-bce8c0b9d3fa",
+      "MISC"
+    ],
+    [
+      "7d21a52a-f4b2-4f84-890f-e33fcef8322a",
+      "Modbus_2"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
 }
