@@ -3785,6 +3785,271 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Power:3V8"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3V8"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"3V8\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3V8_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3V8_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Resistor:0402WGF0000TCE"
 			(pin_numbers
 				(hide yes)
@@ -4137,271 +4402,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GNDD"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GNDD"
-				(at 0 -3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GNDD_0_1"
-				(rectangle
-					(start -1.27 -1.524)
-					(end 1.27 -2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDD_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "If unused, keep it open"
 		(exclude_from_sim no)
@@ -4456,6 +4456,32 @@
 		)
 		(uuid "cb55281f-27c1-4b4d-9989-aa7ef1ac14c1")
 	)
+	(text_box "VERIFY CONNECTIONS FOR POWER"
+		(exclude_from_sim no)
+		(at 43.18 12.7 0)
+		(size 15.24 8.0376)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "ed372d3e-f336-4579-823e-26e31bd343c5")
+	)
+	(junction
+		(at 55.88 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0228a892-3b51-4f69-9856-f2a5f8329169")
+	)
 	(junction
 		(at 55.88 48.26)
 		(diameter 0)
@@ -4505,10 +4531,10 @@
 		(uuid "2ab8db42-2acc-470c-affc-fdddbfd29f91")
 	)
 	(junction
-		(at 40.64 25.4)
+		(at 55.88 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "38560ca6-52f2-4e3d-9528-4fc64935e0f8")
+		(uuid "33f6fcff-59bd-483d-81b1-ead9455d3a59")
 	)
 	(junction
 		(at 55.88 58.42)
@@ -4583,10 +4609,22 @@
 		(uuid "b380f3d6-281c-4e3c-936d-6d0636ef0ee9")
 	)
 	(junction
+		(at 55.88 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7da5f02-3ba5-4e13-aae7-19649ceeb49f")
+	)
+	(junction
 		(at 96.52 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b89f8035-5e74-471c-93a9-11e553b58b2a")
+	)
+	(junction
+		(at 40.64 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdf5037f-93e1-4e92-92ba-64d8a97331a6")
 	)
 	(junction
 		(at 55.88 71.12)
@@ -4821,6 +4859,26 @@
 			(type default)
 		)
 		(uuid "0406f997-9942-409e-8459-f1621041d103")
+	)
+	(wire
+		(pts
+			(xy 55.88 30.48) (xy 58.42 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "041ac5df-59d8-4a1d-b715-b6c3de8e7f41")
+	)
+	(wire
+		(pts
+			(xy 55.88 33.02) (xy 58.42 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07ec69a0-b76a-41c9-907f-37b71c8a54d1")
 	)
 	(wire
 		(pts
@@ -5304,6 +5362,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 27.94) (xy 55.88 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90f90f1d-eeb9-4613-b26d-f2a16b2a9413")
+	)
+	(wire
+		(pts
 			(xy 55.88 58.42) (xy 55.88 55.88)
 		)
 		(stroke
@@ -5334,6 +5402,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 25.4) (xy 55.88 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a14ddb6f-ef44-4c3b-afd2-31664adcc758")
+	)
+	(wire
+		(pts
 			(xy 93.98 33.02) (xy 96.52 33.02)
 		)
 		(stroke
@@ -5341,6 +5419,16 @@
 			(type default)
 		)
 		(uuid "a46f2d9d-a1b0-42c9-9581-1e4ee36b4a9c")
+	)
+	(wire
+		(pts
+			(xy 55.88 27.94) (xy 58.42 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e0dcc2-2ce4-43eb-950e-d4d22cd3c2a0")
 	)
 	(wire
 		(pts
@@ -5434,6 +5522,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 30.48) (xy 55.88 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc4d8cd5-0034-4a50-bc67-19094d3c514a")
+	)
+	(wire
+		(pts
 			(xy 55.88 40.64) (xy 55.88 38.1)
 		)
 		(stroke
@@ -5521,6 +5619,16 @@
 			(type default)
 		)
 		(uuid "d8710096-e1b3-4c68-af51-034ed25dec58")
+	)
+	(wire
+		(pts
+			(xy 58.42 25.4) (xy 55.88 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc1407f0-b66e-4dc4-a492-c0fb477215da")
 	)
 	(wire
 		(pts
@@ -6706,7 +6814,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 33.02 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -6727,7 +6835,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 33.02 36.195 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6759,7 +6867,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 33.02 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -6861,7 +6969,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 96.52 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -6882,7 +6990,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 96.52 69.215 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6914,7 +7022,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 96.52 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6945,7 +7053,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 152.4 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -6966,7 +7074,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 152.4 150.495 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6998,7 +7106,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 152.4 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7029,7 +7137,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 40.64 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -7050,7 +7158,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 40.64 36.195 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7082,7 +7190,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 40.64 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -7630,7 +7738,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 34.29 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -7651,7 +7759,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 34.29 114.935 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7683,7 +7791,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 34.29 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -7714,7 +7822,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 144.78 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -7735,7 +7843,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 144.78 150.495 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7767,7 +7875,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 144.78 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -7876,7 +7984,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 55.88 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -7897,7 +8005,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 55.88 107.315 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7929,7 +8037,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 55.88 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7960,7 +8068,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 26.67 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -7981,7 +8089,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 26.67 114.935 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8013,7 +8121,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 26.67 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -8044,7 +8152,91 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:3V8")
+		(at 40.64 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "60dc5c60-1ccd-4bcf-8382-b0612a328566")
+		(property "Reference" "#PWR0145"
+			(at 40.64 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V8"
+			(at 40.64 21.844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3V8\""
+			(at 40.64 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c313792-c4ec-421d-a82b-62f402d91106")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/a75278ad-0629-4f68-97d9-4ae361986074/4323cc3c-609b-45ce-be2a-68d5d88e8f0e"
+					(reference "#PWR0145")
+					(unit 1)
+					(variant
+						(name "Default_LE310X1")
+						(field
+							(name "Value")
+							(value "3V8")
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:GND")
 		(at 167.64 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -8065,7 +8257,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 167.64 150.495 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8097,7 +8289,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 167.64 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9001,7 +9193,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 102.87 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -9022,7 +9214,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 102.87 36.195 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9054,7 +9246,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 102.87 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9352,7 +9544,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 25.4 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -9373,7 +9565,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 25.4 36.195 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9405,7 +9597,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 25.4 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -9429,7 +9621,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 175.26 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -9450,7 +9642,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 175.26 150.495 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9482,7 +9674,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 175.26 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9769,7 +9961,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 160.02 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -9790,7 +9982,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 160.02 61.595 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9822,7 +10014,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 160.02 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11907,90 +12099,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 40.64 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ca648291-193f-407f-903b-6537a2ec89ae")
-		(property "Reference" "#PWR0145"
-			(at 40.64 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 40.64 21.844 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 40.64 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fb975087-b6c1-4a1a-81c6-347a45e39c8a")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/a75278ad-0629-4f68-97d9-4ae361986074/4323cc3c-609b-45ce-be2a-68d5d88e8f0e"
-					(reference "#PWR0145")
-					(unit 1)
-					(variant
-						(name "Default_LE310X1")
-						(field
-							(name "Value")
-							(value "3V8")
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Capacitor:CS3225X7R476K160NRL")
 		(at 33.02 29.21 0)
 		(unit 1)
@@ -12169,7 +12277,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 137.16 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -12190,7 +12298,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 137.16 150.495 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12222,7 +12330,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 137.16 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -12253,7 +12361,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 55.88 73.66 0)
 		(unit 1)
 		(body_style 1)
@@ -12274,7 +12382,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 55.88 76.835 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12306,7 +12414,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 55.88 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -12415,7 +12523,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 110.49 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -12436,7 +12544,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 110.49 36.195 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12468,7 +12576,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 110.49 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -13016,7 +13124,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 160.02 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -13037,7 +13145,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 160.02 150.495 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13069,7 +13177,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 160.02 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -13100,7 +13208,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 139.7 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -13121,7 +13229,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 139.7 61.595 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13153,7 +13261,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 139.7 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -13535,6 +13643,90 @@
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/a75278ad-0629-4f68-97d9-4ae361986074/4323cc3c-609b-45ce-be2a-68d5d88e8f0e"
 					(reference "C65")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:3V8")
+		(at 55.88 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fc49e056-de7b-4e74-8af9-1411bc787e6e")
+		(property "Reference" "#PWR0167"
+			(at 55.88 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V8"
+			(at 55.88 21.844 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3V8\""
+			(at 55.88 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6e8f009a-93cc-446d-8068-3c49dad95c23")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/a75278ad-0629-4f68-97d9-4ae361986074/4323cc3c-609b-45ce-be2a-68d5d88e8f0e"
+					(reference "#PWR0167")
+					(unit 1)
+					(variant
+						(name "Default_LE310X1")
+						(field
+							(name "Value")
+							(value "3V8")
+						)
+					)
 				)
 			)
 		)

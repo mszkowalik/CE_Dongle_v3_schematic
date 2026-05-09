@@ -16,7 +16,7 @@
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
-        "dimension_precision": 4,
+        "dimension_precision": 2,
         "dimension_units": 3,
         "dimensions": {
           "arrow_length": 1270000,
@@ -60,24 +60,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "copper_edge_clearance|132900000|106162500|a03b6784-95c9-41ec-b3d2-afbb08e69136|1ef96d88-a0f3-4b1c-b4fc-d049829d711f",
-          ""
-        ],
-        [
-          "copper_edge_clearance|135450000|106162500|a03b6784-95c9-41ec-b3d2-afbb08e69136|f3c1dbb1-69ce-4eeb-93fa-09f6b1596c85",
-          ""
-        ],
-        [
-          "footprint_type_mismatch|112200000|127400000|a5578508-0bae-41ac-bcf2-a56658e93b07|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "missing_courtyard|130000000|127000000|7e86b6ad-509f-4397-bb6d-b52f6e4f2716|00000000-0000-0000-0000-000000000000",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -515,7 +498,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -536,7 +519,8 @@
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": [
       "Inductors",
-      "Mechanical_7S"
+      "Mechanical_7S",
+      "Power"
     ]
   },
   "meta": {
@@ -642,7 +626,13 @@
       "/PWR/USB_D-": [
         "DC_90"
       ],
+      "Net-(J2-In)": [
+        "SC_50"
+      ],
       "Net-(J3-In)": [
+        "SC_50"
+      ],
+      "Net-(J5-In)": [
         "SC_50"
       ],
       "Net-(U1-ANT)": [
@@ -652,6 +642,9 @@
         "SC_50"
       ],
       "Net-(U13B-ANT_MAIN)": [
+        "SC_50"
+      ],
+      "Net-(U16B-Antenna)": [
         "SC_50"
       ]
     },
@@ -1025,7 +1018,7 @@
         "uuid": "626f6405-d1f3-452a-8480-540e5958a403"
       }
     ],
-    "used_designators": "L6,K1-2,Q6,Q10,C21-22,C24,C47,C62,C80-89,#PWR11,#PWR37,#PWR41,#PWR57,#PWR79-81,#PWR85,#PWR117-118,#PWR167-194,D1,D4-6,D8-10,U16-19,R44,R49-68",
+    "used_designators": "",
     "variants": [
       {
         "name": "Default_LE310X1"
@@ -1058,20 +1051,12 @@
       "MUX"
     ],
     [
-      "0c8454a2-47e6-4ff5-b053-ad46f46bbf5c",
-      "LE310X1"
-    ],
-    [
-      "4323cc3c-609b-45ce-be2a-68d5d88e8f0e",
-      "EG915U"
+      "b137f0fb-54a2-41ba-b992-5fa44b90e361",
+      "LE910R1"
     ],
     [
       "79d53bba-e139-4da9-b77e-bce8c0b9d3fa",
       "MISC"
-    ],
-    [
-      "7d21a52a-f4b2-4f84-890f-e33fcef8322a",
-      "Modbus_2"
     ]
   ],
   "text_variables": {},

@@ -2,3 +2,4 @@
 src/CE_Dongle_V3-backups/*
 src/production/backups/*
 src/fp-info-cache
+src/~*.lck

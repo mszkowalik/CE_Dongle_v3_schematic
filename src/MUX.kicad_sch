@@ -1400,235 +1400,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Resistor:0402WGF1002TCE"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "10K"
-				(at -1.524 0 90)
-				(show_name no)
-				(do_not_autoplace yes)
-				(effects
-					(font
-						(size 1.016 1.016)
-					)
-				)
-			)
-			(property "Footprint" "7Sigma:R_0402_1005Metric"
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "10K 63mW 1% 0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Power" "63mW"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Tolerance" "1%"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Footprint_Name" "0402"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Manufacturer 1" "Uni-Royal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Manufacturer Part Number 1" "0402WGF1002TCE"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Supplier 1" "LCSC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Supplier Part Number 1" "C25744"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "LCSC Part" "C25744"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "0402WGF1002TCE_0_1"
-				(rectangle
-					(start -0.762 2.032)
-					(end 0.762 -2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0402WGF1002TCE_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.778)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.778)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3V3"
+		(symbol "Power:3V3"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1653,7 +1425,7 @@
 					)
 				)
 			)
-			(property "Value" "+3V3"
+			(property "Value" "3V3"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1685,7 +1457,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(property "Description" "Power symbol creates a global label with name \"3V3\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1707,7 +1479,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_0_1"
+			(symbol "3V3_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1745,7 +1517,7 @@
 					)
 				)
 			)
-			(symbol "+3V3_1_1"
+			(symbol "3V3_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1767,7 +1539,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+5V"
+		(symbol "Power:5V0"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1792,7 +1564,7 @@
 					)
 				)
 			)
-			(property "Value" "+5V"
+			(property "Value" "5V0"
 				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1824,7 +1596,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(property "Description" "Power symbol creates a global label with name \"5V0\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1846,7 +1618,7 @@
 					)
 				)
 			)
-			(symbol "+5V_0_1"
+			(symbol "5V0_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -1884,7 +1656,7 @@
 					)
 				)
 			)
-			(symbol "+5V_1_1"
+			(symbol "5V0_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -1906,7 +1678,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GNDD"
+		(symbol "Power:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
@@ -1931,7 +1703,7 @@
 					)
 				)
 			)
-			(property "Value" "GNDD"
+			(property "Value" "GND"
 				(at 0 -3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1963,7 +1735,7 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+			(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1985,7 +1757,7 @@
 					)
 				)
 			)
-			(symbol "GNDD_0_1"
+			(symbol "GND_0_1"
 				(rectangle
 					(start -1.27 -1.524)
 					(end 1.27 -2.032)
@@ -2010,7 +1782,7 @@
 					)
 				)
 			)
-			(symbol "GNDD_1_1"
+			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
@@ -2072,27 +1844,6 @@
 			(justify left top)
 		)
 		(uuid "8b3737a9-7c4f-46df-8c66-963e30fd2fc0")
-	)
-	(text_box "FIX THE PULDOWNS! THEY ARE NOT NEEDED (I THINK)"
-		(exclude_from_sim no)
-		(at 142.24 106.68 0)
-		(size 78.74 53.34)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(color 255 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "b05f7791-a53e-4a02-b680-9691f2c5a417")
 	)
 	(junction
 		(at 38.1 48.26)
@@ -2187,6 +1938,14 @@
 	(no_connect
 		(at 71.12 58.42)
 		(uuid "395a28c3-d7b4-4a5b-839a-93a9177fe92f")
+	)
+	(no_connect
+		(at 190.5 45.72)
+		(uuid "5abb41e7-875d-4f49-b8ee-6ddc8060b77c")
+	)
+	(no_connect
+		(at 190.5 81.28)
+		(uuid "79b58973-94de-48a1-9771-1abccb232d93")
 	)
 	(no_connect
 		(at 71.12 137.16)
@@ -2529,16 +2288,6 @@
 			(type default)
 		)
 		(uuid "3be84bd1-2cb3-455b-b40a-4fc5e7167dae")
-	)
-	(wire
-		(pts
-			(xy 190.5 81.28) (xy 210.82 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ec15d14-268b-47fa-b617-42e7ee097e50")
 	)
 	(wire
 		(pts
@@ -2979,16 +2728,6 @@
 			(type default)
 		)
 		(uuid "9cc4e3c9-d231-4241-8e6a-e82d4b867f2f")
-	)
-	(wire
-		(pts
-			(xy 190.5 45.72) (xy 210.82 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2558a26-509d-444d-ae16-3327605e0036")
 	)
 	(wire
 		(pts
@@ -3501,7 +3240,7 @@
 		(uuid "0b82c266-b5a2-4d38-8013-21928b189486")
 	)
 	(label "MUX_2_EN"
-		(at 105.41 129.54 180)
+		(at 114.3 129.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3531,7 +3270,7 @@
 		(uuid "0e3af391-eea6-4076-8105-7979cc7e5aa6")
 	)
 	(label "MUX_0_EN"
-		(at 110.49 50.8 180)
+		(at 114.3 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3671,7 +3410,7 @@
 		(uuid "46916f4e-7ce6-4a89-94de-7a3fa4fda9d1")
 	)
 	(label "MUX_1_EN"
-		(at 109.22 88.9 180)
+		(at 114.3 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4120,16 +3859,6 @@
 		)
 		(uuid "dd53d128-a6c0-4ba5-996f-f72084ea5a23")
 	)
-	(label "I2C_nINT"
-		(at 210.82 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dfb8ce73-db8b-4aaa-8d12-465261176f22")
-	)
 	(label "IN_4"
 		(at 58.42 121.92 0)
 		(effects
@@ -4189,16 +3918,6 @@
 			(justify left bottom)
 		)
 		(uuid "f8a1fbeb-3e53-46a6-b384-53a05b129863")
-	)
-	(label "I2C_nINT"
-		(at 210.82 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fbdaf8b1-90d0-4123-ac3a-7ce6eec4725c")
 	)
 	(label "MUX_1_2"
 		(at 114.3 86.36 180)
@@ -4341,177 +4060,6 @@
 			(justify right)
 		)
 		(uuid "d0630747-37bc-47da-914a-19661a3ad62c")
-	)
-	(symbol
-		(lib_id "Resistor:0402WGF1002TCE")
-		(at 114.3 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "02287c5c-6dbc-4c11-b600-ba125db2f665")
-		(property "Reference" "R37"
-			(at 116.332 54.61 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 112.776 54.61 90)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 112.522 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-			(at 114.3 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10K 63mW 1% 0402"
-			(at 114.3 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "63mW"
-			(at 114.3 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 114.3 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint_Name" "0402"
-			(at 114.3 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer 1" "Uni-Royal"
-			(at 114.3 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer Part Number 1" "0402WGF1002TCE"
-			(at 114.3 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 114.3 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier Part Number 1" "C25744"
-			(at 114.3 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 114.3 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "10884460-6e1f-4712-968c-9f277205b94e")
-		)
-		(pin "2"
-			(uuid "89bfaa2d-37f6-489c-bd86-d1f06513c892")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
-					(reference "R37")
-					(unit 1)
-					(variant
-						(name "Default_LE310X1")
-						(dnp yes)
-					)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "ICs:PCF8574RGTR")
@@ -4873,7 +4421,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 93.98 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -4894,7 +4442,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 93.98 64.135 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4926,7 +4474,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 93.98 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4957,7 +4505,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 58.42 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -4978,7 +4526,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 58.42 66.675 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5010,7 +4558,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 58.42 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5041,7 +4589,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "Power:5V0")
 		(at 102.87 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -5062,7 +4610,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V0"
 			(at 102.87 98.044 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5094,7 +4642,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"5V0\""
 			(at 102.87 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -5125,7 +4673,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "Power:5V0")
 		(at 100.33 19.05 0)
 		(unit 1)
 		(body_style 1)
@@ -5146,7 +4694,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V0"
 			(at 100.33 15.494 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5178,7 +4726,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"5V0\""
 			(at 100.33 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -5209,7 +4757,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "Power:5V0")
 		(at 93.98 33.02 0)
 		(unit 1)
 		(body_style 1)
@@ -5230,7 +4778,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V0"
 			(at 93.98 29.464 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5262,7 +4810,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"5V0\""
 			(at 93.98 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -5471,7 +5019,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "Power:3V3")
 		(at 193.04 71.12 0)
 		(mirror y)
 		(unit 1)
@@ -5493,7 +5041,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V3"
 			(at 193.04 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5525,7 +5073,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
 			(at 193.04 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -5556,7 +5104,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "Power:5V0")
 		(at 93.98 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -5577,7 +5125,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V0"
 			(at 93.98 67.564 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5609,7 +5157,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"5V0\""
 			(at 93.98 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6007,7 +5555,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "Power:3V3")
 		(at 200.66 22.86 0)
 		(unit 1)
 		(body_style 1)
@@ -6028,7 +5576,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V3"
 			(at 200.66 19.304 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6060,7 +5608,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
 			(at 200.66 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -6280,7 +5828,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "Power:3V3")
 		(at 193.04 35.56 0)
 		(mirror y)
 		(unit 1)
@@ -6302,7 +5850,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V3"
 			(at 193.04 32.004 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6334,7 +5882,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
 			(at 193.04 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -6365,7 +5913,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 38.1 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -6386,7 +5934,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 38.1 66.675 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6418,7 +5966,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 38.1 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6449,7 +5997,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "Power:3V3")
 		(at 220.98 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -6470,7 +6018,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V3"
 			(at 220.98 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6502,7 +6050,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
 			(at 220.98 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6533,7 +6081,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "Power:5V0")
 		(at 93.98 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -6554,7 +6102,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V0"
 			(at 93.98 108.204 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6586,7 +6134,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"5V0\""
 			(at 93.98 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6799,7 +6347,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 93.98 177.8 0)
 		(unit 1)
 		(body_style 1)
@@ -6820,7 +6368,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 93.98 180.975 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6852,7 +6400,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 93.98 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -6870,90 +6418,6 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
 					(reference "#PWR063")
-					(unit 1)
-					(variant
-						(name "Default_LE310X1")
-						(field
-							(name "Value")
-							(value "GND")
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 114.3 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "611d2137-e701-4047-84fd-1aa1c5b0d799")
-		(property "Reference" "#PWR073"
-			(at 114.3 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 114.3 61.595 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 114.3 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "753d9e75-8246-4090-b48e-0ab4868b078a")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
-					(reference "#PWR073")
 					(unit 1)
 					(variant
 						(name "Default_LE310X1")
@@ -7145,91 +6609,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 114.3 137.16 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "72193219-49d7-432b-bcc8-afd09e174d0f")
-		(property "Reference" "#PWR075"
-			(at 114.3 143.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 114.3 140.335 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 114.3 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0b9ac06e-9b48-4772-bab5-179729cc5558")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
-					(reference "#PWR075")
-					(unit 1)
-					(variant
-						(name "Default_LE310X1")
-						(field
-							(name "Value")
-							(value "GND")
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 48.26 22.86 180)
 		(unit 1)
 		(body_style 1)
@@ -7250,7 +6630,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 48.26 19.685 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7282,7 +6662,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 48.26 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -7313,7 +6693,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 27.94 22.86 180)
 		(unit 1)
 		(body_style 1)
@@ -7334,7 +6714,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 27.94 19.685 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7366,7 +6746,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 27.94 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -7397,7 +6777,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 102.87 69.85 0)
 		(unit 1)
 		(body_style 1)
@@ -7418,7 +6798,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 102.87 73.025 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7450,7 +6830,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 102.87 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7658,7 +7038,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 193.04 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -7679,7 +7059,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 193.04 61.595 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7711,7 +7091,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 193.04 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7736,177 +7116,6 @@
 							(name "Value")
 							(value "GND")
 						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistor:0402WGF1002TCE")
-		(at 114.3 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8fa5f539-8ad6-4bea-ac3d-ff46bdfb026a")
-		(property "Reference" "R40"
-			(at 116.332 171.45 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 112.776 171.45 90)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 112.522 171.45 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-			(at 114.3 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10K 63mW 1% 0402"
-			(at 114.3 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "63mW"
-			(at 114.3 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 114.3 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint_Name" "0402"
-			(at 114.3 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer 1" "Uni-Royal"
-			(at 114.3 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer Part Number 1" "0402WGF1002TCE"
-			(at 114.3 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 114.3 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier Part Number 1" "C25744"
-			(at 114.3 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 114.3 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9fd72366-0cdd-4723-9866-cc20770466b0")
-		)
-		(pin "2"
-			(uuid "7f738359-0d71-488f-b16e-936233dcdfb2")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
-					(reference "R40")
-					(unit 1)
-					(variant
-						(name "Default_LE310X1")
-						(dnp yes)
 					)
 				)
 			)
@@ -8458,7 +7667,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "Power:5V0")
 		(at 102.87 62.23 0)
 		(unit 1)
 		(body_style 1)
@@ -8479,7 +7688,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V0"
 			(at 102.87 58.674 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8511,7 +7720,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"5V0\""
 			(at 102.87 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8719,7 +7928,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 93.98 99.06 0)
 		(unit 1)
 		(body_style 1)
@@ -8740,7 +7949,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 93.98 102.235 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8772,7 +7981,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 93.98 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8803,7 +8012,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 27.94 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -8824,7 +8033,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 27.94 66.675 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8856,7 +8065,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 27.94 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -9076,7 +8285,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "Power:5V0")
 		(at 93.98 149.86 0)
 		(unit 1)
 		(body_style 1)
@@ -9097,7 +8306,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V0"
 			(at 93.98 146.304 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9129,7 +8338,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"5V0\""
 			(at 93.98 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -9516,91 +8725,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 114.3 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b852407a-dabc-40ca-98d9-d0a661acc3df")
-		(property "Reference" "#PWR074"
-			(at 114.3 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 114.3 99.695 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 114.3 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "392ea9b6-d5fd-494c-84f1-d8c03b6c5b77")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
-					(reference "#PWR074")
-					(unit 1)
-					(variant
-						(name "Default_LE310X1")
-						(field
-							(name "Value")
-							(value "GND")
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 200.66 30.48 0)
 		(unit 1)
 		(body_style 1)
@@ -9621,7 +8746,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 200.66 33.655 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9653,7 +8778,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 200.66 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9684,7 +8809,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
+		(lib_id "Power:5V0")
 		(at 101.6 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -9705,7 +8830,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V0"
 			(at 101.6 136.144 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9737,7 +8862,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
+		(property "Description" "Power symbol creates a global label with name \"5V0\""
 			(at 101.6 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9768,178 +8893,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:0402WGF1002TCE")
-		(at 114.3 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c753a972-adf1-4d97-9b54-ada5efd5756b")
-		(property "Reference" "R39"
-			(at 116.332 133.35 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 112.776 133.35 90)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 112.522 133.35 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-			(at 114.3 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10K 63mW 1% 0402"
-			(at 114.3 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "63mW"
-			(at 114.3 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 114.3 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint_Name" "0402"
-			(at 114.3 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer 1" "Uni-Royal"
-			(at 114.3 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer Part Number 1" "0402WGF1002TCE"
-			(at 114.3 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 114.3 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier Part Number 1" "C25744"
-			(at 114.3 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 114.3 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e9c39d61-b535-42f9-a711-0f6bead080c6")
-		)
-		(pin "2"
-			(uuid "999dd35e-08fb-406f-a00d-c6eaace3e413")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
-					(reference "R39")
-					(unit 1)
-					(variant
-						(name "Default_LE310X1")
-						(dnp yes)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 48.26 63.5 0)
 		(unit 1)
 		(body_style 1)
@@ -9960,7 +8914,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 48.26 66.675 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9992,7 +8946,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 48.26 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -10023,7 +8977,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 38.1 22.86 180)
 		(unit 1)
 		(body_style 1)
@@ -10044,7 +8998,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 38.1 19.685 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10076,7 +9030,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 38.1 22.86 0)
 			(hide yes)
 			(show_name no)
@@ -10107,7 +9061,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 101.6 147.32 0)
 		(unit 1)
 		(body_style 1)
@@ -10128,7 +9082,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 101.6 150.495 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10160,7 +9114,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 101.6 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -10191,178 +9145,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:0402WGF1002TCE")
-		(at 114.3 92.71 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ce017271-131c-4324-a36d-2686eff7a8cf")
-		(property "Reference" "R38"
-			(at 116.332 92.71 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 112.776 92.71 90)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 112.522 92.71 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-			(at 114.3 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "10K 63mW 1% 0402"
-			(at 114.3 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "63mW"
-			(at 114.3 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 114.3 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint_Name" "0402"
-			(at 114.3 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer 1" "Uni-Royal"
-			(at 114.3 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer Part Number 1" "0402WGF1002TCE"
-			(at 114.3 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 114.3 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier Part Number 1" "C25744"
-			(at 114.3 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part" "C25744"
-			(at 114.3 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "342a25c8-d2b8-43d4-9e3a-bc80db383be1")
-		)
-		(pin "2"
-			(uuid "105deee9-cab8-495d-a197-557e3079779e")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
-					(reference "R38")
-					(unit 1)
-					(variant
-						(name "Default_LE310X1")
-						(dnp yes)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 102.87 109.22 0)
 		(unit 1)
 		(body_style 1)
@@ -10383,7 +9166,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 102.87 112.395 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10415,7 +9198,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 102.87 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10446,7 +9229,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "Power:3V3")
 		(at 193.04 83.82 270)
 		(mirror x)
 		(unit 1)
@@ -10468,7 +9251,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V3"
 			(at 196.596 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10500,7 +9283,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
 			(at 193.04 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -10531,7 +9314,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 193.04 93.98 0)
 		(unit 1)
 		(body_style 1)
@@ -10552,7 +9335,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 193.04 97.155 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10584,7 +9367,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 193.04 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -10615,7 +9398,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 93.98 139.7 0)
 		(unit 1)
 		(body_style 1)
@@ -10636,7 +9419,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 93.98 142.875 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10668,7 +9451,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 93.98 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -10699,7 +9482,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 100.33 26.67 0)
 		(unit 1)
 		(body_style 1)
@@ -10720,7 +9503,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 100.33 29.845 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10752,7 +9535,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 100.33 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -10972,7 +9755,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 220.98 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -10993,7 +9776,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 220.98 80.645 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11025,7 +9808,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 220.98 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -11043,90 +9826,6 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
 					(reference "#PWR090")
-					(unit 1)
-					(variant
-						(name "Default_LE310X1")
-						(field
-							(name "Value")
-							(value "GND")
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 114.3 175.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e4401198-17ce-42b4-ac12-eee5da897a7f")
-		(property "Reference" "#PWR076"
-			(at 114.3 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GNDD"
-			(at 114.3 178.435 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 114.3 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 114.3 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 114.3 175.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "26f1d68b-b023-4f82-9053-da7a1178e191")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/cdcc747e-a54e-4b1f-96d1-56d6aa2ac9cf"
-					(reference "#PWR076")
 					(unit 1)
 					(variant
 						(name "Default_LE310X1")
@@ -11317,7 +10016,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 57.15 22.86 180)
 		(unit 1)
 		(body_style 1)
@@ -11338,7 +10037,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 57.15 19.685 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11370,7 +10069,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 57.15 22.86 0)
 			(hide yes)
 			(show_name no)

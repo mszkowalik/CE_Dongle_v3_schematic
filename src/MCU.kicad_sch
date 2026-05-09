@@ -5,7 +5,7 @@
 	(uuid "760473cb-6843-4482-873e-1c616065a956")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Buttons:KH-6X6X9H-TJ"
+		(symbol "Buttons:KH-6X6X7H-STM"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -26,7 +26,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "KH-6X6X9H-TJ"
+			(property "Value" "KH-6X6X7H-STM"
 				(at 0 -3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -36,7 +36,7 @@
 					)
 				)
 			)
-			(property "Footprint" "7Sigma:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5-H9.0"
+			(property "Footprint" "7Sigma:SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-H7.0"
 				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -47,7 +47,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081503_Shenzhen-Kinghelm-Elec-KH-6X6X9H-TJ_C2837519.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2837533.pdf"
 				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -58,7 +58,7 @@
 					)
 				)
 			)
-			(property "Description" "SMD Tactile Switch 6.0x6.0mm Top Actuation Height 9.0mm"
+			(property "Description" "SMD Tactile Switch 6.0x6.0mm Top Actuation Height 7.0mm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -80,7 +80,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number 1" "KH-6X6X9H-TJ"
+			(property "Manufacturer Part Number 1" "KH-6X6X7H-STM"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -102,7 +102,7 @@
 					)
 				)
 			)
-			(property "Supplier Part Number 1" "C2837519"
+			(property "Supplier Part Number 1" "C2837533"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -113,7 +113,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C2837519"
+			(property "LCSC Part" "C2837533"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -146,7 +146,294 @@
 					)
 				)
 			)
-			(symbol "KH-6X6X9H-TJ_0_1"
+			(symbol "KH-6X6X7H-STM_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 3.81) (xy 2.286 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.778 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 2.54) (xy 2.286 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Buttons:TC-6615-9.0-160G"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0.635 5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "TC-6615-9.0-160G"
+				(at 0 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "7Sigma:SW-TH_4P-RA-L6.0-W6.0-H9.0"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/00ba1333f734c320d9923544e703b5e6.pdf?productCode=C6575016"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "TH Tactile Switch 6.0x6.0mm Right-Angle Actuation Lever 9.0mm 160gf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer 1" "HCTL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Manufacturer Part Number 1" "TC-6615-9.0-160G"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Supplier 1" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Supplier Part Number 1" "C6575016"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "LCSC Part" "C6575016"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SW*MEC*5G*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TC-6615-9.0-160G_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
@@ -3554,7 +3841,155 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LEDs:XL-1615RGBC-RF"
+		(symbol "Mechanical_7S:FIX-LEMB2-4.8V0-F"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LP"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FIX-LEMB2-4.8V0-F"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "7Sigma:FIX-LEMB2-4.8V0-F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.tme.eu/Document/ff2728ec20ffc962365f3d27dbd8df78/FIX-LEMB.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Transparent PC light pipe, L=4.8mm, head Ø2.3, post Ø1.9 in Ø1.98 mounting hole, 60° conical lens (FIX&fasten FIX-LEMB2-4.8V0-F)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "FIX&fasten"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Manufacturer Part Number" "FIX-LEMB2-4.8V0-F"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "ki_keywords" "lightpipe light pipe optical lens transparent PC mechanical"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FIX-LEMB2-4.8V0-F_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 1.524)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "LP"
+					(at 0 -2.54 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Power:3V3"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -3564,28 +3999,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 9.398 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "XL-3227SURUGC"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "7Sigma:LED-SMD_4P-L1.6-W1.5-BR"
-				(at 0 -1.27 0)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -3595,18 +4010,17 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C965840.pdf"
-				(at 0 -1.27 0)
+			(property "Value" "3V3"
+				(at 0 3.556 0)
 				(show_name no)
 				(do_not_autoplace no)
-				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Description" "LED RGB 20mA Common Anode"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3617,106 +4031,7 @@
 					)
 				)
 			)
-			(property "Forward Current" "20mA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Forward Voltage" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Color" "RGB"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Lens" "Clear"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Manufacturer 1" "XINGLIGHT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Manufacturer Part Number 1" "XL-1615RGBC-RF"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Supplier 1" "LCSC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Supplier Part Number 1" "C965840"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "LCSC Part" "C965840"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "ki_keywords" "LED RGB diode"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3727,7 +4042,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(property "Description" "Power symbol creates a global label with name \"3V3\""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -3738,48 +4053,21 @@
 					)
 				)
 			)
-			(symbol "XL-1615RGBC-RF_0_0"
-				(text "R"
-					(at -1.905 3.81 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "G"
-					(at -1.905 -1.27 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(text "B"
-					(at -1.905 -6.35 0)
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(symbol "XL-1615RGBC-RF_0_1"
+			(symbol "3V3_0_1"
 				(polyline
 					(pts
-						(xy -1.27 6.35) (xy -1.27 3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
+						(xy -0.762 1.27) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -3791,7 +4079,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 5.08) (xy -2.54 5.08)
+						(xy 0 2.54) (xy 0.762 1.27)
 					)
 					(stroke
 						(width 0)
@@ -3803,7 +4091,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 5.08) (xy 1.27 5.08)
+						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
 						(width 0)
@@ -3811,296 +4099,14 @@
 					)
 					(fill
 						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -3.81) (xy -1.27 -6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy -2.54 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -5.08) (xy 1.27 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 6.35)
-					(end 1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 3.81)
-					(end 1.27 6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 1.27)
-					(end 1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.27 -1.27)
-					(end 1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 2.794 8.382)
-					(end -2.794 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
 					)
 				)
 			)
-			(symbol "XL-1615RGBC-RF_1_1"
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 2.54)
-					(name "RK"
+			(symbol "3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4115,53 +4121,125 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 2.54)
-					(name "BK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
 				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "GK"
+			)
+			(property "Value" "GND"
+				(at 0 -3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5396,271 +5474,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3V3"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3V3"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3V3\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3V3_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3V3_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:GNDD"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GNDD"
-				(at 0 -3.175 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GNDD_0_1"
-				(rectangle
-					(start -1.27 -1.524)
-					(end 1.27 -2.032)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GNDD_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "VDDA (RADIO)"
 		(exclude_from_sim no)
@@ -5743,12 +5556,6 @@
 		(uuid "cbcfd52e-29d4-4e3c-83e1-b805e1e6cbc9")
 	)
 	(junction
-		(at 50.8 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "164463cc-b2a9-41f1-af56-168e2ef6a8bb")
-	)
-	(junction
 		(at 271.78 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5759,6 +5566,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "342fed3f-fc90-4a66-83e3-72ef498a1014")
+	)
+	(junction
+		(at 50.8 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3510d402-648d-4645-a3a4-918058d2522a")
 	)
 	(junction
 		(at 139.7 45.72)
@@ -5803,12 +5616,6 @@
 		(uuid "8521002e-eae0-4ef8-b8ac-204144d889c4")
 	)
 	(junction
-		(at 76.2 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86cb05dc-fee6-48a1-b711-dbe638c32eb4")
-	)
-	(junction
 		(at 226.06 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5839,6 +5646,12 @@
 		(uuid "b10d9666-5195-4cd4-ba4d-89f0f7c28081")
 	)
 	(junction
+		(at 76.2 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf8a1fe4-022c-4686-89a5-34d8c00d49d2")
+	)
+	(junction
 		(at 76.2 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5855,10 +5668,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e8587c6d-cb9a-4fc3-a69b-dea7dbbdab61")
-	)
-	(no_connect
-		(at 266.7 124.46)
-		(uuid "c079a234-fe23-4856-86a4-6b3eaee233e3")
 	)
 	(wire
 		(pts
@@ -5882,16 +5691,6 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 124.46) (xy 246.38 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07d2c09b-1c3b-4809-b1cd-f0c4a65743b3")
-	)
-	(wire
-		(pts
 			(xy 226.06 156.21) (xy 233.68 156.21)
 		)
 		(stroke
@@ -5902,16 +5701,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 81.28) (xy 99.06 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d764f79-6415-441c-a8e3-970537fcadf4")
-	)
-	(wire
-		(pts
 			(xy 205.74 151.13) (xy 218.44 151.13)
 		)
 		(stroke
@@ -5919,16 +5708,6 @@
 			(type default)
 		)
 		(uuid "0e361c75-c58a-498a-9e8b-f5e0841b68fe")
-	)
-	(wire
-		(pts
-			(xy 81.28 106.68) (xy 99.06 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10baeb05-afc1-4288-a4d4-5633ce5d397d")
 	)
 	(wire
 		(pts
@@ -5992,26 +5771,6 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 119.38) (xy 243.84 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21f2a85a-faf1-4f19-963c-d1a25eac3255")
-	)
-	(wire
-		(pts
-			(xy 243.84 121.92) (xy 246.38 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "233cf082-5f54-4c5c-960e-997b4edd0dcf")
-	)
-	(wire
-		(pts
 			(xy 205.74 146.05) (xy 218.44 146.05)
 		)
 		(stroke
@@ -6029,16 +5788,6 @@
 			(type default)
 		)
 		(uuid "2afff5ed-d812-4e21-823b-bfd24c47e052")
-	)
-	(wire
-		(pts
-			(xy 251.46 93.98) (xy 241.3 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35c9797a-e33c-4f08-8aaf-8c16379bc984")
 	)
 	(wire
 		(pts
@@ -6069,6 +5818,16 @@
 			(type default)
 		)
 		(uuid "3a2b746f-707b-4a89-b83b-af877c8b8b40")
+	)
+	(wire
+		(pts
+			(xy 252.73 104.14) (xy 252.73 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d131edc-2461-4c73-9a08-7f97700b72a0")
 	)
 	(wire
 		(pts
@@ -6172,16 +5931,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 93.98) (xy 261.62 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5965e98e-4504-406d-b39a-1fec1a59bc89")
-	)
-	(wire
-		(pts
 			(xy 226.06 146.05) (xy 233.68 146.05)
 		)
 		(stroke
@@ -6199,16 +5948,6 @@
 			(type default)
 		)
 		(uuid "5e466f7a-20c1-4781-a59e-5565ab76ca95")
-	)
-	(wire
-		(pts
-			(xy 259.08 99.06) (xy 261.62 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5fcc78be-40ac-41d5-b9a7-d4125473a522")
 	)
 	(wire
 		(pts
@@ -6232,6 +5971,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 135.89) (xy 226.06 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64502ccd-ae5c-4a22-9932-772f9b0a2490")
+	)
+	(wire
+		(pts
 			(xy 48.26 53.34) (xy 55.88 53.34)
 		)
 		(stroke
@@ -6239,6 +5988,16 @@
 			(type default)
 		)
 		(uuid "6679f48e-0fdd-41e3-9e97-ff6c3cfc1792")
+	)
+	(wire
+		(pts
+			(xy 252.73 106.68) (xy 255.27 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6776372d-b575-4f5a-b9a2-804504294883")
 	)
 	(wire
 		(pts
@@ -6292,7 +6051,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 55.88) (xy 137.16 55.88)
+			(xy 137.16 55.88) (xy 147.32 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6332,6 +6091,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 109.22) (xy 255.27 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "910ac165-615f-427b-a766-9867a943d773")
+	)
+	(wire
+		(pts
 			(xy 172.72 45.72) (xy 175.26 45.72)
 		)
 		(stroke
@@ -6359,16 +6128,6 @@
 			(type default)
 		)
 		(uuid "98ff427d-63be-4c32-a68c-cdf9999e9bf0")
-	)
-	(wire
-		(pts
-			(xy 259.08 88.9) (xy 261.62 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b579b46-dfb2-43f2-9572-821f6900ba99")
 	)
 	(wire
 		(pts
@@ -6662,16 +6421,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 88.9) (xy 241.3 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dae11535-97fa-446a-9a9a-1ee5d0d0e2bd")
-	)
-	(wire
-		(pts
 			(xy 226.06 151.13) (xy 233.68 151.13)
 		)
 		(stroke
@@ -6772,7 +6521,17 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 140.97) (xy 271.78 143.51)
+			(xy 279.4 139.7) (xy 271.78 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1520775-aaa3-41c5-a12f-525cc7884ba8")
+	)
+	(wire
+		(pts
+			(xy 271.78 139.7) (xy 271.78 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6812,16 +6571,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 99.06) (xy 241.3 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcceb78a-990d-4453-b8a0-42b4098fa058")
-	)
-	(wire
-		(pts
 			(xy 170.18 119.38) (xy 182.88 119.38)
 		)
 		(stroke
@@ -6839,16 +6588,6 @@
 			(type default)
 		)
 		(uuid "fe6526e6-f56f-48ec-8b6d-1de96bdb77f4")
-	)
-	(wire
-		(pts
-			(xy 81.28 104.14) (xy 99.06 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff7c7d99-5cd7-421e-9115-03daadaa0023")
 	)
 	(wire
 		(pts
@@ -6890,6 +6629,16 @@
 		)
 		(uuid "168a3708-ed86-4b36-ab1c-e9acbd975264")
 	)
+	(label "VDD_SPI"
+		(at 215.9 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fa5f25f-4a01-4e6f-81ae-70008c51c28a")
+	)
 	(label "UART0_TX"
 		(at 81.28 45.72 0)
 		(effects
@@ -6921,15 +6670,15 @@
 		)
 		(uuid "2a2b1d20-6bc2-45fd-ba4d-97cc51a7fd57")
 	)
-	(label "LED_DATA"
-		(at 233.68 124.46 0)
+	(label "VDD_SPI"
+		(at 279.4 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "2e011f6d-3c04-44b2-846c-501bb8451ac6")
+		(uuid "3246f8e2-095a-453c-aabe-c0a0ab7f4b6b")
 	)
 	(label "SPI_CLK"
 		(at 162.56 63.5 180)
@@ -6940,6 +6689,16 @@
 			(justify right bottom)
 		)
 		(uuid "33adf8b3-e09f-423b-8c91-118aa3763b34")
+	)
+	(label "VDD_SPI"
+		(at 147.32 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c11966d-3cb6-4fc2-871b-fcdfcf948884")
 	)
 	(label "SPI_CLK"
 		(at 205.74 146.05 0)
@@ -6992,16 +6751,6 @@
 		)
 		(uuid "68b18011-1c7f-4808-883c-51a4b1820d4c")
 	)
-	(label "LED_B"
-		(at 241.3 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7b95a825-d69a-47c5-b71c-a27387c0f982")
-	)
 	(label "UART0_RX"
 		(at 81.28 43.18 0)
 		(effects
@@ -7022,16 +6771,6 @@
 		)
 		(uuid "7fdc578f-2b34-4971-81b6-ba8705b09b99")
 	)
-	(label "LED_G"
-		(at 241.3 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8000fd30-4dcb-4bc3-843e-9732ebb0efca")
-	)
 	(label "SPI_CS0"
 		(at 162.56 66.04 180)
 		(effects
@@ -7041,6 +6780,16 @@
 			(justify right bottom)
 		)
 		(uuid "80a1812a-d884-4a4f-9241-17abcb837eb9")
+	)
+	(label "LED_DATA"
+		(at 242.57 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88806697-2813-4c91-9d03-c24b0ba37b3a")
 	)
 	(label "SPI_WP"
 		(at 162.56 76.2 180)
@@ -7091,16 +6840,6 @@
 			(justify left bottom)
 		)
 		(uuid "ab62ab46-4f4c-4d7b-901d-0d0647fe6835")
-	)
-	(label "LED_R"
-		(at 241.3 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b0269320-f08b-497f-a609-ad902a52d007")
 	)
 	(label "SPI_D"
 		(at 162.56 68.58 180)
@@ -7257,6 +6996,17 @@
 		)
 		(uuid "00f3646f-7af9-4cd2-92c7-406163915041")
 	)
+	(hierarchical_label "LED_DATA"
+		(shape output)
+		(at 162.56 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "07484f3b-7318-4a8a-b4f1-1684d3ddbd52")
+	)
 	(hierarchical_label "RY1_CTRL"
 		(shape output)
 		(at 81.28 99.06 180)
@@ -7300,28 +7050,6 @@
 			(justify left)
 		)
 		(uuid "1b87426a-f571-4bbf-8afc-db750f7f0caa")
-	)
-	(hierarchical_label "MODBUS2_RX"
-		(shape input)
-		(at 195.58 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "282d0e2e-4fa4-46a2-b965-14aa79169f3e")
-	)
-	(hierarchical_label "MODBUS2_TX_EN"
-		(shape output)
-		(at 195.58 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "356831e9-7c5f-46b9-8c74-7a1c5fb48216")
 	)
 	(hierarchical_label "USB_DP"
 		(shape tri_state)
@@ -7378,17 +7106,6 @@
 		)
 		(uuid "a94022d0-b3cf-4a0c-a958-53f103675776")
 	)
-	(hierarchical_label "LTE_RX"
-		(shape input)
-		(at 81.28 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "aa419d68-dc61-4ea6-a5c5-d948bfd38fc3")
-	)
 	(hierarchical_label "USB_DM"
 		(shape tri_state)
 		(at 165.1 99.06 0)
@@ -7399,39 +7116,6 @@
 			(justify left)
 		)
 		(uuid "c4e458a3-7dcd-4707-a0f1-0539503ffd9b")
-	)
-	(hierarchical_label "IN2"
-		(shape input)
-		(at 81.28 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c6386461-a1e2-472d-86a1-b715bf2ade0c")
-	)
-	(hierarchical_label "IN1"
-		(shape input)
-		(at 81.28 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ce9836f0-1bad-4e20-82e4-f7a39f1d8135")
-	)
-	(hierarchical_label "MODBUS2_TX"
-		(shape output)
-		(at 195.58 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "db8fafd0-8629-45cd-84db-c66eaec8d995")
 	)
 	(hierarchical_label "LTE_SHUTDOWN"
 		(shape output)
@@ -7914,7 +7598,149 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "Buttons:KH-6X6X7H-STM")
+		(at 76.2 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09aa817e-0b02-498c-9c76-bf9a439c165b")
+		(property "Reference" "SW2"
+			(at 70.485 169.545 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "KH-6X6X7H-STM"
+			(at 79.375 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7Sigma:SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-H7.0"
+			(at 68.58 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2837533.pdf"
+			(at 68.58 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD Tactile Switch 6.0x6.0mm Top Actuation Height 7.0mm"
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 1" "Shenzhen Kinghelm Elec"
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "KH-6X6X7H-STM"
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" "C2837533"
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part" "C2837533"
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "4"
+			(uuid "dbf11b71-3052-4804-bc4c-0d6431c8e710")
+		)
+		(pin "3"
+			(uuid "53873cb2-1010-4fa5-9240-000a4ff5a8e8")
+		)
+		(pin "2"
+			(uuid "eec6b1bd-ae95-47ec-9b96-a90de9c97ce3")
+		)
+		(pin "1"
+			(uuid "b74bb6c8-35b7-4ff2-956d-7b540be704d6")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:3V3")
 		(at 185.42 45.72 0)
 		(unit 1)
 		(body_style 1)
@@ -7967,7 +7793,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
 			(at 185.42 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8004,155 +7830,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Buttons:KH-6X6X9H-TJ")
-		(at 76.2 170.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0d39a31f-d03a-4ec2-9913-607c3ee0e994")
-		(property "Reference" "SW_BOOT1"
-			(at 77.724 175.514 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "KH-6X6X9H-TJ"
-			(at 79.375 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5-H9.0"
-			(at 68.58 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081503_Shenzhen-Kinghelm-Elec-KH-6X6X9H-TJ_C2837519.pdf"
-			(at 68.58 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD Tactile Switch 6.0x6.0mm Top Actuation Height 9.0mm"
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer 1" "Shenzhen Kinghelm Elec"
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer Part Number 1" "KH-6X6X9H-TJ"
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier Part Number 1" "C2837519"
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part" "C2837519"
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a05aaff2-092f-4e13-8ae9-defe01c3c1a2")
-		)
-		(pin "1"
-			(uuid "6029c62a-c5f0-44db-b601-0cb925952a5c")
-		)
-		(pin "4"
-			(uuid "bfb49820-27d8-462a-85de-d2bbadf70638")
-		)
-		(pin "3"
-			(uuid "68097eab-d18a-4445-889b-c5962bd7c41d")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "SW_BOOT1")
-					(unit 1)
-				)
-			)
-			(project "MCU"
-				(path "/760473cb-6843-4482-873e-1c616065a956"
-					(reference "SW_BOOT?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 76.2 175.26 0)
 		(unit 1)
 		(body_style 1)
@@ -8205,7 +7883,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 76.2 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -8235,7 +7913,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 184.15 31.75 0)
 		(unit 1)
 		(body_style 1)
@@ -8288,7 +7966,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 184.15 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -8312,6 +7990,83 @@
 			(project "MCU"
 				(path "/760473cb-6843-4482-873e-1c616065a956"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:3V3")
+		(at 252.73 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "103998f2-8259-4fdf-89e3-d4f6959d8b72")
+		(property "Reference" "#PWR079"
+			(at 252.73 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 252.73 100.584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 252.73 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 252.73 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
+			(at 252.73 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "66b90ae6-841c-4fb0-bc27-bdfbc308d7c7")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -8502,7 +8257,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "Power:3V3")
 		(at 161.29 24.13 0)
 		(unit 1)
 		(body_style 1)
@@ -8555,7 +8310,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
 			(at 161.29 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -8982,7 +8737,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 137.16 109.22 0)
 		(unit 1)
 		(body_style 1)
@@ -9035,7 +8790,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 137.16 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9238,7 +8993,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 182.88 127 0)
 		(unit 1)
 		(body_style 1)
@@ -9291,7 +9046,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 182.88 127 0)
 			(hide yes)
 			(show_name no)
@@ -9488,341 +9243,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:0402WGF1200TCE")
-		(at 255.27 93.98 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2bdbb11f-8bcd-4145-b380-b45233179339")
-		(property "Reference" "R19"
-			(at 252.73 92.202 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120R"
-			(at 255.27 92.456 90)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 255.27 92.202 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-			(at 255.27 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "120R 63mW 1% 0402"
-			(at 255.27 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "63mW"
-			(at 255.27 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 255.27 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint_Name" "0402"
-			(at 255.27 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer 1" "Uni-Royal"
-			(at 255.27 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer Part Number 1" "0402WGF1200TCE"
-			(at 255.27 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 255.27 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier Part Number 1" "C25079"
-			(at 255.27 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part" "C25079"
-			(at 255.27 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c5aeb4ae-428e-4ec8-9dc6-d78297148495")
-		)
-		(pin "2"
-			(uuid "a8cfd381-6e78-4810-8420-c0768d10eca8")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-			(project "MCU"
-				(path "/760473cb-6843-4482-873e-1c616065a956"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 139.7 55.88 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2ea0b21b-7d25-473e-ac59-99f566c7f5b0")
-		(property "Reference" "#PWR014"
-			(at 135.89 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VDD_SPI"
-			(at 146.558 55.88 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 139.7 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 139.7 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 139.7 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a32f2681-c8c0-47ac-94a2-06aae28f7661")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "#PWR014")
-					(unit 1)
-					(variant
-						(name "Default_LE310X1")
-						(field
-							(name "Value")
-							(value "VDD_SPI")
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
-		(at 266.7 121.92 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2f12011b-c1d1-4d14-9c04-2b1b88fec0b7")
-		(property "Reference" "#PWR085"
-			(at 273.05 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 269.875 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 266.7 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 266.7 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 266.7 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e606ea54-f60e-47e4-bfbb-7b311f8ff5fb")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "#PWR085")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 161.29 31.75 0)
 		(unit 1)
 		(body_style 1)
@@ -9875,7 +9296,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 161.29 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -10100,7 +9521,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "Power:3V3")
 		(at 139.7 50.8 270)
 		(unit 1)
 		(body_style 1)
@@ -10122,7 +9543,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 144.018 50.8 90)
+			(at 143.256 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10153,7 +9574,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
 			(at 139.7 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -10190,7 +9611,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 157.48 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -10243,7 +9664,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 157.48 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10273,7 +9694,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "Power:3V3")
 		(at 184.15 24.13 0)
 		(unit 1)
 		(body_style 1)
@@ -10326,7 +9747,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
 			(at 184.15 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -10357,179 +9778,6 @@
 			(project "MCU"
 				(path "/760473cb-6843-4482-873e-1c616065a956"
 					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistor:0402WGF1200TCE")
-		(at 255.27 99.06 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "413b36f4-7519-444a-8187-0921b124d95d")
-		(property "Reference" "R24"
-			(at 252.73 97.282 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120R"
-			(at 255.27 97.536 90)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 255.27 97.282 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-			(at 255.27 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "120R 63mW 1% 0402"
-			(at 255.27 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "63mW"
-			(at 255.27 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 255.27 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint_Name" "0402"
-			(at 255.27 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer 1" "Uni-Royal"
-			(at 255.27 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer Part Number 1" "0402WGF1200TCE"
-			(at 255.27 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 255.27 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier Part Number 1" "C25079"
-			(at 255.27 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part" "C25079"
-			(at 255.27 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8b540f07-4d88-4913-8bff-c07545e4d803")
-		)
-		(pin "2"
-			(uuid "f7a33cd5-02c5-4cf6-b969-e7ee0c294f12")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "R24")
-					(unit 1)
-				)
-			)
-			(project "MCU"
-				(path "/760473cb-6843-4482-873e-1c616065a956"
-					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -10709,7 +9957,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 185.42 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -10762,7 +10010,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 185.42 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -10792,7 +10040,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "Power:3V3")
 		(at 152.4 127 0)
 		(unit 1)
 		(body_style 1)
@@ -10845,7 +10093,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
 			(at 152.4 127 0)
 			(hide yes)
 			(show_name no)
@@ -11412,84 +10660,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
-		(at 236.22 116.84 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "51bccece-da2d-4f70-9c1e-44d0212d9782")
-		(property "Reference" "#PWR080"
-			(at 236.22 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 236.22 120.015 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
-			(at 236.22 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9b4c9d1f-5f5f-49d9-89d9-fd79b6f81fab")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 21.59 82.55 270)
 		(unit 1)
 		(body_style 1)
@@ -11542,7 +10713,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 21.59 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -11572,289 +10743,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connectors:BWSMA-KE-P001")
-		(at 43.18 53.34 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "551c6e99-b309-46ec-bb1f-3335083bb205")
-		(property "Reference" "J3"
-			(at 42.926 50.292 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 40.259 53.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:SMA-SMD_BWSMA-KE-P001"
-			(at 43.18 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C496550.pdf"
-			(at 43.18 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RP-SMA Board Mount"
-			(at 43.18 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer 1" "BAT WIRELESS"
-			(at 43.18 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer Part Number 1" "BWSMA-KE-P001"
-			(at 43.18 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 43.18 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier Part Number 1" "C496550"
-			(at 43.18 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part" "C496550"
-			(at 43.18 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "94c300bc-f6ab-4da0-a44a-6b19f0d0c2e9")
-		)
-		(pin "2"
-			(uuid "e360d5f6-9563-42f7-bb41-657446a09da2")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-			(project "MCU"
-				(path "/760473cb-6843-4482-873e-1c616065a956"
-					(reference "J?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ICs:WS2812E-1313")
-		(at 256.54 123.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "58d0d16e-1934-471b-8f67-41b7afed58ea")
-		(property "Reference" "U17"
-			(at 256.54 118.364 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WS2812"
-			(at 256.54 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:LED-SMD_4P-L1.3-W1.3-P0.80_WS2812E-1313"
-			(at 256.54 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2402291527_Worldsemi-WS2812E-1313_C5446700.pdf"
-			(at 256.54 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Serial RGB LED"
-			(at 256.54 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer 1" "Worldsemi"
-			(at 256.54 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer Part Number 1" "WS2812E-1313"
-			(at 256.54 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 256.54 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier Part Number 1" "C5446700"
-			(at 256.54 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part" "C5446700"
-			(at 256.54 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a21cb515-b82f-4758-a9ac-0fcdc6a4be0c")
-		)
-		(pin "2"
-			(uuid "7255a750-a6d6-4504-a38c-88a8333f7866")
-		)
-		(pin "4"
-			(uuid "f878c3a0-01ad-40b4-8bac-09dbffbc2f14")
-		)
-		(pin "3"
-			(uuid "1bd71cf6-a28e-4382-928d-84964778566a")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "U17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 43.18 58.42 0)
 		(unit 1)
 		(body_style 1)
@@ -11907,7 +10796,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 43.18 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11931,6 +10820,83 @@
 			(project "MCU"
 				(path "/760473cb-6843-4482-873e-1c616065a956"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:GND")
+		(at 275.59 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5cdae129-b0d2-458c-8c34-d761615c742a")
+		(property "Reference" "#PWR085"
+			(at 281.94 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 278.765 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
+			(at 275.59 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "010bc241-6d33-4ad5-a5a3-dafed22b1540")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -12305,7 +11271,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 194.31 31.75 0)
 		(unit 1)
 		(body_style 1)
@@ -12358,7 +11324,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 194.31 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -12388,7 +11354,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 271.78 156.21 0)
 		(unit 1)
 		(body_style 1)
@@ -12441,7 +11407,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 271.78 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -12471,328 +11437,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Buttons:KH-6X6X9H-TJ")
-		(at 50.8 170.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6d2c8813-1068-4321-87b1-dae3437ecbc6")
-		(property "Reference" "SW_RST1"
-			(at 52.578 174.498 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "KH-6X6X9H-TJ"
-			(at 53.975 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:SW-TH_4P-L6.0-W6.0-P4.50-LS6.5-H9.0"
-			(at 43.18 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2106081503_Shenzhen-Kinghelm-Elec-KH-6X6X9H-TJ_C2837519.pdf"
-			(at 43.18 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD Tactile Switch 6.0x6.0mm Top Actuation Height 9.0mm"
-			(at 50.8 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer 1" "Shenzhen Kinghelm Elec"
-			(at 50.8 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer Part Number 1" "KH-6X6X9H-TJ"
-			(at 50.8 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 50.8 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier Part Number 1" "C2837519"
-			(at 50.8 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part" "C2837519"
-			(at 50.8 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "c9e2d6ff-067c-4fcc-bc5a-08371ecd5a2d")
-		)
-		(pin "1"
-			(uuid "ef614169-ce24-478b-9d12-9630bc3c4f3a")
-		)
-		(pin "4"
-			(uuid "51848ad3-452c-4504-ae50-ecf7ea58e530")
-		)
-		(pin "3"
-			(uuid "b4b8e4a0-0478-4797-b49f-1cbd7f80b065")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "SW_RST1")
-					(unit 1)
-				)
-			)
-			(project "MCU"
-				(path "/760473cb-6843-4482-873e-1c616065a956"
-					(reference "SW_RST?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Resistor:0402WGF1200TCE")
-		(at 255.27 88.9 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6d82e62c-71cc-4242-bd48-a04983d2169b")
-		(property "Reference" "R23"
-			(at 252.73 87.122 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120R"
-			(at 255.27 87.376 90)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.016 1.016)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 255.27 87.122 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-			(at 255.27 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "120R 63mW 1% 0402"
-			(at 255.27 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Power" "63mW"
-			(at 255.27 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 255.27 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint_Name" "0402"
-			(at 255.27 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer 1" "Uni-Royal"
-			(at 255.27 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer Part Number 1" "0402WGF1200TCE"
-			(at 255.27 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 255.27 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier Part Number 1" "C25079"
-			(at 255.27 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part" "C25079"
-			(at 255.27 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0dd66798-938d-423b-9beb-d5b69e4ad7a2")
-		)
-		(pin "2"
-			(uuid "454703b7-24d7-46ae-924b-f20b0dcee591")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-			(project "MCU"
-				(path "/760473cb-6843-4482-873e-1c616065a956"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 21.59 102.87 270)
 		(unit 1)
 		(body_style 1)
@@ -12845,7 +11490,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 21.59 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -12869,6 +11514,101 @@
 			(project "MCU"
 				(path "/760473cb-6843-4482-873e-1c616065a956"
 					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical_7S:FIX-LEMB2-4.8V0-F")
+		(at 265.43 88.9 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "73c7a4b1-2f8c-4cdb-b867-77611281cd83")
+		(property "Reference" "LP1"
+			(at 265.43 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "FIX-LEMB2-4.8V0-F"
+			(at 265.43 93.98 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7Sigma:FIX-LEMB2-4.8V0-F"
+			(at 265.43 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tme.eu/Document/ff2728ec20ffc962365f3d27dbd8df78/FIX-LEMB.pdf"
+			(at 265.43 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Transparent PC light pipe, L=4.8mm, head Ø2.3, post Ø1.9 in Ø1.98 mounting hole, 60° conical lens (FIX&fasten FIX-LEMB2-4.8V0-F)"
+			(at 265.43 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "FIX&fasten"
+			(at 265.43 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "FIX-LEMB2-4.8V0-F"
+			(at 265.43 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
+					(reference "LP1")
 					(unit 1)
 				)
 			)
@@ -13222,6 +11962,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Connectors:BWSMA-KE-P001")
+		(at 43.18 53.34 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "822ca33d-c10f-486e-b296-23182980963e")
+		(property "Reference" "J5"
+			(at 42.926 50.292 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 40.259 53.34 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7Sigma:SMA-SMD_BWSMA-KE-P001"
+			(at 43.18 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C496550.pdf"
+			(at 43.18 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RP-SMA Board Mount"
+			(at 43.18 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 1" "BAT WIRELESS"
+			(at 43.18 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "BWSMA-KE-P001"
+			(at 43.18 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 43.18 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" "C496550"
+			(at 43.18 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part" "C496550"
+			(at 43.18 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "05064561-408f-4c56-be31-773f615d0565")
+		)
+		(pin "2"
+			(uuid "83debfaf-a22c-457d-b1c1-ebf20a0460c9")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistor:0402WGF220JTCE")
 		(at 222.25 151.13 90)
 		(unit 1)
@@ -13395,7 +12271,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 55.88 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -13448,7 +12324,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 55.88 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -13478,7 +12354,147 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "ICs:WS2812E-1313")
+		(at 265.43 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9077b234-ae66-44f6-80cd-80ab08c1912f")
+		(property "Reference" "U17"
+			(at 265.43 103.124 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812"
+			(at 265.43 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7Sigma:LED-SMD_4P-L1.3-W1.3-P0.80_WS2812E-1313"
+			(at 265.43 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2402291527_Worldsemi-WS2812E-1313_C5446700.pdf"
+			(at 265.43 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Serial RGB LED"
+			(at 265.43 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 1" "Worldsemi"
+			(at 265.43 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "WS2812E-1313"
+			(at 265.43 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 265.43 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" "C5446700"
+			(at 265.43 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part" "C5446700"
+			(at 265.43 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9caece2-bdfb-4447-bda7-bd48c4a57875")
+		)
+		(pin "2"
+			(uuid "7007c857-3718-4d7b-a3d2-35b0e1694fbb")
+		)
+		(pin "4"
+			(uuid "2a0bcbd2-bc48-4365-aa66-479b060dd525")
+		)
+		(pin "3"
+			(uuid "15531adf-150b-4103-97b8-94a5e294b4d7")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
+					(reference "U17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:GND")
 		(at 82.55 172.72 0)
 		(unit 1)
 		(body_style 1)
@@ -13531,7 +12547,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 82.55 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -13561,7 +12577,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "Power:3V3")
 		(at 76.2 152.4 0)
 		(unit 1)
 		(body_style 1)
@@ -13614,7 +12630,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
 			(at 76.2 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13824,7 +12840,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "Power:3V3")
 		(at 171.45 24.13 0)
 		(unit 1)
 		(body_style 1)
@@ -13877,7 +12893,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
 			(at 171.45 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -13914,7 +12930,185 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "Capacitor:GRM155R61H105KE05D")
+		(at 245.11 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9664daa5-f478-4ecb-bce2-e6785fed181a")
+		(property "Reference" "C22"
+			(at 245.364 95.758 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 245.364 99.822 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "7Sigma:C_0402_1005Metric"
+			(at 246.0752 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2201180430_Murata-Electronics-GRM155R61H105KE05D_C1518208.pdf?_gl=1*1ue1ana*_ga*MjA3NTA3NDE1NC4xNzE1NDMyNTIw*_ga_98M84MKSZH*MTcxNzQwNTAzMi45LjEuMTcxNzQwNTIwOS41OS4wLjA."
+			(at 245.11 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1uF 50V X5R 1% 0402"
+			(at 245.11 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 243.84 99.314 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 243.84 100.33 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 245.11 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint_Name" "0402"
+			(at 245.11 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer 1" "Murata Electronics"
+			(at 245.11 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "GRM155R61H105KE05D"
+			(at 245.11 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 245.11 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" "C1518208"
+			(at 245.11 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part" "C1518208"
+			(at 245.11 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fcbc7091-dbcd-43f9-8b8e-f853bedc1dc2")
+		)
+		(pin "2"
+			(uuid "d82ac70a-8d54-4480-aa8c-0881d52102ba")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
+					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:3V3")
 		(at 50.8 152.4 0)
 		(unit 1)
 		(body_style 1)
@@ -13967,7 +13161,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
 			(at 50.8 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13985,96 +13179,6 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
 					(reference "#PWR039")
-					(unit 1)
-					(variant
-						(name "Default_LE310X1")
-						(field
-							(name "Value")
-							(value "3V3")
-						)
-					)
-				)
-			)
-			(project "MCU"
-				(path "/760473cb-6843-4482-873e-1c616065a956"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 271.78 93.98 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "98961426-e40d-4c46-8ac0-75893116efa3")
-		(property "Reference" "#PWR044"
-			(at 267.97 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 275.336 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 271.78 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 271.78 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c7fc1900-fb3f-46fe-8704-c11d5c219805")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "#PWR044")
 					(unit 1)
 					(variant
 						(name "Default_LE310X1")
@@ -14267,7 +13371,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "Power:3V3")
 		(at 139.7 40.64 270)
 		(unit 1)
 		(body_style 1)
@@ -14289,7 +13393,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 144.018 40.64 90)
+			(at 143.256 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14320,7 +13424,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
 			(at 139.7 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -14357,7 +13461,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 57.15 172.72 0)
 		(unit 1)
 		(body_style 1)
@@ -14410,7 +13514,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 57.15 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -14624,374 +13728,6 @@
 		)
 	)
 	(symbol
-		(lib_id "LEDs:XL-1615RGBC-RF")
-		(at 266.7 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a977d695-cab2-4474-8e6a-7b421038c474")
-		(property "Reference" "D7"
-			(at 266.7 84.582 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "XL-3227SURUGC"
-			(at 266.7 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:LED-SMD_4P-L1.6-W1.5-BR"
-			(at 266.7 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C965840.pdf"
-			(at 266.7 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "LED RGB 20mA Common Anode"
-			(at 266.7 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Forward Current" "20mA"
-			(at 266.7 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Color" "RGB"
-			(at 266.7 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Lens" "Clear"
-			(at 266.7 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer 1" "XINGLIGHT"
-			(at 266.7 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer Part Number 1" "XL-1615RGBC-RF"
-			(at 266.7 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 266.7 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier Part Number 1" "C965840"
-			(at 266.7 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part" "C965840"
-			(at 266.7 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Forward Voltage" ""
-			(at 266.7 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "54539f33-1e94-49f8-8b1f-513915e604e3")
-		)
-		(pin "4"
-			(uuid "e29749d1-2ed8-43b6-84e3-8ffec5df1d1e")
-		)
-		(pin "3"
-			(uuid "b89a391c-2606-4fbb-aa50-bb8070a8a919")
-		)
-		(pin "2"
-			(uuid "2d7f4fb8-fb3e-472b-a483-ce9764caf5fc")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-			(project "MCU"
-				(path "/760473cb-6843-4482-873e-1c616065a956"
-					(reference "D?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Capacitor:GRM155R61H105KE05D")
-		(at 236.22 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ae348cb8-c38a-4a4b-ad09-66ba9d3835d7")
-		(property "Reference" "C22"
-			(at 236.474 110.998 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 236.474 115.062 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "7Sigma:C_0402_1005Metric"
-			(at 237.1852 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2201180430_Murata-Electronics-GRM155R61H105KE05D_C1518208.pdf?_gl=1*1ue1ana*_ga*MjA3NTA3NDE1NC4xNzE1NDMyNTIw*_ga_98M84MKSZH*MTcxNzQwNTAzMi45LjEuMTcxNzQwNTIwOS41OS4wLjA."
-			(at 236.22 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "1uF 50V X5R 1% 0402"
-			(at 236.22 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Dielectric" "X5R"
-			(at 234.95 114.554 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Voltage" "50V"
-			(at 234.95 115.57 0)
-			(show_name no)
-			(do_not_autoplace yes)
-			(effects
-				(font
-					(size 0.635 0.635)
-				)
-			)
-		)
-		(property "Tolerance" "1%"
-			(at 236.22 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint_Name" "0402"
-			(at 236.22 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer 1" "Murata Electronics"
-			(at 236.22 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer Part Number 1" "GRM155R61H105KE05D"
-			(at 236.22 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 236.22 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier Part Number 1" "C1518208"
-			(at 236.22 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part" "C1518208"
-			(at 236.22 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8eac5244-420c-4ee7-9930-275931d3059f")
-		)
-		(pin "2"
-			(uuid "5a5ede95-7eab-4015-8b5b-dc1d9ff8b814")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Inductors:LQW15AN2N2C10D")
 		(at 167.64 45.72 0)
 		(unit 1)
@@ -15165,84 +13901,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 243.84 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b8381f66-4207-4ea6-b10b-d1325c2280fe")
-		(property "Reference" "#PWR079"
-			(at 243.84 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3"
-			(at 243.84 115.824 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 243.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7a152e41-c16f-4cab-ba50-4246b2e1ac38")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 34.29 92.71 0)
 		(unit 1)
 		(body_style 1)
@@ -15263,7 +13922,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 34.29 95.885 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15295,7 +13954,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 34.29 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -15346,7 +14005,7 @@
 			)
 		)
 		(property "Value" "ESP32-C6"
-			(at 118.11 115.57 0)
+			(at 116.84 113.284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15586,7 +14245,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 171.45 31.75 0)
 		(unit 1)
 		(body_style 1)
@@ -15639,7 +14298,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 171.45 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -15853,7 +14512,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
+		(lib_id "Power:3V3")
 		(at 194.31 24.13 0)
 		(unit 1)
 		(body_style 1)
@@ -15906,7 +14565,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
 			(at 194.31 24.13 0)
 			(hide yes)
 			(show_name no)
@@ -15943,7 +14602,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 76.2 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -15996,7 +14655,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 76.2 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -16026,7 +14685,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 195.58 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -16079,7 +14738,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 195.58 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -16109,7 +14768,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 50.8 175.26 0)
 		(unit 1)
 		(body_style 1)
@@ -16162,7 +14821,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 50.8 175.26 0)
 			(hide yes)
 			(show_name no)
@@ -16387,8 +15046,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 271.78 140.97 0)
+		(lib_id "Buttons:TC-6615-9.0-160G")
+		(at 50.8 170.18 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16396,9 +15055,20 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d6e770d0-cf97-4137-aa7f-ca43a32d6192")
-		(property "Reference" "#PWR083"
-			(at 271.78 144.78 0)
+		(uuid "db5034f1-fb3a-4312-9e08-e7fa73712067")
+		(property "Reference" "SW1"
+			(at 45.085 169.545 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TC-6615-9.0-160G"
+			(at 53.975 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16408,18 +15078,8 @@
 				)
 			)
 		)
-		(property "Value" "VDD_SPI"
-			(at 271.78 137.414 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 271.78 140.97 0)
+		(property "Footprint" "7Sigma:SW-TH_4P-RA-L6.0-W6.0-H9.0"
+			(at 43.18 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16429,8 +15089,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 271.78 140.97 0)
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/00ba1333f734c320d9923544e703b5e6.pdf?productCode=C6575016"
+			(at 43.18 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16440,8 +15100,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 271.78 140.97 0)
+		(property "Description" "TH Tactile Switch 6.0x6.0mm Right-Angle Actuation Lever 9.0mm 160gf"
+			(at 50.8 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16450,28 +15110,85 @@
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(property "Manufacturer 1" "HCTL"
+			(at 50.8 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "TC-6615-9.0-160G"
+			(at 50.8 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 50.8 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" "C6575016"
+			(at 50.8 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part" "C6575016"
+			(at 50.8 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "f5e6b109-5ce2-45de-a632-0311353d57df")
+		)
+		(pin "4"
+			(uuid "702a7add-b473-455f-a720-3bf3bc91cee6")
 		)
 		(pin "1"
-			(uuid "3ac68290-68aa-4406-ba66-54e196342bfe")
+			(uuid "7f5a041f-2145-4bba-a77a-3259e3c03388")
+		)
+		(pin "2"
+			(uuid "e7cb65fd-732c-4a5d-97f5-b731bb7f02b0")
 		)
 		(instances
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "#PWR083")
+					(reference "SW1")
 					(unit 1)
-					(variant
-						(name "Default_LE310X1")
-						(field
-							(name "Value")
-							(value "VDD_SPI")
-						)
-					)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 26.67 92.71 270)
 		(unit 1)
 		(body_style 1)
@@ -16492,7 +15209,7 @@
 				)
 			)
 		)
-		(property "Value" "GNDD"
+		(property "Value" "GND"
 			(at 23.495 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16524,7 +15241,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 26.67 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16735,6 +15452,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Power:3V3")
+		(at 245.11 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3194ad5-cb05-4912-834d-79719dc10e5c")
+		(property "Reference" "#PWR081"
+			(at 245.11 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 245.11 90.424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"3V3\""
+			(at 245.11 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f5ab675d-a4da-4a17-858a-3542a7e1d53a")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistor:0402WGF1002TCE")
 		(at 182.88 123.19 0)
 		(unit 1)
@@ -16902,8 +15696,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 226.06 135.89 0)
+		(lib_id "Power:GND")
+		(at 245.11 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16911,9 +15705,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e775ce32-5246-45b0-9d1f-66ed22cf4387")
-		(property "Reference" "#PWR084"
-			(at 226.06 139.7 0)
+		(uuid "ea4fcc51-80b7-499b-a8cf-5ac8c71eddf6")
+		(property "Reference" "#PWR080"
+			(at 245.11 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16923,8 +15717,8 @@
 				)
 			)
 		)
-		(property "Value" "VDD_SPI"
-			(at 226.06 132.334 0)
+		(property "Value" "GND"
+			(at 245.11 104.775 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16934,7 +15728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 226.06 135.89 0)
+			(at 245.11 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16945,7 +15739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 226.06 135.89 0)
+			(at 245.11 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16955,92 +15749,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 226.06 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b568b3c0-4d1e-4291-baba-18351708313b")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "#PWR084")
-					(unit 1)
-					(variant
-						(name "Default_LE310X1")
-						(field
-							(name "Value")
-							(value "VDD_SPI")
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 236.22 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e8d7342f-217c-4d5f-bc88-c97dccc251c0")
-		(property "Reference" "#PWR081"
-			(at 236.22 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3"
-			(at 236.22 105.664 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 236.22 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 236.22 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 236.22 109.22 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
+			(at 245.11 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17051,12 +15761,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "e197d047-db45-412c-b9b1-f1cda6302673")
+			(uuid "6636c0d6-7c28-43c2-b4a2-d814ceef8ed8")
 		)
 		(instances
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "#PWR081")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -18200,7 +16910,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDD")
+		(lib_id "Power:GND")
 		(at 175.26 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -18253,7 +16963,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GNDD\" , digital ground"
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
 			(at 175.26 53.34 0)
 			(hide yes)
 			(show_name no)
