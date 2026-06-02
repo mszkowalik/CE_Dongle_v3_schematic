@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOM cost viewer</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;font-size:14px;color:#1a1a1a;background:#f5f5f3;padding:24px}
+  h1{font-size:18px;font-weight:500;margin-bottom:4px}
+  .sub{font-size:13px;color:#666;margin-bottom:20px}
+  .grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:24px}
+  .card{background:#fff;border:1px solid #e5e5e2;border-radius:8px;padding:14px 16px}
+  .card-label{font-size:11px;color:#888;margin-bottom:6px}
+  .card-value{font-size:22px;font-weight:500}
+  .card-sub{font-size:11px;color:#aaa;margin-top:3px}
+  .panel{background:#fff;border:1px solid #e5e5e2;border-radius:8px;padding:20px;margin-bottom:20px}
+  .tabs{display:flex;gap:6px;margin-bottom:14px;flex-wrap:wrap}
+  .tab{font-size:12px;padding:4px 14px;border-radius:20px;border:1px solid #ddd;cursor:pointer;background:#fff;color:#666}
+  .tab.active{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+  .search-row{display:flex;gap:10px;margin-bottom:12px;align-items:center}
+  .search-row input[type=text]{flex:1;padding:7px 10px;border:1px solid #ddd;border-radius:6px;font-size:13px;outline:none}
+  .search-row input[type=text]:focus{border-color:#888}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th{text-align:left;padding:8px 10px;font-size:11px;font-weight:500;color:#888;border-bottom:1px solid #eee;cursor:pointer;white-space:nowrap;user-select:none}
+  th:hover{color:#333}
+  td{padding:8px 10px;border-bottom:1px solid #f0f0f0;vertical-align:middle}
+  tr:last-child td{border-bottom:none}
+  tr:hover td{background:#fafaf8}
+  .num{text-align:right;font-variant-numeric:tabular-nums}
+  .flag{display:inline-block;font-size:10px;padding:1px 5px;border-radius:3px;font-weight:500;margin-left:4px;vertical-align:middle}
+  .flag-dnp{background:#fef3c7;color:#92400e}
+  .flag-excl{background:#f3f4f6;color:#6b7280}
+  .flag-nopr{background:#fee2e2;color:#991b1b}
+  .bar-bg{background:#f0f0f0;border-radius:2px;height:7px;width:90px}
+  .bar-fill{height:7px;border-radius:2px}
+  .summary{font-size:11px;color:#888;margin-top:8px}
+  .cat-dot{display:inline-block;width:9px;height:9px;border-radius:2px;margin-right:5px;vertical-align:middle}
+
+  /* splash */
+  #splash{position:fixed;inset:0;background:#f5f5f3;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:16px;z-index:100}
+  #splash h2{font-size:20px;font-weight:500}
+  #splash p{font-size:13px;color:#888;max-width:360px;text-align:center;line-height:1.6}
+  .btn{padding:9px 20px;border-radius:7px;border:none;cursor:pointer;font-size:13px;font-weight:500}
+  .btn-primary{background:#1a1a1a;color:#fff}
+  .btn-primary:hover{background:#333}
+  .btn-sm{background:#f0f0ee;color:#555;font-size:12px;padding:5px 12px;border:none;border-radius:6px;cursor:pointer}
+  .btn-sm:hover{background:#e5e5e2}
+  .btn-danger{background:#fee2e2;color:#991b1b;font-size:12px;padding:5px 12px;border:none;border-radius:6px;cursor:pointer}
+  .btn-danger:hover{background:#fecaca}
+
+  #app{display:none}
+  .topbar{display:flex;align-items:center;gap:10px;margin-bottom:4px;flex-wrap:wrap}
+  .topbar h1{flex:1;min-width:0}
+  .watch-pill{font-size:11px;padding:3px 10px;border-radius:10px;white-space:nowrap}
+  .watch-pill.live{background:#dcfce7;color:#166534}
+  .watch-pill.paused{background:#f3f4f6;color:#6b7280}
+  .watch-pill.error{background:#fee2e2;color:#991b1b}
+
+  #fallback-input{display:none}
+
+  /* remembered-file notice on splash */
+  #remembered-box{background:#fff;border:1px solid #e5e5e2;border-radius:10px;padding:16px 20px;text-align:center;max-width:380px;width:100%}
+  #remembered-box .filename{font-weight:500;font-size:13px;margin:6px 0 12px;color:#1a1a1a;word-break:break-all}
+  #remembered-box .hint{font-size:11px;color:#aaa;margin-top:8px}
+  .row-btns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+</style>
+</head>
+<body>
+
+<!-- ── splash ── -->
+<div id="splash">
+  <h2>BOM cost viewer</h2>
+
+  <!-- shown when a file handle is remembered from a previous session -->
+  <div id="remembered-box" style="display:none">
+    <div style="font-size:11px;color:#888">Last used file</div>
+    <div class="filename" id="remembered-name"></div>
+    <div class="row-btns">
+      <button class="btn btn-primary" onclick="resumeFile()">Open &amp; watch</button>
+      <button class="btn-sm" onclick="pickNewFile()">Choose different…</button>
+      <button class="btn-danger" onclick="forgetFile()">Forget</button>
+    </div>
+    <div class="hint">The browser will ask for permission once per session — this is a security requirement.</div>
+  </div>
+
+  <!-- shown when no file is remembered -->
+  <div id="fresh-box">
+    <p>Open your KiCad BOM CSV. The file will be watched for changes and the view reloads automatically.</p>
+    <div class="row-btns" style="margin-top:8px">
+      <button class="btn btn-primary" onclick="pickNewFile()">Open CSV…</button>
+      <label class="btn-sm" for="fallback-input" style="display:inline-block;padding:5px 12px;border-radius:6px;cursor:pointer">Firefox / Safari…</label>
+    </div>
+    <p style="font-size:11px;color:#bbb;margin-top:12px">No data leaves your machine</p>
+  </div>
+
+  <input type="file" id="fallback-input" accept=".csv" onchange="fallbackLoad(this)">
+</div>
+
+<!-- ── main app ── -->
+<div id="app">
+  <div class="topbar">
+    <h1 id="title">BOM cost</h1>
+    <span class="watch-pill live" id="watch-pill">● live</span>
+    <button class="btn-sm" onclick="pickNewFile()">Change file…</button>
+    <button class="btn-danger" onclick="forgetAndReset()">Forget file</button>
+  </div>
+  <p class="sub" id="sub-line">Prices at bulk qty · excludes DNP and excluded-from-board items · missing prices shown in red</p>
+
+  <div class="grid" id="metrics"></div>
+
+  <div class="panel">
+    <div style="position:relative;height:320px">
+      <canvas id="chart" role="img" aria-label="Top 20 BOM positions by cost"></canvas>
+    </div>
+  </div>
+
+  <div class="panel">
+    <div class="tabs">
+      <button class="tab active" onclick="setView('all',this)">All</button>
+      <button class="tab" onclick="setView('priced',this)">Priced only</button>
+      <button class="tab" onclick="setView('IC',this)">ICs</button>
+      <button class="tab" onclick="setView('Passive',this)">Passives</button>
+      <button class="tab" onclick="setView('Connector',this)">Connectors</button>
+      <button class="tab" onclick="setView('Mechanical',this)">Mechanical</button>
+      <button class="tab" onclick="setView('Test Point',this)">Test Points</button>
+    </div>
+    <div class="search-row">
+      <input type="text" id="search" placeholder="Search reference or value…" oninput="render()">
+    </div>
+    <div style="overflow-x:auto">
+      <table>
+        <thead><tr>
+          <th onclick="doSort('ref')">Reference</th>
+          <th onclick="doSort('val')">Value</th>
+          <th onclick="doSort('mpn')">MPN</th>
+          <th class="num" onclick="doSort('qty')">Qty</th>
+          <th class="num" onclick="doSort('unit')">Unit $</th>
+          <th class="num" onclick="doSort('total')">Position $</th>
+          <th class="num" onclick="doSort('pct')">% BOM</th>
+          <th></th>
+        </tr></thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <p class="summary" id="summary-line"></p>
+  </div>
+</div>
+
+<script>
+// ────────────────────────────────────────────────────────────────────────────
+// constants & state
+// ────────────────────────────────────────────────────────────────────────────
+const CAT_COLOR = {
+  IC:'#3266ad', Transistor:'#7F77DD', Diode:'#D85A30',
+  Resistor:'#888780', Capacitor:'#1D9E75', Inductor:'#0C447C',
+  Connector:'#BA7517', 'Switch/Relay':'#D4537E', Crystal:'#639922',
+  'Test Point':'#b0b0a8', Mechanical:'#c9a96e', Other:'#5F5E5A'
+};
+const POLL_MS   = 1500;
+const IDB_NAME  = 'bom-viewer';
+const IDB_STORE = 'handles';
+const IDB_KEY   = 'csv';
+
+let fileHandle   = null;
+let lastModified = null;
+let watchTimer   = null;
+let chartInst    = null;
+let bom = [], grandTotal = 0, maxTotal = 0;
+let sortKey = 'total', sortDir = -1, viewFilter = 'all';
+
+// ────────────────────────────────────────────────────────────────────────────
+// IndexedDB helpers — persist the FileSystemFileHandle across page loads
+// ────────────────────────────────────────────────────────────────────────────
+function openDB() {
+  return new Promise((res, rej) => {
+    const req = indexedDB.open(IDB_NAME, 1);
+    req.onupgradeneeded = e => e.target.result.createObjectStore(IDB_STORE);
+    req.onsuccess = e => res(e.target.result);
+    req.onerror   = e => rej(e.target.error);
+  });
+}
+async function saveHandle(h) {
+  try {
+    const db = await openDB();
+    const tx = db.transaction(IDB_STORE, 'readwrite');
+    tx.objectStore(IDB_STORE).put(h, IDB_KEY);
+  } catch(e) { console.warn('saveHandle', e); }
+}
+async function loadHandle() {
+  try {
+    const db = await openDB();
+    return await new Promise((res, rej) => {
+      const tx  = db.transaction(IDB_STORE, 'readonly');
+      const req = tx.objectStore(IDB_STORE).get(IDB_KEY);
+      req.onsuccess = e => res(e.target.result || null);
+      req.onerror   = e => rej(e.target.error);
+    });
+  } catch(e) { return null; }
+}
+async function clearHandle() {
+  try {
+    const db = await openDB();
+    const tx = db.transaction(IDB_STORE, 'readwrite');
+    tx.objectStore(IDB_STORE).delete(IDB_KEY);
+  } catch(e) { console.warn('clearHandle', e); }
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// startup — check for remembered file
+// ────────────────────────────────────────────────────────────────────────────
+(async function init() {
+  if (!('showOpenFilePicker' in window)) {
+    // File System Access API not available; stay on splash with fallback only
+    document.getElementById('fresh-box').querySelector('p').textContent =
+      'Open your KiCad BOM CSV. Auto-reload is not supported in this browser — use Chrome or Edge for live watching.';
+    return;
+  }
+  const h = await loadHandle();
+  if (h) {
+    fileHandle = h;
+    document.getElementById('remembered-name').textContent = h.name;
+    document.getElementById('remembered-box').style.display = 'block';
+    document.getElementById('fresh-box').style.display = 'none';
+  }
+})();
+
+// ────────────────────────────────────────────────────────────────────────────
+// file picking
+// ────────────────────────────────────────────────────────────────────────────
+async function pickNewFile() {
+  if (!('showOpenFilePicker' in window)) {
+    document.getElementById('fallback-input').click();
+    return;
+  }
+  try {
+    [fileHandle] = await window.showOpenFilePicker({
+      types: [{ description: 'CSV files', accept: { 'text/csv': ['.csv'] } }],
+      multiple: false
+    });
+    await saveHandle(fileHandle);
+    await startWatching();
+  } catch(e) {
+    if (e.name !== 'AbortError') { setPill('error', '✕ error'); console.error(e); }
+  }
+}
+
+async function resumeFile() {
+  // fileHandle already set from IDB; need to request permission (browser security)
+  try {
+    const perm = await fileHandle.requestPermission({ mode: 'read' });
+    if (perm !== 'granted') { setPill('paused', '○ permission denied'); return; }
+    await startWatching();
+  } catch(e) {
+    console.error('resumeFile', e);
+    setPill('error', '✕ error');
+  }
+}
+
+async function startWatching() {
+  await reload();
+  showApp();
+  renderAll();
+  if (watchTimer) clearInterval(watchTimer);
+  setPill('live', '● live');
+  watchTimer = setInterval(async () => {
+    try {
+      const file = await fileHandle.getFile();
+      if (file.lastModified !== lastModified) {
+        lastModified = file.lastModified;
+        ingest(await file.text(), file.name);
+        renderAll();
+      }
+    } catch(e) {
+      setPill('error', '✕ watch error');
+      console.warn('watcher', e);
+    }
+  }, POLL_MS);
+}
+
+async function reload() {
+  const file = await fileHandle.getFile();
+  lastModified = file.lastModified;
+  ingest(await file.text(), file.name);
+}
+
+function fallbackLoad(input) {
+  const file = input.files[0];
+  if (!file) return;
+  const reader = new FileReader();
+  reader.onload = e => { ingest(e.target.result, file.name); showApp(); renderAll(); };
+  reader.readAsText(file);
+  setPill('paused', '○ no live reload');
+}
+
+function forgetFile() {
+  clearHandle();
+  fileHandle = null;
+  document.getElementById('remembered-box').style.display = 'none';
+  document.getElementById('fresh-box').style.display = 'block';
+}
+function forgetAndReset() {
+  if (watchTimer) { clearInterval(watchTimer); watchTimer = null; }
+  clearHandle();
+  fileHandle = null;
+  document.getElementById('app').style.display = 'none';
+  document.getElementById('splash').style.display = 'flex';
+  document.getElementById('remembered-box').style.display = 'none';
+  document.getElementById('fresh-box').style.display = 'block';
+}
+
+function showApp() {
+  document.getElementById('splash').style.display = 'none';
+  document.getElementById('app').style.display = 'block';
+}
+
+function setPill(cls, txt) {
+  const p = document.getElementById('watch-pill');
+  p.className = 'watch-pill ' + cls;
+  p.textContent = txt;
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// CSV parser
+// ────────────────────────────────────────────────────────────────────────────
+function parseCSV(text) {
+  if (text.charCodeAt(0) === 0xFEFF) text = text.slice(1);
+  const lines = text.split(/\r?\n/);
+  const headers = splitLine(lines[0]);
+  const rows = [];
+  for (let i = 1; i < lines.length; i++) {
+    if (!lines[i].trim()) continue;
+    const cols = splitLine(lines[i]);
+    const obj = {};
+    headers.forEach((h, j) => obj[h.trim()] = (cols[j] || '').trim());
+    rows.push(obj);
+  }
+  return { headers, rows };
+}
+function splitLine(line) {
+  const result = []; let cur = '', inQ = false;
+  for (let i = 0; i < line.length; i++) {
+    const ch = line[i];
+    if (ch === '"') { if (inQ && line[i+1] === '"') { cur += '"'; i++; } else inQ = !inQ; }
+    else if (ch === ',' && !inQ) { result.push(cur); cur = ''; }
+    else cur += ch;
+  }
+  result.push(cur);
+  return result;
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// categorise by reference prefix
+// ────────────────────────────────────────────────────────────────────────────
+function cat(ref) {
+  // Reference may be a comma-separated list (KiCad grouped BOM) — use first token only
+  const r = ref.replace(/^"+/, '').split(',')[0].trim();
+  if (r.startsWith('U'))              return 'IC';
+  if (r.startsWith('Q'))              return 'Transistor';
+  if (r.startsWith('D'))              return 'Diode';
+  if (r.startsWith('R'))              return 'Resistor';
+  if (r.startsWith('C'))              return 'Capacitor';
+  if (r.startsWith('L') || r.startsWith('FB')) return 'Inductor';
+  if (r.startsWith('J'))              return 'Connector';
+  if (r.startsWith('SW') || r.startsWith('K')) return 'Switch/Relay';
+  if (r.startsWith('Y'))              return 'Crystal';
+  if (r.startsWith('TP'))             return 'Test Point';
+  if (r.startsWith('ENC'))            return 'Mechanical';
+  if (r.startsWith('LP') || r.startsWith('MH') || r.startsWith('H')) return 'Mechanical';
+  return 'Other';
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// ingest CSV text → bom[]
+// ────────────────────────────────────────────────────────────────────────────
+function ingest(text, name) {
+  document.getElementById('title').textContent = 'BOM — ' + name;
+  const { headers, rows: csvRows } = parseCSV(text);
+  const priceCol = headers.find(h => h.toLowerCase().includes('price'));
+  // "Exclude from BOM" or "Exclude from Board" — accept either spelling
+  const exclCol  = headers.find(h => /exclude/i.test(h)) || 'Exclude from BOM';
+
+  // parse every CSV row into a flat component object
+  const parsed = csvRows.map(row => {
+    const ref  = (row['Reference'] || '').replace(/^"+|"+$/g, '').trim();
+    const val  = (row['Value']     || '').replace(/^"+|"+$/g, '').trim();
+    const dnp  = !!(row['DNP'] || '').trim();
+    const excl = !!(row[exclCol] || '').trim();
+    const mfr  = (row['Manufacturer 1'] || row['Manufacturer'] || '').trim();
+    const mpn  = (row['Manufacturer Part Number 1'] || row['MPN 1'] || row['MPN'] || '').trim();
+    let qty = parseInt(row['Qty'] || '1', 10);
+    if (isNaN(qty) || qty < 1) qty = 1;
+    let unit = null;
+    if (priceCol && (row[priceCol] || '').trim()) {
+      const v = parseFloat(row[priceCol]);
+      if (!isNaN(v)) unit = v;
+    }
+    return { ref, val, qty, unit, dnp, excl, mfr, mpn };
+  });
+
+  // group by MPN (non-empty) so de-grouped KiCad BOMs are re-consolidated here
+  const groups = new Map(); // mpn → merged row
+  const noMpn  = [];
+  for (const p of parsed) {
+    if (!p.mpn) { noMpn.push(p); continue; }
+    if (groups.has(p.mpn)) {
+      const g = groups.get(p.mpn);
+      // merge references (deduplicate), sum qty
+      const existingRefs = g.ref.split(',').map(s => s.trim());
+      const newRefs = p.ref.split(',').map(s => s.trim()).filter(r => !existingRefs.includes(r));
+      g.ref = [...existingRefs, ...newRefs].join(', ');
+      g.qty += p.qty;
+      // prefer whichever row has a price
+      if (g.unit === null && p.unit !== null) { g.unit = p.unit; g.val = p.val; g.mfr = p.mfr; }
+      // DNP/excl: only exclude if ALL rows in group are excluded/DNP
+      g.dnp  = g.dnp  && p.dnp;
+      g.excl = g.excl && p.excl;
+    } else {
+      groups.set(p.mpn, { ...p });
+    }
+  }
+
+  bom = [...groups.values(), ...noMpn].map(r => {
+    const total = r.unit !== null ? Math.round(r.qty * r.unit * 1e6) / 1e6 : null;
+    return { ...r, total, cat: cat(r.ref) };
+  });
+
+  const priced = bom.filter(r => r.total !== null && !r.excl && !r.dnp && r.cat !== 'Test Point');
+  grandTotal = Math.round(priced.reduce((s, r) => s + r.total, 0) * 1e4) / 1e4;
+  maxTotal   = Math.max(...priced.map(r => r.total), 0);
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// render: metrics
+// ────────────────────────────────────────────────────────────────────────────
+function renderMetrics() {
+  const priced = bom.filter(r => r.total !== null && !r.excl && !r.dnp && r.cat !== 'Test Point');
+  const catSub = c => priced.filter(r => r.cat === c).reduce((s, r) => s + r.total, 0);
+  const icTotal   = catSub('IC');
+  const passTotal = ['Resistor','Capacitor','Inductor','Crystal'].reduce((s,c) => s + catSub(c), 0);
+  const top1 = [...priced].sort((a,b) => b.total - a.total)[0];
+  document.getElementById('metrics').innerHTML = `
+    <div class="card"><div class="card-label">Total BOM (priced)</div>
+      <div class="card-value">$${grandTotal.toFixed(2)}</div>
+      <div class="card-sub">excl. no-price items</div></div>
+    <div class="card"><div class="card-label">ICs subtotal</div>
+      <div class="card-value">$${icTotal.toFixed(2)}</div>
+      <div class="card-sub">${grandTotal ? Math.round(icTotal/grandTotal*100) : 0}% of BOM</div></div>
+    <div class="card"><div class="card-label">Passives subtotal</div>
+      <div class="card-value">$${passTotal.toFixed(2)}</div>
+      <div class="card-sub">${grandTotal ? Math.round(passTotal/grandTotal*100) : 0}% of BOM</div></div>
+    <div class="card"><div class="card-label">Most expensive</div>
+      <div class="card-value">${top1 ? '$'+top1.total.toFixed(2) : '—'}</div>
+      <div class="card-sub">${top1 ? top1.val : ''}</div></div>
+  `;
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// render: chart
+// ────────────────────────────────────────────────────────────────────────────
+function renderChart() {
+  const priced = bom.filter(r => r.total !== null && !r.excl && !r.dnp && r.cat !== 'Test Point');
+  const top20  = [...priced].sort((a,b) => b.total - a.total).slice(0,20);
+  if (chartInst) { chartInst.destroy(); chartInst = null; }
+  chartInst = new Chart(document.getElementById('chart'), {
+    type: 'bar',
+    data: {
+      labels: top20.map(r => r.val.length > 26 ? r.val.slice(0,25)+'…' : r.val),
+      datasets: [{
+        data: top20.map(r => +r.total.toFixed(4)),
+        backgroundColor: top20.map(r => (CAT_COLOR[r.cat]||'#888')+'cc'),
+        borderColor:     top20.map(r =>  CAT_COLOR[r.cat]||'#888'),
+        borderWidth:1, borderRadius:3,
+      }]
+    },
+    options: {
+      indexAxis:'y', responsive:true, maintainAspectRatio:false,
+      plugins: {
+        legend: { display:false },
+        tooltip: { callbacks: { label: ctx => {
+          const r = top20[ctx.dataIndex];
+          return ` $${r.total.toFixed(4)}  (${r.qty}× $${r.unit.toFixed(4)})`;
+        }}}
+      },
+      scales: {
+        x: { grid:{color:'rgba(0,0,0,0.06)'}, ticks:{callback:v=>'$'+v.toFixed(2), font:{size:11}}},
+        y: { grid:{display:false}, ticks:{font:{size:11}}}
+      }
+    }
+  });
+}
+
+// ────────────────────────────────────────────────────────────────────────────
+// render: table
+// ────────────────────────────────────────────────────────────────────────────
+window.setView = (v, btn) => {
+  viewFilter = v;
+  document.querySelectorAll('.tab').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  render();
+};
+window.doSort = k => { sortDir = sortKey === k ? -sortDir : -1; sortKey = k; render(); };
+
+function render() {
+  const q = document.getElementById('search').value.toLowerCase();
+  let rows = [...bom];
+  const PASSIVES = new Set(['Resistor','Capacitor','Inductor','Crystal']);
+  // always hide test points unless the Test Point tab is active
+  if (viewFilter !== 'Test Point') rows = rows.filter(r => r.cat !== 'Test Point');
+  if      (viewFilter === 'priced')  rows = rows.filter(r => r.total !== null && !r.excl && !r.dnp);
+  else if (viewFilter === 'Passive') rows = rows.filter(r => PASSIVES.has(r.cat));
+  else if (viewFilter !== 'all')     rows = rows.filter(r => r.cat === viewFilter);
+  if (q) rows = rows.filter(r => r.ref.toLowerCase().includes(q) || r.val.toLowerCase().includes(q) || (r.mpn||'').toLowerCase().includes(q));
+  rows.sort((a,b) => {
+    const av = a[sortKey], bv = b[sortKey];
+    if (av===null && bv===null) return 0;
+    if (av===null) return 1; if (bv===null) return -1;
+    return typeof av==='string' ? av.localeCompare(bv)*sortDir : (av-bv)*sortDir;
+  });
+  const subTotal = rows.filter(r => r.total && !r.excl && !r.dnp).reduce((s,r) => s+r.total, 0);
+  document.getElementById('tbody').innerHTML = rows.map(r => {
+    const flags = (r.dnp  ? '<span class="flag flag-dnp">DNP</span>'    : '')
+                + (r.excl ? '<span class="flag flag-excl">excl</span>'  : '')
+                + (r.total===null ? '<span class="flag flag-nopr">no price</span>' : '');
+    const barW = r.total ? Math.round(r.total/maxTotal*100) : 0;
+    const pct  = grandTotal && r.total ? (r.total/grandTotal*100) : 0;
+    return `<tr>
+      <td style="color:#888;font-size:12px;white-space:nowrap">${r.ref}</td>
+      <td><span class="cat-dot" style="background:${CAT_COLOR[r.cat]||'#888'}"></span>${r.val}${flags}</td>
+      <td style="font-size:12px;color:#555;white-space:nowrap">${r.mpn || '—'}</td>
+      <td class="num">${r.qty}</td>
+      <td class="num" style="color:#888">${r.unit!==null ? '$'+r.unit.toFixed(4) : '—'}</td>
+      <td class="num" style="font-weight:500">${r.total!==null ? '$'+r.total.toFixed(4) : '—'}</td>
+      <td class="num" style="color:#888">${pct>=0.1 ? pct.toFixed(1)+'%' : (r.total ? '<0.1%' : '—')}</td>
+      <td><div class="bar-bg"><div class="bar-fill" style="width:${barW}%;background:${CAT_COLOR[r.cat]||'#888'}"></div></div></td>
+    </tr>`;
+  }).join('');
+  document.getElementById('summary-line').textContent =
+    `${rows.length} line items · subtotal $${subTotal.toFixed(2)}`;
+}
+
+function renderAll() { renderMetrics(); renderChart(); render(); }
+</script>
+</body>
+</html>
