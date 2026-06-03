@@ -1,0 +1,4 @@
+[submodule "firmware"]
+	path = firmware
+	url = git@github.com:mszkowalik/CE_Dongle_v3_firmware.git
+	branch = ce-dongle-v3
