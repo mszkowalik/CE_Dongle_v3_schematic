@@ -654,7 +654,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Capacitor:EEHZK1E471P"
+		(symbol "Capacitor:CS3225X7R476K160NRL"
 			(pin_numbers
 				(hide yes)
 			)
@@ -678,7 +678,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "470uF"
+			(property "Value" "47uF"
 				(at 0.254 -2.032 0)
 				(show_name no)
 				(do_not_autoplace yes)
@@ -689,7 +689,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "7Sigma:CP_Elec_10x10"
+			(property "Footprint" "7Sigma:C_1210_3225Metric"
 				(at 0.9652 -3.81 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -700,7 +700,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/242ede0bfb543b5edcc6a9353c456beb.pdf?productCode=C242138"
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2411201415_SAMWHA-CS3225X7R476K160NRL_C5440143.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -711,7 +711,7 @@
 					)
 				)
 			)
-			(property "Description" "470uF 25V Al Elec 20% D10"
+			(property "Description" "47uF 16V X7R 10% 1210"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -722,18 +722,17 @@
 					)
 				)
 			)
-			(property "Dielectric" "Al Elec"
+			(property "Dielectric" "X7R"
 				(at -1.27 -1.524 0)
 				(show_name no)
 				(do_not_autoplace yes)
-				(hide yes)
 				(effects
 					(font
 						(size 0.635 0.635)
 					)
 				)
 			)
-			(property "Voltage" "25V"
+			(property "Voltage" "16V"
 				(at -1.27 -2.54 0)
 				(show_name no)
 				(do_not_autoplace yes)
@@ -743,7 +742,7 @@
 					)
 				)
 			)
-			(property "Tolerance" "20%"
+			(property "Tolerance" "10%"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -754,7 +753,7 @@
 					)
 				)
 			)
-			(property "Footprint_Name" "D10"
+			(property "Footprint_Name" "1210"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -765,7 +764,7 @@
 					)
 				)
 			)
-			(property "Manufacturer 1" "PANASONIC"
+			(property "Manufacturer 1" "Samwha Capacitor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -776,7 +775,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number 1" "EEHZK1E471P"
+			(property "Manufacturer Part Number 1" "CS3225X7R476K160NRL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -798,7 +797,7 @@
 					)
 				)
 			)
-			(property "Supplier Part Number 1" "C242138"
+			(property "Supplier Part Number 1" "C5440143"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -809,7 +808,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C242138"
+			(property "LCSC Part" "C5440143"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -820,7 +819,7 @@
 					)
 				)
 			)
-			(property "Price @1 USD" "0.6789"
+			(property "Price @1 USD" "0.1071"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -831,7 +830,7 @@
 					)
 				)
 			)
-			(property "Price @100 USD" "0.4372"
+			(property "Price @100 USD" "0.0850"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -842,7 +841,7 @@
 					)
 				)
 			)
-			(property "Price @Bulk USD" "0.3827"
+			(property "Price @Bulk USD" "0.0636"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -886,7 +885,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "cap capacitor electrolytic"
+			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -908,7 +907,7 @@
 					)
 				)
 			)
-			(symbol "EEHZK1E471P_0_1"
+			(symbol "CS3225X7R476K160NRL_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -921,10 +920,10 @@
 						(type none)
 					)
 				)
-				(arc
-					(start -2.0137 -1.2146)
-					(mid 0.0164 -0.7146)
-					(end 2.032 -1.27)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
 					(stroke
 						(width 0.508)
 						(type default)
@@ -934,7 +933,7 @@
 					)
 				)
 			)
-			(symbol "EEHZK1E471P_1_1"
+			(symbol "CS3225X7R476K160NRL_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -1282,7 +1281,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connectors:NANO SIM TL6P H1.35"
+		(symbol "Connectors:NANO_SIM_TL6P_H1.35"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1477,7 +1476,7 @@
 					)
 				)
 			)
-			(symbol "NANO SIM TL6P H1.35_1_1"
+			(symbol "NANO_SIM_TL6P_H1.35_1_1"
 				(rectangle
 					(start -1.27 10.16)
 					(end 10.16 -12.7)
@@ -4977,6 +4976,18 @@
 		(uuid "0ccf7b53-eeda-4ab4-9a76-bff982c945ea")
 	)
 	(junction
+		(at 53.34 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "14141cd1-0414-4ab9-92aa-1b19b46ce5b0")
+	)
+	(junction
+		(at 45.72 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2699f1fd-0d19-4902-8127-4c753c04a194")
+	)
+	(junction
 		(at 30.48 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4989,22 +5000,46 @@
 		(uuid "35e22229-974e-4f92-9fa2-66f0d3596730")
 	)
 	(junction
+		(at 30.48 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5041838f-74c6-47d0-acd6-503abe0ca0ba")
+	)
+	(junction
+		(at 45.72 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6efb1939-363d-49cd-a3e5-34fb99b092d6")
+	)
+	(junction
+		(at 38.1 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75dce5e3-8960-4ed3-bedc-b37e2e5f63a7")
+	)
+	(junction
+		(at 38.1 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b67611a-c997-4813-9df2-0f833989e9fd")
+	)
+	(junction
+		(at 53.34 33.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac3dfe81-0b03-44fa-b9f0-9bac48c0c9c1")
+	)
+	(junction
 		(at 30.48 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b46c0d06-0953-4c1e-b2b8-e71d1e6f2750")
+		(uuid "d0564be4-8bed-4d39-b838-2696586e8851")
 	)
 	(junction
 		(at 213.36 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d105cbd6-3767-4c69-9a0c-08e9d19eae8b")
-	)
-	(junction
-		(at 30.48 33.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dac9925c-2db9-43ee-ade2-5ca5f3447603")
 	)
 	(junction
 		(at 210.82 129.54)
@@ -5032,13 +5067,13 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 25.4) (xy 40.64 25.4)
+			(xy 45.72 25.4) (xy 53.34 25.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "01b41bbd-80a4-4282-9d82-48134f4309dd")
+		(uuid "0d5a53e9-cbbb-457a-a0f3-4c98f012dea8")
 	)
 	(wire
 		(pts
@@ -5069,6 +5104,26 @@
 			(type default)
 		)
 		(uuid "1951e517-5b74-495a-be0d-f72812a38b1b")
+	)
+	(wire
+		(pts
+			(xy 38.1 33.02) (xy 45.72 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a2739ef-8d28-46b5-a812-4205e34e5bf8")
+	)
+	(wire
+		(pts
+			(xy 38.1 25.4) (xy 45.72 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d5d1917-130c-4446-a13c-5b4b8b3244cf")
 	)
 	(wire
 		(pts
@@ -5122,16 +5177,6 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 33.02) (xy 40.64 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3508bcdf-d3ce-4b2c-8c4e-ba3971058ef2")
-	)
-	(wire
-		(pts
 			(xy 127 78.74) (xy 143.51 78.74)
 		)
 		(stroke
@@ -5182,6 +5227,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 33.02) (xy 38.1 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "501f706f-4c8f-4627-8335-2fb9a3742906")
+	)
+	(wire
+		(pts
 			(xy 236.22 129.54) (xy 238.76 129.54)
 		)
 		(stroke
@@ -5219,6 +5274,16 @@
 			(type default)
 		)
 		(uuid "656b29ba-82eb-4816-b920-70afa306fef5")
+	)
+	(wire
+		(pts
+			(xy 30.48 25.4) (xy 38.1 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a492864-21b8-4070-a212-db5d09279c56")
 	)
 	(wire
 		(pts
@@ -5262,6 +5327,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 33.02) (xy 60.96 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f207f36-c232-4cf5-8022-a0503d5e35b6")
+	)
+	(wire
+		(pts
 			(xy 35.56 129.54) (xy 38.1 129.54)
 		)
 		(stroke
@@ -5269,6 +5344,16 @@
 			(type default)
 		)
 		(uuid "90b897e0-ead1-4abf-8303-e17420b1b907")
+	)
+	(wire
+		(pts
+			(xy 45.72 33.02) (xy 53.34 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91ccaad6-3965-481c-9ccb-e1525a2553ee")
 	)
 	(wire
 		(pts
@@ -5459,6 +5544,16 @@
 			(type default)
 		)
 		(uuid "d818aff9-0e02-4b0f-ae47-a32f57daff95")
+	)
+	(wire
+		(pts
+			(xy 53.34 25.4) (xy 60.96 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df3a5d70-6cd8-4a9a-a2d3-a8d592033510")
 	)
 	(wire
 		(pts
@@ -5930,8 +6025,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:EEHZK1E471P")
-		(at 30.48 29.21 0)
+		(lib_id "Capacitor:CS3225X7R476K160NRL")
+		(at 38.1 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5939,9 +6034,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "05135c13-9e7c-4d53-b856-92dfcb861197")
+		(uuid "02527b61-e6d6-4eb3-83ae-1a03a12a9963")
 		(property "Reference" "C45"
-			(at 30.734 27.178 0)
+			(at 38.354 27.178 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -5951,8 +6046,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF"
-			(at 30.734 31.242 0)
+		(property "Value" "47uF"
+			(at 38.354 31.242 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -5962,8 +6057,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "7Sigma:CP_Elec_10x10"
-			(at 31.4452 33.02 0)
+		(property "Footprint" "7Sigma:C_1210_3225Metric"
+			(at 39.0652 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5973,8 +6068,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/242ede0bfb543b5edcc6a9353c456beb.pdf?productCode=C242138"
-			(at 30.48 29.21 0)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2411201415_SAMWHA-CS3225X7R476K160NRL_C5440143.pdf"
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5984,8 +6079,8 @@
 				)
 			)
 		)
-		(property "Description" "470uF 25V Al Elec 20% D10"
-			(at 30.48 29.21 0)
+		(property "Description" "47uF 16V X7R 10% 1210"
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5995,9 +6090,8 @@
 				)
 			)
 		)
-		(property "Dielectric" "Al Elec"
-			(at 29.21 30.734 0)
-			(hide yes)
+		(property "Dielectric" "X7R"
+			(at 36.83 30.734 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6006,8 +6100,8 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
-			(at 29.21 31.75 0)
+		(property "Voltage" "16V"
+			(at 36.83 31.75 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -6016,8 +6110,8 @@
 				)
 			)
 		)
-		(property "Tolerance" "20%"
-			(at 30.48 29.21 0)
+		(property "Tolerance" "10%"
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6027,8 +6121,8 @@
 				)
 			)
 		)
-		(property "Footprint_Name" "D10"
-			(at 30.48 29.21 0)
+		(property "Footprint_Name" "1210"
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6038,8 +6132,8 @@
 				)
 			)
 		)
-		(property "Manufacturer 1" "PANASONIC"
-			(at 30.48 29.21 0)
+		(property "Manufacturer 1" "Samwha Capacitor"
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6049,8 +6143,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 1" "EEHZK1E471P"
-			(at 30.48 29.21 0)
+		(property "Manufacturer Part Number 1" "CS3225X7R476K160NRL"
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6061,7 +6155,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 30.48 29.21 0)
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6071,8 +6165,8 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C242138"
-			(at 30.48 29.21 0)
+		(property "Supplier Part Number 1" "C5440143"
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6082,8 +6176,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C242138"
-			(at 30.48 29.21 0)
+		(property "LCSC Part" "C5440143"
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6093,8 +6187,8 @@
 				)
 			)
 		)
-		(property "Price @1 USD" "0.6789"
-			(at 30.48 29.21 0)
+		(property "Price @1 USD" "0.1071"
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6104,8 +6198,8 @@
 				)
 			)
 		)
-		(property "Price @100 USD" "0.4372"
-			(at 30.48 29.21 0)
+		(property "Price @100 USD" "0.0850"
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6115,8 +6209,8 @@
 				)
 			)
 		)
-		(property "Price @Bulk USD" "0.3827"
-			(at 30.48 29.21 0)
+		(property "Price @Bulk USD" "0.0636"
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6127,7 +6221,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "1000"
-			(at 30.48 29.21 0)
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6138,7 +6232,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 30.48 29.21 0)
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6149,7 +6243,7 @@
 			)
 		)
 		(property "Price Updated" "2026-05-14"
-			(at 30.48 29.21 0)
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6160,7 +6254,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 30.48 29.21 0)
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6171,7 +6265,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 30.48 29.21 0)
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6182,7 +6276,7 @@
 			)
 		)
 		(property "on_board" ""
-			(at 30.48 29.21 0)
+			(at 38.1 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6192,11 +6286,11 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "d8ecb43e-73a5-46e1-83ea-fc04d7b8417e")
-		)
 		(pin "1"
-			(uuid "172be249-eb79-45ea-ad86-05573af3ecb3")
+			(uuid "700783b4-a9a4-4daf-aa08-b6ea62b4cebb")
+		)
+		(pin "2"
+			(uuid "488d9054-6ac1-478f-9c1c-731cddfb1fdd")
 		)
 		(instances
 			(project "CE_Dongle_V3"
@@ -6363,6 +6457,283 @@
 		)
 	)
 	(symbol
+		(lib_id "Capacitor:CS3225X7R476K160NRL")
+		(at 45.72 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "179cb7f2-1f1a-4c1a-a392-a5ff74fb6609")
+		(property "Reference" "C55"
+			(at 45.974 27.178 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 45.974 31.242 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "7Sigma:C_1210_3225Metric"
+			(at 46.6852 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2411201415_SAMWHA-CS3225X7R476K160NRL_C5440143.pdf"
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "47uF 16V X7R 10% 1210"
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 44.45 30.734 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 44.45 31.75 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint_Name" "1210"
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer 1" "Samwha Capacitor"
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "CS3225X7R476K160NRL"
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" "C5440143"
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part" "C5440143"
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @1 USD" "0.1071"
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @100 USD" "0.0850"
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @Bulk USD" "0.0636"
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Bulk Qty" "1000"
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Source" "LCSC"
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Updated" "2026-05-14"
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "on_board" ""
+			(at 45.72 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b7d5812-430a-4d0e-8d89-f4222f42bf7b")
+		)
+		(pin "2"
+			(uuid "6e5d3128-887d-407a-87d1-73d315899243")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/a75278ad-0629-4f68-97d9-4ae361986074"
+					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power:GND")
 		(at 229.87 43.18 0)
 		(mirror y)
@@ -6441,7 +6812,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connectors:NANO SIM TL6P H1.35")
+		(lib_id "Connectors:NANO_SIM_TL6P_H1.35")
 		(at 30.48 121.92 0)
 		(mirror y)
 		(unit 1)
@@ -6624,39 +6995,6 @@
 			(effects
 				(font
 					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 30.48 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 30.48 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "on_board" ""
-			(at 30.48 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
@@ -9229,8 +9567,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:EEHZK1E471P")
-		(at 40.64 29.21 0)
+		(lib_id "Capacitor:CS3225X7R476K160NRL")
+		(at 30.48 29.21 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9238,9 +9576,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "8d00a5ff-0f0a-4147-b06c-17f3cb7b5b1f")
+		(uuid "8f1ed4c2-b32b-4fd4-b781-b7724d40fc37")
 		(property "Reference" "C44"
-			(at 40.894 27.178 0)
+			(at 30.734 27.178 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9250,8 +9588,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF"
-			(at 40.894 31.242 0)
+		(property "Value" "47uF"
+			(at 30.734 31.242 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9261,8 +9599,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "7Sigma:CP_Elec_10x10"
-			(at 41.6052 33.02 0)
+		(property "Footprint" "7Sigma:C_1210_3225Metric"
+			(at 31.4452 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9272,8 +9610,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/242ede0bfb543b5edcc6a9353c456beb.pdf?productCode=C242138"
-			(at 40.64 29.21 0)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2411201415_SAMWHA-CS3225X7R476K160NRL_C5440143.pdf"
+			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9283,8 +9621,8 @@
 				)
 			)
 		)
-		(property "Description" "470uF 25V Al Elec 20% D10"
-			(at 40.64 29.21 0)
+		(property "Description" "47uF 16V X7R 10% 1210"
+			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9294,9 +9632,8 @@
 				)
 			)
 		)
-		(property "Dielectric" "Al Elec"
-			(at 39.37 30.734 0)
-			(hide yes)
+		(property "Dielectric" "X7R"
+			(at 29.21 30.734 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9305,8 +9642,8 @@
 				)
 			)
 		)
-		(property "Voltage" "25V"
-			(at 39.37 31.75 0)
+		(property "Voltage" "16V"
+			(at 29.21 31.75 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -9315,8 +9652,8 @@
 				)
 			)
 		)
-		(property "Tolerance" "20%"
-			(at 40.64 29.21 0)
+		(property "Tolerance" "10%"
+			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9326,8 +9663,8 @@
 				)
 			)
 		)
-		(property "Footprint_Name" "D10"
-			(at 40.64 29.21 0)
+		(property "Footprint_Name" "1210"
+			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9337,8 +9674,8 @@
 				)
 			)
 		)
-		(property "Manufacturer 1" "PANASONIC"
-			(at 40.64 29.21 0)
+		(property "Manufacturer 1" "Samwha Capacitor"
+			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9348,8 +9685,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 1" "EEHZK1E471P"
-			(at 40.64 29.21 0)
+		(property "Manufacturer Part Number 1" "CS3225X7R476K160NRL"
+			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9360,7 +9697,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 40.64 29.21 0)
+			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9370,8 +9707,8 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C242138"
-			(at 40.64 29.21 0)
+		(property "Supplier Part Number 1" "C5440143"
+			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9381,8 +9718,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C242138"
-			(at 40.64 29.21 0)
+		(property "LCSC Part" "C5440143"
+			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9392,8 +9729,8 @@
 				)
 			)
 		)
-		(property "Price @1 USD" "0.6789"
-			(at 40.64 29.21 0)
+		(property "Price @1 USD" "0.1071"
+			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9403,8 +9740,8 @@
 				)
 			)
 		)
-		(property "Price @100 USD" "0.4372"
-			(at 40.64 29.21 0)
+		(property "Price @100 USD" "0.0850"
+			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9414,8 +9751,8 @@
 				)
 			)
 		)
-		(property "Price @Bulk USD" "0.3827"
-			(at 40.64 29.21 0)
+		(property "Price @Bulk USD" "0.0636"
+			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9426,7 +9763,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "1000"
-			(at 40.64 29.21 0)
+			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9437,7 +9774,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 40.64 29.21 0)
+			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9448,7 +9785,7 @@
 			)
 		)
 		(property "Price Updated" "2026-05-14"
-			(at 40.64 29.21 0)
+			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9459,7 +9796,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 40.64 29.21 0)
+			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9470,7 +9807,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 40.64 29.21 0)
+			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9481,7 +9818,7 @@
 			)
 		)
 		(property "on_board" ""
-			(at 40.64 29.21 0)
+			(at 30.48 29.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9491,11 +9828,11 @@
 				)
 			)
 		)
-		(pin "2"
-			(uuid "1a50d859-44b4-4aac-b5a4-9f680c940492")
-		)
 		(pin "1"
-			(uuid "8b9b6c2d-6dc2-45b6-b6c1-670e64181a98")
+			(uuid "c4a0bed6-134c-4138-b02b-6a8ed951c4b1")
+		)
+		(pin "2"
+			(uuid "88e98c65-8ffa-4079-bbb4-10c075c2964b")
 		)
 		(instances
 			(project "CE_Dongle_V3"
@@ -9767,6 +10104,283 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/a75278ad-0629-4f68-97d9-4ae361986074"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor:CS3225X7R476K160NRL")
+		(at 53.34 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "960e8307-56b5-4801-a8b1-c746e633d4a3")
+		(property "Reference" "C56"
+			(at 53.594 27.178 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 53.594 31.242 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "7Sigma:C_1210_3225Metric"
+			(at 54.3052 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2411201415_SAMWHA-CS3225X7R476K160NRL_C5440143.pdf"
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "47uF 16V X7R 10% 1210"
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 52.07 30.734 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 52.07 31.75 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint_Name" "1210"
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer 1" "Samwha Capacitor"
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "CS3225X7R476K160NRL"
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" "C5440143"
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part" "C5440143"
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @1 USD" "0.1071"
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @100 USD" "0.0850"
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @Bulk USD" "0.0636"
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Bulk Qty" "1000"
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Source" "LCSC"
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Updated" "2026-05-14"
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "on_board" ""
+			(at 53.34 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ab73c4f-4276-4e93-acfc-f1bc3074ce04")
+		)
+		(pin "2"
+			(uuid "9677f7d5-a7a8-4b10-8333-c52bf11fffc5")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/a75278ad-0629-4f68-97d9-4ae361986074"
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -11333,6 +11947,283 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/a75278ad-0629-4f68-97d9-4ae361986074"
 					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor:CS3225X7R476K160NRL")
+		(at 60.96 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b7d716a9-061e-4a1f-ad12-bdc550c44a18")
+		(property "Reference" "C57"
+			(at 61.214 27.178 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47uF"
+			(at 61.214 31.242 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "7Sigma:C_1210_3225Metric"
+			(at 61.9252 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2411201415_SAMWHA-CS3225X7R476K160NRL_C5440143.pdf"
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "47uF 16V X7R 10% 1210"
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 59.69 30.734 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 59.69 31.75 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint_Name" "1210"
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer 1" "Samwha Capacitor"
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "CS3225X7R476K160NRL"
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" "C5440143"
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part" "C5440143"
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @1 USD" "0.1071"
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @100 USD" "0.0850"
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @Bulk USD" "0.0636"
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Bulk Qty" "1000"
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Source" "LCSC"
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Updated" "2026-05-14"
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "on_board" ""
+			(at 60.96 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fa9dc303-cf97-459b-bdd6-afa54664acc9")
+		)
+		(pin "2"
+			(uuid "a78e2f85-49ee-4aab-a969-bf20e1a53c9b")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/a75278ad-0629-4f68-97d9-4ae361986074"
+					(reference "C57")
 					(unit 1)
 				)
 			)
