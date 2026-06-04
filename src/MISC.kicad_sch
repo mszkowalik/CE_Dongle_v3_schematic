@@ -6297,7 +6297,7 @@
 			)
 		)
 		(property "Value" "SMAJ28CA"
-			(at 197.104 29.21 0)
+			(at 194.056 28.956 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8179,7 +8179,7 @@
 			)
 		)
 		(property "Value" "G6K-2F-Y-TR DC5"
-			(at 175.26 49.53 0)
+			(at 178.562 53.594 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9686,7 +9686,7 @@
 			)
 		)
 		(property "Value" "G6K-2F-Y-TR DC5"
-			(at 175.26 107.95 0)
+			(at 178.308 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11512,7 +11512,7 @@
 			)
 		)
 		(property "Value" "SMAJ28CA"
-			(at 197.104 87.63 0)
+			(at 194.056 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

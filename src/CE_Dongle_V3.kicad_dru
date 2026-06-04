@@ -1,9 +1,171 @@
 (version 1)
-(rule "SMA_CONN_PLACEMENT"
-    (condition "A.insideArea('SMA_CONN_PLACEMENT')")
+# JLCPCB custom DRC rules - 4-layer FR-4, ENIG
+# Standard 0.3/0.45mm vias, V-score panel edges. All values metric (mm).
+# Adapted from tinfever/KiCAD-Custom-DRC-Rules-for-JLCPCB.
+#
+# PRIORITY MODEL (important):
+#   1. Board Setup > Constraints (in CE_Dongle_V3.kicad_pro) = MY limits.
+#      KiCad treats those minimums as ABSOLUTE floors that no rule below
+#      can relax. They always win. Current floors include:
+#        min track width 0.2mm, min clearance 0.15mm, min drill 0.2mm,
+#        min via diameter 0.45mm, hole-to-hole 0.25mm.
+#      EXCEPTION: copper-to-edge is set to 0mm in Board Setup so that the
+#      project-specific connector exceptions below can relax it. The 0.5mm
+#      floor is enforced by the "Copper to Board Edge" rule below instead.
+#   2. The JLCPCB rules below = manufacturer capability baseline. They can
+#      only ADD restriction where JLC is stricter than my floor; they can
+#      never loosen my limits.
+#   Net effect for any minimum = the STRICTER of {my limit, JLC value}.
+#   e.g. track width -> 0.2mm (mine), copper-to-edge -> 0.5mm (rule).
+#   Vias: 0.45mm diameter / 0.2mm hole (JLC free tier on multilayer).
+
+# ----- Project-specific exceptions (DO NOT REMOVE) ---------------------------
+# Light pipes (LP1-LP3) intentionally sit on top of LEDs - allow courtyard
+# overlap. Update this list if new LP references are added to the board.
+(rule "Lightpipe courtyard overlap"
+    (condition "A.Reference == 'LP1' || A.Reference == 'LP2' || A.Reference == 'LP3' || B.Reference == 'LP1' || B.Reference == 'LP2' || B.Reference == 'LP3'")
+    (constraint courtyard_clearance (min -10mm))
+)
+
+# SMA (J4, J5) recessed into mid-board cutout; RJ45 (J7) recessed into cutout
+# with shield PTH holes near cutout edge; USB-C (J1) edge-mounted with shield
+# PTH slots at board edge. All intentionally violate edge clearance.
+# Note: A.Footprint is not a valid KiCad 10 DRC expression property - using
+# Reference instead. A.Value may work as an alternative if references change.
+(rule "Edge-mounted connector clearance"
+    (condition "A.Reference == 'J1' || A.Reference == 'J4' || A.Reference == 'J5' || A.Reference == 'J7'")
     (constraint edge_clearance (min 0mm))
 )
-(rule "SMA_CONN_PLACEMENT_edge_ok"
-  (condition "A.insideArea('SMA_CONN_PLACEMENT')")
-  (constraint edge_clearance (min 0mm))
-)
+
+# "Silkscreen clipped by board edge" for edge/recessed connectors cannot be
+# suppressed via .dru rules - it is a hardcoded check (KiCad issue #19260,
+# not yet implemented as a tuneable constraint). Suppress per-violation via
+# DRC dialog right-click → "Exclude from DRC", or set severity to Warning/
+# Ignore globally in Board Setup → Design Rule Violations.
+
+# ----- Minimum trace width (JLC baseline 0.15mm) -----------------------------
+# NOTE: Board Setup min track width 0.2mm is stricter and governs.
+# clearance is NOT restated here - doing so would override netclass clearances
+# (e.g. SC_50 at 0.165mm) since custom rules replace netclass constraints.
+# The 0.15mm clearance floor is already enforced by Board Setup min_clearance.
+(rule "Minimum Trace Width and Spacing"
+	(constraint track_width (min 0.15mm))
+	(condition "A.Type == 'track'"))
+
+# ----- Mechanical drill/hole size --------------------------------------------
+(rule "drill hole size (mechanical)"
+	(constraint hole_size (min 0.15mm) (max 6.3mm)))
+
+# ----- Via diameter / hole size (4-layer free tier) --------------------------
+# JLC multilayer pricing: a 0.2mm hole is FREE when the via outer diameter is
+# >= 0.45mm. (A 0.2mm hole with only a 0.4mm diameter incurs a surcharge; a
+# 0.3mm hole is free down to 0.4mm diameter.) This rule enforces the diameter
+# >= 0.45mm path, so any passing via keeps the 0.2mm hole at no extra charge.
+(rule "Minimum Via Diameter and Hole Size"
+	(constraint hole_size (min 0.2mm))
+	(constraint via_diameter (min 0.45mm))
+	(constraint disallow buried_via)
+	(condition "A.Type == 'via'"))
+
+# Via annular ring - DISABLED (commented out). JLC recommends >=0.15mm annular,
+# but the standard 0.45/0.3mm via is only 0.075mm annular, so enabling this
+# would flag every standard via. Uncomment only if you move to larger via pads.
+#(rule "Via Annular Ring"
+#	(constraint annular_width (min 0.15mm))
+#	(condition "A.Type == 'via'"))
+
+# ----- Plated / non-plated holes, pads, slots, castellations -----------------
+(rule "PTH Hole Size"
+	(constraint hole_size (min 0.2mm) (max 6.35mm))
+	(condition "A.Type != 'Via' && A.isPlated()"))
+
+(rule "Minimum Non-plated Hole Size"
+	(constraint hole_size (min 0.5mm))
+	(condition "A.Type == 'pad' && !A.isPlated()"))
+
+# annular_width 0.15mm matches JLC's production target (hard min is 0.075mm);
+# hole_size 0.2mm matches JLC's true PTH minimum (was 0.5mm, which over-flagged
+# small PTH holes and conflicted with the "PTH Hole Size" rule above).
+(rule "Pad Size"
+	(constraint hole_size (min 0.2mm))
+	(constraint annular_width (min 0.15mm))
+	(condition "A.Type == 'Pad' && A.isPlated()"))
+
+(rule "Minimum Castellated Hole Size"
+	(constraint hole_size (min 0.6mm))
+	(condition "A.Type == 'pad' && A.Fabrication_Property == 'Castellated pad'"))
+
+(rule "Min. Plated Slot Width"
+	(constraint hole_size (min 0.5mm))
+	(condition "(A.Hole_Size_X != A.Hole_Size_Y) && A.isPlated()"))
+
+(rule "Min. Non-Plated Slot Width"
+	(constraint hole_size (min 1.0mm))
+	(condition "(A.Hole_Size_X != A.Hole_Size_Y) && !A.isPlated()"))
+
+# ----- Hole / pad / via clearances -------------------------------------------
+(rule "hole to hole clearance (different nets)"
+	(constraint hole_to_hole (min 0.5mm))
+	(condition "A.Net != B.Net"))
+
+(rule "via to track clearance"
+	(constraint hole_clearance (min 0.254mm))
+	(condition "A.Type == 'via' && B.Type == 'track'"))
+
+(rule "via to via clearance (same nets)"
+	(constraint hole_to_hole (min 0.254mm))
+	(condition "A.Type == 'via' && B.Type == A.Type && A.Net == B.Net"))
+
+(rule "pad to pad clearance (with hole, different nets)"
+	(constraint hole_to_hole (min 0.5mm))
+	(condition "A.Type == 'pad' && B.Type == A.Type && A.Net != B.Net"))
+
+(rule "pad to pad clearance (without hole, different nets)"
+	(constraint clearance (min 0.127mm))
+	(condition "A.Type == 'Pad' && B.Type == 'Pad'"))
+
+(rule "NPTH to Track clearance"
+	(constraint hole_clearance (min 0.254mm))
+	(condition "A.Pad_Type == 'NPTH, mechanical' && B.Type == 'track'"))
+
+(rule "NPTH with copper around"
+	(constraint hole_clearance (min 0.20mm))
+	(condition "A.Pad_Type == 'NPTH, mechanical' && B.Type != 'track'"))
+
+(rule "PTH to Track clearance"
+	(constraint hole_clearance (min 0.33mm))
+	(condition "A.isPlated() && A.Type != 'Via' && B.Type == 'track'"))
+
+(rule "Pad to Track clearance"
+	(constraint clearance (min 0.2mm))
+	(condition "A.isPlated() && A.Type != 'Via' && B.Type == 'track'"))
+
+# ----- Board outline: V-score panel edges (JLC baseline 0.4mm) ---------------
+(rule "Trace to V-Cut"
+	(constraint edge_clearance (min 0.4mm))
+	(condition "A.Type == 'track'"))
+
+# General copper-to-edge floor (replaces the Board Setup 0.5mm absolute, which
+# is now 0mm so connector exceptions can relax it). Excludes edge/recessed
+# connectors J1/J4/J5/J7 whose pads intentionally sit at or past the edge.
+(rule "Copper to Board Edge"
+	(constraint edge_clearance (min 0.5mm))
+	(condition "A.Reference != 'J1' && A.Reference != 'J4' && A.Reference != 'J5' && A.Reference != 'J7'"))
+
+# Holes/vias to board edge - same exclusions as above.
+(rule "Hole to Board Edge"
+	(constraint edge_clearance (min 0.4mm))
+	(condition "(A.Type == 'via' || A.Type == 'pad') && A.Reference != 'J1' && A.Reference != 'J4' && A.Reference != 'J5' && A.Reference != 'J7'"))
+
+# ----- Silkscreen -------------------------------------------------------------
+(rule "Minimum Text"
+	(constraint text_thickness (min 0.15mm))
+	(constraint text_height (min 1mm))
+	(layer "?.Silkscreen"))
+
+# JLCPCB pad-to-silkscreen is nominally 0.15mm; relaxed slightly to 0.14mm
+# because stock KiCad libraries violate the strict value.
+(rule "Pad to Silkscreen"
+	(constraint silk_clearance (min 0.14mm))
+	(layer outer)
+	(condition "A.Type == 'pad' && (B.Type == 'text' || B.Type == 'graphic')"))

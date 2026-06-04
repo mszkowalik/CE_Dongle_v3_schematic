@@ -1915,16 +1915,16 @@
 		)
 	)
 	(junction
+		(at 127 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c6c213e-0edb-44b0-9460-6cc242a429dd")
+	)
+	(junction
 		(at 101.6 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "671a97d4-eb62-4e76-a5bd-8b640a2c52c1")
-	)
-	(junction
-		(at 127 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a2031530-d7e3-499a-aaff-6c12207d3b80")
 	)
 	(junction
 		(at 99.06 58.42)
@@ -1934,7 +1934,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 104.14) (xy 127 104.14)
+			(xy 129.54 106.68) (xy 127 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1975,7 +1975,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 101.6) (xy 129.54 101.6)
+			(xy 127 104.14) (xy 129.54 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2015,6 +2015,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 101.6) (xy 129.54 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "323c3550-6582-4c12-a04d-c9bf57981837")
+	)
+	(wire
+		(pts
 			(xy 139.7 60.96) (xy 162.56 60.96)
 		)
 		(stroke
@@ -2032,16 +2042,6 @@
 			(type default)
 		)
 		(uuid "37d30122-2f3d-4bd5-9c90-60c75aecca5e")
-	)
-	(wire
-		(pts
-			(xy 86.36 101.6) (xy 127 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c605848-8130-48a6-8e13-a0c60288fb82")
 	)
 	(wire
 		(pts
@@ -2206,16 +2206,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 104.14) (xy 86.36 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c7d645c-108f-4acf-bd22-e674b42fd776")
-	)
-	(wire
-		(pts
 			(xy 93.98 66.04) (xy 101.6 66.04)
 		)
 		(stroke
@@ -2276,17 +2266,17 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 106.68) (xy 124.46 106.68)
+			(xy 86.36 104.14) (xy 127 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "88e73e07-73a3-4d3f-8c2b-858e1f75f159")
+		(uuid "8888dadb-8451-4ce5-ab50-26cb9f888c71")
 	)
 	(wire
 		(pts
-			(xy 127 104.14) (xy 127 101.6)
+			(xy 127 106.68) (xy 127 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2454,16 +2444,6 @@
 			(type default)
 		)
 		(uuid "e35fe537-6ceb-4c86-a2cc-7ea2292a4835")
-	)
-	(wire
-		(pts
-			(xy 124.46 106.68) (xy 124.46 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e46e13bb-e78e-4057-af7a-05aac46dce3b")
 	)
 	(wire
 		(pts
@@ -5730,7 +5710,7 @@
 			)
 		)
 		(pin "RY1_COM" input
-			(at 129.54 101.6 180)
+			(at 129.54 104.14 180)
 			(uuid "04a76d94-53dc-4e4d-aa51-894d8d9df266")
 			(effects
 				(font
@@ -5740,7 +5720,7 @@
 			)
 		)
 		(pin "RY2_COM" input
-			(at 129.54 104.14 180)
+			(at 129.54 106.68 180)
 			(uuid "f4216365-9652-46ab-9c32-256b676fe2c1")
 			(effects
 				(font
@@ -5770,7 +5750,7 @@
 			)
 		)
 		(pin "RY1_NO" input
-			(at 129.54 106.68 180)
+			(at 129.54 101.6 180)
 			(uuid "92035d32-629d-4681-9108-e0d2ecc8f7b0")
 			(effects
 				(font

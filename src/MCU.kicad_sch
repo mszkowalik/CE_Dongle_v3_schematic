@@ -6672,7 +6672,7 @@
 		(uuid "6305a5f0-e9a3-43db-9be5-e85078bce252")
 	)
 	(junction
-		(at 76.2 53.34)
+		(at 63.5 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79f37a02-7c31-488c-9d52-09ec86eee1a9")
@@ -6690,7 +6690,7 @@
 		(uuid "8717cdd5-3145-49e9-8c94-dea17d1ed533")
 	)
 	(junction
-		(at 55.88 53.34)
+		(at 43.18 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c506866-2dd8-42d5-b890-d82a6fea1d87")
@@ -6732,8 +6732,8 @@
 		(uuid "e8587c6d-cb9a-4fc3-a69b-dea7dbbdab61")
 	)
 	(no_connect
-		(at 137.16 96.52)
-		(uuid "006df138-0290-42aa-be1e-a3c2195d34b7")
+		(at 137.16 104.14)
+		(uuid "0e998ecc-382d-43f1-ae5a-bd1fde8fa53f")
 	)
 	(no_connect
 		(at 274.32 109.22)
@@ -6741,7 +6741,7 @@
 	)
 	(no_connect
 		(at 99.06 99.06)
-		(uuid "730d839b-95ae-49b8-9a2a-3d92829a50be")
+		(uuid "be098215-dba4-4e17-a13e-04fd8d8177fc")
 	)
 	(no_connect
 		(at 99.06 81.28)
@@ -6769,7 +6769,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 66.04) (xy 99.06 66.04)
+			(xy 144.78 86.36) (xy 137.16 86.36)
 		)
 		(stroke
 			(width 0)
@@ -6919,7 +6919,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 86.36) (xy 162.56 86.36)
+			(xy 99.06 93.98) (xy 73.66 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6929,7 +6929,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 93.98) (xy 99.06 93.98)
+			(xy 85.09 66.04) (xy 99.06 66.04)
 		)
 		(stroke
 			(width 0)
@@ -6959,23 +6959,13 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 71.12) (xy 99.06 71.12)
+			(xy 91.44 96.52) (xy 99.06 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3f67191a-5779-40ac-b602-6b4eb302307a")
-	)
-	(wire
-		(pts
-			(xy 154.94 93.98) (xy 137.16 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "414c0e54-9c5e-4346-84df-298815f0a78a")
 	)
 	(wire
 		(pts
@@ -7139,7 +7129,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 53.34) (xy 55.88 53.34)
+			(xy 35.56 53.34) (xy 43.18 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7189,7 +7179,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 78.74) (xy 99.06 78.74)
+			(xy 154.94 96.52) (xy 137.16 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7239,7 +7229,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 63.5) (xy 99.06 63.5)
+			(xy 144.78 83.82) (xy 137.16 83.82)
 		)
 		(stroke
 			(width 0)
@@ -7279,7 +7269,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 53.34) (xy 99.06 53.34)
+			(xy 63.5 53.34) (xy 99.06 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7409,7 +7399,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 83.82) (xy 162.56 83.82)
+			(xy 99.06 71.12) (xy 85.09 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7429,7 +7419,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 53.34) (xy 76.2 53.34)
+			(xy 58.42 53.34) (xy 63.5 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7529,7 +7519,17 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 53.34) (xy 60.96 53.34)
+			(xy 137.16 93.98) (xy 154.94 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c24ce0e4-0cdb-4253-bf93-4bb8833ea088")
+	)
+	(wire
+		(pts
+			(xy 43.18 53.34) (xy 48.26 53.34)
 		)
 		(stroke
 			(width 0)
@@ -7659,7 +7659,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 104.14) (xy 137.16 104.14)
+			(xy 85.09 68.58) (xy 99.06 68.58)
 		)
 		(stroke
 			(width 0)
@@ -7669,7 +7669,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 68.58) (xy 99.06 68.58)
+			(xy 85.09 78.74) (xy 99.06 78.74)
 		)
 		(stroke
 			(width 0)
@@ -7739,7 +7739,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 96.52) (xy 99.06 96.52)
+			(xy 85.09 63.5) (xy 99.06 63.5)
 		)
 		(stroke
 			(width 0)
@@ -7788,12 +7788,12 @@
 		(uuid "00199ede-244a-4fbf-810f-c8d7b92b64f4")
 	)
 	(label "LED_DATA"
-		(at 162.56 86.36 180)
+		(at 73.66 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "04d5eea7-94f8-4804-ba47-9322f3fbc015")
 	)
@@ -8010,7 +8010,7 @@
 		(uuid "aa6e645a-1eb4-4044-bb0e-7e4ed66af64c")
 	)
 	(label "I2C_SCL"
-		(at 83.82 96.52 0)
+		(at 87.63 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8134,7 +8134,7 @@
 		(uuid "eb5061e2-9104-4cd9-9c5d-b8d747b93455")
 	)
 	(label "I2C_SDA"
-		(at 83.82 93.98 0)
+		(at 87.63 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8176,45 +8176,45 @@
 	)
 	(hierarchical_label "LED_DATA"
 		(shape output)
-		(at 162.56 86.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "07484f3b-7318-4a8a-b4f1-1684d3ddbd52")
-	)
-	(hierarchical_label "RY1_CTRL"
-		(shape output)
-		(at 154.94 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "085b8e2a-6321-47d8-8902-ac36f6fa0bda")
-	)
-	(hierarchical_label "LTE_TX"
-		(shape output)
-		(at 91.44 63.5 180)
+		(at 73.66 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "109f6212-fd87-4dde-ae08-b5f63cc1bb44")
+		(uuid "07484f3b-7318-4a8a-b4f1-1684d3ddbd52")
 	)
-	(hierarchical_label "TEMP"
-		(shape bidirectional)
-		(at 162.56 83.82 0)
+	(hierarchical_label "RY1_CTRL"
+		(shape output)
+		(at 85.09 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "085b8e2a-6321-47d8-8902-ac36f6fa0bda")
+	)
+	(hierarchical_label "LTE_TX"
+		(shape output)
+		(at 144.78 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
+		)
+		(uuid "109f6212-fd87-4dde-ae08-b5f63cc1bb44")
+	)
+	(hierarchical_label "TEMP"
+		(shape bidirectional)
+		(at 85.09 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
 		)
 		(uuid "176aeb35-c261-4eff-85f3-9c08f3bc7430")
 	)
@@ -8242,7 +8242,7 @@
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape bidirectional)
-		(at 81.28 96.52 180)
+		(at 85.09 63.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8253,7 +8253,7 @@
 	)
 	(hierarchical_label "I2C_SDA"
 		(shape bidirectional)
-		(at 81.28 93.98 180)
+		(at 85.09 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8275,7 +8275,7 @@
 	)
 	(hierarchical_label "LTE_PWR_CYCLE"
 		(shape output)
-		(at 91.44 71.12 180)
+		(at 91.44 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8297,12 +8297,12 @@
 	)
 	(hierarchical_label "LTE_SHUTDOWN"
 		(shape output)
-		(at 81.28 78.74 180)
+		(at 154.94 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "e15d5a76-fc52-40d1-90e2-56bd951c8351")
 	)
@@ -8319,7 +8319,7 @@
 	)
 	(hierarchical_label "LTE_PWR_MON"
 		(shape input)
-		(at 91.44 68.58 180)
+		(at 85.09 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8330,19 +8330,19 @@
 	)
 	(hierarchical_label "LTE_RX"
 		(shape input)
-		(at 91.44 66.04 180)
+		(at 144.78 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "fd2ad6a3-959b-4597-a6f2-e740907e47c2")
 	)
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 55.88 53.34 0)
+		(at 43.18 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8351,7 +8351,7 @@
 		)
 		(uuid "2b83d2b7-5d2f-4e1b-8be8-df29e333b46b")
 		(property "Net Class" "SC_50"
-			(at 52.578 49.276 0)
+			(at 39.878 49.276 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8362,7 +8362,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -7.62 -60.96 0)
+			(at -20.32 -60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8376,7 +8376,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 76.2 53.34 0)
+		(at 63.5 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8385,7 +8385,7 @@
 		)
 		(uuid "3ae16acf-2678-4da1-99d9-e8e38c1ed5ce")
 		(property "Net Class" "SC_50"
-			(at 72.898 49.276 0)
+			(at 60.198 49.276 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8396,7 +8396,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at 12.7 -60.96 0)
+			(at 0 -60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13736,7 +13736,7 @@
 	)
 	(symbol
 		(lib_id "Power:GND")
-		(at 43.18 58.42 0)
+		(at 30.48 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13746,7 +13746,7 @@
 		(dnp no)
 		(uuid "5bd195f9-6514-4563-aef5-e05a7ed1291a")
 		(property "Reference" "#PWR030"
-			(at 43.18 64.77 0)
+			(at 30.48 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13757,7 +13757,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 61.595 0)
+			(at 30.48 61.595 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13767,7 +13767,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 58.42 0)
+			(at 30.48 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13778,7 +13778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 58.42 0)
+			(at 30.48 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13789,7 +13789,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
-			(at 43.18 58.42 0)
+			(at 30.48 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15490,7 +15490,7 @@
 	)
 	(symbol
 		(lib_id "Connectors:BWSMA-KE-P001")
-		(at 43.18 53.34 0)
+		(at 30.48 53.34 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -15501,7 +15501,7 @@
 		(dnp no)
 		(uuid "822ca33d-c10f-486e-b296-23182980963e")
 		(property "Reference" "J5"
-			(at 42.926 50.292 0)
+			(at 30.226 50.292 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15511,7 +15511,7 @@
 			)
 		)
 		(property "Value" "Conn_Coaxial"
-			(at 40.259 53.34 90)
+			(at 27.559 53.34 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15522,7 +15522,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:SMA-SMD_BWSMA-KE-P001"
-			(at 43.18 53.34 0)
+			(at 30.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15533,7 +15533,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C496550.pdf"
-			(at 43.18 53.34 0)
+			(at 30.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15544,7 +15544,7 @@
 			)
 		)
 		(property "Description" "RP-SMA Board Mount"
-			(at 43.18 53.34 0)
+			(at 30.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15555,7 +15555,7 @@
 			)
 		)
 		(property "Manufacturer 1" "BAT WIRELESS"
-			(at 43.18 53.34 0)
+			(at 30.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15566,7 +15566,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "BWSMA-KE-P001"
-			(at 43.18 53.34 0)
+			(at 30.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15577,7 +15577,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 43.18 53.34 0)
+			(at 30.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15588,7 +15588,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C496550"
-			(at 43.18 53.34 0)
+			(at 30.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15599,7 +15599,7 @@
 			)
 		)
 		(property "LCSC Part" "C496550"
-			(at 43.18 53.34 0)
+			(at 30.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15610,7 +15610,7 @@
 			)
 		)
 		(property "Price @1 USD" "0.3843"
-			(at 43.18 53.34 0)
+			(at 30.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15621,7 +15621,7 @@
 			)
 		)
 		(property "Price @100 USD" "0.2076"
-			(at 43.18 53.34 0)
+			(at 30.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15632,7 +15632,7 @@
 			)
 		)
 		(property "Price @Bulk USD" "0.1897"
-			(at 43.18 53.34 0)
+			(at 30.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15643,7 +15643,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "1000"
-			(at 43.18 53.34 0)
+			(at 30.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15654,7 +15654,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 43.18 53.34 0)
+			(at 30.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15665,7 +15665,7 @@
 			)
 		)
 		(property "Price Updated" "2026-05-14"
-			(at 43.18 53.34 0)
+			(at 30.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15676,7 +15676,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 43.18 53.34 0)
+			(at 30.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15687,7 +15687,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 43.18 53.34 0)
+			(at 30.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15698,7 +15698,7 @@
 			)
 		)
 		(property "on_board" ""
-			(at 43.18 53.34 0)
+			(at 30.48 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15997,7 +15997,7 @@
 	)
 	(symbol
 		(lib_id "Power:GND")
-		(at 55.88 60.96 0)
+		(at 43.18 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16007,7 +16007,7 @@
 		(dnp no)
 		(uuid "8f404221-9b53-4591-84eb-2853159348bd")
 		(property "Reference" "#PWR029"
-			(at 55.88 67.31 0)
+			(at 43.18 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16018,7 +16018,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 64.135 0)
+			(at 43.18 64.135 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16028,7 +16028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 60.96 0)
+			(at 43.18 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16039,7 +16039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 60.96 0)
+			(at 43.18 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16050,7 +16050,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
-			(at 55.88 60.96 0)
+			(at 43.18 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17178,7 +17178,7 @@
 	)
 	(symbol
 		(lib_id "Inductors:LQW15AN2N2C10D")
-		(at 66.04 53.34 0)
+		(at 53.34 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17188,7 +17188,7 @@
 		(dnp no)
 		(uuid "98df1b53-17cd-4359-a618-5a62ca9ff05a")
 		(property "Reference" "L2"
-			(at 66.04 50.8 0)
+			(at 53.34 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17198,7 +17198,7 @@
 			)
 		)
 		(property "Value" "2.2nH"
-			(at 66.04 54.61 0)
+			(at 53.34 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17208,7 +17208,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:L_0402_1005Metric"
-			(at 66.04 60.96 0)
+			(at 53.34 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17219,7 +17219,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C91240.pdf"
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17230,7 +17230,7 @@
 			)
 		)
 		(property "Description" "2.2nH 1A 10% 0402"
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17241,7 +17241,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17252,7 +17252,7 @@
 			)
 		)
 		(property "Rated_Current" "1A"
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17263,7 +17263,7 @@
 			)
 		)
 		(property "Footprint_Name" "0402"
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17274,7 +17274,7 @@
 			)
 		)
 		(property "Manufacturer 1" "muRata"
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17285,7 +17285,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "LQW15AN2N2C10D"
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17296,7 +17296,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17307,7 +17307,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C91240"
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17318,7 +17318,7 @@
 			)
 		)
 		(property "LCSC Part" "C91240"
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17329,7 +17329,7 @@
 			)
 		)
 		(property "Price @1 USD" "0.0490"
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17340,7 +17340,7 @@
 			)
 		)
 		(property "Price @100 USD" "0.0402"
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17351,7 +17351,7 @@
 			)
 		)
 		(property "Price @Bulk USD" "0.0324"
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17362,7 +17362,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "1000"
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17373,7 +17373,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17384,7 +17384,7 @@
 			)
 		)
 		(property "Price Updated" "2026-05-14"
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17395,7 +17395,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17406,7 +17406,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17417,7 +17417,7 @@
 			)
 		)
 		(property "on_board" ""
-			(at 66.04 53.34 0)
+			(at 53.34 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18990,6 +18990,7 @@
 		)
 		(pin "13"
 			(uuid "41f142bb-e53e-4b38-8f47-8a7d5570296c")
+			(alternate "GPIO7")
 		)
 		(pin "39"
 			(uuid "d48c0a3e-06dc-4984-8a52-f76eb706f15e")
@@ -19034,6 +19035,7 @@
 		)
 		(pin "33"
 			(uuid "35ac5a20-76e3-4a0c-b4f8-d09cb4bf5f8b")
+			(alternate "GPIO20")
 		)
 		(pin "37"
 			(uuid "4c49d51c-a188-4bd2-b4b8-e031461b4a29")
@@ -19051,6 +19053,7 @@
 		)
 		(pin "12"
 			(uuid "143e8dd4-3d47-4efa-9ae3-f0cddec054dd")
+			(alternate "GPIO6")
 		)
 		(pin "19"
 			(uuid "4ddbca84-f472-4993-af74-4a34f9583360")
@@ -19078,9 +19081,11 @@
 		)
 		(pin "11"
 			(uuid "45085732-ffe8-4b20-a98a-917546bbf8b0")
+			(alternate "GPIO5")
 		)
 		(pin "10"
 			(uuid "6ae4bc24-125f-4247-bc25-c0167b8f2b74")
+			(alternate "GPIO4")
 		)
 		(pin "29"
 			(uuid "7e2efa38-1ded-49df-ba2c-40864f3cb6f0")
@@ -19837,7 +19842,7 @@
 	)
 	(symbol
 		(lib_id "Power:GND")
-		(at 76.2 60.96 0)
+		(at 63.5 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19847,7 +19852,7 @@
 		(dnp no)
 		(uuid "cab0f82e-e5bb-4324-9fd3-3e5807367ad3")
 		(property "Reference" "#PWR028"
-			(at 76.2 67.31 0)
+			(at 63.5 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19858,7 +19863,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 64.135 0)
+			(at 63.5 64.135 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19868,7 +19873,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 60.96 0)
+			(at 63.5 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19879,7 +19884,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 60.96 0)
+			(at 63.5 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19890,7 +19895,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
-			(at 76.2 60.96 0)
+			(at 63.5 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21912,7 +21917,7 @@
 	)
 	(symbol
 		(lib_id "Capacitor:GJM1555C1H1R2WB01D")
-		(at 55.88 57.15 0)
+		(at 43.18 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21922,7 +21927,7 @@
 		(dnp no)
 		(uuid "edfef0a6-2d71-437f-912a-b0455ed3a7c1")
 		(property "Reference" "C15"
-			(at 56.134 55.118 0)
+			(at 43.434 55.118 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -21933,7 +21938,7 @@
 			)
 		)
 		(property "Value" "1.2pF"
-			(at 56.134 59.182 0)
+			(at 43.434 59.182 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -21944,7 +21949,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:C_0402_1005Metric"
-			(at 56.8452 60.96 0)
+			(at 44.1452 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21955,7 +21960,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C76899.pdf"
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21966,7 +21971,7 @@
 			)
 		)
 		(property "Description" "1.2pF 50V C0G 0.05pF 0402"
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21977,7 +21982,7 @@
 			)
 		)
 		(property "Dielectric" "C0G"
-			(at 54.61 58.674 0)
+			(at 41.91 58.674 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -21987,7 +21992,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 54.61 59.69 0)
+			(at 41.91 59.69 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -21997,7 +22002,7 @@
 			)
 		)
 		(property "Tolerance" "0.05pF"
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22008,7 +22013,7 @@
 			)
 		)
 		(property "Footprint_Name" "0402"
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22019,7 +22024,7 @@
 			)
 		)
 		(property "Manufacturer 1" "muRata"
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22030,7 +22035,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "GJM1555C1H1R2WB01D"
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22041,7 +22046,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22052,7 +22057,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C76899"
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22063,7 +22068,7 @@
 			)
 		)
 		(property "LCSC Part" "C76899"
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22074,7 +22079,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22085,7 +22090,7 @@
 			)
 		)
 		(property "Supplier Part Number 2" "81-GJM1555C1H1R2WB1D"
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22096,7 +22101,7 @@
 			)
 		)
 		(property "Price @1 USD" "0.0238"
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22107,7 +22112,7 @@
 			)
 		)
 		(property "Price @100 USD" "0.0238"
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22118,7 +22123,7 @@
 			)
 		)
 		(property "Price @Bulk USD" "0.0190"
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22129,7 +22134,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "500"
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22140,7 +22145,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22151,7 +22156,7 @@
 			)
 		)
 		(property "Price Updated" "2026-05-14"
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22162,7 +22167,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22173,7 +22178,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22184,7 +22189,7 @@
 			)
 		)
 		(property "on_board" ""
-			(at 55.88 57.15 0)
+			(at 43.18 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22500,7 +22505,7 @@
 	)
 	(symbol
 		(lib_id "Capacitor:GJM1555C1H1R2WB01D")
-		(at 76.2 57.15 0)
+		(at 63.5 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22510,7 +22515,7 @@
 		(dnp no)
 		(uuid "f09670a3-d90d-4e13-a928-7cc3b15408bc")
 		(property "Reference" "C14"
-			(at 76.454 55.118 0)
+			(at 63.754 55.118 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -22521,7 +22526,7 @@
 			)
 		)
 		(property "Value" "1.2pF"
-			(at 76.454 59.182 0)
+			(at 63.754 59.182 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -22532,7 +22537,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:C_0402_1005Metric"
-			(at 77.1652 60.96 0)
+			(at 64.4652 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22543,7 +22548,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C76899.pdf"
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22554,7 +22559,7 @@
 			)
 		)
 		(property "Description" "1.2pF 50V C0G 0.05pF 0402"
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22565,7 +22570,7 @@
 			)
 		)
 		(property "Dielectric" "C0G"
-			(at 74.93 58.674 0)
+			(at 62.23 58.674 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -22575,7 +22580,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 74.93 59.69 0)
+			(at 62.23 59.69 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -22585,7 +22590,7 @@
 			)
 		)
 		(property "Tolerance" "0.05pF"
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22596,7 +22601,7 @@
 			)
 		)
 		(property "Footprint_Name" "0402"
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22607,7 +22612,7 @@
 			)
 		)
 		(property "Manufacturer 1" "muRata"
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22618,7 +22623,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "GJM1555C1H1R2WB01D"
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22629,7 +22634,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22640,7 +22645,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C76899"
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22651,7 +22656,7 @@
 			)
 		)
 		(property "LCSC Part" "C76899"
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22662,7 +22667,7 @@
 			)
 		)
 		(property "Supplier 2" "Mouser"
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22673,7 +22678,7 @@
 			)
 		)
 		(property "Supplier Part Number 2" "81-GJM1555C1H1R2WB1D"
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22684,7 +22689,7 @@
 			)
 		)
 		(property "Price @1 USD" "0.0238"
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22695,7 +22700,7 @@
 			)
 		)
 		(property "Price @100 USD" "0.0238"
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22706,7 +22711,7 @@
 			)
 		)
 		(property "Price @Bulk USD" "0.0190"
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22717,7 +22722,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "500"
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22728,7 +22733,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22739,7 +22744,7 @@
 			)
 		)
 		(property "Price Updated" "2026-05-14"
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22750,7 +22755,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22761,7 +22766,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22772,7 +22777,7 @@
 			)
 		)
 		(property "on_board" ""
-			(at 76.2 57.15 0)
+			(at 63.5 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
