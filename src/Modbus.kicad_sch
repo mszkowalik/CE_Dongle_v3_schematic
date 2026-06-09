@@ -1924,6 +1924,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text_box "No termination, at 9600 baud termination is needed with 1875m cable\nL_critical ≈ propagation_speed / (10 × baud_rate) ≈ 1.8×10⁸ m/s / (10 × 9600) ≈ 1875 m"
+		(exclude_from_sim no)
+		(at 109.22 82.3486 0)
+		(size 45.72 12.1268)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "afa58faf-836c-43bf-aaeb-0f66503a0711")
+	)
 	(junction
 		(at 50.8 68.58)
 		(diameter 0)
@@ -3017,7 +3037,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "640d5c16-5b2c-4869-9100-27bb9d9aa3ae")
 		(property "Reference" "R1"
 			(at 106.172 68.58 90)

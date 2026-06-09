@@ -5,6 +5,300 @@
 	(uuid "ae0cdeec-51cd-44c9-ae4f-e0bc6c6da105")
 	(paper "A4")
 	(lib_symbols
+		(symbol "0402WGF3743TCE_1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "374K"
+				(at -1.524 0 90)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" "7Sigma:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C44358"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "374K 62.5mW 1% 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power" "62.5mW"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint_Name" "0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "LCSC Part" "C25781"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Supplier 1" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Supplier Part Number 1" "C25781"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Manufacturer 1" "UNI-ROYAL"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Manufacturer Part Number 1" "0402WGF3743TCE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Price @1 USD" "0.0004"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Price @100 USD" "0.0004"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Price @Bulk USD" "0.0004"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Price Bulk Qty" "100"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Price Source" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Price Updated" "2026-05-14"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0402WGF3743TCE_1_0_1"
+				(rectangle
+					(start -0.762 2.032)
+					(end 0.762 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402WGF3743TCE_1_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Capacitor:GRM155R61H105KE05D"
 			(pin_numbers
 				(hide yes)
@@ -2549,6 +2843,300 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Resistor:0402WGF1001TCE"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1K"
+				(at -1.524 0 90)
+				(show_name no)
+				(do_not_autoplace yes)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" "7Sigma:R_0402_1005Metric"
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "1K 63mW 1% 0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Power" "63mW"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Footprint_Name" "0402"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Manufacturer 1" "Uni-Royal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Manufacturer Part Number 1" "0402WGF1001TCE"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Supplier 1" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Supplier Part Number 1" "C11702"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "LCSC Part" "C11702"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Price @1 USD" "0.0011"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Price @100 USD" "0.0011"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Price @Bulk USD" "0.0009"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Price Bulk Qty" "1000"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Price Source" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Price Updated" "2026-05-14"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "0402WGF1001TCE_0_1"
+				(rectangle
+					(start -0.762 2.032)
+					(end 0.762 -2.032)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "0402WGF1001TCE_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.778)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Resistor:0402WGF1002TCE"
 			(pin_numbers
 				(hide yes)
@@ -3551,7 +4139,7 @@
 					)
 				)
 			)
-			(property "Supplier Part Number 1" "C44358"
+			(property "Supplier Part Number 1" "C25781"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5393,26 +5981,6 @@
 		)
 		(uuid "135a1418-78a2-41ae-bb8d-b7794698b3fc")
 	)
-	(label "RY2_CTRL"
-		(at 114.3 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "17994ba9-7464-441f-9d66-4948486f4165")
-	)
-	(label "RY1_CTRL"
-		(at 114.3 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6bd96439-be5d-41c7-b660-ab0b808baf57")
-	)
 	(hierarchical_label "RY2_NO"
 		(shape input)
 		(at 195.58 91.44 0)
@@ -6010,7 +6578,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:0402WGF1002TCE")
+		(lib_id "Resistor:0402WGF1001TCE")
 		(at 147.32 46.99 0)
 		(unit 1)
 		(body_style 1)
@@ -6030,7 +6598,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "1K"
 			(at 145.796 46.99 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -6062,7 +6630,7 @@
 				)
 			)
 		)
-		(property "Description" "10K 63mW 1% 0402"
+		(property "Description" "1K 63mW 1% 0402"
 			(at 147.32 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6117,7 +6685,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 1" "0402WGF1002TCE"
+		(property "Manufacturer Part Number 1" "0402WGF1001TCE"
 			(at 147.32 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6139,7 +6707,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C25744"
+		(property "Supplier Part Number 1" "C11702"
 			(at 147.32 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6150,7 +6718,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" "C11702"
 			(at 147.32 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6161,7 +6729,7 @@
 				)
 			)
 		)
-		(property "Price @1 USD" "0.0013"
+		(property "Price @1 USD" "0.0011"
 			(at 147.32 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6172,7 +6740,7 @@
 				)
 			)
 		)
-		(property "Price @100 USD" "0.0013"
+		(property "Price @100 USD" "0.0011"
 			(at 147.32 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6183,7 +6751,7 @@
 				)
 			)
 		)
-		(property "Price @Bulk USD" "0.0011"
+		(property "Price @Bulk USD" "0.0009"
 			(at 147.32 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -6224,39 +6792,6 @@
 			(effects
 				(font
 					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 147.32 46.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 147.32 46.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "on_board" ""
-			(at 147.32 46.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
@@ -9993,6 +10528,7 @@
 		)
 	)
 	(symbol
+		(lib_name "0402WGF3743TCE_1")
 		(lib_id "Resistor:0402WGF3743TCE")
 		(at 137.16 72.39 0)
 		(unit 1)
@@ -10111,7 +10647,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C44358"
+		(property "Supplier Part Number 1" "C25781"
 			(at 137.16 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -10207,39 +10743,6 @@
 			(effects
 				(font
 					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 137.16 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 137.16 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "on_board" ""
-			(at 137.16 72.39 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
@@ -13081,7 +13584,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C44358"
+		(property "Supplier Part Number 1" "C25781"
 			(at 137.16 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -13177,39 +13680,6 @@
 			(effects
 				(font
 					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 137.16 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 137.16 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "on_board" ""
-			(at 137.16 130.81 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
@@ -13649,7 +14119,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:0402WGF1002TCE")
+		(lib_id "Resistor:0402WGF1001TCE")
 		(at 147.32 105.41 0)
 		(unit 1)
 		(body_style 1)
@@ -13669,7 +14139,7 @@
 				)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "1K"
 			(at 145.796 105.41 90)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -13701,7 +14171,7 @@
 				)
 			)
 		)
-		(property "Description" "10K 63mW 1% 0402"
+		(property "Description" "1K 63mW 1% 0402"
 			(at 147.32 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -13756,7 +14226,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 1" "0402WGF1002TCE"
+		(property "Manufacturer Part Number 1" "0402WGF1001TCE"
 			(at 147.32 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -13778,7 +14248,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C25744"
+		(property "Supplier Part Number 1" "C11702"
 			(at 147.32 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -13789,7 +14259,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C25744"
+		(property "LCSC Part" "C11702"
 			(at 147.32 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -13800,7 +14270,7 @@
 				)
 			)
 		)
-		(property "Price @1 USD" "0.0013"
+		(property "Price @1 USD" "0.0011"
 			(at 147.32 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -13811,7 +14281,7 @@
 				)
 			)
 		)
-		(property "Price @100 USD" "0.0013"
+		(property "Price @100 USD" "0.0011"
 			(at 147.32 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -13822,7 +14292,7 @@
 				)
 			)
 		)
-		(property "Price @Bulk USD" "0.0011"
+		(property "Price @Bulk USD" "0.0009"
 			(at 147.32 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -13863,39 +14333,6 @@
 			(effects
 				(font
 					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 147.32 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 147.32 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "on_board" ""
-			(at 147.32 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)

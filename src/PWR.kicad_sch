@@ -6188,7 +6188,7 @@
 					)
 				)
 			)
-			(property "Supplier Part Number 1" "C44358"
+			(property "Supplier Part Number 1" "C25781"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -6720,6 +6720,28 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier 1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Supplier Part Number 1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
 					)
 				)
 			)
@@ -7735,6 +7757,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "10-28V\nprobably secure against reverse polarity."
+		(exclude_from_sim no)
+		(at 79.756 37.846 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "67da308e-e654-4187-843d-a9c4c36f593b")
+	)
 	(text "DISABLE WHEN EXT. voltage applied (higher than USB)"
 		(exclude_from_sim no)
 		(at 137.414 159.766 0)
@@ -7857,6 +7891,12 @@
 		(uuid "0c35f6b0-7eff-4d34-b594-972f07d9162c")
 	)
 	(junction
+		(at 162.56 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10007b4f-3db0-4daa-a972-7718e264f0f1")
+	)
+	(junction
 		(at 133.35 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7923,18 +7963,6 @@
 		(uuid "510d1cd6-ed69-4c28-959b-d857f82bb586")
 	)
 	(junction
-		(at 154.94 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53851270-3a55-439d-9270-da7357d8fb4c")
-	)
-	(junction
-		(at 170.18 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d17b093-c7dd-44bf-b736-67d93dfb4cb1")
-	)
-	(junction
 		(at 248.92 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7957,6 +7985,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e6b6983-cde7-4357-bd3b-18b8c1f26d4b")
+	)
+	(junction
+		(at 154.94 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6faf7071-2eac-4bfc-905a-abccfefe892d")
 	)
 	(junction
 		(at 154.94 71.12)
@@ -8037,12 +8071,6 @@
 		(uuid "a49a9307-ba54-41b0-bb3c-665a22176837")
 	)
 	(junction
-		(at 162.56 35.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a4b39662-91e5-4d5e-b37b-3caa26a81c96")
-	)
-	(junction
 		(at 109.22 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8065,6 +8093,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b58ca75f-8599-4ee0-97f0-cee0fbdd006d")
+	)
+	(junction
+		(at 170.18 35.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b62217a8-89f2-45ed-b926-5f2334c7002c")
 	)
 	(junction
 		(at 231.14 45.72)
@@ -8309,16 +8343,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 35.56) (xy 165.1 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21e4b7d2-7d15-47d3-9939-4f90f4893e6b")
-	)
-	(wire
-		(pts
 			(xy 149.86 71.12) (xy 149.86 35.56)
 		)
 		(stroke
@@ -8439,17 +8463,6 @@
 			(type default)
 		)
 		(uuid "3fb53f35-2003-4f85-96a4-2ec4763c0541")
-	)
-	(wire
-		(pts
-			(xy 149.86 35.56) (xy 154.94 35.56)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 255 0 255 1)
-		)
-		(uuid "41dd544b-437a-4181-a344-2b0ec38e8cb2")
 	)
 	(wire
 		(pts
@@ -8864,14 +8877,14 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 35.56) (xy 162.56 35.56)
+			(xy 149.86 35.56) (xy 154.94 35.56)
 		)
 		(stroke
 			(width 0.508)
 			(type default)
 			(color 255 0 255 1)
 		)
-		(uuid "9a829034-4ed3-44f0-ae9c-64011a1aca29")
+		(uuid "9a42cc40-9540-4c13-9b57-4dcf2fc0d8ca")
 	)
 	(wire
 		(pts
@@ -8947,6 +8960,17 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 35.56) (xy 162.56 35.56)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+			(color 255 0 255 1)
+		)
+		(uuid "a9daf057-90bd-4546-aadf-3f68bf9990c1")
+	)
+	(wire
+		(pts
 			(xy 200.66 104.14) (xy 200.66 99.06)
 		)
 		(stroke
@@ -8988,23 +9012,14 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 35.56) (xy 172.72 35.56)
+			(xy 162.56 35.56) (xy 170.18 35.56)
 		)
 		(stroke
-			(width 0)
+			(width 0.508)
 			(type default)
+			(color 255 0 255 1)
 		)
-		(uuid "b17e91bc-b71c-4964-b104-d465ef45b648")
-	)
-	(wire
-		(pts
-			(xy 154.94 35.56) (xy 162.56 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b665736e-ea99-45df-974d-a4115325e3f1")
+		(uuid "b2e96e8a-16b4-4c13-a8e5-9eea20f4bf29")
 	)
 	(wire
 		(pts
@@ -9264,17 +9279,6 @@
 		)
 		(uuid "f4b804ea-77e2-4c92-ac15-7a9ae6c2a1d4")
 	)
-	(wire
-		(pts
-			(xy 162.56 35.56) (xy 170.18 35.56)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 255 0 255 1)
-		)
-		(uuid "f79ffed4-d8a5-43bc-9939-cc8c585bace3")
-	)
 	(label "VSUPPLY"
 		(at 139.7 71.12 0)
 		(effects
@@ -9294,36 +9298,6 @@
 			(justify left bottom)
 		)
 		(uuid "2c4670ec-1c0d-460a-a10b-48ec6988e3ae")
-	)
-	(label "USB_D+"
-		(at 88.9 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3ff68d2b-c052-494d-9d3a-6db5853834df")
-	)
-	(label "VEXT"
-		(at 101.6 35.56 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5dd6eb9b-b53b-4788-ac77-51cc7a3e21e5")
-	)
-	(label "USB_D-"
-		(at 88.9 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "68f0f22b-bebd-4d87-9c15-1fadb18b3862")
 	)
 	(label "VBUS"
 		(at 166.37 93.98 0)
@@ -9365,7 +9339,7 @@
 		)
 		(uuid "f698a3e0-bc7e-481a-a68e-a1d31c7be84a")
 	)
-	(hierarchical_label "USB_DP"
+	(hierarchical_label "USB_D+"
 		(shape tri_state)
 		(at 88.9 88.9 0)
 		(effects
@@ -9376,7 +9350,7 @@
 		)
 		(uuid "5fcbe82e-16dd-438b-994f-b43544b306e9")
 	)
-	(hierarchical_label "USB_DM"
+	(hierarchical_label "USB_D-"
 		(shape tri_state)
 		(at 88.9 86.36 0)
 		(effects
@@ -15586,7 +15560,7 @@
 			)
 		)
 		(property "Value" "SI2308A"
-			(at 111.76 95.25 0)
+			(at 112.776 101.854 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16824,36 +16798,25 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Supplier 1" ""
 			(at 95.25 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Supplier Part Number 1" ""
 			(at 95.25 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "on_board" ""
-			(at 95.25 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 			)
 		)
@@ -17164,7 +17127,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 123.19 68.58 0)
+			(at 132.08 68.58 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19085,7 +19048,7 @@
 			)
 		)
 		(property "Value" "AO3401A"
-			(at 123.19 33.02 0)
+			(at 132.08 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21544,7 +21507,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C44358"
+		(property "Supplier Part Number 1" "C25781"
 			(at 170.18 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -21640,39 +21603,6 @@
 			(effects
 				(font
 					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 170.18 107.95 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 170.18 107.95 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "on_board" ""
-			(at 170.18 107.95 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
@@ -23664,7 +23594,7 @@
 			)
 		)
 		(property "Value" "SI2308A"
-			(at 129.54 90.17 0)
+			(at 129.794 97.028 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24353,36 +24283,25 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Supplier 1" ""
 			(at 114.3 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Supplier Part Number 1" ""
 			(at 114.3 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "on_board" ""
-			(at 114.3 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 			)
 		)
