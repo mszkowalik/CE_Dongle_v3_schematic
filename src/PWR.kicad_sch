@@ -5,7 +5,7 @@
 	(uuid "38e78bfd-00de-42bc-bf03-f737a8e9178e")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Capacitor:CC0402JRNPO9BN101"
+		(symbol "Capacitor:0402CG101J500NT"
 			(pin_numbers
 				(hide yes)
 			)
@@ -51,7 +51,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C106200.pdf"
+			(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/9f6ef17093b8d551f8b17af0626ff758.pdf?productCode=C1546"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -62,7 +62,7 @@
 					)
 				)
 			)
-			(property "Description" "100pF 50V NP0 5% 0402"
+			(property "Description" "100pF 50V C0G 5% 0402"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -73,7 +73,7 @@
 					)
 				)
 			)
-			(property "Dielectric" "NP0"
+			(property "Dielectric" "C0G"
 				(at -1.27 -1.524 0)
 				(show_name no)
 				(do_not_autoplace yes)
@@ -115,7 +115,7 @@
 					)
 				)
 			)
-			(property "Manufacturer 1" "YAGEO"
+			(property "Manufacturer 1" "FH"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -126,7 +126,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number 1" "CC0402JRNPO9BN101"
+			(property "Manufacturer Part Number 1" "0402CG101J500NT"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -148,7 +148,7 @@
 					)
 				)
 			)
-			(property "Supplier Part Number 1" "C106200"
+			(property "Supplier Part Number 1" "C1546"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -159,7 +159,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C106200"
+			(property "LCSC Part" "C1546"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -170,7 +170,7 @@
 					)
 				)
 			)
-			(property "Price @1 USD" "0.0012"
+			(property "Price @1 USD" "0.0020"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -181,7 +181,7 @@
 					)
 				)
 			)
-			(property "Price @100 USD" "0.0012"
+			(property "Price @100 USD" "0.0020"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -192,7 +192,7 @@
 					)
 				)
 			)
-			(property "Price @Bulk USD" "0.0010"
+			(property "Price @Bulk USD" "0.0017"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -225,7 +225,7 @@
 					)
 				)
 			)
-			(property "Price Updated" "2026-05-14"
+			(property "Price Updated" "2026-06-14"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -258,7 +258,7 @@
 					)
 				)
 			)
-			(symbol "CC0402JRNPO9BN101_0_1"
+			(symbol "0402CG101J500NT_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -284,7 +284,7 @@
 					)
 				)
 			)
-			(symbol "CC0402JRNPO9BN101_1_1"
+			(symbol "0402CG101J500NT_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -973,7 +973,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Capacitor:CS3225X7R476K160NRL"
+		(symbol "Capacitor:CL32A476KOJNNNE"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1019,7 +1019,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2411201415_SAMWHA-CS3225X7R476K160NRL_C5440143.pdf"
+			(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/3cd38c41b24c01cdc3c62ae025f7fc43.pdf?productCode=C2932477"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1030,7 +1030,7 @@
 					)
 				)
 			)
-			(property "Description" "47uF 16V X7R 10% 1210"
+			(property "Description" "47uF 16V X5R 10% 1210"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1041,7 +1041,7 @@
 					)
 				)
 			)
-			(property "Dielectric" "X7R"
+			(property "Dielectric" "X5R"
 				(at -1.27 -1.524 0)
 				(show_name no)
 				(do_not_autoplace yes)
@@ -1083,7 +1083,7 @@
 					)
 				)
 			)
-			(property "Manufacturer 1" "Samwha Capacitor"
+			(property "Manufacturer 1" "Samsung Electro-Mechanics"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1094,7 +1094,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number 1" "CS3225X7R476K160NRL"
+			(property "Manufacturer Part Number 1" "CL32A476KOJNNNE"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1116,7 +1116,7 @@
 					)
 				)
 			)
-			(property "Supplier Part Number 1" "C5440143"
+			(property "Supplier Part Number 1" "C2932477"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1127,7 +1127,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C5440143"
+			(property "LCSC Part" "C2932477"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1138,7 +1138,7 @@
 					)
 				)
 			)
-			(property "Price @1 USD" "0.1071"
+			(property "Price @1 USD" "0.2665"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1149,7 +1149,7 @@
 					)
 				)
 			)
-			(property "Price @100 USD" "0.0850"
+			(property "Price @100 USD" "0.1851"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1160,7 +1160,7 @@
 					)
 				)
 			)
-			(property "Price @Bulk USD" "0.0636"
+			(property "Price @Bulk USD" "0.1693"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1193,7 +1193,7 @@
 					)
 				)
 			)
-			(property "Price Updated" "2026-05-14"
+			(property "Price Updated" "2026-06-14"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1226,7 +1226,7 @@
 					)
 				)
 			)
-			(symbol "CS3225X7R476K160NRL_0_1"
+			(symbol "CL32A476KOJNNNE_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -1252,7 +1252,7 @@
 					)
 				)
 			)
-			(symbol "CS3225X7R476K160NRL_1_1"
+			(symbol "CL32A476KOJNNNE_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -7757,7 +7757,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "10-28V\nprobably secure against reverse polarity."
+	(text "10-28V\nsecure against reverse polarity."
 		(exclude_from_sim no)
 		(at 79.756 37.846 0)
 		(effects
@@ -7812,7 +7812,7 @@
 	)
 	(text_box "When supplied from USB, dont start the PMIC."
 		(exclude_from_sim no)
-		(at 203.2 84.3932 0)
+		(at 208.28 84.3932 0)
 		(size 12.7 12.1268)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -7833,7 +7833,7 @@
 	)
 	(text_box "Start from 5.25V\nWhen both EXT and USB is present, EXT has priority"
 		(exclude_from_sim no)
-		(at 137.16 116.8401 0)
+		(at 142.24 116.8401 0)
 		(size 25.4 10.1599)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -7873,7 +7873,7 @@
 		(uuid "9c867d07-1e8f-46ef-9430-f5dd3f5b3583")
 	)
 	(junction
-		(at 228.6 114.3)
+		(at 233.68 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05e4fc57-8573-4da8-a9ef-63d296ab7a7d")
@@ -7889,6 +7889,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0c35f6b0-7eff-4d34-b594-972f07d9162c")
+	)
+	(junction
+		(at 157.48 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d765670-67d1-46d6-9657-6839f09cfb7c")
 	)
 	(junction
 		(at 162.56 35.56)
@@ -7909,25 +7915,25 @@
 		(uuid "16d0df0f-6daa-4d62-9a90-0da755a9bde8")
 	)
 	(junction
-		(at 175.26 111.76)
+		(at 180.34 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "181c6713-0e7b-4785-9949-8e47a349c5c4")
 	)
 	(junction
-		(at 238.76 114.3)
+		(at 243.84 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d0c527c-9273-49ea-8fe8-e38056669b39")
 	)
 	(junction
-		(at 205.74 106.68)
+		(at 210.82 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20410848-66c6-4906-9749-77d02f687450")
 	)
 	(junction
-		(at 160.02 104.14)
+		(at 165.1 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3005ae87-1c88-481d-ac8f-6fa3567970ab")
@@ -7945,12 +7951,6 @@
 		(uuid "371b9060-ccc3-4122-8b01-6745d7645adf")
 	)
 	(junction
-		(at 127 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3955d6bb-f1e6-4287-9a8d-4f55f3edea72")
-	)
-	(junction
 		(at 231.14 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7963,13 +7963,13 @@
 		(uuid "510d1cd6-ed69-4c28-959b-d857f82bb586")
 	)
 	(junction
-		(at 248.92 106.68)
+		(at 254 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5efd838f-7c12-4ffa-89b7-76f7389b16a7")
 	)
 	(junction
-		(at 170.18 104.14)
+		(at 175.26 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6016edc3-0f8c-4b84-bc7e-06502420dfc9")
@@ -7987,6 +7987,12 @@
 		(uuid "6e6b6983-cde7-4357-bd3b-18b8c1f26d4b")
 	)
 	(junction
+		(at 149.86 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ed352f9-ef74-4a86-a246-cfd6ac7f32fd")
+	)
+	(junction
 		(at 154.94 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7999,7 +8005,7 @@
 		(uuid "702f6f56-474f-4c76-80e6-7b58d453c3ca")
 	)
 	(junction
-		(at 170.18 111.76)
+		(at 175.26 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73c9708e-de61-4a06-8b93-68cf5fd89ce7")
@@ -8035,7 +8041,13 @@
 		(uuid "8854cf71-53b6-4510-a1de-87934276ce20")
 	)
 	(junction
-		(at 238.76 106.68)
+		(at 127 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "94cd6d6f-4c39-477f-a474-01bb00c736d9")
+	)
+	(junction
+		(at 243.84 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97dfe60c-1dd6-40ec-bcde-236174c98214")
@@ -8059,7 +8071,7 @@
 		(uuid "a2a79b26-5cb6-49ea-b032-45c174071745")
 	)
 	(junction
-		(at 228.6 106.68)
+		(at 233.68 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a42d1135-ef8e-4162-8e3b-6fa4eaf20ac9")
@@ -8077,10 +8089,10 @@
 		(uuid "afab15cd-970e-4739-adfc-a8d2db8b9cdf")
 	)
 	(junction
-		(at 152.4 104.14)
+		(at 119.38 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b3377e2c-67c1-49ee-b868-fb5ed0858d26")
+		(uuid "b4772228-4aef-4f23-a991-6e332f10e22a")
 	)
 	(junction
 		(at 251.46 38.1)
@@ -8141,18 +8153,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d514dbe8-ee0e-4a17-a09c-56814b6f09e2")
-	)
-	(junction
-		(at 149.86 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df6edd5f-6725-434c-8ddc-b0741696bdfe")
-	)
-	(junction
-		(at 119.38 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1b859dc-41e2-46c9-9520-1af344fa546e")
 	)
 	(junction
 		(at 241.3 38.1)
@@ -8230,7 +8230,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 99.06) (xy 205.74 99.06)
+			(xy 205.74 99.06) (xy 210.82 99.06)
 		)
 		(stroke
 			(width 0)
@@ -8281,17 +8281,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 104.14) (xy 149.86 104.14)
-		)
-		(stroke
-			(width 0.508)
-			(type default)
-			(color 255 0 255 1)
-		)
-		(uuid "1290dfb0-75d0-496b-b683-1fcafb612072")
-	)
-	(wire
-		(pts
 			(xy 114.3 83.82) (xy 114.3 88.9)
 		)
 		(stroke
@@ -8322,7 +8311,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 109.22) (xy 175.26 111.76)
+			(xy 180.34 109.22) (xy 180.34 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8354,7 +8343,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 111.76) (xy 170.18 111.76)
+			(xy 172.72 111.76) (xy 175.26 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8364,7 +8353,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 104.14) (xy 200.66 104.14)
+			(xy 200.66 104.14) (xy 205.74 104.14)
 		)
 		(stroke
 			(width 0)
@@ -8384,7 +8373,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 109.22) (xy 212.09 109.22)
+			(xy 200.66 109.22) (xy 217.17 109.22)
 		)
 		(stroke
 			(width 0)
@@ -8528,7 +8517,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 106.68) (xy 238.76 106.68)
+			(xy 233.68 106.68) (xy 243.84 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8548,7 +8537,17 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 109.22) (xy 212.09 114.3)
+			(xy 157.48 104.14) (xy 152.4 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "532125af-521f-4e48-bc4c-36bd35429c5f")
+	)
+	(wire
+		(pts
+			(xy 217.17 109.22) (xy 217.17 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8588,7 +8587,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 104.14) (xy 152.4 104.14)
+			(xy 149.86 104.14) (xy 157.48 104.14)
 		)
 		(stroke
 			(width 0.508)
@@ -8724,7 +8723,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 106.68) (xy 256.54 106.68)
+			(xy 254 106.68) (xy 261.62 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8734,7 +8733,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 114.3) (xy 228.6 114.3)
+			(xy 217.17 114.3) (xy 233.68 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8816,7 +8815,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 114.3) (xy 238.76 116.84)
+			(xy 243.84 114.3) (xy 243.84 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8826,7 +8825,7 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 114.3) (xy 238.76 114.3)
+			(xy 233.68 114.3) (xy 243.84 114.3)
 		)
 		(stroke
 			(width 0)
@@ -8888,7 +8887,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 111.76) (xy 175.26 111.76)
+			(xy 175.26 111.76) (xy 180.34 111.76)
 		)
 		(stroke
 			(width 0)
@@ -8939,7 +8938,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 106.68) (xy 213.36 106.68)
+			(xy 210.82 106.68) (xy 218.44 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8949,7 +8948,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 104.14) (xy 175.26 104.14)
+			(xy 175.26 104.14) (xy 180.34 104.14)
 		)
 		(stroke
 			(width 0.508)
@@ -8971,7 +8970,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 104.14) (xy 200.66 99.06)
+			(xy 205.74 104.14) (xy 205.74 99.06)
 		)
 		(stroke
 			(width 0)
@@ -9034,7 +9033,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 93.98) (xy 181.61 93.98)
+			(xy 171.45 93.98) (xy 186.69 93.98)
 		)
 		(stroke
 			(width 0.508)
@@ -9075,7 +9074,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 106.68) (xy 228.6 106.68)
+			(xy 228.6 106.68) (xy 233.68 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9148,7 +9147,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 104.14) (xy 160.02 104.14)
+			(xy 157.48 104.14) (xy 165.1 104.14)
 		)
 		(stroke
 			(width 0.508)
@@ -9179,7 +9178,7 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 106.68) (xy 248.92 106.68)
+			(xy 243.84 106.68) (xy 254 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9210,7 +9209,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 93.98) (xy 196.85 93.98)
+			(xy 194.31 93.98) (xy 201.93 93.98)
 		)
 		(stroke
 			(width 0)
@@ -9250,7 +9249,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 104.14) (xy 170.18 104.14)
+			(xy 165.1 104.14) (xy 175.26 104.14)
 		)
 		(stroke
 			(width 0.508)
@@ -9261,7 +9260,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 106.68) (xy 205.74 106.68)
+			(xy 200.66 106.68) (xy 210.82 106.68)
 		)
 		(stroke
 			(width 0)
@@ -9300,7 +9299,7 @@
 		(uuid "2c4670ec-1c0d-460a-a10b-48ec6988e3ae")
 	)
 	(label "VBUS"
-		(at 166.37 93.98 0)
+		(at 171.45 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10209,7 +10208,7 @@
 	)
 	(symbol
 		(lib_id "Power:GND")
-		(at 144.78 111.76 0)
+		(at 149.86 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10219,7 +10218,7 @@
 		(dnp no)
 		(uuid "063c02f0-1c31-40c4-84b5-ae08ebc30833")
 		(property "Reference" "#PWR0183"
-			(at 144.78 118.11 0)
+			(at 149.86 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10230,7 +10229,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 114.935 0)
+			(at 149.86 114.935 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10240,7 +10239,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 111.76 0)
+			(at 149.86 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10251,7 +10250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 111.76 0)
+			(at 149.86 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10262,7 +10261,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
-			(at 144.78 111.76 0)
+			(at 149.86 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10286,7 +10285,7 @@
 	)
 	(symbol
 		(lib_id "Power:GND")
-		(at 185.42 114.3 0)
+		(at 190.5 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10296,7 +10295,7 @@
 		(dnp no)
 		(uuid "0cd7eb2c-2093-4dbf-92d4-e7a31868d3fe")
 		(property "Reference" "#PWR0179"
-			(at 185.42 120.65 0)
+			(at 190.5 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10307,7 +10306,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 117.475 0)
+			(at 190.5 117.475 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10317,7 +10316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 114.3 0)
+			(at 190.5 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10328,7 +10327,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 114.3 0)
+			(at 190.5 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10339,7 +10338,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
-			(at 185.42 114.3 0)
+			(at 190.5 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10717,7 +10716,7 @@
 	)
 	(symbol
 		(lib_id "Capacitor:CL05B104KO5NNNC")
-		(at 205.74 102.87 0)
+		(at 210.82 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10727,7 +10726,7 @@
 		(dnp no)
 		(uuid "1b450258-40d1-4bb2-9ee3-bb905d8e50a9")
 		(property "Reference" "C81"
-			(at 205.994 100.838 0)
+			(at 211.074 100.838 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10738,7 +10737,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 205.994 104.902 0)
+			(at 211.074 104.902 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10749,7 +10748,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:C_0402_1005Metric"
-			(at 206.7052 106.68 0)
+			(at 211.7852 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10760,7 +10759,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
-			(at 205.74 102.87 0)
+			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10771,7 +10770,7 @@
 			)
 		)
 		(property "Description" "100nF 16V 10% 0402"
-			(at 205.74 102.87 0)
+			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10782,7 +10781,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 204.47 104.394 0)
+			(at 209.55 104.394 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10792,7 +10791,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 204.47 105.41 0)
+			(at 209.55 105.41 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -10802,7 +10801,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 205.74 102.87 0)
+			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10813,7 +10812,7 @@
 			)
 		)
 		(property "Footprint_Name" "0402"
-			(at 205.74 102.87 0)
+			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10824,7 +10823,7 @@
 			)
 		)
 		(property "Manufacturer 1" "Samsung Electro-Mechanics"
-			(at 205.74 102.87 0)
+			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10835,7 +10834,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "CL05B104KO5NNNC"
-			(at 205.74 102.87 0)
+			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10846,7 +10845,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 205.74 102.87 0)
+			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10857,7 +10856,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C1525"
-			(at 205.74 102.87 0)
+			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10868,7 +10867,7 @@
 			)
 		)
 		(property "LCSC Part" "C1525"
-			(at 205.74 102.87 0)
+			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10879,7 +10878,7 @@
 			)
 		)
 		(property "JLCPCB Part Class" "Basic Part"
-			(at 205.74 102.87 0)
+			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10890,7 +10889,7 @@
 			)
 		)
 		(property "Price @1 USD" "0.0015"
-			(at 205.74 102.87 0)
+			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10901,7 +10900,7 @@
 			)
 		)
 		(property "Price @100 USD" "0.0015"
-			(at 205.74 102.87 0)
+			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10912,7 +10911,7 @@
 			)
 		)
 		(property "Price @Bulk USD" "0.0012"
-			(at 205.74 102.87 0)
+			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10923,7 +10922,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "1000"
-			(at 205.74 102.87 0)
+			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10934,7 +10933,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 205.74 102.87 0)
+			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10945,7 +10944,7 @@
 			)
 		)
 		(property "Price Updated" "2026-05-14"
-			(at 205.74 102.87 0)
+			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10956,7 +10955,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 205.74 102.87 0)
+			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10967,7 +10966,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 205.74 102.87 0)
+			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10978,7 +10977,7 @@
 			)
 		)
 		(property "on_board" ""
-			(at 205.74 102.87 0)
+			(at 210.82 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11241,8 +11240,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CS3225X7R476K160NRL")
-		(at 248.92 110.49 0)
+		(lib_id "Capacitor:CL32A476KOJNNNE")
+		(at 254 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11252,7 +11251,7 @@
 		(dnp no)
 		(uuid "235decba-bc77-4544-96cf-a4388908f44e")
 		(property "Reference" "C83"
-			(at 249.174 108.458 0)
+			(at 254.254 108.458 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -11263,7 +11262,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 249.174 112.522 0)
+			(at 254.254 112.522 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -11274,7 +11273,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:C_1210_3225Metric"
-			(at 249.8852 114.3 0)
+			(at 254.9652 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11284,8 +11283,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2411201415_SAMWHA-CS3225X7R476K160NRL_C5440143.pdf"
-			(at 248.92 110.49 0)
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/3cd38c41b24c01cdc3c62ae025f7fc43.pdf?productCode=C2932477"
+			(at 254 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11295,8 +11294,8 @@
 				)
 			)
 		)
-		(property "Description" "47uF 16V X7R 10% 1210"
-			(at 248.92 110.49 0)
+		(property "Description" "47uF 16V X5R 10% 1210"
+			(at 254 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11306,8 +11305,8 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
-			(at 247.65 112.014 0)
+		(property "Dielectric" "X5R"
+			(at 252.73 112.014 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -11317,7 +11316,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 247.65 113.03 0)
+			(at 252.73 113.03 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -11327,7 +11326,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 248.92 110.49 0)
+			(at 254 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11338,7 +11337,7 @@
 			)
 		)
 		(property "Footprint_Name" "1210"
-			(at 248.92 110.49 0)
+			(at 254 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11348,8 +11347,8 @@
 				)
 			)
 		)
-		(property "Manufacturer 1" "Samwha Capacitor"
-			(at 248.92 110.49 0)
+		(property "Manufacturer 1" "Samsung Electro-Mechanics"
+			(at 254 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11359,8 +11358,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 1" "CS3225X7R476K160NRL"
-			(at 248.92 110.49 0)
+		(property "Manufacturer Part Number 1" "CL32A476KOJNNNE"
+			(at 254 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11371,7 +11370,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 248.92 110.49 0)
+			(at 254 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11381,8 +11380,8 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C5440143"
-			(at 248.92 110.49 0)
+		(property "Supplier Part Number 1" "C2932477"
+			(at 254 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11392,8 +11391,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5440143"
-			(at 248.92 110.49 0)
+		(property "LCSC Part" "C2932477"
+			(at 254 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11403,8 +11402,8 @@
 				)
 			)
 		)
-		(property "Price @1 USD" "0.1071"
-			(at 248.92 110.49 0)
+		(property "Price @1 USD" "0.2665"
+			(at 254 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11414,8 +11413,8 @@
 				)
 			)
 		)
-		(property "Price @100 USD" "0.0850"
-			(at 248.92 110.49 0)
+		(property "Price @100 USD" "0.1851"
+			(at 254 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11425,8 +11424,8 @@
 				)
 			)
 		)
-		(property "Price @Bulk USD" "0.0636"
-			(at 248.92 110.49 0)
+		(property "Price @Bulk USD" "0.1693"
+			(at 254 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11437,7 +11436,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "1000"
-			(at 248.92 110.49 0)
+			(at 254 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11448,7 +11447,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 248.92 110.49 0)
+			(at 254 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11458,47 +11457,14 @@
 				)
 			)
 		)
-		(property "Price Updated" "2026-05-14"
-			(at 248.92 110.49 0)
+		(property "Price Updated" "2026-06-14"
+			(at 254 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 248.92 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 248.92 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "on_board" ""
-			(at 248.92 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
@@ -11519,7 +11485,7 @@
 	)
 	(symbol
 		(lib_id "Power:GND")
-		(at 160.02 111.76 0)
+		(at 165.1 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11529,7 +11495,7 @@
 		(dnp no)
 		(uuid "23b0f728-b0a0-4695-9e9e-10dafafa461b")
 		(property "Reference" "#PWR0199"
-			(at 160.02 118.11 0)
+			(at 165.1 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11540,7 +11506,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 114.935 0)
+			(at 165.1 114.935 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11550,7 +11516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 111.76 0)
+			(at 165.1 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11561,7 +11527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 111.76 0)
+			(at 165.1 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11572,7 +11538,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
-			(at 160.02 111.76 0)
+			(at 165.1 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12310,7 +12276,7 @@
 	)
 	(symbol
 		(lib_id "Inductors:FTC404030S4R7MGCA")
-		(at 218.44 106.68 0)
+		(at 223.52 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12320,7 +12286,7 @@
 		(dnp no)
 		(uuid "3d551916-d841-456f-aec5-b387ca370bae")
 		(property "Reference" "L6"
-			(at 218.44 104.14 0)
+			(at 223.52 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12330,7 +12296,7 @@
 			)
 		)
 		(property "Value" "4.7uH"
-			(at 218.44 107.95 0)
+			(at 223.52 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12340,7 +12306,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:L_Changjiang_FTC404030S"
-			(at 218.44 114.3 0)
+			(at 223.52 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12351,7 +12317,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C39676083.pdf"
-			(at 218.44 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12362,7 +12328,7 @@
 			)
 		)
 		(property "Description" "4.7uH 6A 20% 4040"
-			(at 218.44 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12373,7 +12339,7 @@
 			)
 		)
 		(property "Tolerance" "20%"
-			(at 218.44 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12384,7 +12350,7 @@
 			)
 		)
 		(property "Rated_Current" "6A"
-			(at 218.44 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12395,7 +12361,7 @@
 			)
 		)
 		(property "Footprint_Name" "4040"
-			(at 218.44 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12406,7 +12372,7 @@
 			)
 		)
 		(property "Manufacturer 1" "cjiang"
-			(at 218.44 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12417,7 +12383,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "FTC404030S4R7MGCA"
-			(at 218.44 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12428,7 +12394,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 218.44 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12439,7 +12405,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C39676083"
-			(at 218.44 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12450,7 +12416,7 @@
 			)
 		)
 		(property "LCSC Part" "C39676083"
-			(at 218.44 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12461,7 +12427,7 @@
 			)
 		)
 		(property "Price @1 USD" "0.2442"
-			(at 218.44 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12472,7 +12438,7 @@
 			)
 		)
 		(property "Price @100 USD" "0.1909"
-			(at 218.44 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12483,7 +12449,7 @@
 			)
 		)
 		(property "Price @Bulk USD" "0.1397"
-			(at 218.44 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12494,7 +12460,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "500"
-			(at 218.44 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12505,7 +12471,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 218.44 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12516,7 +12482,7 @@
 			)
 		)
 		(property "Price Updated" "2026-05-14"
-			(at 218.44 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12527,7 +12493,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 218.44 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12538,7 +12504,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 218.44 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12549,7 +12515,7 @@
 			)
 		)
 		(property "on_board" ""
-			(at 218.44 106.68 0)
+			(at 223.52 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12652,7 +12618,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CC0402JRNPO9BN101")
+		(lib_id "Capacitor:0402CG101J500NT")
 		(at 231.14 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -12695,7 +12661,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C106200.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/9f6ef17093b8d551f8b17af0626ff758.pdf?productCode=C1546"
 			(at 231.14 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -12706,7 +12672,7 @@
 				)
 			)
 		)
-		(property "Description" "100pF 50V NP0 5% 0402"
+		(property "Description" "100pF 50V C0G 5% 0402"
 			(at 231.14 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -12717,7 +12683,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "NP0"
+		(property "Dielectric" "C0G"
 			(at 229.87 43.434 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -12759,7 +12725,7 @@
 				)
 			)
 		)
-		(property "Manufacturer 1" "YAGEO"
+		(property "Manufacturer 1" "FH"
 			(at 231.14 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -12770,7 +12736,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 1" "CC0402JRNPO9BN101"
+		(property "Manufacturer Part Number 1" "0402CG101J500NT"
 			(at 231.14 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -12792,7 +12758,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C106200"
+		(property "Supplier Part Number 1" "C1546"
 			(at 231.14 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -12803,7 +12769,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C106200"
+		(property "LCSC Part" "C1546"
 			(at 231.14 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -12814,7 +12780,7 @@
 				)
 			)
 		)
-		(property "Price @1 USD" "0.0012"
+		(property "Price @1 USD" "0.0020"
 			(at 231.14 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -12825,7 +12791,7 @@
 				)
 			)
 		)
-		(property "Price @100 USD" "0.0012"
+		(property "Price @100 USD" "0.0020"
 			(at 231.14 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -12836,7 +12802,7 @@
 				)
 			)
 		)
-		(property "Price @Bulk USD" "0.0010"
+		(property "Price @Bulk USD" "0.0017"
 			(at 231.14 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -12869,7 +12835,7 @@
 				)
 			)
 		)
-		(property "Price Updated" "2026-05-14"
+		(property "Price Updated" "2026-06-14"
 			(at 231.14 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -12877,39 +12843,6 @@
 			(effects
 				(font
 					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 231.14 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 231.14 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "on_board" ""
-			(at 231.14 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
@@ -13467,7 +13400,7 @@
 	)
 	(symbol
 		(lib_id "Resistor:0402WGF2202TCE")
-		(at 238.76 120.65 0)
+		(at 243.84 120.65 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13477,7 +13410,7 @@
 		(dnp no)
 		(uuid "5114563b-9cc2-46f4-a985-4b1c970124fd")
 		(property "Reference" "R59"
-			(at 240.792 120.65 90)
+			(at 245.872 120.65 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13487,7 +13420,7 @@
 			)
 		)
 		(property "Value" "22K"
-			(at 237.236 120.65 90)
+			(at 242.316 120.65 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -13497,7 +13430,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 236.982 120.65 90)
+			(at 242.062 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13508,7 +13441,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C25768.pdf"
-			(at 238.76 120.65 0)
+			(at 243.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13519,7 +13452,7 @@
 			)
 		)
 		(property "Description" "22K 63mW 1% 0402"
-			(at 238.76 120.65 0)
+			(at 243.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13530,7 +13463,7 @@
 			)
 		)
 		(property "Power" "63mW"
-			(at 238.76 120.65 0)
+			(at 243.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13541,7 +13474,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 238.76 120.65 0)
+			(at 243.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13552,7 +13485,7 @@
 			)
 		)
 		(property "Footprint_Name" "0402"
-			(at 238.76 120.65 0)
+			(at 243.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13563,7 +13496,7 @@
 			)
 		)
 		(property "Manufacturer 1" "Uni-Royal"
-			(at 238.76 120.65 0)
+			(at 243.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13574,7 +13507,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "0402WGF2202TCE"
-			(at 238.76 120.65 0)
+			(at 243.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13585,7 +13518,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 238.76 120.65 0)
+			(at 243.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13596,7 +13529,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C25768"
-			(at 238.76 120.65 0)
+			(at 243.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13607,7 +13540,7 @@
 			)
 		)
 		(property "LCSC Part" "C25768"
-			(at 238.76 120.65 0)
+			(at 243.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13618,7 +13551,7 @@
 			)
 		)
 		(property "Price @1 USD" "0.0010"
-			(at 238.76 120.65 0)
+			(at 243.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13629,7 +13562,7 @@
 			)
 		)
 		(property "Price @100 USD" "0.0010"
-			(at 238.76 120.65 0)
+			(at 243.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13640,7 +13573,7 @@
 			)
 		)
 		(property "Price @Bulk USD" "0.0008"
-			(at 238.76 120.65 0)
+			(at 243.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13651,7 +13584,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "1000"
-			(at 238.76 120.65 0)
+			(at 243.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13662,7 +13595,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 238.76 120.65 0)
+			(at 243.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13673,7 +13606,7 @@
 			)
 		)
 		(property "Price Updated" "2026-05-14"
-			(at 238.76 120.65 0)
+			(at 243.84 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13684,7 +13617,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 238.76 120.65 90)
+			(at 243.84 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13695,7 +13628,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 238.76 120.65 90)
+			(at 243.84 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13706,7 +13639,7 @@
 			)
 		)
 		(property "on_board" ""
-			(at 238.76 120.65 90)
+			(at 243.84 120.65 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13733,7 +13666,7 @@
 	)
 	(symbol
 		(lib_id "Power:5V0")
-		(at 248.92 106.68 0)
+		(at 254 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13743,7 +13676,7 @@
 		(dnp no)
 		(uuid "535f7683-92a0-436c-838d-dde4b0421db8")
 		(property "Reference" "#PWR0181"
-			(at 248.92 110.49 0)
+			(at 254 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13754,7 +13687,7 @@
 			)
 		)
 		(property "Value" "5V0"
-			(at 248.92 103.124 0)
+			(at 254 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13764,7 +13697,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 106.68 0)
+			(at 254 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13775,7 +13708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 106.68 0)
+			(at 254 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13786,7 +13719,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"5V0\""
-			(at 248.92 106.68 0)
+			(at 254 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14093,7 +14026,7 @@
 	)
 	(symbol
 		(lib_id "Diodes:BZT52C5V1")
-		(at 175.26 115.57 270)
+		(at 180.34 115.57 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14103,7 +14036,7 @@
 		(dnp no)
 		(uuid "55512cad-fbba-4a39-a19d-f24667f50d30")
 		(property "Reference" "D12"
-			(at 177.8 115.57 0)
+			(at 182.88 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14113,7 +14046,7 @@
 			)
 		)
 		(property "Value" "5V1"
-			(at 172.72 115.57 0)
+			(at 177.8 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14123,7 +14056,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:D_SOD-123"
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14134,7 +14067,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C173407.pdf"
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14145,7 +14078,7 @@
 			)
 		)
 		(property "Description" "Zenner Diode 5.1V 500mW"
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14156,7 +14089,7 @@
 			)
 		)
 		(property "comp_type" "ZENNER"
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14167,7 +14100,7 @@
 			)
 		)
 		(property "Zenner Voltage" "5.1V"
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14178,7 +14111,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14189,7 +14122,7 @@
 			)
 		)
 		(property "Max Continuous Current" "100mA"
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14200,7 +14133,7 @@
 			)
 		)
 		(property "Power" "500mW"
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14211,7 +14144,7 @@
 			)
 		)
 		(property "Manufacturer 1" "MDD"
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14222,7 +14155,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "BZT52C5V1"
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14233,7 +14166,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14244,7 +14177,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C173407"
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14255,7 +14188,7 @@
 			)
 		)
 		(property "LCSC Part" "C173407"
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14266,7 +14199,7 @@
 			)
 		)
 		(property "Price @1 USD" "0.0131"
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14277,7 +14210,7 @@
 			)
 		)
 		(property "Price @100 USD" "0.0131"
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14288,7 +14221,7 @@
 			)
 		)
 		(property "Price @Bulk USD" "0.0121"
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14299,7 +14232,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "500"
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14310,7 +14243,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14321,7 +14254,7 @@
 			)
 		)
 		(property "Price Updated" "2026-05-14"
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14332,7 +14265,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14343,7 +14276,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14354,7 +14287,7 @@
 			)
 		)
 		(property "on_board" ""
-			(at 175.26 115.57 0)
+			(at 180.34 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14381,7 +14314,7 @@
 	)
 	(symbol
 		(lib_id "Power:GND")
-		(at 238.76 124.46 0)
+		(at 243.84 124.46 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14391,7 +14324,7 @@
 		(dnp no)
 		(uuid "5f5093fd-a8d9-4161-8c7b-52e5e5c2bcbb")
 		(property "Reference" "#PWR0180"
-			(at 238.76 130.81 0)
+			(at 243.84 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14402,7 +14335,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 238.76 127.635 0)
+			(at 243.84 127.635 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14412,7 +14345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 238.76 124.46 0)
+			(at 243.84 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14423,7 +14356,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 238.76 124.46 0)
+			(at 243.84 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14434,7 +14367,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
-			(at 238.76 124.46 0)
+			(at 243.84 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14730,7 +14663,7 @@
 	)
 	(symbol
 		(lib_id "Resistor:0402WGF1003TCE")
-		(at 167.64 115.57 0)
+		(at 172.72 115.57 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14740,7 +14673,7 @@
 		(dnp no)
 		(uuid "64ac95bf-a895-4aa5-bee5-dfc22493ebe3")
 		(property "Reference" "R39"
-			(at 169.672 115.57 90)
+			(at 174.752 115.57 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14750,7 +14683,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 166.116 115.57 90)
+			(at 171.196 115.57 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -14760,7 +14693,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 165.862 115.57 90)
+			(at 170.942 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14771,7 +14704,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-			(at 167.64 115.57 0)
+			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14782,7 +14715,7 @@
 			)
 		)
 		(property "Description" "100K 63mW 1% 0402"
-			(at 167.64 115.57 0)
+			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14793,7 +14726,7 @@
 			)
 		)
 		(property "Power" "63mW"
-			(at 167.64 115.57 0)
+			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14804,7 +14737,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 167.64 115.57 0)
+			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14815,7 +14748,7 @@
 			)
 		)
 		(property "Footprint_Name" "0402"
-			(at 167.64 115.57 0)
+			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14826,7 +14759,7 @@
 			)
 		)
 		(property "Manufacturer 1" "Uni-Royal"
-			(at 167.64 115.57 0)
+			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14837,7 +14770,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "0402WGF1003TCE"
-			(at 167.64 115.57 0)
+			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14848,7 +14781,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 167.64 115.57 0)
+			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14859,7 +14792,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C25741"
-			(at 167.64 115.57 0)
+			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14870,7 +14803,7 @@
 			)
 		)
 		(property "LCSC Part" "C25741"
-			(at 167.64 115.57 0)
+			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14881,7 +14814,7 @@
 			)
 		)
 		(property "Price @1 USD" "0.0009"
-			(at 167.64 115.57 0)
+			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14892,7 +14825,7 @@
 			)
 		)
 		(property "Price @100 USD" "0.0009"
-			(at 167.64 115.57 0)
+			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14903,7 +14836,7 @@
 			)
 		)
 		(property "Price @Bulk USD" "0.0007"
-			(at 167.64 115.57 0)
+			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14914,7 +14847,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "1000"
-			(at 167.64 115.57 0)
+			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14925,7 +14858,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 167.64 115.57 0)
+			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14936,7 +14869,7 @@
 			)
 		)
 		(property "Price Updated" "2026-05-14"
-			(at 167.64 115.57 0)
+			(at 172.72 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14947,7 +14880,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 167.64 115.57 90)
+			(at 172.72 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14958,7 +14891,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 167.64 115.57 90)
+			(at 172.72 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14969,7 +14902,7 @@
 			)
 		)
 		(property "on_board" ""
-			(at 167.64 115.57 90)
+			(at 172.72 115.57 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15832,7 +15765,7 @@
 	)
 	(symbol
 		(lib_id "Power:GND")
-		(at 175.26 119.38 0)
+		(at 180.34 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15842,7 +15775,7 @@
 		(dnp no)
 		(uuid "6830c551-9a13-4ad6-90bf-9a9deff0c9e1")
 		(property "Reference" "#PWR0202"
-			(at 175.26 125.73 0)
+			(at 180.34 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15853,7 +15786,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 175.26 122.555 0)
+			(at 180.34 122.555 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15863,7 +15796,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 119.38 0)
+			(at 180.34 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15874,7 +15807,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 119.38 0)
+			(at 180.34 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15885,7 +15818,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
-			(at 175.26 119.38 0)
+			(at 180.34 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15908,7 +15841,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CS3225X7R476K160NRL")
+		(lib_id "Capacitor:CL32A476KOJNNNE")
 		(at 251.46 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -15951,7 +15884,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2411201415_SAMWHA-CS3225X7R476K160NRL_C5440143.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/3cd38c41b24c01cdc3c62ae025f7fc43.pdf?productCode=C2932477"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -15962,7 +15895,7 @@
 				)
 			)
 		)
-		(property "Description" "47uF 16V X7R 10% 1210"
+		(property "Description" "47uF 16V X5R 10% 1210"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -15973,7 +15906,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 250.19 78.994 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16015,7 +15948,7 @@
 				)
 			)
 		)
-		(property "Manufacturer 1" "Samwha Capacitor"
+		(property "Manufacturer 1" "Samsung Electro-Mechanics"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16026,7 +15959,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 1" "CS3225X7R476K160NRL"
+		(property "Manufacturer Part Number 1" "CL32A476KOJNNNE"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16048,7 +15981,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C5440143"
+		(property "Supplier Part Number 1" "C2932477"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16059,7 +15992,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5440143"
+		(property "LCSC Part" "C2932477"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16070,7 +16003,7 @@
 				)
 			)
 		)
-		(property "Price @1 USD" "0.1071"
+		(property "Price @1 USD" "0.2665"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16081,7 +16014,7 @@
 				)
 			)
 		)
-		(property "Price @100 USD" "0.0850"
+		(property "Price @100 USD" "0.1851"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16092,7 +16025,7 @@
 				)
 			)
 		)
-		(property "Price @Bulk USD" "0.0636"
+		(property "Price @Bulk USD" "0.1693"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16125,7 +16058,7 @@
 				)
 			)
 		)
-		(property "Price Updated" "2026-05-14"
+		(property "Price Updated" "2026-06-14"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16133,39 +16066,6 @@
 			(effects
 				(font
 					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 251.46 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 251.46 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "on_board" ""
-			(at 251.46 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
@@ -16451,7 +16351,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CS3225X7R476K160NRL")
+		(lib_id "Capacitor:CL32A476KOJNNNE")
 		(at 259.08 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -16494,7 +16394,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2411201415_SAMWHA-CS3225X7R476K160NRL_C5440143.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/3cd38c41b24c01cdc3c62ae025f7fc43.pdf?productCode=C2932477"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16505,7 +16405,7 @@
 				)
 			)
 		)
-		(property "Description" "47uF 16V X7R 10% 1210"
+		(property "Description" "47uF 16V X5R 10% 1210"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16516,7 +16416,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 257.81 43.434 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16558,7 +16458,7 @@
 				)
 			)
 		)
-		(property "Manufacturer 1" "Samwha Capacitor"
+		(property "Manufacturer 1" "Samsung Electro-Mechanics"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16569,7 +16469,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 1" "CS3225X7R476K160NRL"
+		(property "Manufacturer Part Number 1" "CL32A476KOJNNNE"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16591,7 +16491,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C5440143"
+		(property "Supplier Part Number 1" "C2932477"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16602,7 +16502,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5440143"
+		(property "LCSC Part" "C2932477"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16613,7 +16513,7 @@
 				)
 			)
 		)
-		(property "Price @1 USD" "0.1071"
+		(property "Price @1 USD" "0.2665"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16624,7 +16524,7 @@
 				)
 			)
 		)
-		(property "Price @100 USD" "0.0850"
+		(property "Price @100 USD" "0.1851"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16635,7 +16535,7 @@
 				)
 			)
 		)
-		(property "Price @Bulk USD" "0.0636"
+		(property "Price @Bulk USD" "0.1693"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16668,7 +16568,7 @@
 				)
 			)
 		)
-		(property "Price Updated" "2026-05-14"
+		(property "Price Updated" "2026-06-14"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16676,39 +16576,6 @@
 			(effects
 				(font
 					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 259.08 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 259.08 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "on_board" ""
-			(at 259.08 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
@@ -17682,7 +17549,7 @@
 	)
 	(symbol
 		(lib_id "Power:5V0")
-		(at 196.85 93.98 0)
+		(at 201.93 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17692,7 +17559,7 @@
 		(dnp no)
 		(uuid "7e6f0e75-5225-4d01-86c0-55bbf0790b5f")
 		(property "Reference" "#PWR0195"
-			(at 196.85 97.79 0)
+			(at 201.93 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17703,7 +17570,7 @@
 			)
 		)
 		(property "Value" "5V0"
-			(at 196.85 90.424 0)
+			(at 201.93 90.424 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17713,7 +17580,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 93.98 0)
+			(at 201.93 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17724,7 +17591,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 93.98 0)
+			(at 201.93 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17735,7 +17602,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"5V0\""
-			(at 196.85 93.98 0)
+			(at 201.93 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17758,7 +17625,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CS3225X7R476K160NRL")
+		(lib_id "Capacitor:CL32A476KOJNNNE")
 		(at 259.08 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -17801,7 +17668,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2411201415_SAMWHA-CS3225X7R476K160NRL_C5440143.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/3cd38c41b24c01cdc3c62ae025f7fc43.pdf?productCode=C2932477"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17812,7 +17679,7 @@
 				)
 			)
 		)
-		(property "Description" "47uF 16V X7R 10% 1210"
+		(property "Description" "47uF 16V X5R 10% 1210"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17823,7 +17690,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 257.81 78.994 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -17865,7 +17732,7 @@
 				)
 			)
 		)
-		(property "Manufacturer 1" "Samwha Capacitor"
+		(property "Manufacturer 1" "Samsung Electro-Mechanics"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17876,7 +17743,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 1" "CS3225X7R476K160NRL"
+		(property "Manufacturer Part Number 1" "CL32A476KOJNNNE"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17898,7 +17765,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C5440143"
+		(property "Supplier Part Number 1" "C2932477"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17909,7 +17776,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5440143"
+		(property "LCSC Part" "C2932477"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17920,7 +17787,7 @@
 				)
 			)
 		)
-		(property "Price @1 USD" "0.1071"
+		(property "Price @1 USD" "0.2665"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17931,7 +17798,7 @@
 				)
 			)
 		)
-		(property "Price @100 USD" "0.0850"
+		(property "Price @100 USD" "0.1851"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17942,7 +17809,7 @@
 				)
 			)
 		)
-		(property "Price @Bulk USD" "0.0636"
+		(property "Price @Bulk USD" "0.1693"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17975,7 +17842,7 @@
 				)
 			)
 		)
-		(property "Price Updated" "2026-05-14"
+		(property "Price Updated" "2026-06-14"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -17983,39 +17850,6 @@
 			(effects
 				(font
 					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 259.08 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 259.08 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "on_board" ""
-			(at 259.08 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18385,7 +18219,7 @@
 	)
 	(symbol
 		(lib_id "Power:GND")
-		(at 167.64 119.38 0)
+		(at 172.72 119.38 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18395,7 +18229,7 @@
 		(dnp no)
 		(uuid "82171c62-5ccd-4168-834b-05799c3b6f46")
 		(property "Reference" "#PWR0196"
-			(at 167.64 125.73 0)
+			(at 172.72 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18406,7 +18240,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 167.64 122.555 0)
+			(at 172.72 122.555 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18416,7 +18250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 119.38 0)
+			(at 172.72 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18427,7 +18261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 167.64 119.38 0)
+			(at 172.72 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18438,7 +18272,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
-			(at 167.64 119.38 0)
+			(at 172.72 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18750,7 +18584,7 @@
 	)
 	(symbol
 		(lib_id "Capacitor:GRM21BR61H106KE43L")
-		(at 144.78 107.95 0)
+		(at 149.86 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18760,7 +18594,7 @@
 		(dnp no)
 		(uuid "84d5b4e7-ac9d-4c1b-b300-0a01f5c0bd7a")
 		(property "Reference" "C87"
-			(at 145.034 105.918 0)
+			(at 150.114 105.918 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -18771,7 +18605,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 145.034 109.982 0)
+			(at 150.114 109.982 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -18782,7 +18616,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:C_0805_2012Metric"
-			(at 145.7452 111.76 0)
+			(at 150.8252 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18793,7 +18627,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C440198.pdf"
-			(at 144.78 107.95 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18804,7 +18638,7 @@
 			)
 		)
 		(property "Description" "10uF 50V X5R 10% 0805"
-			(at 144.78 107.95 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18815,7 +18649,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 143.51 109.474 0)
+			(at 148.59 109.474 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -18825,7 +18659,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 143.51 110.49 0)
+			(at 148.59 110.49 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -18835,7 +18669,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 144.78 107.95 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18846,7 +18680,7 @@
 			)
 		)
 		(property "Footprint_Name" "0805"
-			(at 144.78 107.95 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18857,7 +18691,7 @@
 			)
 		)
 		(property "Manufacturer 1" "muRata"
-			(at 144.78 107.95 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18868,7 +18702,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "GRM21BR61H106KE43L"
-			(at 144.78 107.95 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18879,7 +18713,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 144.78 107.95 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18890,7 +18724,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C440198"
-			(at 144.78 107.95 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18901,7 +18735,7 @@
 			)
 		)
 		(property "LCSC Part" "C440198"
-			(at 144.78 107.95 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18912,7 +18746,7 @@
 			)
 		)
 		(property "Price @1 USD" "0.0690"
-			(at 144.78 107.95 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18923,7 +18757,7 @@
 			)
 		)
 		(property "Price @100 USD" "0.0561"
-			(at 144.78 107.95 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18934,7 +18768,7 @@
 			)
 		)
 		(property "Price @Bulk USD" "0.0494"
-			(at 144.78 107.95 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18945,7 +18779,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "300"
-			(at 144.78 107.95 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18956,7 +18790,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 144.78 107.95 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18967,7 +18801,7 @@
 			)
 		)
 		(property "Price Updated" "2026-05-14"
-			(at 144.78 107.95 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18978,7 +18812,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 144.78 107.95 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18989,7 +18823,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 144.78 107.95 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19000,7 +18834,7 @@
 			)
 		)
 		(property "on_board" ""
-			(at 144.78 107.95 0)
+			(at 149.86 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19403,7 +19237,7 @@
 	)
 	(symbol
 		(lib_id "Capacitor:CL05B104KO5NNNC")
-		(at 160.02 107.95 0)
+		(at 165.1 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19413,7 +19247,7 @@
 		(dnp no)
 		(uuid "8f13eda4-9deb-4baf-ab21-ea9e238b9eb8")
 		(property "Reference" "C92"
-			(at 160.274 105.918 0)
+			(at 165.354 105.918 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -19424,7 +19258,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 160.274 109.982 0)
+			(at 165.354 109.982 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -19435,7 +19269,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:C_0402_1005Metric"
-			(at 160.9852 111.76 0)
+			(at 166.0652 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19446,7 +19280,7 @@
 			)
 		)
 		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
-			(at 160.02 107.95 0)
+			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19457,7 +19291,7 @@
 			)
 		)
 		(property "Description" "100nF 16V 10% 0402"
-			(at 160.02 107.95 0)
+			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19468,7 +19302,7 @@
 			)
 		)
 		(property "Dielectric" "X7R"
-			(at 158.75 109.474 0)
+			(at 163.83 109.474 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -19478,7 +19312,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 158.75 110.49 0)
+			(at 163.83 110.49 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -19488,7 +19322,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 160.02 107.95 0)
+			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19499,7 +19333,7 @@
 			)
 		)
 		(property "Footprint_Name" "0402"
-			(at 160.02 107.95 0)
+			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19510,7 +19344,7 @@
 			)
 		)
 		(property "Manufacturer 1" "Samsung Electro-Mechanics"
-			(at 160.02 107.95 0)
+			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19521,7 +19355,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "CL05B104KO5NNNC"
-			(at 160.02 107.95 0)
+			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19532,7 +19366,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 160.02 107.95 0)
+			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19543,7 +19377,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C1525"
-			(at 160.02 107.95 0)
+			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19554,7 +19388,7 @@
 			)
 		)
 		(property "LCSC Part" "C1525"
-			(at 160.02 107.95 0)
+			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19565,7 +19399,7 @@
 			)
 		)
 		(property "JLCPCB Part Class" "Basic Part"
-			(at 160.02 107.95 0)
+			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19576,7 +19410,7 @@
 			)
 		)
 		(property "Price @1 USD" "0.0015"
-			(at 160.02 107.95 0)
+			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19587,7 +19421,7 @@
 			)
 		)
 		(property "Price @100 USD" "0.0015"
-			(at 160.02 107.95 0)
+			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19598,7 +19432,7 @@
 			)
 		)
 		(property "Price @Bulk USD" "0.0012"
-			(at 160.02 107.95 0)
+			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19609,7 +19443,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "1000"
-			(at 160.02 107.95 0)
+			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19620,7 +19454,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 160.02 107.95 0)
+			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19631,7 +19465,7 @@
 			)
 		)
 		(property "Price Updated" "2026-05-14"
-			(at 160.02 107.95 0)
+			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19642,7 +19476,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 160.02 107.95 0)
+			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19653,7 +19487,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 160.02 107.95 0)
+			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19664,7 +19498,7 @@
 			)
 		)
 		(property "on_board" ""
-			(at 160.02 107.95 0)
+			(at 165.1 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21147,7 +20981,7 @@
 	)
 	(symbol
 		(lib_id "Power:GND")
-		(at 248.92 114.3 0)
+		(at 254 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21157,7 +20991,7 @@
 		(dnp no)
 		(uuid "a949e5aa-0782-4bd0-a2a3-346ad83602dc")
 		(property "Reference" "#PWR0182"
-			(at 248.92 120.65 0)
+			(at 254 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21168,7 +21002,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 248.92 117.475 0)
+			(at 254 117.475 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21178,7 +21012,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 114.3 0)
+			(at 254 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21189,7 +21023,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 114.3 0)
+			(at 254 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21200,7 +21034,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
-			(at 248.92 114.3 0)
+			(at 254 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21390,7 +21224,7 @@
 	)
 	(symbol
 		(lib_id "Resistor:0402WGF3743TCE")
-		(at 170.18 107.95 0)
+		(at 175.26 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21400,7 +21234,7 @@
 		(dnp no)
 		(uuid "af4a0703-433d-4ef9-9e8d-74e1dbce19ef")
 		(property "Reference" "R37"
-			(at 172.212 107.95 90)
+			(at 177.292 107.95 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21410,7 +21244,7 @@
 			)
 		)
 		(property "Value" "374K"
-			(at 168.656 107.95 90)
+			(at 173.736 107.95 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -21420,7 +21254,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 168.402 107.95 90)
+			(at 173.482 107.95 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21431,7 +21265,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C44358"
-			(at 170.18 107.95 0)
+			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21442,7 +21276,7 @@
 			)
 		)
 		(property "Description" "374K 62.5mW 1% 0402"
-			(at 170.18 107.95 0)
+			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21453,7 +21287,7 @@
 			)
 		)
 		(property "Power" "62.5mW"
-			(at 170.18 107.95 0)
+			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21464,7 +21298,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 170.18 107.95 0)
+			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21475,7 +21309,7 @@
 			)
 		)
 		(property "Footprint_Name" "0402"
-			(at 170.18 107.95 0)
+			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21486,7 +21320,7 @@
 			)
 		)
 		(property "LCSC Part" "C25781"
-			(at 170.18 107.95 0)
+			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21497,7 +21331,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 170.18 107.95 0)
+			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21508,7 +21342,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C25781"
-			(at 170.18 107.95 0)
+			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21519,7 +21353,7 @@
 			)
 		)
 		(property "Manufacturer 1" "UNI-ROYAL"
-			(at 170.18 107.95 0)
+			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21530,7 +21364,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "0402WGF3743TCE"
-			(at 170.18 107.95 0)
+			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21541,7 +21375,7 @@
 			)
 		)
 		(property "Price @1 USD" "0.0004"
-			(at 170.18 107.95 0)
+			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21552,7 +21386,7 @@
 			)
 		)
 		(property "Price @100 USD" "0.0004"
-			(at 170.18 107.95 0)
+			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21563,7 +21397,7 @@
 			)
 		)
 		(property "Price @Bulk USD" "0.0004"
-			(at 170.18 107.95 0)
+			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21574,7 +21408,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "100"
-			(at 170.18 107.95 0)
+			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21585,7 +21419,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 170.18 107.95 0)
+			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21596,7 +21430,7 @@
 			)
 		)
 		(property "Price Updated" "2026-05-14"
-			(at 170.18 107.95 0)
+			(at 175.26 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22893,7 +22727,7 @@
 	)
 	(symbol
 		(lib_id "Power:GND")
-		(at 256.54 114.3 0)
+		(at 261.62 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22903,7 +22737,7 @@
 		(dnp no)
 		(uuid "bce58530-9dd8-4727-a42a-b4887e8f7e4a")
 		(property "Reference" "#PWR0201"
-			(at 256.54 120.65 0)
+			(at 261.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22914,7 +22748,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 117.475 0)
+			(at 261.62 117.475 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22924,7 +22758,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 114.3 0)
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22935,7 +22769,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 114.3 0)
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22946,7 +22780,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
-			(at 256.54 114.3 0)
+			(at 261.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23866,7 +23700,7 @@
 	)
 	(symbol
 		(lib_id "Capacitor:GRM21BR61H106KE43L")
-		(at 152.4 107.95 0)
+		(at 157.48 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23876,7 +23710,7 @@
 		(dnp no)
 		(uuid "cde74bbe-b04c-45f0-95b5-218e549dee9f")
 		(property "Reference" "C21"
-			(at 152.654 105.918 0)
+			(at 157.734 105.918 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -23887,7 +23721,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 152.654 109.982 0)
+			(at 157.734 109.982 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -23898,7 +23732,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:C_0805_2012Metric"
-			(at 153.3652 111.76 0)
+			(at 158.4452 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23909,7 +23743,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C440198.pdf"
-			(at 152.4 107.95 0)
+			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23920,7 +23754,7 @@
 			)
 		)
 		(property "Description" "10uF 50V X5R 10% 0805"
-			(at 152.4 107.95 0)
+			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23931,7 +23765,7 @@
 			)
 		)
 		(property "Dielectric" "X5R"
-			(at 151.13 109.474 0)
+			(at 156.21 109.474 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -23941,7 +23775,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 151.13 110.49 0)
+			(at 156.21 110.49 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -23951,7 +23785,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 152.4 107.95 0)
+			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23962,7 +23796,7 @@
 			)
 		)
 		(property "Footprint_Name" "0805"
-			(at 152.4 107.95 0)
+			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23973,7 +23807,7 @@
 			)
 		)
 		(property "Manufacturer 1" "muRata"
-			(at 152.4 107.95 0)
+			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23984,7 +23818,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "GRM21BR61H106KE43L"
-			(at 152.4 107.95 0)
+			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23995,7 +23829,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 152.4 107.95 0)
+			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24006,7 +23840,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C440198"
-			(at 152.4 107.95 0)
+			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24017,7 +23851,7 @@
 			)
 		)
 		(property "LCSC Part" "C440198"
-			(at 152.4 107.95 0)
+			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24028,7 +23862,7 @@
 			)
 		)
 		(property "Price @1 USD" "0.0690"
-			(at 152.4 107.95 0)
+			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24039,7 +23873,7 @@
 			)
 		)
 		(property "Price @100 USD" "0.0561"
-			(at 152.4 107.95 0)
+			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24050,7 +23884,7 @@
 			)
 		)
 		(property "Price @Bulk USD" "0.0494"
-			(at 152.4 107.95 0)
+			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24061,7 +23895,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "300"
-			(at 152.4 107.95 0)
+			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24072,7 +23906,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 152.4 107.95 0)
+			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24083,7 +23917,7 @@
 			)
 		)
 		(property "Price Updated" "2026-05-14"
-			(at 152.4 107.95 0)
+			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24094,7 +23928,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 152.4 107.95 0)
+			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24105,7 +23939,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 152.4 107.95 0)
+			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24116,7 +23950,7 @@
 			)
 		)
 		(property "on_board" ""
-			(at 152.4 107.95 0)
+			(at 157.48 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24857,7 +24691,7 @@
 	)
 	(symbol
 		(lib_id "Power:GND")
-		(at 152.4 111.76 0)
+		(at 157.48 111.76 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24867,7 +24701,7 @@
 		(dnp no)
 		(uuid "d78f5d33-ea44-4c2c-9a2b-23eff99bc4fe")
 		(property "Reference" "#PWR057"
-			(at 152.4 118.11 0)
+			(at 157.48 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24878,7 +24712,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 114.935 0)
+			(at 157.48 114.935 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24888,7 +24722,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 111.76 0)
+			(at 157.48 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24899,7 +24733,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 111.76 0)
+			(at 157.48 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24910,7 +24744,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
-			(at 152.4 111.76 0)
+			(at 157.48 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24934,7 +24768,7 @@
 	)
 	(symbol
 		(lib_id "Resistor:0402WGF1623TCE")
-		(at 238.76 110.49 0)
+		(at 243.84 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24944,7 +24778,7 @@
 		(dnp no)
 		(uuid "ddf73909-9292-4a01-9168-91e7e0b3c665")
 		(property "Reference" "R58"
-			(at 240.792 110.49 90)
+			(at 245.872 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24954,7 +24788,7 @@
 			)
 		)
 		(property "Value" "162K"
-			(at 237.236 110.49 90)
+			(at 242.316 110.49 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -24964,7 +24798,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 236.982 110.49 90)
+			(at 242.062 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24975,7 +24809,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/0a975aaa49b7c97f38a963127be4a823.pdf?productCode=C54068"
-			(at 238.76 110.49 0)
+			(at 243.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24986,7 +24820,7 @@
 			)
 		)
 		(property "Description" "162K 62.5mW 1% 0402"
-			(at 238.76 110.49 0)
+			(at 243.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24997,7 +24831,7 @@
 			)
 		)
 		(property "Power" "62.5mW"
-			(at 238.76 110.49 0)
+			(at 243.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25008,7 +24842,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 238.76 110.49 0)
+			(at 243.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25019,7 +24853,7 @@
 			)
 		)
 		(property "Footprint_Name" "0402"
-			(at 238.76 110.49 0)
+			(at 243.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25030,7 +24864,7 @@
 			)
 		)
 		(property "Manufacturer 1" "Uni-Royal"
-			(at 238.76 110.49 0)
+			(at 243.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25041,7 +24875,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "0402WGF1623TCE"
-			(at 238.76 110.49 0)
+			(at 243.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25052,7 +24886,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 238.76 110.49 0)
+			(at 243.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25063,7 +24897,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C54068"
-			(at 238.76 110.49 0)
+			(at 243.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25074,7 +24908,7 @@
 			)
 		)
 		(property "LCSC Part" "C54068"
-			(at 238.76 110.49 0)
+			(at 243.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25085,7 +24919,7 @@
 			)
 		)
 		(property "Price @1 USD" "0.0007"
-			(at 238.76 110.49 0)
+			(at 243.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25096,7 +24930,7 @@
 			)
 		)
 		(property "Price @100 USD" "0.0007"
-			(at 238.76 110.49 0)
+			(at 243.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25107,7 +24941,7 @@
 			)
 		)
 		(property "Price @Bulk USD" "0.0006"
-			(at 238.76 110.49 0)
+			(at 243.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25118,7 +24952,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "1000"
-			(at 238.76 110.49 0)
+			(at 243.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25129,7 +24963,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 238.76 110.49 0)
+			(at 243.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25140,7 +24974,7 @@
 			)
 		)
 		(property "Price Updated" "2026-05-14"
-			(at 238.76 110.49 0)
+			(at 243.84 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25151,7 +24985,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 238.76 110.49 90)
+			(at 243.84 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25162,7 +24996,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 238.76 110.49 90)
+			(at 243.84 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25173,7 +25007,7 @@
 			)
 		)
 		(property "on_board" ""
-			(at 238.76 110.49 90)
+			(at 243.84 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25472,7 +25306,7 @@
 	)
 	(symbol
 		(lib_id "ICs:TPS54302DDCR")
-		(at 185.42 106.68 0)
+		(at 190.5 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25482,7 +25316,7 @@
 		(dnp no)
 		(uuid "deb319fc-8e44-4ba5-b053-37b3079d5b73")
 		(property "Reference" "U19"
-			(at 177.8 100.33 0)
+			(at 182.88 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25493,7 +25327,7 @@
 			)
 		)
 		(property "Value" "TPS54302DDCR"
-			(at 185.42 100.33 0)
+			(at 190.5 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25504,7 +25338,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:SOT-23-6"
-			(at 186.69 115.57 0)
+			(at 191.77 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25516,7 +25350,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps54302.pdf"
-			(at 177.8 97.79 0)
+			(at 182.88 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25527,7 +25361,7 @@
 			)
 		)
 		(property "Description" "4.5-V to 28-V Input, 3-A Output, EMI-Friendly Synchronous Step-Down Converter"
-			(at 185.42 106.68 0)
+			(at 190.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25538,7 +25372,7 @@
 			)
 		)
 		(property "Manufacturer 1" "Texas Instruments"
-			(at 185.42 106.68 0)
+			(at 190.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25549,7 +25383,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "TPS54302DDCR"
-			(at 185.42 106.68 0)
+			(at 190.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25560,7 +25394,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 185.42 106.68 0)
+			(at 190.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25571,7 +25405,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C311983"
-			(at 185.42 106.68 0)
+			(at 190.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25582,7 +25416,7 @@
 			)
 		)
 		(property "LCSC Part" "C311983"
-			(at 185.42 106.68 0)
+			(at 190.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25593,7 +25427,7 @@
 			)
 		)
 		(property "Price @1 USD" "0.2927"
-			(at 185.42 106.68 0)
+			(at 190.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25604,7 +25438,7 @@
 			)
 		)
 		(property "Price @100 USD" "0.2293"
-			(at 185.42 106.68 0)
+			(at 190.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25615,7 +25449,7 @@
 			)
 		)
 		(property "Price @Bulk USD" "0.1707"
-			(at 185.42 106.68 0)
+			(at 190.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25626,7 +25460,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "500"
-			(at 185.42 106.68 0)
+			(at 190.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25637,7 +25471,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 185.42 106.68 0)
+			(at 190.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25648,7 +25482,7 @@
 			)
 		)
 		(property "Price Updated" "2026-05-14"
-			(at 185.42 106.68 0)
+			(at 190.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25659,7 +25493,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 185.42 106.68 0)
+			(at 190.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25670,7 +25504,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 185.42 106.68 0)
+			(at 190.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25681,7 +25515,7 @@
 			)
 		)
 		(property "on_board" ""
-			(at 185.42 106.68 0)
+			(at 190.5 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25719,8 +25553,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CS3225X7R476K160NRL")
-		(at 256.54 110.49 0)
+		(lib_id "Capacitor:CL32A476KOJNNNE")
+		(at 261.62 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25730,7 +25564,7 @@
 		(dnp no)
 		(uuid "dfc99211-33b4-4801-90a7-35aa8f4f5790")
 		(property "Reference" "C93"
-			(at 256.794 108.458 0)
+			(at 261.874 108.458 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -25741,7 +25575,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 256.794 112.522 0)
+			(at 261.874 112.522 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -25752,7 +25586,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:C_1210_3225Metric"
-			(at 257.5052 114.3 0)
+			(at 262.5852 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25762,8 +25596,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2411201415_SAMWHA-CS3225X7R476K160NRL_C5440143.pdf"
-			(at 256.54 110.49 0)
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/3cd38c41b24c01cdc3c62ae025f7fc43.pdf?productCode=C2932477"
+			(at 261.62 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25773,8 +25607,8 @@
 				)
 			)
 		)
-		(property "Description" "47uF 16V X7R 10% 1210"
-			(at 256.54 110.49 0)
+		(property "Description" "47uF 16V X5R 10% 1210"
+			(at 261.62 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25784,8 +25618,8 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
-			(at 255.27 112.014 0)
+		(property "Dielectric" "X5R"
+			(at 260.35 112.014 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -25795,7 +25629,7 @@
 			)
 		)
 		(property "Voltage" "16V"
-			(at 255.27 113.03 0)
+			(at 260.35 113.03 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -25805,7 +25639,7 @@
 			)
 		)
 		(property "Tolerance" "10%"
-			(at 256.54 110.49 0)
+			(at 261.62 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25816,7 +25650,7 @@
 			)
 		)
 		(property "Footprint_Name" "1210"
-			(at 256.54 110.49 0)
+			(at 261.62 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25826,8 +25660,8 @@
 				)
 			)
 		)
-		(property "Manufacturer 1" "Samwha Capacitor"
-			(at 256.54 110.49 0)
+		(property "Manufacturer 1" "Samsung Electro-Mechanics"
+			(at 261.62 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25837,8 +25671,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 1" "CS3225X7R476K160NRL"
-			(at 256.54 110.49 0)
+		(property "Manufacturer Part Number 1" "CL32A476KOJNNNE"
+			(at 261.62 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25849,7 +25683,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 256.54 110.49 0)
+			(at 261.62 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25859,8 +25693,8 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C5440143"
-			(at 256.54 110.49 0)
+		(property "Supplier Part Number 1" "C2932477"
+			(at 261.62 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25870,8 +25704,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5440143"
-			(at 256.54 110.49 0)
+		(property "LCSC Part" "C2932477"
+			(at 261.62 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25881,8 +25715,8 @@
 				)
 			)
 		)
-		(property "Price @1 USD" "0.1071"
-			(at 256.54 110.49 0)
+		(property "Price @1 USD" "0.2665"
+			(at 261.62 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25892,8 +25726,8 @@
 				)
 			)
 		)
-		(property "Price @100 USD" "0.0850"
-			(at 256.54 110.49 0)
+		(property "Price @100 USD" "0.1851"
+			(at 261.62 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25903,8 +25737,8 @@
 				)
 			)
 		)
-		(property "Price @Bulk USD" "0.0636"
-			(at 256.54 110.49 0)
+		(property "Price @Bulk USD" "0.1693"
+			(at 261.62 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25915,7 +25749,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "1000"
-			(at 256.54 110.49 0)
+			(at 261.62 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25926,7 +25760,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 256.54 110.49 0)
+			(at 261.62 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25936,47 +25770,14 @@
 				)
 			)
 		)
-		(property "Price Updated" "2026-05-14"
-			(at 256.54 110.49 0)
+		(property "Price Updated" "2026-06-14"
+			(at 261.62 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 256.54 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 256.54 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "on_board" ""
-			(at 256.54 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
@@ -26547,7 +26348,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CS3225X7R476K160NRL")
+		(lib_id "Capacitor:CL32A476KOJNNNE")
 		(at 251.46 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -26590,7 +26391,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2411201415_SAMWHA-CS3225X7R476K160NRL_C5440143.pdf"
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/3cd38c41b24c01cdc3c62ae025f7fc43.pdf?productCode=C2932477"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -26601,7 +26402,7 @@
 				)
 			)
 		)
-		(property "Description" "47uF 16V X7R 10% 1210"
+		(property "Description" "47uF 16V X5R 10% 1210"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -26612,7 +26413,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X7R"
+		(property "Dielectric" "X5R"
 			(at 250.19 43.434 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -26654,7 +26455,7 @@
 				)
 			)
 		)
-		(property "Manufacturer 1" "Samwha Capacitor"
+		(property "Manufacturer 1" "Samsung Electro-Mechanics"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -26665,7 +26466,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 1" "CS3225X7R476K160NRL"
+		(property "Manufacturer Part Number 1" "CL32A476KOJNNNE"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -26687,7 +26488,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C5440143"
+		(property "Supplier Part Number 1" "C2932477"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -26698,7 +26499,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C5440143"
+		(property "LCSC Part" "C2932477"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -26709,7 +26510,7 @@
 				)
 			)
 		)
-		(property "Price @1 USD" "0.1071"
+		(property "Price @1 USD" "0.2665"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -26720,7 +26521,7 @@
 				)
 			)
 		)
-		(property "Price @100 USD" "0.0850"
+		(property "Price @100 USD" "0.1851"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -26731,7 +26532,7 @@
 				)
 			)
 		)
-		(property "Price @Bulk USD" "0.0636"
+		(property "Price @Bulk USD" "0.1693"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -26764,7 +26565,7 @@
 				)
 			)
 		)
-		(property "Price Updated" "2026-05-14"
+		(property "Price Updated" "2026-06-14"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -26772,39 +26573,6 @@
 			(effects
 				(font
 					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 251.46 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 251.46 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "on_board" ""
-			(at 251.46 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27416,8 +27184,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CC0402JRNPO9BN101")
-		(at 228.6 110.49 0)
+		(lib_id "Capacitor:0402CG101J500NT")
+		(at 233.68 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27427,7 +27195,7 @@
 		(dnp no)
 		(uuid "f93cb790-e07e-4e20-a949-97f20b26879e")
 		(property "Reference" "C82"
-			(at 228.854 108.458 0)
+			(at 233.934 108.458 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -27438,7 +27206,7 @@
 			)
 		)
 		(property "Value" "100pF"
-			(at 228.854 112.522 0)
+			(at 233.934 112.522 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -27449,7 +27217,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:C_0402_1005Metric"
-			(at 229.5652 114.3 0)
+			(at 234.6452 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27459,8 +27227,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C106200.pdf"
-			(at 228.6 110.49 0)
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/9f6ef17093b8d551f8b17af0626ff758.pdf?productCode=C1546"
+			(at 233.68 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27470,8 +27238,8 @@
 				)
 			)
 		)
-		(property "Description" "100pF 50V NP0 5% 0402"
-			(at 228.6 110.49 0)
+		(property "Description" "100pF 50V C0G 5% 0402"
+			(at 233.68 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27481,8 +27249,8 @@
 				)
 			)
 		)
-		(property "Dielectric" "NP0"
-			(at 227.33 112.014 0)
+		(property "Dielectric" "C0G"
+			(at 232.41 112.014 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -27492,7 +27260,7 @@
 			)
 		)
 		(property "Voltage" "50V"
-			(at 227.33 113.03 0)
+			(at 232.41 113.03 0)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -27502,7 +27270,7 @@
 			)
 		)
 		(property "Tolerance" "5%"
-			(at 228.6 110.49 0)
+			(at 233.68 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27513,7 +27281,7 @@
 			)
 		)
 		(property "Footprint_Name" "0402"
-			(at 228.6 110.49 0)
+			(at 233.68 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27523,8 +27291,8 @@
 				)
 			)
 		)
-		(property "Manufacturer 1" "YAGEO"
-			(at 228.6 110.49 0)
+		(property "Manufacturer 1" "FH"
+			(at 233.68 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27534,8 +27302,8 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 1" "CC0402JRNPO9BN101"
-			(at 228.6 110.49 0)
+		(property "Manufacturer Part Number 1" "0402CG101J500NT"
+			(at 233.68 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27546,7 +27314,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 228.6 110.49 0)
+			(at 233.68 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27556,8 +27324,8 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C106200"
-			(at 228.6 110.49 0)
+		(property "Supplier Part Number 1" "C1546"
+			(at 233.68 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27567,8 +27335,8 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C106200"
-			(at 228.6 110.49 0)
+		(property "LCSC Part" "C1546"
+			(at 233.68 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27578,8 +27346,8 @@
 				)
 			)
 		)
-		(property "Price @1 USD" "0.0012"
-			(at 228.6 110.49 0)
+		(property "Price @1 USD" "0.0020"
+			(at 233.68 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27589,8 +27357,8 @@
 				)
 			)
 		)
-		(property "Price @100 USD" "0.0012"
-			(at 228.6 110.49 0)
+		(property "Price @100 USD" "0.0020"
+			(at 233.68 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27600,8 +27368,8 @@
 				)
 			)
 		)
-		(property "Price @Bulk USD" "0.0010"
-			(at 228.6 110.49 0)
+		(property "Price @Bulk USD" "0.0017"
+			(at 233.68 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27612,7 +27380,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "1000"
-			(at 228.6 110.49 0)
+			(at 233.68 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27623,7 +27391,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 228.6 110.49 0)
+			(at 233.68 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27633,47 +27401,14 @@
 				)
 			)
 		)
-		(property "Price Updated" "2026-05-14"
-			(at 228.6 110.49 0)
+		(property "Price Updated" "2026-06-14"
+			(at 233.68 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 228.6 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 228.6 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "on_board" ""
-			(at 228.6 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
 				)
 			)
 		)
@@ -27960,7 +27695,7 @@
 	)
 	(symbol
 		(lib_id "Diodes:SS34")
-		(at 185.42 93.98 180)
+		(at 190.5 93.98 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27970,7 +27705,7 @@
 		(dnp no)
 		(uuid "fd9fadbc-7520-4dd4-9248-449614ef1390")
 		(property "Reference" "D11"
-			(at 185.42 96.52 0)
+			(at 190.5 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27980,7 +27715,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 185.42 91.44 0)
+			(at 190.5 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27990,7 +27725,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:D_SMA"
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28001,7 +27736,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C727060.pdf"
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28012,7 +27747,7 @@
 			)
 		)
 		(property "Description" "Schottky Diode 40V 550mV@3A 3A SOD-323"
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28023,7 +27758,7 @@
 			)
 		)
 		(property "comp_type" "DIODE"
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28034,7 +27769,7 @@
 			)
 		)
 		(property "Maximum Reverse Voltage" "40V"
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28045,7 +27780,7 @@
 			)
 		)
 		(property "Continuous Current" "3A"
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28056,7 +27791,7 @@
 			)
 		)
 		(property "Manufacturer 1" "TWGMC"
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28067,7 +27802,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "SS34"
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28078,7 +27813,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28089,7 +27824,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C727060"
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28100,7 +27835,7 @@
 			)
 		)
 		(property "LCSC Part" "C727060"
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28111,7 +27846,7 @@
 			)
 		)
 		(property "Price @1 USD" "0.0278"
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28122,7 +27857,7 @@
 			)
 		)
 		(property "Price @100 USD" "0.0278"
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28133,7 +27868,7 @@
 			)
 		)
 		(property "Price @Bulk USD" "0.0193"
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28144,7 +27879,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "600"
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28155,7 +27890,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28166,7 +27901,7 @@
 			)
 		)
 		(property "Price Updated" "2026-05-14"
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28177,7 +27912,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28188,7 +27923,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28199,7 +27934,7 @@
 			)
 		)
 		(property "on_board" ""
-			(at 185.42 93.98 0)
+			(at 190.5 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
