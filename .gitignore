@@ -10,3 +10,4 @@ __pycache__/
 
 # VS Code Local History extension (editor-side undo history, not project data)
 src/.history/
+enclosure/*.FCBak

@@ -367,6 +367,39 @@ never hit it" in `firmware/CHANGELOG_CE_DONGLE.md` (2026-07-05). *Recovery note 
 `factory.bin` flash at `0x0` does NOT wipe settings/LittleFS here — use `esptool erase_flash` for a
 clean slate; the LTE feature set + template `CE_Dongle_V3_2` are also in that changelog.*
 
+## 2026-07-05 — Full logging / auditability on both LTE drivers
+
+Both `xdrv_128` (LTE modem) and `xdrv_126` (WAN failover) now emit a complete, level-graded log so a
+field incident can be reconstructed from the log alone. No behaviour changed — only `AddLog` coverage.
+
+**What's logged, by level:**
+- `ERROR` — real failures: power-on / UART-install / dial / `pppos_create` / registration timeout,
+  SIM PIN rejected or PUK-locked, `pppapi_free` leak, `+++`/ATO escape failure, tcpip-callback
+  timeout, **both links unable to reach the broker**, config-save failure.
+- `INFO` — the default decision trail: begin/end, keeper/probe/rx task start+exit, **bring-up attempt
+  #N** with outcome + elapsed, LINK UP (ip/gw/DNS) / DOWN (decoded PPP error), arm / disarm /
+  **boot-arm**, every **SWITCH** with a state snapshot (`wifiPath ltePath wifiPfail ltePfail mqtt
+  lteLink`), WiFi/LTE/MQTT health + broker-reachability **edges** (logged once per change), both-down
+  enter + **clear**, active-WAN role change, and per-field config changes.
+- `DEBUG` — the full AT transcript, APN/operator apply, per-poll registration, route/DNS apply,
+  cfg load & persist.
+- `DEBUG_MORE` — per-probe raw reachability + per-tick default-route re-assert.
+
+**Reading it:** each bring-up stamps a monotonic attempt # into all its lines, so a failed attempt's
+power→UART→SIM→registration→dial→PPP sequence correlates cleanly. Transitions are edge-tracked
+(logged once, not every 1 s tick), so raising the level doesn't flood.
+
+**Secrets:** the SIM PIN and APN password are never written to the log (`AT+CPIN="****"` /
+`AT#PDPAUTH=…,"****"`; config lines say `set`/`cleared`). Command *responses* still echo values to
+whoever issued the command — unchanged — but those don't enter the log stream.
+
+**Capturing the trail** (firmware emits it; where it lands is an operator setting — all default to
+INFO, i.e. production stays quiet):
+- `SysLog 3` + `LogHost <collector-ip>` + `LogPort 514` → remote syslog, **survives reboots** (best
+  for field forensics).
+- `MqttLog 3` → publishes each line to `tele/<topic>/LOGGING` for broker-side collection.
+- `WebLog 3` (Console page) or `SerialLog 3` (USB console, now working) → live DEBUG at the bench.
+
 ## Open hardware items
 
 - **Board #1 (.189)**: remove the R51 jumper and **re-measure the 2 Ω SIM_VCC→GND short**
