@@ -621,6 +621,12 @@
       "/PWR/USB_D-": [
         "DC_90"
       ],
+      "Net-(J11-In)": [
+        "SC_50"
+      ],
+      "Net-(J12-In)": [
+        "SC_50"
+      ],
       "Net-(J2-In)": [
         "SC_50"
       ],
@@ -1064,7 +1070,7 @@
         "uuid": "626f6405-d1f3-452a-8480-540e5958a403"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C72,TP25-53,SW2,#PWR7,#PWR11,#PWR160,J3,J5-7",
     "variants": []
   },
   "sheets": [

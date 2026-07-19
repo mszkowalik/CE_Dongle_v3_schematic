@@ -335,6 +335,449 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diodes:TPD4E05U06DQAR"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "5.5V"
+				(at 0 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "7Sigma:USON-10_2.5x1.0mm_P0.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/86fce5e377410b6c2d1b0526f306f55e.pdf?productCode=C138714"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "4-Channel ESD Protection Array 5.5VWM USON-10"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "comp_type" "TVS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Voltage - Breakdown" "6.5V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Reverse Leakage Current" "10nA"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Reverse Stand-Off Voltage" "5.5V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Manufacturer 1" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Manufacturer Part Number 1" "TPD4E05U06DQAR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "LCSC Part" "C138714"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Supplier 1" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Supplier Part Number 1" "C138714"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Price @1 USD" "0.0875"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Price @100 USD" "0.0717"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Price @Bulk USD" "0.0570"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Price Bulk Qty" "500"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Price Source" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Price Updated" "2026-07-19"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "ki_keywords" "ESD TVS protection array diode 4-channel USB HDMI"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPD4E05U06DQAR_0_1"
+				(rectangle
+					(start -5.08 6.35)
+					(end 5.08 -6.35)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -4.32 5.59)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TPD4E05U06DQAR_1_1"
+				(pin passive line
+					(at -7.62 5.08 0)
+					(length 2.54)
+					(name "D1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "D1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "D2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -5.08 0)
+					(length 2.54)
+					(name "D2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -5.08 180)
+					(length 2.54)
+					(name "D2-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "D2+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "D1-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 7.62 5.08 180)
+					(length 2.54)
+					(name "D1+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ICs:SP3485EN-L/TR"
 			(pin_names
 				(offset 1.016)
@@ -1923,10 +2366,176 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TestPoints:TestPoint_Pad_D1.5mm"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMD pad as test Point, diameter 1.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier 1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Supplier Part Number 1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Pad_D1.5mm_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Pad_D1.5mm_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text_box "1.4mA"
+		(exclude_from_sim no)
+		(at 40.64 77.3317 0)
+		(size 7.62 3.9483)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "772e8dd7-3c2f-498a-9a2b-c3bcfe0ba5f3")
 	)
 	(text_box "No termination, at 9600 baud termination is needed with 1875m cable\nL_critical ≈ propagation_speed / (10 × baud_rate) ≈ 1.8×10⁸ m/s / (10 × 9600) ≈ 1875 m"
 		(exclude_from_sim no)
-		(at 109.22 82.3486 0)
+		(at 119.38 83.82 0)
 		(size 45.72 12.1268)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -1945,13 +2554,67 @@
 		(uuid "afa58faf-836c-43bf-aaeb-0f66503a0711")
 	)
 	(junction
+		(at 121.92 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ff9cf60-9d6b-49ed-8936-2de17631dd3b")
+	)
+	(junction
+		(at 137.16 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1155af47-72d7-4cd1-a66c-8d864811093c")
+	)
+	(junction
+		(at 111.76 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1bb5e683-d5ee-4450-81fa-33b3ccf607d1")
+	)
+	(junction
+		(at 50.8 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44bc333e-5577-43c7-9f7b-7d407e864413")
+	)
+	(junction
 		(at 50.8 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e9935ba-93ec-4a4e-9f0c-59ce2a95bdcc")
 	)
 	(junction
-		(at 104.14 60.96)
+		(at 121.92 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "773216ff-e89a-42b3-ba73-c59b942ce263")
+	)
+	(junction
+		(at 137.16 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a1321a7-1b6a-400d-92fd-955a05dc3db3")
+	)
+	(junction
+		(at 50.8 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88b4be58-4fb1-4182-9e19-a742dff3a3f3")
+	)
+	(junction
+		(at 111.76 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "913bc2b1-009f-4ea3-9e16-fab231cd74c4")
+	)
+	(junction
+		(at 38.1 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8106d32-9aa8-469e-835b-fcb54312d5bf")
+	)
+	(junction
+		(at 104.14 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cbf8b69c-0c11-4474-abb5-82a4f618bbfd")
@@ -1970,6 +2633,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 73.66) (xy 115.57 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0185dba8-880b-4fa0-ac90-b4e6ea3f509c")
+	)
+	(wire
+		(pts
 			(xy 50.8 66.04) (xy 50.8 68.58)
 		)
 		(stroke
@@ -1977,6 +2650,26 @@
 			(type default)
 		)
 		(uuid "043ac933-a1cf-4a2b-9ed4-acb6b453f083")
+	)
+	(wire
+		(pts
+			(xy 104.14 78.74) (xy 111.76 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07bd0c57-5f06-4783-9ef4-f0a93153b26e")
+	)
+	(wire
+		(pts
+			(xy 137.16 63.5) (xy 121.92 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b58136f-7666-461d-be5a-2160ae00ac4e")
 	)
 	(wire
 		(pts
@@ -2000,6 +2693,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 58.42) (xy 111.76 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc1f460-6c70-43fe-b745-47aa84bb0313")
+	)
+	(wire
+		(pts
 			(xy 33.02 68.58) (xy 35.56 68.58)
 		)
 		(stroke
@@ -2010,7 +2713,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 58.42) (xy 104.14 60.96)
+			(xy 104.14 55.88) (xy 104.14 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2030,7 +2733,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 60.96) (xy 104.14 60.96)
+			(xy 88.9 58.42) (xy 104.14 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2040,13 +2743,33 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 66.04) (xy 88.9 60.96)
+			(xy 121.92 63.5) (xy 116.84 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37df570d-4e5e-47bd-b1c2-924bc1e2b23f")
+	)
+	(wire
+		(pts
+			(xy 88.9 66.04) (xy 88.9 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4fff0605-b61a-4641-af55-74dbda5c0b7f")
+	)
+	(wire
+		(pts
+			(xy 121.92 73.66) (xy 115.57 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "554129a1-300b-4ab5-82df-21340ed1d94a")
 	)
 	(wire
 		(pts
@@ -2060,7 +2783,17 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 60.96) (xy 104.14 64.77)
+			(xy 116.84 63.5) (xy 116.84 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63f4ee69-c9df-49d2-b804-cce7ef678737")
+	)
+	(wire
+		(pts
+			(xy 104.14 58.42) (xy 104.14 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2077,6 +2810,26 @@
 			(type default)
 		)
 		(uuid "6cc2cca2-2fc7-4d4f-95ce-44edbeea45ed")
+	)
+	(wire
+		(pts
+			(xy 142.24 63.5) (xy 137.16 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ffcc9e7-2ad1-4dbc-8c6a-0d9a5a4b54f0")
+	)
+	(wire
+		(pts
+			(xy 116.84 58.42) (xy 111.76 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71521a17-78d7-44a0-912a-849f197c5464")
 	)
 	(wire
 		(pts
@@ -2100,7 +2853,27 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 73.66) (xy 58.42 73.66)
+			(xy 111.76 78.74) (xy 115.57 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97b33e06-e358-4c5e-9b08-35abae79828f")
+	)
+	(wire
+		(pts
+			(xy 38.1 68.58) (xy 50.8 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97ea054b-4a26-4edd-b179-c5afd1bc4961")
+	)
+	(wire
+		(pts
+			(xy 48.26 73.66) (xy 50.8 73.66)
 		)
 		(stroke
 			(width 0)
@@ -2110,23 +2883,43 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 78.74) (xy 132.08 78.74)
+			(xy 50.8 73.66) (xy 58.42 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a9b9dcad-7ac3-4206-901a-59a3e1f1e84b")
+		(uuid "a9dcd8ed-19de-4b5a-97ca-d7da95c05433")
 	)
 	(wire
 		(pts
-			(xy 104.14 60.96) (xy 132.08 60.96)
+			(xy 137.16 73.66) (xy 121.92 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c491afcf-3667-4117-b73c-25b0f0f21b1d")
+		(uuid "ceeea310-6fa6-43ce-86ed-e694c5c7ddf6")
+	)
+	(wire
+		(pts
+			(xy 50.8 63.5) (xy 58.42 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e06f4407-18d3-44b8-b9c7-cdfd8a8b9570")
+	)
+	(wire
+		(pts
+			(xy 142.24 73.66) (xy 137.16 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f7eaea-ba29-434b-8bdd-697ae0b0d2a3")
 	)
 	(wire
 		(pts
@@ -2140,7 +2933,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 63.5) (xy 58.42 63.5)
+			(xy 48.26 63.5) (xy 50.8 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2160,7 +2953,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 68.58) (xy 50.8 68.58)
+			(xy 35.56 68.58) (xy 38.1 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2179,7 +2972,7 @@
 		(uuid "21eebe2e-ec1b-4f8b-b413-3191a5528040")
 	)
 	(label "MODBUS_A"
-		(at 91.44 60.96 0)
+		(at 91.44 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2199,9 +2992,20 @@
 		)
 		(uuid "16a03abc-ff9d-406f-aa44-4c08ce739ea0")
 	)
+	(hierarchical_label "MODBUS_B"
+		(shape input)
+		(at 142.24 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b071e89-940e-427d-a8fb-bdf3a7a9d38d")
+	)
 	(hierarchical_label "MODBUS_A"
 		(shape input)
-		(at 132.08 60.96 0)
+		(at 142.24 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2231,17 +3035,6 @@
 			(justify right)
 		)
 		(uuid "df5f611a-135b-4db7-8f4b-bc11c9e5dfa4")
-	)
-	(hierarchical_label "MODBUS_B"
-		(shape input)
-		(at 132.08 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fc300fac-4b86-4680-a36e-d9b1ac34bdbd")
 	)
 	(symbol
 		(lib_id "Power:GND")
@@ -2322,7 +3115,7 @@
 	)
 	(symbol
 		(lib_id "Power:3V3")
-		(at 104.14 50.8 0)
+		(at 104.14 48.26 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2332,7 +3125,7 @@
 		(dnp no)
 		(uuid "16b3faa5-60a3-4e39-aebc-6e28cd5e9312")
 		(property "Reference" "#PWR05"
-			(at 104.14 54.61 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2343,7 +3136,7 @@
 			)
 		)
 		(property "Value" "3V3"
-			(at 104.14 47.244 0)
+			(at 104.14 44.704 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2353,7 +3146,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 50.8 0)
+			(at 104.14 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2364,7 +3157,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 50.8 0)
+			(at 104.14 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2375,7 +3168,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3V3\""
-			(at 104.14 50.8 0)
+			(at 104.14 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2399,7 +3192,7 @@
 	)
 	(symbol
 		(lib_id "Resistor:0402WGF1001TCE")
-		(at 104.14 54.61 0)
+		(at 104.14 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2409,7 +3202,7 @@
 		(dnp no)
 		(uuid "1bf1ab60-1396-439a-b9b0-2ef53f9fabfc")
 		(property "Reference" "R3"
-			(at 106.172 54.61 90)
+			(at 106.172 52.07 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2419,7 +3212,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 102.616 54.61 90)
+			(at 102.616 52.07 90)
 			(show_name no)
 			(do_not_autoplace yes)
 			(effects
@@ -2429,7 +3222,7 @@
 			)
 		)
 		(property "Footprint" "7Sigma:R_0402_1005Metric"
-			(at 102.362 54.61 90)
+			(at 102.362 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2440,7 +3233,7 @@
 			)
 		)
 		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
-			(at 104.14 54.61 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2451,7 +3244,7 @@
 			)
 		)
 		(property "Description" "1K 63mW 1% 0402"
-			(at 104.14 54.61 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2462,7 +3255,7 @@
 			)
 		)
 		(property "Power" "63mW"
-			(at 104.14 54.61 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2473,7 +3266,7 @@
 			)
 		)
 		(property "Tolerance" "1%"
-			(at 104.14 54.61 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2484,7 +3277,7 @@
 			)
 		)
 		(property "Footprint_Name" "0402"
-			(at 104.14 54.61 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2495,7 +3288,7 @@
 			)
 		)
 		(property "Manufacturer 1" "Uni-Royal"
-			(at 104.14 54.61 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2506,7 +3299,7 @@
 			)
 		)
 		(property "Manufacturer Part Number 1" "0402WGF1001TCE"
-			(at 104.14 54.61 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2517,7 +3310,7 @@
 			)
 		)
 		(property "Supplier 1" "LCSC"
-			(at 104.14 54.61 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2528,7 +3321,7 @@
 			)
 		)
 		(property "Supplier Part Number 1" "C11702"
-			(at 104.14 54.61 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2539,7 +3332,7 @@
 			)
 		)
 		(property "LCSC Part" "C11702"
-			(at 104.14 54.61 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2550,7 +3343,7 @@
 			)
 		)
 		(property "Price @1 USD" "0.0011"
-			(at 104.14 54.61 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2561,7 +3354,7 @@
 			)
 		)
 		(property "Price @100 USD" "0.0011"
-			(at 104.14 54.61 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2572,7 +3365,7 @@
 			)
 		)
 		(property "Price @Bulk USD" "0.0009"
-			(at 104.14 54.61 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2583,7 +3376,7 @@
 			)
 		)
 		(property "Price Bulk Qty" "1000"
-			(at 104.14 54.61 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2594,7 +3387,7 @@
 			)
 		)
 		(property "Price Source" "LCSC"
-			(at 104.14 54.61 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2605,7 +3398,7 @@
 			)
 		)
 		(property "Price Updated" "2026-05-14"
-			(at 104.14 54.61 0)
+			(at 104.14 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2616,7 +3409,7 @@
 			)
 		)
 		(property "Manufacturer" ""
-			(at 104.14 54.61 90)
+			(at 104.14 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2627,7 +3420,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" ""
-			(at 104.14 54.61 90)
+			(at 104.14 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2638,7 +3431,7 @@
 			)
 		)
 		(property "on_board" ""
-			(at 104.14 54.61 90)
+			(at 104.14 52.07 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2658,6 +3451,83 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/7a13ba88-4760-412d-8799-46b137fb8990"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:GND")
+		(at 121.92 68.58 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "21d0632e-140d-42e1-9c6c-d79f3f93b2f1")
+		(property "Reference" "#PWR011"
+			(at 115.57 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 118.745 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
+			(at 121.92 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4679940b-18fc-4f7e-89cd-0e4c87cd690b")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/7a13ba88-4760-412d-8799-46b137fb8990"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -2952,6 +3822,105 @@
 		)
 	)
 	(symbol
+		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(at 50.8 73.66 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4503cb7e-5656-48e4-a29b-6e37d75654b2")
+		(property "Reference" "TP26"
+			(at 50.8 80.01 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 50.8 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+			(at 45.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD pad as test Point, diameter 1.5mm"
+			(at 50.8 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 50.8 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" ""
+			(at 50.8 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "46d62c52-6089-4af1-a0ed-b3b324c4a53e")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/7a13ba88-4760-412d-8799-46b137fb8990"
+					(reference "TP26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power:GND")
 		(at 35.56 83.82 0)
 		(unit 1)
@@ -3023,6 +3992,105 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/7a13ba88-4760-412d-8799-46b137fb8990"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(at 38.1 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "614efa7f-5199-49ea-86c3-f9423f83fcbc")
+		(property "Reference" "TP27"
+			(at 38.1 62.23 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 38.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+			(at 43.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD pad as test Point, diameter 1.5mm"
+			(at 38.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 38.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" ""
+			(at 38.1 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d74b276f-cce2-48d8-8521-a6407e43dc6f")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/7a13ba88-4760-412d-8799-46b137fb8990"
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -3372,6 +4440,274 @@
 		)
 	)
 	(symbol
+		(lib_id "Diodes:TPD4E05U06DQAR")
+		(at 129.54 68.58 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "af3fc424-34fa-4edd-a3af-18d2e58cd628")
+		(property "Reference" "D14"
+			(at 129.54 60.96 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.5V"
+			(at 129.54 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7Sigma:USON-10_2.5x1.0mm_P0.5mm"
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/86fce5e377410b6c2d1b0526f306f55e.pdf?productCode=C138714"
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4-Channel ESD Protection Array 5.5VWM USON-10"
+			(at 129.54 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "comp_type" "TVS"
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Voltage - Breakdown" "6.5V"
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Reverse Leakage Current" "10nA"
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Reverse Stand-Off Voltage" "5.5V"
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer 1" "Texas Instruments"
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "TPD4E05U06DQAR"
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part" "C138714"
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" "C138714"
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @1 USD" "0.0875"
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @100 USD" "0.0717"
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @Bulk USD" "0.0570"
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Bulk Qty" "500"
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Source" "LCSC"
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Updated" "2026-07-19"
+			(at 129.54 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "eab30014-603a-4030-8c1f-8ca066d65472")
+		)
+		(pin "3"
+			(uuid "c1ddf735-87aa-4102-94f6-9936721ffbf6")
+		)
+		(pin "1"
+			(uuid "e161169e-54dc-4c2b-81f5-2bb0a469f151")
+		)
+		(pin "10"
+			(uuid "bb45cbf7-937f-4cc7-81f8-7a6be0f8b567")
+		)
+		(pin "2"
+			(uuid "027df89a-f37b-4921-83ed-d874e0fcfa64")
+		)
+		(pin "4"
+			(uuid "4ac3977e-4b2e-41a9-8650-3eb3889c8fc2")
+		)
+		(pin "5"
+			(uuid "72b1a476-71dd-4331-98f6-10edf29995ef")
+		)
+		(pin "8"
+			(uuid "f89faeaa-8c8c-4972-baf5-780b7848d7fc")
+		)
+		(pin "9"
+			(uuid "cf1ff4e6-1710-482e-9803-2b9737279cea")
+		)
+		(pin "7"
+			(uuid "328eadf8-be7d-4d29-be80-8fda33fa0e42")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/7a13ba88-4760-412d-8799-46b137fb8990"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power:GND")
 		(at 77.47 50.8 0)
 		(unit 1)
@@ -3597,6 +4933,83 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/7a13ba88-4760-412d-8799-46b137fb8990"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:GND")
+		(at 137.16 68.58 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bc0b7883-bd09-4c0d-a234-3db099fbbe55")
+		(property "Reference" "#PWR07"
+			(at 143.51 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.335 68.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
+			(at 137.16 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7327c0ff-780e-4162-a5c1-8062381817cc")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/7a13ba88-4760-412d-8799-46b137fb8990"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4129,6 +5542,105 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/7a13ba88-4760-412d-8799-46b137fb8990"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(at 50.8 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ccc719a5-3669-4d41-9681-a0347d6f4ce2")
+		(property "Reference" "TP25"
+			(at 50.8 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 50.8 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+			(at 55.88 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD pad as test Point, diameter 1.5mm"
+			(at 50.8 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 50.8 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" ""
+			(at 50.8 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f25b525d-37b0-4f39-905e-eaabab785626")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/7a13ba88-4760-412d-8799-46b137fb8990"
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -4671,6 +6183,204 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/7a13ba88-4760-412d-8799-46b137fb8990"
 					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(at 111.76 78.74 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4928386-95e0-4ced-8e53-094b791f1d4f")
+		(property "Reference" "TP29"
+			(at 111.76 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 111.76 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+			(at 106.68 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD pad as test Point, diameter 1.5mm"
+			(at 111.76 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 111.76 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" ""
+			(at 111.76 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37eb5ff4-0e5d-486e-a177-aa144e76b6da")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/7a13ba88-4760-412d-8799-46b137fb8990"
+					(reference "TP29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(at 111.76 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f87276a9-4c80-490a-acca-a4665b4afb04")
+		(property "Reference" "TP28"
+			(at 111.76 52.07 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 111.76 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+			(at 116.84 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD pad as test Point, diameter 1.5mm"
+			(at 111.76 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 111.76 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" ""
+			(at 111.76 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d6f3b065-0f6b-4753-af9c-0c57bd8c392a")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/7a13ba88-4760-412d-8799-46b137fb8990"
+					(reference "TP28")
 					(unit 1)
 				)
 			)

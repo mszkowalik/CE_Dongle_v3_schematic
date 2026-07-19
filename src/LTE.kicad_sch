@@ -1952,7 +1952,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connectors:BWSMA-KE-P001"
+		(symbol "Connectors:KH-IPEX-K501-29"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1972,8 +1972,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
+			(property "Value" "Conn_IPEX"
+				(at -10.668 -7.366 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1983,7 +1983,7 @@
 					)
 				)
 			)
-			(property "Footprint" "7Sigma:SMA-SMD_BWSMA-KE-P001"
+			(property "Footprint" "7Sigma:ANT-SMD_KH-IPEX-K501-29"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1994,7 +1994,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C496550.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C411563.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2005,8 +2005,8 @@
 					)
 				)
 			)
-			(property "Description" "RP-SMA Board Mount"
-				(at 0 0 0)
+			(property "Description" "IPEX Connector 6GHz"
+				(at -13.589 -7.366 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2016,7 +2016,7 @@
 					)
 				)
 			)
-			(property "Manufacturer 1" "BAT WIRELESS"
+			(property "Manufacturer 1" "kinghelm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2027,7 +2027,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number 1" "BWSMA-KE-P001"
+			(property "Manufacturer Part Number 1" "KH-IPEX-K501-29"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2049,7 +2049,7 @@
 					)
 				)
 			)
-			(property "Supplier Part Number 1" "C496550"
+			(property "Supplier Part Number 1" "C411563"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2060,7 +2060,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C496550"
+			(property "LCSC Part" "C411563"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2071,7 +2071,7 @@
 					)
 				)
 			)
-			(property "Price @1 USD" "0.3843"
+			(property "Price @1 USD" "0.0715"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2082,7 +2082,7 @@
 					)
 				)
 			)
-			(property "Price @100 USD" "0.2076"
+			(property "Price @100 USD" "0.0581"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2093,7 +2093,7 @@
 					)
 				)
 			)
-			(property "Price @Bulk USD" "0.1897"
+			(property "Price @Bulk USD" "0.0455"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2126,7 +2126,7 @@
 					)
 				)
 			)
-			(property "Price Updated" "2026-05-14"
+			(property "Price Updated" "2026-07-16"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2159,7 +2159,7 @@
 					)
 				)
 			)
-			(symbol "BWSMA-KE-P001_0_1"
+			(symbol "KH-IPEX-K501-29_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -0.508 0)
@@ -2219,8 +2219,32 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "BWSMA-KE-P001_1_1"
+			(symbol "KH-IPEX-K501-29_1_1"
+				(arc
+					(start 2.54 0)
+					(mid 1.27 -0.5261)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type dot)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2250,6 +2274,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "PT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -9931,6 +9991,12 @@
 		(uuid "762d27cc-5789-4975-9093-aa5d5095dfc6")
 	)
 	(junction
+		(at 135.89 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "78d73f8f-12f6-4153-a70d-2713faebe5cb")
+	)
+	(junction
 		(at 55.88 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10211,6 +10277,10 @@
 		(uuid "48eecb7a-c307-4642-a5e8-b53f8eb79f61")
 	)
 	(no_connect
+		(at 130.81 86.36)
+		(uuid "61b690b4-acb0-426f-942d-ab1e92b6d4fb")
+	)
+	(no_connect
 		(at 245.11 30.48)
 		(uuid "625556f9-d6ea-436d-9c68-b95eeed298aa")
 	)
@@ -10373,16 +10443,6 @@
 			(type default)
 		)
 		(uuid "0d887609-448e-4e2b-bafa-22d09deb92c5")
-	)
-	(wire
-		(pts
-			(xy 106.68 30.48) (xy 119.38 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fb8c2e9-c88c-436f-b836-7289f2b68f3d")
 	)
 	(wire
 		(pts
@@ -10556,6 +10616,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 45.72) (xy 111.76 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dad3ba8-934f-49c6-8d02-4869ba8d8e63")
+	)
+	(wire
+		(pts
 			(xy 55.88 106.68) (xy 58.42 106.68)
 		)
 		(stroke
@@ -10603,16 +10673,6 @@
 			(type default)
 		)
 		(uuid "36d7bb64-517a-4aa3-a02e-72e965313539")
-	)
-	(wire
-		(pts
-			(xy 106.68 45.72) (xy 119.38 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "386cd3cf-672a-4d39-9c21-9e7a1605a828")
 	)
 	(wire
 		(pts
@@ -10886,6 +10946,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 30.48) (xy 111.76 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ad20ae4-4f36-4762-9021-133d91a6595f")
+	)
+	(wire
+		(pts
 			(xy 106.68 116.84) (xy 119.38 116.84)
 		)
 		(stroke
@@ -10903,6 +10973,16 @@
 			(type default)
 		)
 		(uuid "6e22496f-5b36-4de7-9f0d-144527c15212")
+	)
+	(wire
+		(pts
+			(xy 133.35 91.44) (xy 135.89 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70411a48-8477-4fd6-8258-46d6cd3a6bf0")
 	)
 	(wire
 		(pts
@@ -11056,7 +11136,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 152.4) (xy 30.48 152.4)
+			(xy 25.4 152.4) (xy 35.56 152.4)
 		)
 		(stroke
 			(width 0)
@@ -12163,26 +12243,6 @@
 			(justify right bottom)
 		)
 		(uuid "e1f6075e-228b-4157-9317-b741a223e814")
-	)
-	(label "SIM_VCC"
-		(at 119.38 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f3c5b50e-8c2d-4676-a7cd-6a34ac24a31a")
-	)
-	(label "SIM_VCC"
-		(at 119.38 30.48 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f6e05be7-f345-4074-a382-8282d388bbb8")
 	)
 	(hierarchical_label "UART_TX"
 		(shape output)
@@ -13970,6 +14030,83 @@
 	)
 	(symbol
 		(lib_id "Power:GND")
+		(at 111.76 45.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17f4df71-0112-41af-99d1-04a63c1534a8")
+		(property "Reference" "#PWR0138"
+			(at 118.11 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.935 45.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
+			(at 111.76 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a972dc0-a37d-4997-a8a0-b2362c853e88")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/a75278ad-0629-4f68-97d9-4ae361986074"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:GND")
 		(at 135.89 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -15688,6 +15825,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Power:GND")
+		(at 111.76 30.48 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "30868994-6428-4a0c-83b0-2743976ce3e0")
+		(property "Reference" "#PWR0136"
+			(at 118.11 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.935 30.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
+			(at 111.76 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fc409adb-7462-4e15-aafa-f6b77f7ca364")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/a75278ad-0629-4f68-97d9-4ae361986074"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
 		(at 142.24 48.26 90)
 		(mirror x)
@@ -16476,6 +16690,294 @@
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/a75278ad-0629-4f68-97d9-4ae361986074"
 					(reference "U16")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Capacitor:CL05B104KO5NNNC")
+		(at 35.56 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33773c51-c2e7-4419-b5bf-9bdbcf30dac1")
+		(property "Reference" "C72"
+			(at 35.814 154.178 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 35.814 158.242 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "7Sigma:C_0402_1005Metric"
+			(at 36.5252 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Samsung-Electro-Mechanics-CL05B104KO5NNNC_C1525.pdf"
+			(at 35.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100nF 16V 10% 0402"
+			(at 35.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 34.29 157.734 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Voltage" "16V"
+			(at 34.29 158.75 0)
+			(show_name no)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 35.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint_Name" "0402"
+			(at 35.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer 1" "Samsung Electro-Mechanics"
+			(at 35.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "CL05B104KO5NNNC"
+			(at 35.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 35.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" "C1525"
+			(at 35.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part" "C1525"
+			(at 35.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "JLCPCB Part Class" "Basic Part"
+			(at 35.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @1 USD" "0.0015"
+			(at 35.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @100 USD" "0.0015"
+			(at 35.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @Bulk USD" "0.0012"
+			(at 35.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Bulk Qty" "1000"
+			(at 35.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Source" "LCSC"
+			(at 35.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Updated" "2026-05-14"
+			(at 35.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 35.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 35.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "on_board" ""
+			(at 35.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "92e71d93-bb67-4981-b554-f5e8a0b40ad9")
+		)
+		(pin "1"
+			(uuid "1dc04b85-38b7-4189-8e40-323e64339dc3")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/a75278ad-0629-4f68-97d9-4ae361986074"
+					(reference "C72")
+					(unit 1)
 				)
 			)
 		)
@@ -18160,6 +18662,214 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/a75278ad-0629-4f68-97d9-4ae361986074"
 					(reference "TP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connectors:KH-IPEX-K501-29")
+		(at 135.89 86.36 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5417d730-9989-4ae3-a001-0fd166106921")
+		(property "Reference" "J11"
+			(at 135.636 83.312 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_IPEX"
+			(at 146.558 93.726 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7Sigma:ANT-SMD_KH-IPEX-K501-29"
+			(at 135.89 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C411563.pdf"
+			(at 135.89 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IPEX Connector 6GHz"
+			(at 149.479 93.726 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 1" "kinghelm"
+			(at 135.89 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "KH-IPEX-K501-29"
+			(at 135.89 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 135.89 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" "C411563"
+			(at 135.89 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part" "C411563"
+			(at 135.89 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @1 USD" "0.0715"
+			(at 135.89 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @100 USD" "0.0581"
+			(at 135.89 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @Bulk USD" "0.0455"
+			(at 135.89 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Bulk Qty" "1000"
+			(at 135.89 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Source" "LCSC"
+			(at 135.89 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Updated" "2026-07-16"
+			(at 135.89 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "415150d9-2e3a-44ce-96eb-59b796a58216")
+		)
+		(pin "2"
+			(uuid "9c845169-d020-4690-a445-3d22219eb02c")
+		)
+		(pin "3"
+			(uuid "045d5e29-b6aa-449d-8cf2-e0c0f8b19e1c")
+		)
+		(pin "4"
+			(uuid "12985820-bfa3-40db-8844-9670871b9efe")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/a75278ad-0629-4f68-97d9-4ae361986074"
+					(reference "J11")
 					(unit 1)
 				)
 			)
@@ -21143,241 +21853,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connectors:BWSMA-KE-P001")
-		(at 135.89 86.36 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "840a5979-319c-40b8-929a-d1103cac86d0")
-		(property "Reference" "J4"
-			(at 135.636 83.312 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 132.969 86.36 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:SMA-SMD_BWSMA-KE-P001"
-			(at 135.89 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C496550.pdf"
-			(at 135.89 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RP-SMA Board Mount"
-			(at 135.89 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer 1" "BAT WIRELESS"
-			(at 135.89 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer Part Number 1" "BWSMA-KE-P001"
-			(at 135.89 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 135.89 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier Part Number 1" "C496550"
-			(at 135.89 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part" "C496550"
-			(at 135.89 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @1 USD" "0.3843"
-			(at 135.89 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @100 USD" "0.2076"
-			(at 135.89 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @Bulk USD" "0.1897"
-			(at 135.89 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Bulk Qty" "1000"
-			(at 135.89 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Source" "LCSC"
-			(at 135.89 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Updated" "2026-05-14"
-			(at 135.89 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 135.89 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 135.89 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "on_board" ""
-			(at 135.89 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "859d9dfe-9f2c-46f4-a457-e88f8c1d7cd2")
-		)
-		(pin "2"
-			(uuid "907c1a04-fed0-4b99-96dd-db3e9fa7db7c")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/a75278ad-0629-4f68-97d9-4ae361986074"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Power:GND")
 		(at 205.74 153.67 0)
 		(mirror y)
@@ -23582,6 +24057,83 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/a75278ad-0629-4f68-97d9-4ae361986074"
 					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Power:GND")
+		(at 35.56 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ad9f87eb-40cc-42d4-8ab8-a3c48228f0d2")
+		(property "Reference" "#PWR0160"
+			(at 35.56 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 163.195 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
+			(at 35.56 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2e1b6bce-a123-4343-9fef-d6d0837115c4")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/a75278ad-0629-4f68-97d9-4ae361986074"
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)

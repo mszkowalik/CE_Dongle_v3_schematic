@@ -5,7 +5,7 @@
 	(uuid "760473cb-6843-4482-873e-1c616065a956")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Buttons:KH-6X6X7H-STM"
+		(symbol "Buttons:TC-6615-9.0-160G"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -26,7 +26,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "KH-6X6X7H-STM"
+			(property "Value" "TC-6615-9.0-160G"
 				(at 0 -3.175 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -36,7 +36,7 @@
 					)
 				)
 			)
-			(property "Footprint" "7Sigma:SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-H7.0"
+			(property "Footprint" "7Sigma:SW-TH_4P-RA-L6.0-W6.0-H9.0"
 				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -47,7 +47,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C2837533.pdf"
+			(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/00ba1333f734c320d9923544e703b5e6.pdf?productCode=C6575016"
 				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -58,7 +58,7 @@
 					)
 				)
 			)
-			(property "Description" "SMD Tactile Switch 6.0x6.0mm Top Actuation Height 7.0mm"
+			(property "Description" "TH Tactile Switch 6.0x6.0mm Right-Angle Actuation Lever 9.0mm 160gf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -69,7 +69,7 @@
 					)
 				)
 			)
-			(property "Manufacturer 1" "Shenzhen Kinghelm Elec"
+			(property "Manufacturer 1" "HCTL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -80,7 +80,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number 1" "KH-6X6X7H-STM"
+			(property "Manufacturer Part Number 1" "TC-6615-9.0-160G"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -102,7 +102,7 @@
 					)
 				)
 			)
-			(property "Supplier Part Number 1" "C2837533"
+			(property "Supplier Part Number 1" "C6575016"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -113,7 +113,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C2837533"
+			(property "LCSC Part" "C6575016"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -124,7 +124,7 @@
 					)
 				)
 			)
-			(property "Price @1 USD" "0.0260"
+			(property "Price @1 USD" "0.0365"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -135,7 +135,7 @@
 					)
 				)
 			)
-			(property "Price @100 USD" "0.0260"
+			(property "Price @100 USD" "0.0365"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -146,7 +146,7 @@
 					)
 				)
 			)
-			(property "Price @Bulk USD" "0.0161"
+			(property "Price @Bulk USD" "0.0243"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -157,7 +157,7 @@
 					)
 				)
 			)
-			(property "Price Bulk Qty" "800"
+			(property "Price Bulk Qty" "1000"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -179,7 +179,7 @@
 					)
 				)
 			)
-			(property "Price Updated" "2026-05-14"
+			(property "Price Updated" "2026-07-16"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -212,7 +212,7 @@
 					)
 				)
 			)
-			(symbol "KH-6X6X7H-STM_0_1"
+			(symbol "TC-6615-9.0-160G_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
@@ -2272,7 +2272,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connectors:BWSMA-KE-P001"
+		(symbol "Connectors:KH-IPEX-K501-29"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -2292,8 +2292,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_Coaxial"
-				(at 2.921 0 90)
+			(property "Value" "Conn_IPEX"
+				(at -10.668 -7.366 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2303,7 +2303,7 @@
 					)
 				)
 			)
-			(property "Footprint" "7Sigma:SMA-SMD_BWSMA-KE-P001"
+			(property "Footprint" "7Sigma:ANT-SMD_KH-IPEX-K501-29"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2314,7 +2314,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C496550.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C411563.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2325,8 +2325,8 @@
 					)
 				)
 			)
-			(property "Description" "RP-SMA Board Mount"
-				(at 0 0 0)
+			(property "Description" "IPEX Connector 6GHz"
+				(at -13.589 -7.366 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -2336,7 +2336,7 @@
 					)
 				)
 			)
-			(property "Manufacturer 1" "BAT WIRELESS"
+			(property "Manufacturer 1" "kinghelm"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2347,7 +2347,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number 1" "BWSMA-KE-P001"
+			(property "Manufacturer Part Number 1" "KH-IPEX-K501-29"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2369,7 +2369,7 @@
 					)
 				)
 			)
-			(property "Supplier Part Number 1" "C496550"
+			(property "Supplier Part Number 1" "C411563"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2380,7 +2380,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C496550"
+			(property "LCSC Part" "C411563"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2391,7 +2391,7 @@
 					)
 				)
 			)
-			(property "Price @1 USD" "0.3843"
+			(property "Price @1 USD" "0.0715"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2402,7 +2402,7 @@
 					)
 				)
 			)
-			(property "Price @100 USD" "0.2076"
+			(property "Price @100 USD" "0.0581"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2413,7 +2413,7 @@
 					)
 				)
 			)
-			(property "Price @Bulk USD" "0.1897"
+			(property "Price @Bulk USD" "0.0455"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2446,7 +2446,7 @@
 					)
 				)
 			)
-			(property "Price Updated" "2026-05-14"
+			(property "Price Updated" "2026-07-16"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2479,7 +2479,7 @@
 					)
 				)
 			)
-			(symbol "BWSMA-KE-P001_0_1"
+			(symbol "KH-IPEX-K501-29_0_1"
 				(polyline
 					(pts
 						(xy -2.54 0) (xy -0.508 0)
@@ -2539,8 +2539,32 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "BWSMA-KE-P001_1_1"
+			(symbol "KH-IPEX-K501-29_1_1"
+				(arc
+					(start 2.54 0)
+					(mid 1.27 -0.5261)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type dot)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2570,6 +2594,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "Ext"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "PT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6186,6 +6246,152 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "TestPoints:TestPoint_Pad_D1.5mm"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMD pad as test Point, diameter 1.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier 1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "Supplier Part Number 1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1 1)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Pad_D1.5mm_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Pad_D1.5mm_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Timing_Components:XTM32040000FT00351001"
 			(pin_names
 				(offset 1.016)
@@ -6658,6 +6864,18 @@
 		(uuid "2daa66ae-b4cf-456a-9c11-12a81dd6959f")
 	)
 	(junction
+		(at 22.86 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e35312d-d196-4845-8b73-691a09f5d211")
+	)
+	(junction
+		(at 57.15 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31ae91fe-7b31-4c7a-96a8-e7abedf1694f")
+	)
+	(junction
 		(at 29.21 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6712,6 +6930,12 @@
 		(uuid "8c506866-2dd8-42d5-b890-d82a6fea1d87")
 	)
 	(junction
+		(at 82.55 165.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9814a641-1c94-48f4-9837-6ac196918fac")
+	)
+	(junction
 		(at 185.42 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6727,7 +6951,7 @@
 		(at 76.2 175.26)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cf8a1fe4-022c-4686-89a5-34d8c00d49d2")
+		(uuid "c02c19e5-c9e8-42a5-9cd8-20f6b02e7528")
 	)
 	(junction
 		(at 76.2 165.1)
@@ -6758,6 +6982,10 @@
 	(no_connect
 		(at 274.32 109.22)
 		(uuid "0fe54c58-747d-4eac-ba4d-f0f500360c4b")
+	)
+	(no_connect
+		(at 17.78 53.34)
+		(uuid "30a5c841-82de-4e66-80f2-4e7bf10608f6")
 	)
 	(no_connect
 		(at 99.06 45.72)
@@ -6850,6 +7078,16 @@
 			(type default)
 		)
 		(uuid "14c1675f-181f-4b1d-9cb2-0ae77fd624fe")
+	)
+	(wire
+		(pts
+			(xy 20.32 58.42) (xy 22.86 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a55ac8c-a3b8-4495-b09b-e0f6d0b53dfe")
 	)
 	(wire
 		(pts
@@ -8407,7 +8645,7 @@
 		)
 		(uuid "f350a927-af6a-49af-9edd-21afe170c1bc")
 	)
-	(hierarchical_label "RY2_CTRL"
+	(hierarchical_label "O2_CTRL"
 		(shape output)
 		(at 154.94 93.98 0)
 		(effects
@@ -8418,7 +8656,7 @@
 		)
 		(uuid "00f3646f-7af9-4cd2-92c7-406163915041")
 	)
-	(hierarchical_label "RY1_CTRL"
+	(hierarchical_label "O1_CTRL"
 		(shape output)
 		(at 71.12 68.58 180)
 		(effects
@@ -9201,246 +9439,6 @@
 			(project "MCU"
 				(path "/760473cb-6843-4482-873e-1c616065a956"
 					(reference "C?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Buttons:KH-6X6X7H-STM")
-		(at 76.2 170.18 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "09aa817e-0b02-498c-9c76-bf9a439c165b")
-		(property "Reference" "SW2"
-			(at 70.485 169.545 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "KH-6X6X7H-STM"
-			(at 79.375 170.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:SW-SMD_4P-L6.0-W6.0-P4.50-LS9.0-H7.0"
-			(at 68.58 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C2837533.pdf"
-			(at 68.58 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "SMD Tactile Switch 6.0x6.0mm Top Actuation Height 7.0mm"
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer 1" "Shenzhen Kinghelm Elec"
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer Part Number 1" "KH-6X6X7H-STM"
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier Part Number 1" "C2837533"
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part" "C2837533"
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @1 USD" "0.0260"
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @100 USD" "0.0260"
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @Bulk USD" "0.0161"
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Bulk Qty" "800"
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Source" "LCSC"
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Updated" "2026-05-14"
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "on_board" ""
-			(at 76.2 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "dbf11b71-3052-4804-bc4c-0d6431c8e710")
-		)
-		(pin "3"
-			(uuid "53873cb2-1010-4fa5-9240-000a4ff5a8e8")
-		)
-		(pin "2"
-			(uuid "eec6b1bd-ae95-47ec-9b96-a90de9c97ce3")
-		)
-		(pin "1"
-			(uuid "b74bb6c8-35b7-4ff2-956d-7b540be704d6")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -13110,6 +13108,214 @@
 		)
 	)
 	(symbol
+		(lib_id "Connectors:KH-IPEX-K501-29")
+		(at 22.86 53.34 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4aaaa408-1ffe-4f3d-bf06-f017b81c03e2")
+		(property "Reference" "J12"
+			(at 22.606 50.292 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_IPEX"
+			(at 33.528 60.706 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7Sigma:ANT-SMD_KH-IPEX-K501-29"
+			(at 22.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C411563.pdf"
+			(at 22.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "IPEX Connector 6GHz"
+			(at 36.449 60.706 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 1" "kinghelm"
+			(at 22.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "KH-IPEX-K501-29"
+			(at 22.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 22.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" "C411563"
+			(at 22.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part" "C411563"
+			(at 22.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @1 USD" "0.0715"
+			(at 22.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @100 USD" "0.0581"
+			(at 22.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @Bulk USD" "0.0455"
+			(at 22.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Bulk Qty" "1000"
+			(at 22.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Source" "LCSC"
+			(at 22.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Updated" "2026-07-16"
+			(at 22.86 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "60186b96-e04c-453d-b696-0234a36b00ab")
+		)
+		(pin "2"
+			(uuid "6e2a3873-e813-417b-b67a-7f36a0a893a2")
+		)
+		(pin "3"
+			(uuid "48e57286-dc08-4d15-8502-f46545773b25")
+		)
+		(pin "4"
+			(uuid "e21644dc-d990-42cf-883b-0deacfe5f852")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
+					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistor:0402WGF220JTCE")
 		(at 222.25 146.05 90)
 		(unit 1)
@@ -13885,89 +14091,6 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
 					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Power:GND")
-		(at 22.86 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5bd195f9-6514-4563-aef5-e05a7ed1291a")
-		(property "Reference" "#PWR030"
-			(at 22.86 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 22.86 61.595 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 22.86 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 22.86 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
-			(at 22.86 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d7cf3bb3-b721-427f-bacb-132c862e1ab2")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "#PWR030")
-					(unit 1)
-				)
-			)
-			(project "MCU"
-				(path "/760473cb-6843-4482-873e-1c616065a956"
-					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -15634,241 +15757,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connectors:BWSMA-KE-P001")
-		(at 22.86 53.34 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "822ca33d-c10f-486e-b296-23182980963e")
-		(property "Reference" "J5"
-			(at 22.606 50.292 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 19.939 53.34 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "7Sigma:SMA-SMD_BWSMA-KE-P001"
-			(at 22.86 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C496550.pdf"
-			(at 22.86 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "RP-SMA Board Mount"
-			(at 22.86 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer 1" "BAT WIRELESS"
-			(at 22.86 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer Part Number 1" "BWSMA-KE-P001"
-			(at 22.86 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier 1" "LCSC"
-			(at 22.86 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Supplier Part Number 1" "C496550"
-			(at 22.86 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "LCSC Part" "C496550"
-			(at 22.86 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @1 USD" "0.3843"
-			(at 22.86 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @100 USD" "0.2076"
-			(at 22.86 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @Bulk USD" "0.1897"
-			(at 22.86 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Bulk Qty" "1000"
-			(at 22.86 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Source" "LCSC"
-			(at 22.86 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Updated" "2026-05-14"
-			(at 22.86 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 22.86 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 22.86 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "on_board" ""
-			(at 22.86 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "05064561-408f-4c56-be31-773f615d0565")
-		)
-		(pin "2"
-			(uuid "83debfaf-a22c-457d-b1c1-ebf20a0460c9")
-		)
-		(instances
-			(project "CE_Dongle_V3"
-				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Resistor:0402WGF220JTCE")
 		(at 222.25 151.13 90)
 		(unit 1)
@@ -16135,6 +16023,105 @@
 			(project "MCU"
 				(path "/760473cb-6843-4482-873e-1c616065a956"
 					(reference "R?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(at 132.08 137.16 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "897c5afb-9f8c-4f12-b839-2d8fef3cb952")
+		(property "Reference" "TP39"
+			(at 125.73 137.16 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 132.08 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+			(at 132.08 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD pad as test Point, diameter 1.5mm"
+			(at 132.08 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 132.08 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" ""
+			(at 132.08 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41218246-2bab-4601-988f-212f25c56222")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
+					(reference "TP39")
 					(unit 1)
 				)
 			)
@@ -17727,6 +17714,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Power:GND")
+		(at 22.86 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e0b81af-15c9-45c2-82ea-ebcc32d8ed31")
+		(property "Reference" "#PWR0139"
+			(at 22.86 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 22.86 61.595 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
+			(at 22.86 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "618c44a7-7881-42e8-aaa1-c6535ac6cf05")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Capacitor:CC0402JRNPO9BN120")
 		(at 25.4 82.55 90)
 		(unit 1)
@@ -18287,6 +18351,214 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
 					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Buttons:TC-6615-9.0-160G")
+		(at 76.2 170.18 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac7c0f9d-12f8-40c3-9067-65ec2a90dced")
+		(property "Reference" "SW2"
+			(at 70.485 169.545 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TC-6615-9.0-160G"
+			(at 79.375 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7Sigma:SW-TH_4P-RA-L6.0-W6.0-H9.0"
+			(at 68.58 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/00ba1333f734c320d9923544e703b5e6.pdf?productCode=C6575016"
+			(at 68.58 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TH Tactile Switch 6.0x6.0mm Right-Angle Actuation Lever 9.0mm 160gf"
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer 1" "HCTL"
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Manufacturer Part Number 1" "TC-6615-9.0-160G"
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier 1" "LCSC"
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" "C6575016"
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "LCSC Part" "C6575016"
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @1 USD" "0.0365"
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @100 USD" "0.0365"
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price @Bulk USD" "0.0243"
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Bulk Qty" "1000"
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Source" "LCSC"
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Price Updated" "2026-07-16"
+			(at 76.2 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8fd0cdd0-fc08-4bcd-93b7-5fd12ee57a95")
+		)
+		(pin "2"
+			(uuid "eab93a6f-cb17-4827-8070-c2796570c6f8")
+		)
+		(pin "3"
+			(uuid "221bfd83-4961-4f02-80bc-3773b9817ca2")
+		)
+		(pin "4"
+			(uuid "36c98f72-09cf-43f0-8c34-5fb3e3c7cceb")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -19997,6 +20269,105 @@
 		)
 	)
 	(symbol
+		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(at 82.55 165.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c8211063-43b6-4a56-b8f3-d0ea507ad776")
+		(property "Reference" "TP38"
+			(at 88.9 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 82.55 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+			(at 82.55 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD pad as test Point, diameter 1.5mm"
+			(at 82.55 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 82.55 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" ""
+			(at 82.55 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c6237dec-28a5-459c-bb27-5f0458ed2cf7")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
+					(reference "TP38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power:GND")
 		(at 55.88 60.96 0)
 		(unit 1)
@@ -21207,6 +21578,105 @@
 		)
 	)
 	(symbol
+		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(at 57.15 165.1 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e5119851-eec3-4549-a4b8-f0e161e51bf7")
+		(property "Reference" "TP37"
+			(at 63.5 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 57.15 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+			(at 57.15 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD pad as test Point, diameter 1.5mm"
+			(at 57.15 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 57.15 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" ""
+			(at 57.15 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62644aaa-da41-4a5a-a59e-febf9b515fff")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
+					(reference "TP37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Resistor:0402WGF1002TCE")
 		(at 182.88 115.57 180)
 		(unit 1)
@@ -21467,6 +21937,105 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(at 170.18 119.38 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e8a0ade7-b6be-49a3-9cbe-eaee0c7a5943")
+		(property "Reference" "TP41"
+			(at 163.83 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 170.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+			(at 170.18 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD pad as test Point, diameter 1.5mm"
+			(at 170.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 170.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" ""
+			(at 170.18 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "230debcd-c1f8-48cf-aafc-a859861140d0")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
+					(reference "TP41")
 					(unit 1)
 				)
 			)
@@ -22992,6 +23561,105 @@
 			(project "CE_Dongle_V3"
 				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
 					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(at 132.08 139.7 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f5e71795-c528-4db3-ba52-b3cf2a3de0a4")
+		(property "Reference" "TP40"
+			(at 125.73 139.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 132.08 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+			(at 132.08 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SMD pad as test Point, diameter 1.5mm"
+			(at 132.08 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier 1" ""
+			(at 132.08 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Supplier Part Number 1" ""
+			(at 132.08 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1cdc9910-0b70-41ca-b972-7bd6ef037743")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403/4e4c1ab9-255a-430f-8eef-08a070c6a1e0"
+					(reference "TP40")
 					(unit 1)
 				)
 			)
