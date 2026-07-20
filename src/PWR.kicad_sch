@@ -973,7 +973,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Capacitor:CL32A476KOJNNNE"
+		(symbol "Capacitor:CS3225X7R476K160NRL"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1019,7 +1019,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/3cd38c41b24c01cdc3c62ae025f7fc43.pdf?productCode=C2932477"
+			(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2411201415_SAMWHA-CS3225X7R476K160NRL_C5440143.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1030,7 +1030,7 @@
 					)
 				)
 			)
-			(property "Description" "47uF 16V X5R 10% 1210"
+			(property "Description" "47uF 16V X7R 10% 1210"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1041,7 +1041,7 @@
 					)
 				)
 			)
-			(property "Dielectric" "X5R"
+			(property "Dielectric" "X7R"
 				(at -1.27 -1.524 0)
 				(show_name no)
 				(do_not_autoplace yes)
@@ -1083,7 +1083,7 @@
 					)
 				)
 			)
-			(property "Manufacturer 1" "Samsung Electro-Mechanics"
+			(property "Manufacturer 1" "Samwha Capacitor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1094,7 +1094,7 @@
 					)
 				)
 			)
-			(property "Manufacturer Part Number 1" "CL32A476KOJNNNE"
+			(property "Manufacturer Part Number 1" "CS3225X7R476K160NRL"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1116,7 +1116,7 @@
 					)
 				)
 			)
-			(property "Supplier Part Number 1" "C2932477"
+			(property "Supplier Part Number 1" "C5440143"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1127,7 +1127,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C2932477"
+			(property "LCSC Part" "C5440143"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1138,7 +1138,7 @@
 					)
 				)
 			)
-			(property "Price @1 USD" "0.2665"
+			(property "Price @1 USD" "0.3615"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1149,7 +1149,7 @@
 					)
 				)
 			)
-			(property "Price @100 USD" "0.1851"
+			(property "Price @100 USD" "0.2960"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1160,7 +1160,7 @@
 					)
 				)
 			)
-			(property "Price @Bulk USD" "0.1693"
+			(property "Price @Bulk USD" "0.2339"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1193,7 +1193,7 @@
 					)
 				)
 			)
-			(property "Price Updated" "2026-06-14"
+			(property "Price Updated" "2026-07-16"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1226,7 +1226,7 @@
 					)
 				)
 			)
-			(symbol "CL32A476KOJNNNE_0_1"
+			(symbol "CS3225X7R476K160NRL_0_1"
 				(polyline
 					(pts
 						(xy -2.032 0.762) (xy 2.032 0.762)
@@ -1252,7 +1252,7 @@
 					)
 				)
 			)
-			(symbol "CL32A476KOJNNNE_1_1"
+			(symbol "CS3225X7R476K160NRL_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -14967,7 +14967,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CL32A476KOJNNNE")
+		(lib_id "Capacitor:CS3225X7R476K160NRL")
 		(at 251.46 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -15010,7 +15010,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/3cd38c41b24c01cdc3c62ae025f7fc43.pdf?productCode=C2932477"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2411201415_SAMWHA-CS3225X7R476K160NRL_C5440143.pdf"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -15021,7 +15021,7 @@
 				)
 			)
 		)
-		(property "Description" "47uF 16V X5R 10% 1210"
+		(property "Description" "47uF 16V X7R 10% 1210"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -15032,7 +15032,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" "X7R"
 			(at 250.19 78.994 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -15074,7 +15074,7 @@
 				)
 			)
 		)
-		(property "Manufacturer 1" "Samsung Electro-Mechanics"
+		(property "Manufacturer 1" "Samwha Capacitor"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -15085,7 +15085,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 1" "CL32A476KOJNNNE"
+		(property "Manufacturer Part Number 1" "CS3225X7R476K160NRL"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -15107,7 +15107,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C2932477"
+		(property "Supplier Part Number 1" "C5440143"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -15118,7 +15118,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2932477"
+		(property "LCSC Part" "C5440143"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -15129,7 +15129,7 @@
 				)
 			)
 		)
-		(property "Price @1 USD" "0.2665"
+		(property "Price @1 USD" "0.3615"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -15140,7 +15140,7 @@
 				)
 			)
 		)
-		(property "Price @100 USD" "0.1851"
+		(property "Price @100 USD" "0.2960"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -15151,7 +15151,7 @@
 				)
 			)
 		)
-		(property "Price @Bulk USD" "0.1693"
+		(property "Price @Bulk USD" "0.2339"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -15184,7 +15184,7 @@
 				)
 			)
 		)
-		(property "Price Updated" "2026-06-14"
+		(property "Price Updated" "2026-07-16"
 			(at 251.46 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -15477,7 +15477,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CL32A476KOJNNNE")
+		(lib_id "Capacitor:CS3225X7R476K160NRL")
 		(at 259.08 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -15520,7 +15520,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/3cd38c41b24c01cdc3c62ae025f7fc43.pdf?productCode=C2932477"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2411201415_SAMWHA-CS3225X7R476K160NRL_C5440143.pdf"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -15531,7 +15531,7 @@
 				)
 			)
 		)
-		(property "Description" "47uF 16V X5R 10% 1210"
+		(property "Description" "47uF 16V X7R 10% 1210"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -15542,7 +15542,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" "X7R"
 			(at 257.81 43.434 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -15584,7 +15584,7 @@
 				)
 			)
 		)
-		(property "Manufacturer 1" "Samsung Electro-Mechanics"
+		(property "Manufacturer 1" "Samwha Capacitor"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -15595,7 +15595,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 1" "CL32A476KOJNNNE"
+		(property "Manufacturer Part Number 1" "CS3225X7R476K160NRL"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -15617,7 +15617,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C2932477"
+		(property "Supplier Part Number 1" "C5440143"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -15628,7 +15628,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2932477"
+		(property "LCSC Part" "C5440143"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -15639,7 +15639,7 @@
 				)
 			)
 		)
-		(property "Price @1 USD" "0.2665"
+		(property "Price @1 USD" "0.3615"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -15650,7 +15650,7 @@
 				)
 			)
 		)
-		(property "Price @100 USD" "0.1851"
+		(property "Price @100 USD" "0.2960"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -15661,7 +15661,7 @@
 				)
 			)
 		)
-		(property "Price @Bulk USD" "0.1693"
+		(property "Price @Bulk USD" "0.2339"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -15694,7 +15694,7 @@
 				)
 			)
 		)
-		(property "Price Updated" "2026-06-14"
+		(property "Price Updated" "2026-07-16"
 			(at 259.08 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -16631,7 +16631,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CL32A476KOJNNNE")
+		(lib_id "Capacitor:CS3225X7R476K160NRL")
 		(at 259.08 77.47 0)
 		(unit 1)
 		(body_style 1)
@@ -16674,7 +16674,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/3cd38c41b24c01cdc3c62ae025f7fc43.pdf?productCode=C2932477"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2411201415_SAMWHA-CS3225X7R476K160NRL_C5440143.pdf"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16685,7 +16685,7 @@
 				)
 			)
 		)
-		(property "Description" "47uF 16V X5R 10% 1210"
+		(property "Description" "47uF 16V X7R 10% 1210"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16696,7 +16696,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" "X7R"
 			(at 257.81 78.994 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -16738,7 +16738,7 @@
 				)
 			)
 		)
-		(property "Manufacturer 1" "Samsung Electro-Mechanics"
+		(property "Manufacturer 1" "Samwha Capacitor"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16749,7 +16749,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 1" "CL32A476KOJNNNE"
+		(property "Manufacturer Part Number 1" "CS3225X7R476K160NRL"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16771,7 +16771,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C2932477"
+		(property "Supplier Part Number 1" "C5440143"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16782,7 +16782,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2932477"
+		(property "LCSC Part" "C5440143"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16793,7 +16793,7 @@
 				)
 			)
 		)
-		(property "Price @1 USD" "0.2665"
+		(property "Price @1 USD" "0.3615"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16804,7 +16804,7 @@
 				)
 			)
 		)
-		(property "Price @100 USD" "0.1851"
+		(property "Price @100 USD" "0.2960"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16815,7 +16815,7 @@
 				)
 			)
 		)
-		(property "Price @Bulk USD" "0.1693"
+		(property "Price @Bulk USD" "0.2339"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -16848,7 +16848,7 @@
 				)
 			)
 		)
-		(property "Price Updated" "2026-06-14"
+		(property "Price Updated" "2026-07-16"
 			(at 259.08 77.47 0)
 			(hide yes)
 			(show_name no)
@@ -24344,7 +24344,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CL32A476KOJNNNE")
+		(lib_id "Capacitor:CS3225X7R476K160NRL")
 		(at 251.46 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -24387,7 +24387,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/3cd38c41b24c01cdc3c62ae025f7fc43.pdf?productCode=C2932477"
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2411201415_SAMWHA-CS3225X7R476K160NRL_C5440143.pdf"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -24398,7 +24398,7 @@
 				)
 			)
 		)
-		(property "Description" "47uF 16V X5R 10% 1210"
+		(property "Description" "47uF 16V X7R 10% 1210"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -24409,7 +24409,7 @@
 				)
 			)
 		)
-		(property "Dielectric" "X5R"
+		(property "Dielectric" "X7R"
 			(at 250.19 43.434 0)
 			(show_name no)
 			(do_not_autoplace yes)
@@ -24451,7 +24451,7 @@
 				)
 			)
 		)
-		(property "Manufacturer 1" "Samsung Electro-Mechanics"
+		(property "Manufacturer 1" "Samwha Capacitor"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -24462,7 +24462,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number 1" "CL32A476KOJNNNE"
+		(property "Manufacturer Part Number 1" "CS3225X7R476K160NRL"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -24484,7 +24484,7 @@
 				)
 			)
 		)
-		(property "Supplier Part Number 1" "C2932477"
+		(property "Supplier Part Number 1" "C5440143"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -24495,7 +24495,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C2932477"
+		(property "LCSC Part" "C5440143"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -24506,7 +24506,7 @@
 				)
 			)
 		)
-		(property "Price @1 USD" "0.2665"
+		(property "Price @1 USD" "0.3615"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -24517,7 +24517,7 @@
 				)
 			)
 		)
-		(property "Price @100 USD" "0.1851"
+		(property "Price @100 USD" "0.2960"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -24528,7 +24528,7 @@
 				)
 			)
 		)
-		(property "Price @Bulk USD" "0.1693"
+		(property "Price @Bulk USD" "0.2339"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -24561,7 +24561,7 @@
 				)
 			)
 		)
-		(property "Price Updated" "2026-06-14"
+		(property "Price Updated" "2026-07-16"
 			(at 251.46 41.91 0)
 			(hide yes)
 			(show_name no)

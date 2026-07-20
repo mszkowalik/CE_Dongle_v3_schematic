@@ -27,13 +27,13 @@
     (constraint courtyard_clearance (min -10mm))
 )
 
-# SMA (J4, J5) recessed into mid-board cutout; RJ45 (J7) recessed into cutout
+# recessed into mid-board cutout; RJ45 (J7) recessed into cutout
 # with shield PTH holes near cutout edge; USB-C (J1) edge-mounted with shield
 # PTH slots at board edge. All intentionally violate edge clearance.
 # Note: A.Footprint is not a valid KiCad 10 DRC expression property - using
 # Reference instead. A.Value may work as an alternative if references change.
 (rule "Edge-mounted connector clearance"
-    (condition "A.Reference == 'J1' || A.Reference == 'J4' || A.Reference == 'J5' || A.Reference == 'J7'")
+    (condition "A.Reference == 'J1' ||  A.Reference == 'J7'")
     (constraint edge_clearance (min 0mm))
 )
 
@@ -147,10 +147,10 @@
 
 # General copper-to-edge floor (replaces the Board Setup 0.5mm absolute, which
 # is now 0mm so connector exceptions can relax it). Excludes edge/recessed
-# connectors J1/J4/J5/J7 whose pads intentionally sit at or past the edge.
+# connectors J1/J7 whose pads intentionally sit at or past the edge.
 (rule "Copper to Board Edge"
 	(constraint edge_clearance (min 0.5mm))
-	(condition "A.Reference != 'J1' && A.Reference != 'J4' && A.Reference != 'J5' && A.Reference != 'J7'"))
+	(condition "A.Reference != 'J1' && A.Reference != 'J7'"))
 
 # Holes/vias to board edge - same exclusions as above.
 (rule "Hole to Board Edge"
