@@ -27,6 +27,11 @@
     (constraint courtyard_clearance (min -10mm))
 )
 
+(rule "SC_50 coplanar gap"
+    (constraint clearance (min 0.16mm))
+    (condition "A.NetClass == 'SC_50' || B.NetClass == 'SC_50'"))
+
+
 # recessed into mid-board cutout; RJ45 (J7) recessed into cutout
 # with shield PTH holes near cutout edge; USB-C (J1) edge-mounted with shield
 # PTH slots at board edge. All intentionally violate edge clearance.
