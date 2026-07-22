@@ -5,7 +5,309 @@
 	(uuid "626f6405-d1f3-452a-8480-540e5958a403")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connectors:RC01812"
+		(symbol "7Sigma:7Sigma_Logo"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "G"
+				(at 0 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "7Sigma Logo"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_7Sigma:7Sigma_Logo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "7Sigma company logo graphic symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer 1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number 1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier 1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part Number 1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "logo graphic symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "PCM_7Sigma:7Sigma_Logo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "7Sigma_Logo_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "7Σ"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 4.064 4.064)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "7Sigma:MH_2.5mm_4mm_OD"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MH_2.5mm_4mm_OD"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_7Sigma:MountingHole_2.5mm_Pad_4mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting hole with pad, 2.5mm drill, 4mm outer diameter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier 1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part Number 1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole pad"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "PCM_7Sigma:MountingHole_2.5mm_Pad_4mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MH_2.5mm_4mm_OD_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MH_2.5mm_4mm_OD_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "7Sigma:RC01812"
 			(pin_names
 				(offset 1.016)
 			)
@@ -36,7 +338,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "7Sigma:RJ45-TH_RC01812"
+			(property "Footprint" "PCM_7Sigma:RJ45-TH_RC01812"
 				(at 0 0.635 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -47,7 +349,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C708645.pdf"
+			(property "Datasheet" "http://localhost:8020/api/datasheets/78/file"
 				(at 0 0.635 90)
 				(show_name no)
 				(do_not_autoplace no)
@@ -76,7 +378,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1 1)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -87,7 +389,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1 1)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -98,7 +400,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1 1)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -109,7 +411,7 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1 1)
+						(size 1.27 1.27)
 					)
 				)
 			)
@@ -120,88 +422,11 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Price @1 USD" "0.6010"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Price @100 USD" "0.3363"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Price @Bulk USD" "0.2908"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Price Bulk Qty" "1000"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Price Source" "LCSC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Price Updated" "2026-07-16"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "ki_keywords" "8P8C RJ socket connector led"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "ki_fp_filters" "8P8C* RJ45*"
+			(property "ki_fp_filters" "PCM_7Sigma:RJ45-TH_RC01812"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -813,7 +1038,331 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connectors:XY302V-3.5-2P"
+		(symbol "7Sigma:Takachi_SIM6-12-3W"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "ENC"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Takachi_SIM6-12-3W"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_7Sigma:TAKACHI_SIM6-12-3W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.takachi-enclosure.com/products/SIM"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "TAKACHI SIM6-12-3W white ASA weather-resistant wall-mount IoT enclosure, 60 x 120 x 27 mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer 1" "TAKACHI"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer Part Number 1" "SIM6-12-3W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier 1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part Number 1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet 2" "http://localhost:8020/api/datasheets/292/file"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet 3" "http://localhost:8020/api/datasheets/293/file"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "takachi enclosure case housing mechanical wall mount IoT"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "PCM_7Sigma:TAKACHI_SIM6-12-3W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Takachi_SIM6-12-3W_0_1"
+				(rectangle
+					(start -5.08 3.81)
+					(end 5.08 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -4.572 3.302)
+					(end 4.572 -3.302)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "ENCLOSURE"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.016 1.016)
+							(bold yes)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "7Sigma:TestPoint_Pad_D1.5mm"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "PCM_7Sigma:TestPoint_Pad_D1.5mm"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SMD pad as test Point, diameter 1.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier 1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part Number 1" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "PCM_7Sigma:TestPoint_Pad_D1.5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_Pad_D1.5mm_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Pad_D1.5mm_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "7Sigma:XY302V-3.5-2P"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -844,7 +1393,7 @@
 					)
 				)
 			)
-			(property "Footprint" "7Sigma:CONN-TH_XY302V-3.5-2P"
+			(property "Footprint" "PCM_7Sigma:CONN-TH_XY302V-3.5-2P"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -855,7 +1404,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/89f72271d31a4bf1c07e31bc815e3a9d.pdf?productCode=C784940"
+			(property "Datasheet" "http://localhost:8020/api/datasheets/91/file"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -884,121 +1433,11 @@
 				(hide yes)
 				(effects
 					(font
-						(size 1 1)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Manufacturer 1" "XINLAIYA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Manufacturer Part Number 1" "XY302V-3.5-2P"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Supplier 1" "LCSC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Supplier Part Number 1" "C784940"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Price @1 USD" "0.1532"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Price @100 USD" "0.1204"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Price @Bulk USD" "0.1064"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Price Bulk Qty" "150"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Price Source" "LCSC"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Price Updated" "2026-07-19"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
+			(property "Manufacturer 1" "Xinlaiya"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1009,7 +1448,40 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(property "Manufacturer Part Number 1" "XY302V-3.5-2P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier 1" "LCSC"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Supplier Part Number 1" "C784940"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "PCM_7Sigma:CONN-TH_XY302V-3.5-2P"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1087,450 +1559,6 @@
 							(font
 								(size 1.27 1.27)
 							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical_7S:7Sigma_Logo"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "G"
-				(at 0 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "7Sigma Logo"
-				(at 0 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "7Sigma:7Sigma_Logo"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "7Sigma company logo graphic symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer 1" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Manufacturer Part Number 1" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Supplier 1" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Supplier Part Number 1" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "ki_keywords" "logo graphic symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "7Sigma_Logo_0_1"
-				(rectangle
-					(start -7.62 7.62)
-					(end 7.62 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "7Σ"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 4.064 4.064)
-							(bold yes)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical_7S:MH_2.5mm_4mm_OD"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "H"
-				(at 0 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MH_2.5mm_4mm_OD"
-				(at 0 4.445 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "7Sigma:MountingHole_2.5mm_Pad_4mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Mounting hole with pad, 2.5mm drill, 4mm outer diameter"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier 1" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Supplier Part Number 1" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "ki_keywords" "mounting hole pad"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MountingHole*Pad*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "MH_2.5mm_4mm_OD_0_1"
-				(circle
-					(center 0 1.27)
-					(radius 1.27)
-					(stroke
-						(width 1.27)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MH_2.5mm_4mm_OD_1_1"
-				(pin input line
-					(at 0 -2.54 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Mechanical_7S:Takachi_SIM6-12-3W"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "ENC"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Takachi_SIM6-12-3W"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "7Sigma:TAKACHI_SIM6-12-3W"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.takachi-enclosure.com/products/SIM"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Takachi SIM6-12-3W white ASA weather-resistant wall-mount IoT enclosure, 60 x 120 x 27 mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Manufacturer 1" "Takachi"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Manufacturer Part Number 1" "SIM6-12-3W"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Supplier 1" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Supplier Part Number 1" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "ki_keywords" "takachi enclosure case housing mechanical wall mount IoT"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Takachi_SIM6-12-3W_0_1"
-				(rectangle
-					(start -5.08 3.81)
-					(end 5.08 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -4.572 3.302)
-					(end 4.572 -3.302)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "ENCLOSURE"
-					(at 0 0 0)
-					(effects
-						(font
-							(size 1.016 1.016)
-							(bold yes)
 						)
 					)
 				)
@@ -1646,152 +1674,6 @@
 					(at 0 0 270)
 					(length 0)
 					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "TestPoints:TestPoint_Pad_D1.5mm"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "SMD pad as test Point, diameter 1.5mm"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Supplier 1" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "Supplier Part Number 1" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1 1)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_Pad_D1.5mm_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_Pad_D1.5mm_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2694,7 +2576,7 @@
 		(uuid "f111bca8-ea6f-461b-a9c8-0aa8f8f61be3")
 	)
 	(symbol
-		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(lib_id "7Sigma:TestPoint_Pad_D1.5mm")
 		(at 60.96 76.2 180)
 		(unit 1)
 		(body_style 1)
@@ -2725,7 +2607,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "PCM_7Sigma:TestPoint_Pad_D1.5mm"
 			(at 55.88 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -2765,7 +2647,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2776,7 +2658,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2870,7 +2752,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connectors:XY302V-3.5-2P")
+		(lib_id "7Sigma:XY302V-3.5-2P")
 		(at 81.28 99.06 0)
 		(mirror y)
 		(unit 1)
@@ -2902,7 +2784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7Sigma:CONN-TH_XY302V-3.5-2P"
+		(property "Footprint" "PCM_7Sigma:CONN-TH_XY302V-3.5-2P"
 			(at 81.28 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2913,7 +2795,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/89f72271d31a4bf1c07e31bc815e3a9d.pdf?productCode=C784940"
+		(property "Datasheet" "http://localhost:8020/api/datasheets/91/file"
 			(at 81.28 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -2942,18 +2824,18 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Manufacturer 1" "XINLAIYA"
+		(property "Manufacturer 1" "Xinlaiya"
 			(at 81.28 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2964,7 +2846,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2975,7 +2857,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2986,73 +2868,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @1 USD" "0.1532"
-			(at 81.28 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @100 USD" "0.1204"
-			(at 81.28 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @Bulk USD" "0.1064"
-			(at 81.28 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Bulk Qty" "150"
-			(at 81.28 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Source" "LCSC"
-			(at 81.28 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Updated" "2026-07-19"
-			(at 81.28 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3226,12 +3042,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical_7S:MH_2.5mm_4mm_OD")
+		(lib_id "7Sigma:MH_2.5mm_4mm_OD")
 		(at 123.19 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3256,7 +3072,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7Sigma:MountingHole_2.5mm_Pad_4mm"
+		(property "Footprint" "PCM_7Sigma:MountingHole_2.5mm_Pad_4mm"
 			(at 123.19 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -3296,7 +3112,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3307,7 +3123,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3324,7 +3140,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(lib_id "7Sigma:TestPoint_Pad_D1.5mm")
 		(at 55.88 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -3355,7 +3171,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "PCM_7Sigma:TestPoint_Pad_D1.5mm"
 			(at 60.96 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3395,7 +3211,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3406,7 +3222,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3423,7 +3239,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(lib_id "7Sigma:TestPoint_Pad_D1.5mm")
 		(at 55.88 76.2 180)
 		(unit 1)
 		(body_style 1)
@@ -3454,7 +3270,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "PCM_7Sigma:TestPoint_Pad_D1.5mm"
 			(at 50.8 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3494,7 +3310,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3505,7 +3321,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3522,7 +3338,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(lib_id "7Sigma:TestPoint_Pad_D1.5mm")
 		(at 53.34 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -3553,7 +3369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "PCM_7Sigma:TestPoint_Pad_D1.5mm"
 			(at 58.42 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3593,7 +3409,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3604,7 +3420,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3621,7 +3437,84 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(lib_id "Power:GND")
+		(at 27.94 78.74 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2fa17625-b371-4d40-9df5-ea2b65e1078a")
+		(property "Reference" "#PWR0163"
+			(at 27.94 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 27.94 81.915 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\", digital ground"
+			(at 27.94 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4a25cf2a-ec25-45ae-b5e7-258f0c5a539e")
+		)
+		(instances
+			(project "CE_Dongle_V3"
+				(path "/626f6405-d1f3-452a-8480-540e5958a403"
+					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "7Sigma:TestPoint_Pad_D1.5mm")
 		(at 60.96 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -3652,7 +3545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "PCM_7Sigma:TestPoint_Pad_D1.5mm"
 			(at 66.04 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -3692,7 +3585,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3703,7 +3596,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3720,12 +3613,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical_7S:MH_2.5mm_4mm_OD")
+		(lib_id "7Sigma:MH_2.5mm_4mm_OD")
 		(at 118.11 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -3750,7 +3643,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7Sigma:MountingHole_2.5mm_Pad_4mm"
+		(property "Footprint" "PCM_7Sigma:MountingHole_2.5mm_Pad_4mm"
 			(at 118.11 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -3790,7 +3683,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3801,7 +3694,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3895,7 +3788,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connectors:RC01812")
+		(lib_id "7Sigma:RC01812")
 		(at 27.94 66.04 0)
 		(unit 1)
 		(body_style 1)
@@ -3927,7 +3820,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "7Sigma:RJ45-TH_RC01812"
+		(property "Footprint" "PCM_7Sigma:RJ45-TH_RC01812"
 			(at 27.94 65.405 90)
 			(hide yes)
 			(show_name no)
@@ -3938,7 +3831,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C708645.pdf"
+		(property "Datasheet" "http://localhost:8020/api/datasheets/78/file"
 			(at 27.94 65.405 90)
 			(hide yes)
 			(show_name no)
@@ -3967,7 +3860,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3978,7 +3871,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3989,7 +3882,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4000,7 +3893,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4011,73 +3904,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @1 USD" "0.6010"
-			(at 27.94 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @100 USD" "0.3363"
-			(at 27.94 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @Bulk USD" "0.2908"
-			(at 27.94 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Bulk Qty" "1000"
-			(at 27.94 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Source" "LCSC"
-			(at 27.94 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Updated" "2026-07-16"
-			(at 27.94 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4207,7 +4034,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connectors:XY302V-3.5-2P")
+		(lib_id "7Sigma:XY302V-3.5-2P")
 		(at 81.28 111.76 180)
 		(unit 1)
 		(body_style 1)
@@ -4238,7 +4065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7Sigma:CONN-TH_XY302V-3.5-2P"
+		(property "Footprint" "PCM_7Sigma:CONN-TH_XY302V-3.5-2P"
 			(at 81.28 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4249,7 +4076,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/89f72271d31a4bf1c07e31bc815e3a9d.pdf?productCode=C784940"
+		(property "Datasheet" "http://localhost:8020/api/datasheets/91/file"
 			(at 81.28 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -4278,18 +4105,18 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Manufacturer 1" "XINLAIYA"
+		(property "Manufacturer 1" "Xinlaiya"
 			(at 81.28 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4300,7 +4127,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4311,7 +4138,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4322,73 +4149,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @1 USD" "0.1532"
-			(at 81.28 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @100 USD" "0.1204"
-			(at 81.28 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @Bulk USD" "0.1064"
-			(at 81.28 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Bulk Qty" "150"
-			(at 81.28 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Source" "LCSC"
-			(at 81.28 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Updated" "2026-07-19"
-			(at 81.28 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4408,7 +4169,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connectors:XY302V-3.5-2P")
+		(lib_id "7Sigma:XY302V-3.5-2P")
 		(at 81.28 93.98 0)
 		(mirror y)
 		(unit 1)
@@ -4440,7 +4201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7Sigma:CONN-TH_XY302V-3.5-2P"
+		(property "Footprint" "PCM_7Sigma:CONN-TH_XY302V-3.5-2P"
 			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4451,7 +4212,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/89f72271d31a4bf1c07e31bc815e3a9d.pdf?productCode=C784940"
+		(property "Datasheet" "http://localhost:8020/api/datasheets/91/file"
 			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -4480,18 +4241,18 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Manufacturer 1" "XINLAIYA"
+		(property "Manufacturer 1" "Xinlaiya"
 			(at 81.28 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4502,7 +4263,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4513,7 +4274,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4524,73 +4285,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @1 USD" "0.1532"
-			(at 81.28 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @100 USD" "0.1204"
-			(at 81.28 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @Bulk USD" "0.1064"
-			(at 81.28 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Bulk Qty" "150"
-			(at 81.28 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Source" "LCSC"
-			(at 81.28 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Updated" "2026-07-19"
-			(at 81.28 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4610,12 +4305,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical_7S:MH_2.5mm_4mm_OD")
+		(lib_id "7Sigma:MH_2.5mm_4mm_OD")
 		(at 107.95 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4640,7 +4335,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7Sigma:MountingHole_2.5mm_Pad_4mm"
+		(property "Footprint" "PCM_7Sigma:MountingHole_2.5mm_Pad_4mm"
 			(at 107.95 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -4680,7 +4375,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4691,7 +4386,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4708,12 +4403,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical_7S:MH_2.5mm_4mm_OD")
+		(lib_id "7Sigma:MH_2.5mm_4mm_OD")
 		(at 113.03 182.88 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -4738,7 +4433,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7Sigma:MountingHole_2.5mm_Pad_4mm"
+		(property "Footprint" "PCM_7Sigma:MountingHole_2.5mm_Pad_4mm"
 			(at 113.03 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -4778,7 +4473,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4789,7 +4484,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4883,7 +4578,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(lib_id "7Sigma:TestPoint_Pad_D1.5mm")
 		(at 58.42 76.2 180)
 		(unit 1)
 		(body_style 1)
@@ -4914,7 +4609,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "PCM_7Sigma:TestPoint_Pad_D1.5mm"
 			(at 53.34 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -4954,7 +4649,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4965,7 +4660,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4982,12 +4677,12 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical_7S:7Sigma_Logo")
+		(lib_id "7Sigma:7Sigma_Logo")
 		(at 158.75 181.61 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
-		(in_bom no)
+		(exclude_from_sim no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
@@ -5012,7 +4707,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7Sigma:7Sigma_Logo"
+		(property "Footprint" "PCM_7Sigma:7Sigma_Logo"
 			(at 158.75 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -5052,7 +4747,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5063,7 +4758,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5074,7 +4769,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5085,7 +4780,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5099,7 +4794,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(lib_id "7Sigma:TestPoint_Pad_D1.5mm")
 		(at 53.34 76.2 180)
 		(unit 1)
 		(body_style 1)
@@ -5130,7 +4825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "PCM_7Sigma:TestPoint_Pad_D1.5mm"
 			(at 48.26 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -5170,7 +4865,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5181,7 +4876,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5198,7 +4893,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connectors:XY302V-3.5-2P")
+		(lib_id "7Sigma:XY302V-3.5-2P")
 		(at 81.28 114.3 0)
 		(mirror y)
 		(unit 1)
@@ -5230,7 +4925,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7Sigma:CONN-TH_XY302V-3.5-2P"
+		(property "Footprint" "PCM_7Sigma:CONN-TH_XY302V-3.5-2P"
 			(at 81.28 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5241,7 +4936,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/89f72271d31a4bf1c07e31bc815e3a9d.pdf?productCode=C784940"
+		(property "Datasheet" "http://localhost:8020/api/datasheets/91/file"
 			(at 81.28 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -5270,18 +4965,18 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Manufacturer 1" "XINLAIYA"
+		(property "Manufacturer 1" "Xinlaiya"
 			(at 81.28 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5292,7 +4987,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5303,7 +4998,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5314,73 +5009,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @1 USD" "0.1532"
-			(at 81.28 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @100 USD" "0.1204"
-			(at 81.28 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @Bulk USD" "0.1064"
-			(at 81.28 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Bulk Qty" "150"
-			(at 81.28 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Source" "LCSC"
-			(at 81.28 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Updated" "2026-07-19"
-			(at 81.28 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5400,11 +5029,11 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical_7S:Takachi_SIM6-12-3W")
+		(lib_id "7Sigma:Takachi_SIM6-12-3W")
 		(at 138.43 184.15 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
@@ -5430,7 +5059,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7Sigma:TAKACHI_SIM6-12-3W"
+		(property "Footprint" "PCM_7Sigma:TAKACHI_SIM6-12-3W"
 			(at 138.43 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -5452,7 +5081,7 @@
 				)
 			)
 		)
-		(property "Description" "Takachi SIM6-12-3W white ASA weather-resistant wall-mount IoT enclosure, 60 x 120 x 27 mm"
+		(property "Description" "TAKACHI SIM6-12-3W white ASA weather-resistant wall-mount IoT enclosure, 60 x 120 x 27 mm"
 			(at 138.43 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -5463,14 +5092,14 @@
 				)
 			)
 		)
-		(property "Manufacturer 1" "Takachi"
+		(property "Manufacturer 1" "TAKACHI"
 			(at 138.43 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5481,7 +5110,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5492,7 +5121,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5503,7 +5132,29 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet 2" "http://localhost:8020/api/datasheets/292/file"
+			(at 138.43 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet 3" "http://localhost:8020/api/datasheets/293/file"
+			(at 138.43 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5517,7 +5168,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(lib_id "7Sigma:TestPoint_Pad_D1.5mm")
 		(at 58.42 53.34 0)
 		(unit 1)
 		(body_style 1)
@@ -5548,7 +5199,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7Sigma:TestPoint_Pad_D1.5mm"
+		(property "Footprint" "PCM_7Sigma:TestPoint_Pad_D1.5mm"
 			(at 63.5 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -5588,7 +5239,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5599,7 +5250,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5693,7 +5344,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connectors:XY302V-3.5-2P")
+		(lib_id "7Sigma:XY302V-3.5-2P")
 		(at 81.28 104.14 0)
 		(mirror y)
 		(unit 1)
@@ -5725,7 +5376,7 @@
 				)
 			)
 		)
-		(property "Footprint" "7Sigma:CONN-TH_XY302V-3.5-2P"
+		(property "Footprint" "PCM_7Sigma:CONN-TH_XY302V-3.5-2P"
 			(at 81.28 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5736,7 +5387,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/datasheet/pdf/89f72271d31a4bf1c07e31bc815e3a9d.pdf?productCode=C784940"
+		(property "Datasheet" "http://localhost:8020/api/datasheets/91/file"
 			(at 81.28 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -5765,18 +5416,18 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Manufacturer 1" "XINLAIYA"
+		(property "Manufacturer 1" "Xinlaiya"
 			(at 81.28 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5787,7 +5438,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5798,7 +5449,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5809,73 +5460,7 @@
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @1 USD" "0.1532"
-			(at 81.28 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @100 USD" "0.1204"
-			(at 81.28 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price @Bulk USD" "0.1064"
-			(at 81.28 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Bulk Qty" "150"
-			(at 81.28 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Source" "LCSC"
-			(at 81.28 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Price Updated" "2026-07-19"
-			(at 81.28 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
+					(size 1.27 1.27)
 				)
 			)
 		)

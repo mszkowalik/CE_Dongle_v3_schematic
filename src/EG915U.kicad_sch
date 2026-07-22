@@ -5,7 +5,7 @@
 	(uuid "67431a26-bcee-4302-b6aa-9db5d479d2d6")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Capacitor:CC0402JRNPO9BN330"
+		(symbol "7Sigma:CC0402JRNPO9BN330"
 			(pin_numbers
 				(hide yes)
 			)
@@ -258,7 +258,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Capacitor:CL05B104KO5NNNC"
+		(symbol "7Sigma:CL05B104KO5NNNC"
 			(pin_numbers
 				(hide yes)
 			)
@@ -522,7 +522,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Capacitor:CS3225X7R476K160NRL"
+		(symbol "7Sigma:CS3225X7R476K160NRL"
 			(pin_numbers
 				(hide yes)
 			)
@@ -775,7 +775,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Capacitor:GJM1555C1H1R2WB01D"
+		(symbol "7Sigma:GJM1555C1H1R2WB01D"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1050,7 +1050,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Capacitor:GRM155R61H105KE05D"
+		(symbol "7Sigma:GRM155R61H105KE05D"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1303,7 +1303,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ICs:EG915UEUAC-N05-SNNSA"
+		(symbol "7Sigma:EG915UEUAC-N05-SNNSA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4050,7 +4050,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Resistor:0402WGF0000TCE"
+		(symbol "7Sigma:0402WGF0000TCE"
 			(pin_numbers
 				(hide yes)
 			)
@@ -4278,7 +4278,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TestPoints:TestPoint_Pad_D1.5mm"
+		(symbol "7Sigma:TestPoint_Pad_D1.5mm"
 			(pin_numbers
 				(hide yes)
 			)
@@ -6101,7 +6101,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CC0402JRNPO9BN330")
+		(lib_id "7Sigma:CC0402JRNPO9BN330")
 		(at 152.4 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -6279,7 +6279,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:0402WGF0000TCE")
+		(lib_id "7Sigma:0402WGF0000TCE")
 		(at 151.13 50.8 270)
 		(mirror x)
 		(unit 1)
@@ -6447,7 +6447,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:GRM155R61H105KE05D")
+		(lib_id "7Sigma:GRM155R61H105KE05D")
 		(at 26.67 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -6625,7 +6625,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CL05B104KO5NNNC")
+		(lib_id "7Sigma:CL05B104KO5NNNC")
 		(at 34.29 107.95 0)
 		(unit 1)
 		(body_style 1)
@@ -6891,7 +6891,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(lib_id "7Sigma:TestPoint_Pad_D1.5mm")
 		(at 180.34 60.96 90)
 		(mirror x)
 		(unit 1)
@@ -7221,7 +7221,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ICs:EG915UEUAC-N05-SNNSA")
+		(lib_id "7Sigma:EG915UEUAC-N05-SNNSA")
 		(at 198.12 33.02 0)
 		(unit 4)
 		(body_style 1)
@@ -7906,7 +7906,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(lib_id "7Sigma:TestPoint_Pad_D1.5mm")
 		(at 180.34 66.04 90)
 		(mirror x)
 		(unit 1)
@@ -8320,7 +8320,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:GRM155R61H105KE05D")
+		(lib_id "7Sigma:GRM155R61H105KE05D")
 		(at 102.87 29.21 0)
 		(unit 1)
 		(body_style 1)
@@ -8498,7 +8498,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ICs:EG915UEUAC-N05-SNNSA")
+		(lib_id "7Sigma:EG915UEUAC-N05-SNNSA")
 		(at 76.2 96.52 0)
 		(unit 3)
 		(body_style 1)
@@ -9015,7 +9015,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CC0402JRNPO9BN330")
+		(lib_id "7Sigma:CC0402JRNPO9BN330")
 		(at 137.16 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -9277,7 +9277,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CL05B104KO5NNNC")
+		(lib_id "7Sigma:CL05B104KO5NNNC")
 		(at 40.64 29.21 0)
 		(unit 1)
 		(body_style 1)
@@ -9466,7 +9466,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(lib_id "7Sigma:TestPoint_Pad_D1.5mm")
 		(at 180.34 96.52 90)
 		(mirror x)
 		(unit 1)
@@ -9705,7 +9705,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CC0402JRNPO9BN330")
+		(lib_id "7Sigma:CC0402JRNPO9BN330")
 		(at 167.64 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -9883,7 +9883,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(lib_id "7Sigma:TestPoint_Pad_D1.5mm")
 		(at 180.34 63.5 90)
 		(mirror x)
 		(unit 1)
@@ -10045,7 +10045,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:GJM1555C1H1R2WB01D")
+		(lib_id "7Sigma:GJM1555C1H1R2WB01D")
 		(at 160.02 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -10249,7 +10249,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(lib_id "7Sigma:TestPoint_Pad_D1.5mm")
 		(at 180.34 99.06 90)
 		(mirror x)
 		(unit 1)
@@ -10327,7 +10327,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CC0402JRNPO9BN330")
+		(lib_id "7Sigma:CC0402JRNPO9BN330")
 		(at 160.02 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -10505,7 +10505,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ICs:EG915UEUAC-N05-SNNSA")
+		(lib_id "7Sigma:EG915UEUAC-N05-SNNSA")
 		(at 198.12 78.74 0)
 		(unit 2)
 		(body_style 1)
@@ -11022,7 +11022,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CC0402JRNPO9BN330")
+		(lib_id "7Sigma:CC0402JRNPO9BN330")
 		(at 144.78 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -11200,7 +11200,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CS3225X7R476K160NRL")
+		(lib_id "7Sigma:CS3225X7R476K160NRL")
 		(at 25.4 29.21 0)
 		(unit 1)
 		(body_style 1)
@@ -11378,7 +11378,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:GJM1555C1H1R2WB01D")
+		(lib_id "7Sigma:GJM1555C1H1R2WB01D")
 		(at 139.7 54.61 0)
 		(unit 1)
 		(body_style 1)
@@ -11582,7 +11582,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ICs:EG915UEUAC-N05-SNNSA")
+		(lib_id "7Sigma:EG915UEUAC-N05-SNNSA")
 		(at 76.2 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -12099,7 +12099,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CS3225X7R476K160NRL")
+		(lib_id "7Sigma:CS3225X7R476K160NRL")
 		(at 33.02 29.21 0)
 		(unit 1)
 		(body_style 1)
@@ -12445,7 +12445,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(lib_id "7Sigma:TestPoint_Pad_D1.5mm")
 		(at 180.34 58.42 90)
 		(mirror x)
 		(unit 1)
@@ -12607,7 +12607,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ICs:EG915UEUAC-N05-SNNSA")
+		(lib_id "7Sigma:EG915UEUAC-N05-SNNSA")
 		(at 76.2 139.7 0)
 		(unit 5)
 		(body_style 1)
@@ -13292,7 +13292,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CC0402JRNPO9BN330")
+		(lib_id "7Sigma:CC0402JRNPO9BN330")
 		(at 175.26 143.51 0)
 		(unit 1)
 		(body_style 1)
@@ -13470,7 +13470,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:GRM155R61H105KE05D")
+		(lib_id "7Sigma:GRM155R61H105KE05D")
 		(at 110.49 29.21 0)
 		(unit 1)
 		(body_style 1)

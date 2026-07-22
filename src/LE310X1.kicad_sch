@@ -5,7 +5,7 @@
 	(uuid "081572fc-60b6-40bc-abf4-1aabb579f90b")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Capacitor:CC0402JRNPO9BN330"
+		(symbol "7Sigma:CC0402JRNPO9BN330"
 			(pin_numbers
 				(hide yes)
 			)
@@ -258,7 +258,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Capacitor:CL05B104KO5NNNC"
+		(symbol "7Sigma:CL05B104KO5NNNC"
 			(pin_numbers
 				(hide yes)
 			)
@@ -522,7 +522,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Capacitor:CS3225X7R476K160NRL"
+		(symbol "7Sigma:CS3225X7R476K160NRL"
 			(pin_numbers
 				(hide yes)
 			)
@@ -775,7 +775,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Capacitor:GJM1555C1H1R2WB01D"
+		(symbol "7Sigma:GJM1555C1H1R2WB01D"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1050,7 +1050,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Capacitor:GRM155R61H105KE05D"
+		(symbol "7Sigma:GRM155R61H105KE05D"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1303,7 +1303,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ICs:LE310X1-EU"
+		(symbol "7Sigma:LE310X1-EU"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3391,7 +3391,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Resistor:0402WGF0000TCE"
+		(symbol "7Sigma:0402WGF0000TCE"
 			(pin_numbers
 				(hide yes)
 			)
@@ -3619,7 +3619,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "TestPoints:TestPoint_Pad_D1.5mm"
+		(symbol "7Sigma:TestPoint_Pad_D1.5mm"
 			(pin_numbers
 				(hide yes)
 			)
@@ -5378,7 +5378,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CL05B104KO5NNNC")
+		(lib_id "7Sigma:CL05B104KO5NNNC")
 		(at 91.44 29.21 0)
 		(unit 1)
 		(body_style 1)
@@ -5567,7 +5567,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CC0402JRNPO9BN330")
+		(lib_id "7Sigma:CC0402JRNPO9BN330")
 		(at 35.56 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -5745,7 +5745,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CS3225X7R476K160NRL")
+		(lib_id "7Sigma:CS3225X7R476K160NRL")
 		(at 76.2 29.21 0)
 		(unit 1)
 		(body_style 1)
@@ -5923,7 +5923,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CL05B104KO5NNNC")
+		(lib_id "7Sigma:CL05B104KO5NNNC")
 		(at 38.1 120.65 0)
 		(unit 1)
 		(body_style 1)
@@ -6365,7 +6365,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(lib_id "7Sigma:TestPoint_Pad_D1.5mm")
 		(at 137.16 33.02 270)
 		(unit 1)
 		(body_style 1)
@@ -6442,7 +6442,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:GJM1555C1H1R2WB01D")
+		(lib_id "7Sigma:GJM1555C1H1R2WB01D")
 		(at 157.48 29.21 0)
 		(mirror y)
 		(unit 1)
@@ -6731,7 +6731,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(lib_id "7Sigma:TestPoint_Pad_D1.5mm")
 		(at 157.48 127 270)
 		(unit 1)
 		(body_style 1)
@@ -6808,7 +6808,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CC0402JRNPO9BN330")
+		(lib_id "7Sigma:CC0402JRNPO9BN330")
 		(at 58.42 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -6986,7 +6986,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CS3225X7R476K160NRL")
+		(lib_id "7Sigma:CS3225X7R476K160NRL")
 		(at 83.82 29.21 0)
 		(unit 1)
 		(body_style 1)
@@ -7164,7 +7164,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:GRM155R61H105KE05D")
+		(lib_id "7Sigma:GRM155R61H105KE05D")
 		(at 30.48 120.65 0)
 		(unit 1)
 		(body_style 1)
@@ -7342,7 +7342,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ICs:LE310X1-EU")
+		(lib_id "7Sigma:LE310X1-EU")
 		(at 119.38 102.87 0)
 		(unit 1)
 		(body_style 1)
@@ -7730,7 +7730,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:GJM1555C1H1R2WB01D")
+		(lib_id "7Sigma:GJM1555C1H1R2WB01D")
 		(at 177.8 29.21 0)
 		(mirror y)
 		(unit 1)
@@ -8103,7 +8103,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CC0402JRNPO9BN330")
+		(lib_id "7Sigma:CC0402JRNPO9BN330")
 		(at 27.94 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -8281,7 +8281,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CC0402JRNPO9BN330")
+		(lib_id "7Sigma:CC0402JRNPO9BN330")
 		(at 20.32 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -8536,7 +8536,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CC0402JRNPO9BN330")
+		(lib_id "7Sigma:CC0402JRNPO9BN330")
 		(at 43.18 41.91 0)
 		(unit 1)
 		(body_style 1)
@@ -8798,7 +8798,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(lib_id "7Sigma:TestPoint_Pad_D1.5mm")
 		(at 137.16 30.48 270)
 		(unit 1)
 		(body_style 1)
@@ -8959,7 +8959,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Resistor:0402WGF0000TCE")
+		(lib_id "7Sigma:0402WGF0000TCE")
 		(at 166.37 25.4 90)
 		(unit 1)
 		(body_style 1)
@@ -9372,7 +9372,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TestPoints:TestPoint_Pad_D1.5mm")
+		(lib_id "7Sigma:TestPoint_Pad_D1.5mm")
 		(at 137.16 35.56 270)
 		(unit 1)
 		(body_style 1)
@@ -9449,7 +9449,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Capacitor:CC0402JRNPO9BN330")
+		(lib_id "7Sigma:CC0402JRNPO9BN330")
 		(at 50.8 41.91 0)
 		(unit 1)
 		(body_style 1)
